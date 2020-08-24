@@ -43,6 +43,17 @@
 		"oAP": "/deploy/gallery.html",
 		"oF": 0
 		},
+	"/deploy/img/impact/impact-intro.jpg": {
+		"ft": 16384,
+		"iS": 3308345,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/impact-intro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/deploy/impact.html": {
 		"cB": 0,
 		"ft": 8192,

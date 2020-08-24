@@ -26,12 +26,29 @@ ul{
     }
 }
 
+.header-container {
+    //side padding for responsive sizes, when using, put content in section>div
+    //limits things expanding forever at XL size
+    display: grid;
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas: ". container .";
+
+    @include lg {
+        grid-template-columns: 30px auto 30px;
+    }
+
+    >div {
+        grid-area: container;
+    }
+}
+
+
 .content-spacing {
     //padding above/below sections in a page
-    padding: 100px 0px;
+    margin: 100px 0 0 0;
 
     @include md {
-        padding: 150px 0px;
+        margin: 150px 0 0 0;
     }
 
 }

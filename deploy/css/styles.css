@@ -374,12 +374,26 @@ ul li {
   grid-area: container;
 }
 
+.header-container {
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: ". container .";
+}
+@media (min-width: 992px) {
+  .header-container {
+    grid-template-columns: 30px auto 30px;
+  }
+}
+.header-container > div {
+  grid-area: container;
+}
+
 .content-spacing {
-  padding: 100px 0px;
+  margin: 100px 0 0 0;
 }
 @media (min-width: 768px) {
   .content-spacing {
-    padding: 150px 0px;
+    margin: 150px 0 0 0;
   }
 }
 
@@ -535,18 +549,33 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: green;
+  background-color: #007785;
   z-index: 100;
 }
 header div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 20px;
+}
+header div #logo-container p {
+  font-size: 1.5625rem;
+  line-height: 30px;
+  letter-spacing: 4px;
+  font-family: "Fjalla One", sans-serif;
+  color: #fff;
+  margin: 10px 0;
+}
+header div #logo-container p span {
+  color: #2E2E41;
 }
 header div #burger-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  color: #FFDA37;
+}
+header div #burger-container svg {
+  fill: #FFDA37;
+  height: 30px;
 }
 
 /* =============
@@ -568,6 +597,63 @@ footer {
 /* =============
     Impact
 ============= */
+#impact-intro {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "im-c im-i";
+  height: 100vh;
+}
+#impact-intro #impact-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  grid-area: im-c;
+  z-index: 200;
+}
+#impact-intro #impact-content h1 {
+  font-size: 12.5rem;
+  margin: 0 -100px 0 0;
+  color: #2E2E41;
+}
+#impact-intro #impact-content h2 {
+  margin: 0 -200px 0 0;
+  text-align: right;
+  font-size: 1.875rem;
+  width: 50vw;
+  color: #007785;
+}
+#impact-intro #impact-img {
+  z-index: 100;
+  grid-area: im-i;
+  background-image: url("../img/impact/impact-intro.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  opacity: 70%;
+}
+
+/* --------------------------
+    Impact-Thesis
+ --------------------------*/
+#impact-thesis {
+  background-color: #007785;
+}
+#impact-thesis > div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 100px 10vw 100px 0;
+}
+#impact-thesis > div p {
+  width: 70vw;
+  text-align: right;
+  color: #F5F5EE;
+}
+
 /* =============
     Index
 ============= */

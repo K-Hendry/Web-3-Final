@@ -1,3 +1,62 @@
 /* =============
     Impact
 ============= */
+#impact-intro{
+   display: grid;
+   grid-template-columns: 50% auto;
+   grid-template-areas: "im-c im-i";
+    height: 100vh;
+
+#impact-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    grid-area: im-c;
+    z-index: 200;
+    
+    h1{font-size: rem-calc(200);
+        margin: 0 -100px 0 0;
+        color: $blue-black;
+    }
+
+    h2{ margin: 0 -200px 0 0;
+        text-align: right;
+        font-size: rem-calc(30px);
+        width: 50vw;
+        color: $dark-blue;
+    }
+}
+    #impact-img{z-index: 100;
+        grid-area: im-i;
+        background-image:url('../img/impact/impact-intro.jpg') ;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 50vw;
+        display: flex;
+        opacity: 70%;
+
+    }
+}
+
+/* --------------------------
+    Impact-Thesis
+ --------------------------*/
+
+ #impact-thesis{
+     background-color: $dark-blue;
+     
+     >div{display: flex;
+      justify-content: flex-end;
+      align-items: center;
+        padding: 100px 10vw 100px 0;
+        p{width: 70vw;
+            text-align: right;
+            color: $off-white;
+        }
+     }
+    
+
+ }
