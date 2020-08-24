@@ -549,8 +549,9 @@ header {
   width: 100%;
   top: 0;
   left: 0;
+  position: fixed;
   background-color: #007785;
-  z-index: 100;
+  z-index: 1100;
 }
 header div {
   display: grid;
@@ -654,6 +655,37 @@ footer {
   color: #F5F5EE;
 }
 
+/* --------------------------
+   Moral
+--------------------------*/
+/* --------------------------
+   Hero-1
+--------------------------*/
+#impact-hero-1 {
+  background-image: url("../img/impact/hero-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* --------------------------
+   Change
+--------------------------*/
+/* --------------------------
+   Hero-2
+--------------------------*/
+#impact-hero-2 {
+  background-image: url("../img/impact/hero-2.jpg");
+  background-size: cover;
+  background-position: center -800px;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+/* --------------------------
+   Sway
+--------------------------*/
 /* =============
     Index
 ============= */
