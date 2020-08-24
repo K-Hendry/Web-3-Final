@@ -3,82 +3,109 @@
 ============= */
 
 #employment-start {
+
     background-color: $off-white;
+    height: 100vh;
 
-    img {}
+    div {
+        img {}
 
-    h1 {}
+        h1 {}
 
-    h2 {}
+        h2 {}
 
-    p {
-        color: $blue-black;
+        p {
+            color: $blue-black;
 
+        }
     }
 }
 
 #emp-quote {
+    height: 100vh;
     background-color: $dark-blue;
 
-    p {
-        color: $green-blue;
+    div {
 
+        p {
+            color: $green-blue;
+
+        }
     }
 }
 
 #emp-text {
+    height: 100vh;
     background-color: $red;
 
-    img {}
+    div {
 
-    p {
-        color: $blue-black;
 
+
+
+        img {}
+
+        p {
+            color: $blue-black;
+
+        }
+
+        h2 {}
     }
-
-    h2 {}
 }
 
 #emp-map {
+    height: 100vh;
     background-color: $off-white;
 
-    #emp-map-left {
-        #counter {
-            color: $green-blue;
+    div {
 
-            p {}
 
-            h1 {}
 
+        #emp-map-left {
+            #counter {
+                color: $green-blue;
+
+                p {}
+
+                h1 {}
+
+            }
+
+            #designers-wanted {
+                color: $dark-red;
+
+                p {}
+
+                h2 {}
+            }
         }
 
-        #designers-wanted {
-            color: $dark-red;
-            p {}
-
-            h2 {}
-        }
+        #google-map {}
     }
-
-    #google-map {}
 }
 
 #emp-cards {
+
+    height: 100vh;
     background-color: $red;
 
-    h4{
-        color: $dark-red;
+
+    div {
+        h4 {
+            color: $dark-red;
+        }
+
+        .card {
+            background-color: $off-white;
+        }
+
+        #high-five {}
+
+        #threei {}
+
+        #ssk {}
+
+        #blue-state {}
     }
-
-    .card{
-        background-color: $off-white;
-    }
-
-    #high-five {}
-
-    #threei {}
-
-    #ssk {}
-
-    #blue-state {}
 }

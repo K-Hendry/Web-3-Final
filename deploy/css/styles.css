@@ -564,40 +564,45 @@ footer {
 ============= */
 #employment-start {
   background-color: #F5F5EE;
+  height: 100vh;
 }
-#employment-start p {
+#employment-start div p {
   color: #2E2E41;
 }
 
 #emp-quote {
+  height: 100vh;
   background-color: #007785;
 }
-#emp-quote p {
+#emp-quote div p {
   color: #22C9C6;
 }
 
 #emp-text {
+  height: 100vh;
   background-color: #EF777A;
 }
-#emp-text p {
+#emp-text div p {
   color: #2E2E41;
 }
 #emp-map {
+  height: 100vh;
   background-color: #F5F5EE;
 }
-#emp-map #emp-map-left #counter {
+#emp-map div #emp-map-left #counter {
   color: #22C9C6;
 }
-#emp-map #emp-map-left #designers-wanted {
+#emp-map div #emp-map-left #designers-wanted {
   color: #D43732;
 }
 #emp-cards {
+  height: 100vh;
   background-color: #EF777A;
 }
-#emp-cards h4 {
+#emp-cards div h4 {
   color: #D43732;
 }
-#emp-cards .card {
+#emp-cards div .card {
   background-color: #F5F5EE;
 }
 /* =============
