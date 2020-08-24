@@ -30,6 +30,7 @@ h1 {
     //titles at top of page "employment" "impact"
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
+    color: $blue-black;
 
     @include lg {
         font-size: rem-calc(99);
@@ -41,6 +42,7 @@ h2 {
     //text directly below title of page
     text-align: left;
     font-family: 'Libre Baskerville', sans-serif;
+    color: $blue-black;
 
     @include lg {
         font-size: rem-calc(40);
@@ -65,6 +67,7 @@ h3 {
     //regular paragraph text
     padding: 0px 10px;
     text-align: center;
+    color: $blue-black;
 
     @include md {
         text-align: left;

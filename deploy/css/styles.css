@@ -434,6 +434,7 @@ h4 {
 h1 {
   text-align: center;
   font-family: "Fjalla One", sans-serif;
+  color: #2E2E41;
 }
 @media (min-width: 992px) {
   h1 {
@@ -444,6 +445,7 @@ h1 {
 h2 {
   text-align: left;
   font-family: "Libre Baskerville", sans-serif;
+  color: #2E2E41;
 }
 @media (min-width: 992px) {
   h2 {
@@ -467,6 +469,7 @@ h3 {
 .body-text {
   padding: 0px 10px;
   text-align: center;
+  color: #2E2E41;
   font-family: "Libre Franklin", sans-serif;
 }
 @media (min-width: 768px) {
@@ -559,6 +562,44 @@ footer {
 /* =============
     Employment
 ============= */
+#employment-start {
+  background-color: #F5F5EE;
+}
+#employment-start p {
+  color: #2E2E41;
+}
+
+#emp-quote {
+  background-color: #007785;
+}
+#emp-quote p {
+  color: #22C9C6;
+}
+
+#emp-text {
+  background-color: #EF777A;
+}
+#emp-text p {
+  color: #2E2E41;
+}
+#emp-map {
+  background-color: #F5F5EE;
+}
+#emp-map #emp-map-left #counter {
+  color: #22C9C6;
+}
+#emp-map #emp-map-left #designers-wanted {
+  color: #D43732;
+}
+#emp-cards {
+  background-color: #EF777A;
+}
+#emp-cards h4 {
+  color: #D43732;
+}
+#emp-cards .card {
+  background-color: #F5F5EE;
+}
 /* =============
     Experiment
 ============= */

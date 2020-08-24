@@ -2,68 +2,83 @@
     Employment
 ============= */
 
-#employment-start{
-    img{
+#employment-start {
+    background-color: $off-white;
 
-    }
-    h1{
+    img {}
 
-    }
-    h2{
+    h1 {}
 
-    }
-    p{
+    h2 {}
 
-    }
-}
-
-#emp-quote{
-    p{
+    p {
+        color: $blue-black;
 
     }
 }
 
-#emp-text{
-    img{
+#emp-quote {
+    background-color: $dark-blue;
 
-    }
-    p{
-
-    }
-    h2{
+    p {
+        color: $green-blue;
 
     }
 }
 
-#emp-map{
-    #emp-map-left{
-        h1{
+#emp-text {
+    background-color: $red;
+
+    img {}
+
+    p {
+        color: $blue-black;
+
+    }
+
+    h2 {}
+}
+
+#emp-map {
+    background-color: $off-white;
+
+    #emp-map-left {
+        #counter {
+            color: $green-blue;
+
+            p {}
+
+            h1 {}
 
         }
-        p{
 
-        }
-        h2{
+        #designers-wanted {
+            color: $dark-red;
+            p {}
 
+            h2 {}
         }
     }
-    #google-map{
 
-    }
+    #google-map {}
 }
 
-#emp-cards{
-    #high-five{
+#emp-cards {
+    background-color: $red;
 
+    h4{
+        color: $dark-red;
     }
-    #threei{
 
+    .card{
+        background-color: $off-white;
     }
-    #ssk{
 
-    }
-    #blue-state{
-        
-    }
+    #high-five {}
+
+    #threei {}
+
+    #ssk {}
+
+    #blue-state {}
 }
-
