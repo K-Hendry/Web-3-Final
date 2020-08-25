@@ -527,6 +527,7 @@ h4 {
   line-height: 2.5rem;
   font-size: 1.25rem;
   font-family: "Libre Franklin", sans-serif;
+  margin: 0;
 }
 @media (min-width: 768px) {
   .open-text {
@@ -622,9 +623,11 @@ footer {
     height: 525px;
   }
 }
-#employment-start div #hero h1 {
+#employment-start div #hero #title {
   bottom: 200px;
   text-align: left;
+  margin-top: -300px;
+  margin-bottom: 90px;
   padding: 0px 5px;
 }
 #employment-start div #hero h2 {
