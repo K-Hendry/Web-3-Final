@@ -935,82 +935,141 @@ footer {
 #emp-cards {
   background-color: #EF777A;
 }
-#emp-cards div h4 {
+#emp-cards #emp-cards-content h4 {
   color: #D43732;
 }
 @media (min-width: 768px) {
-  #emp-cards div #card-gallery {
+  #emp-cards #emp-cards-content #card-gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
   }
 }
-#emp-cards div #card-gallery .card {
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #card-gallery {
+    grid-template-columns: auto 350px 350px auto;
+    grid-template-rows: repeat(2, 430px);
+    grid-template-areas: ". hi5 three ." ". ssk bluestate .";
+  }
+}
+#emp-cards #emp-cards-content #card-gallery .card {
   margin-left: auto;
   margin-right: auto;
   background-color: #F5F5EE;
   width: 250px;
   margin-bottom: 100px;
 }
-#emp-cards div #card-gallery .card img {
+#emp-cards #emp-cards-content #card-gallery .card img {
   padding: 40px 0px 20px 0px;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
-#emp-cards div #card-gallery .card h4 {
+#emp-cards #emp-cards-content #card-gallery .card h4 {
   text-align: center;
   padding: 40px 0px;
 }
 @media (min-width: 768px) {
-  #emp-cards div #card-gallery .card h4 {
+  #emp-cards #emp-cards-content #card-gallery .card h4 {
     text-align: left;
     padding-left: 20px;
   }
 }
-#emp-cards div #card-gallery .card p {
+#emp-cards #emp-cards-content #card-gallery .card p {
   text-align: right;
 }
 @media (min-width: 768px) {
-  #emp-cards div #card-gallery .card p {
+  #emp-cards #emp-cards-content #card-gallery .card p {
     padding-right: 20px;
   }
 }
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #card-gallery .card p {
+    margin-top: 0px;
+    font-size: 1.125rem;
+    height: 110px;
+    overflow: scroll;
+  }
+}
 @media (min-width: 768px) {
-  #emp-cards div #card-gallery #high-five {
+  #emp-cards #emp-cards-content #card-gallery #high-five {
     grid-area: 1/1/3/2;
   }
 }
-#emp-cards div #card-gallery #high-five img {
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #card-gallery #high-five {
+    grid-area: hi5;
+  }
+}
+#emp-cards #emp-cards-content #card-gallery #high-five img {
   height: 80px;
 }
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #card-gallery #high-five img {
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+}
+#emp-cards #emp-cards-content #card-gallery #high-five h4 {
+  margin-top: -40px;
+}
 @media (min-width: 768px) {
-  #emp-cards div #card-gallery #threei {
+  #emp-cards #emp-cards-content #card-gallery #threei {
     grid-area: 2/2/4/3;
   }
 }
-#emp-cards div #card-gallery #threei img {
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #card-gallery #threei {
+    grid-area: three;
+  }
+}
+#emp-cards #emp-cards-content #card-gallery #threei img {
   height: 35px;
 }
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #card-gallery #threei h4 {
+    padding-bottom: 10px;
+  }
+}
 @media (min-width: 768px) {
-  #emp-cards div #card-gallery #ssk {
+  #emp-cards #emp-cards-content #card-gallery #ssk {
     grid-area: 3/1/5/2;
   }
 }
-#emp-cards div #card-gallery #ssk img {
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #card-gallery #ssk {
+    grid-area: ssk;
+  }
+}
+#emp-cards #emp-cards-content #card-gallery #ssk img {
   height: 30px;
 }
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #card-gallery #ssk h4 {
+    margin-top: 10px;
+  }
+}
 @media (min-width: 768px) {
-  #emp-cards div #card-gallery #blue-state {
+  #emp-cards #emp-cards-content #card-gallery #blue-state {
     grid-area: 4/2/6/3;
   }
 }
-#emp-cards div #card-gallery #blue-state img {
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #card-gallery #blue-state {
+    grid-area: bluestate;
+  }
+}
+#emp-cards #emp-cards-content #card-gallery #blue-state img {
   height: 40px;
 }
 @media (min-width: 768px) {
-  #emp-cards div #final-text {
+  #emp-cards #emp-cards-content #final-text {
     padding: 0px 90px;
+  }
+}
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #final-text {
+    padding: 0 25vw;
   }
 }
 
