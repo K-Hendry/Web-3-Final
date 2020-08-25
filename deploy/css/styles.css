@@ -391,7 +391,7 @@ ul li {
 .content-spacing {
   margin: 100px 0 0 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .content-spacing {
     margin: 150px 0 0 0;
   }
@@ -497,14 +497,14 @@ h3 {
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.1875rem;
   line-height: 1.375rem;
   font-family: "Libre Franklin", sans-serif;
 }
 @media (min-width: 768px) {
   h4 {
     text-align: left;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.5rem;
   }
 }
@@ -541,6 +541,7 @@ h4 {
   line-height: 2.5rem;
   font-size: 1.25rem;
   font-family: "Libre Franklin", sans-serif;
+  margin: 0;
 }
 @media (min-width: 768px) {
   .open-text {
@@ -631,22 +632,48 @@ footer {
   height: 500px;
   width: 100%;
 }
+@media (min-width: 768px) {
+  #employment-start div #hero img {
+    width: 75vw;
+  }
+}
 @media (min-width: 992px) {
   #employment-start div #hero img {
     height: 525px;
   }
 }
-#employment-start div #hero h1 {
+#employment-start div #hero #title {
   bottom: 200px;
+  text-align: left;
+  margin-top: -300px;
+  margin-bottom: 90px;
+  padding: 0px 5px;
+}
+@media (min-width: 768px) {
+  #employment-start div #hero #title {
+    margin-left: 25%;
+    margin-bottom: 180px;
+  }
 }
 #employment-start div #hero h2 {
   text-align: left;
   margin-top: -50px;
-  padding: 0px 90px 0px 20px;
+  padding: 0px 80px 0px 20px;
+}
+@media (min-width: 768px) {
+  #employment-start div #hero h2 {
+    padding-left: 15%;
+  }
 }
 #employment-start p {
   color: #2E2E41;
-  padding: 100px 20px 0px 20px;
+  padding: 100px 80px 0px 20px;
+}
+@media (min-width: 768px) {
+  #employment-start p {
+    padding-left: 40%;
+    padding-right: 10px;
+  }
 }
 
 #emp-quote {
@@ -660,6 +687,7 @@ footer {
   border: solid red 2px;
 }
 #emp-quote div p {
+  padding: 0px 10px;
   border: solid red 2px;
   display: flex;
   justify-content: center;
@@ -668,7 +696,7 @@ footer {
 }
 @media (min-width: 768px) {
   #emp-quote div p {
-    text-align: right;
+    text-align: left;
   }
 }
 
@@ -680,59 +708,198 @@ footer {
   width: 230px;
   object-fit: cover;
 }
+@media (min-width: 768px) {
+  #emp-text div img {
+    width: 45%;
+  }
+}
 @media (min-width: 992px) {
   #emp-text div img {
     height: 500px;
   }
 }
-#emp-text div p {
+#emp-text div #p1 {
   color: #2E2E41;
   padding-bottom: 100px;
 }
+@media (min-width: 768px) {
+  #emp-text div #p1 {
+    padding-left: 25%;
+    padding-right: 12%;
+    margin: 0;
+  }
+}
 #emp-text div h3 {
   padding: 0px 20px 0px 20px;
+  margin-top: -55px;
+}
+@media (min-width: 768px) {
+  #emp-text div h3 {
+    margin-top: -200px;
+    padding-left: 36%;
+    padding-right: 120px;
+    margin-bottom: 200px;
+  }
+}
+#emp-text div #p2 {
+  padding: 0px 90px;
+}
+#emp-text div #p3 {
+  padding: 50px 90px 0 90px;
 }
 
 #emp-map {
-  height: 100vh;
   background-color: #F5F5EE;
 }
-#emp-map div #emp-map-left #counter {
+#emp-map div #counter {
   color: #22C9C6;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr;
-  grid-template-areas: "tween " "positions";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: ". tween ." ". positions .";
 }
-#emp-map div #emp-map-left #counter #count-tween {
+@media (min-width: 768px) {
+  #emp-map div #counter {
+    grid-template-rows: 1fr;
+    grid-template-columns: 20% auto auto 20%;
+    grid-template-areas: ". tween positions .";
+  }
+}
+#emp-map div #counter #count-tween {
   grid-area: tween;
+  margin-right: 80px;
 }
-#emp-map div #emp-map-left #counter p {
+@media (min-width: 768px) {
+  #emp-map div #counter #count-tween {
+    margin-right: 0px;
+  }
+}
+#emp-map div #counter #tween-text {
   grid-area: positions;
+  margin: 0px;
+  padding-left: 60px;
 }
-#emp-map div #emp-map-left #designers-wanted {
+@media (min-width: 768px) {
+  #emp-map div #counter #tween-text {
+    padding-left: 0px;
+  }
+}
+#emp-map div #designers-wanted {
   color: #D43732;
 }
+#emp-map div #designers-wanted p {
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 50px;
+}
+@media (min-width: 768px) {
+  #emp-map div #designers-wanted p {
+    text-align: right;
+    padding-right: 12%;
+    padding-left: 400px;
+  }
+}
+#emp-map div #designers-wanted h3 {
+  text-align: right;
+  padding-left: 100px;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  #emp-map div #designers-wanted h3 {
+    text-align: left;
+  }
+}
+#emp-map div #google-map {
+  padding: 100px 0px;
+}
+#emp-map div #google-map #map img {
+  height: 410px;
+  width: 320px;
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  #emp-map div #google-map #map img {
+    width: 100vw;
+    height: 620px;
+  }
+}
+
 #emp-cards {
   background-color: #EF777A;
 }
 #emp-cards div h4 {
   color: #D43732;
 }
-#emp-cards div .card {
+@media (min-width: 768px) {
+  #emp-cards div #card-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
+#emp-cards div #card-gallery .card {
   margin-left: auto;
   margin-right: auto;
   background-color: #F5F5EE;
   width: 250px;
   margin-bottom: 100px;
 }
-#emp-cards div .card img {
-  padding: 30px 0px;
+#emp-cards div #card-gallery .card img {
+  padding: 40px 0px 20px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
-#emp-cards div .card h4 {
+#emp-cards div #card-gallery .card h4 {
   text-align: center;
-  padding: 30px 0px;
+  padding: 40px 0px;
 }
+@media (min-width: 768px) {
+  #emp-cards div #card-gallery .card h4 {
+    text-align: left;
+  }
+}
+#emp-cards div #card-gallery .card p {
+  text-align: right;
+}
+@media (min-width: 768px) {
+  #emp-cards div #card-gallery #high-five {
+    grid-area: 1/1/3/2;
+  }
+}
+#emp-cards div #card-gallery #high-five img {
+  height: 80px;
+}
+@media (min-width: 768px) {
+  #emp-cards div #card-gallery #threei {
+    grid-area: 2/2/4/3;
+  }
+}
+#emp-cards div #card-gallery #threei img {
+  height: 35px;
+}
+@media (min-width: 768px) {
+  #emp-cards div #card-gallery #ssk {
+    grid-area: 3/1/5/2;
+  }
+}
+#emp-cards div #card-gallery #ssk img {
+  height: 30px;
+}
+@media (min-width: 768px) {
+  #emp-cards div #card-gallery #blue-state {
+    grid-area: 4/2/6/3;
+  }
+}
+#emp-cards div #card-gallery #blue-state img {
+  height: 40px;
+}
+@media (min-width: 768px) {
+  #emp-cards div #final-text {
+    padding: 0px 90px;
+  }
+}
+
 /* =============
     Experiment
 ============= */
