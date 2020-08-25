@@ -42,10 +42,12 @@ img{
 #gallery-content-1{
     #gallery-quote-1{
         width: 100%;
-        height: auto;
+        height: 100vh;
         background-image: url(../img/gallery/hero-2.jpg);
         background-size: cover;
-        background-position: center;
+        background-position: top center;
+        display: flex;
+        align-items: center;
         p{
             margin-left: 10%;
             color: $off-white;
@@ -55,7 +57,12 @@ img{
         }
     }
     #gallery-container{
+        background-color: $off-white;
+        p,h3 {
+            color: $dark-red;
+        }
         ul{
+            display: flex;
             li{
                 img{
                     height: 400px;
@@ -67,5 +74,60 @@ img{
                 }
             }
         }
+    }
+}
+#gallery-content-2{
+    background-color: $green-blue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    img{
+        width: 60%;
+        height: 100vh;
+    }
+    p{
+        width: 380px;
+        margin-left: -5%;
+    }
+}
+#gallery-content-3{
+    background-color: $off-white;
+    display: flex;
+    align-items: center;
+    img{
+        height: 80vh;
+        margin-left: -15vw;
+    }
+    >div{
+        background-color: $red;
+        width: 75vw;
+        height: auto;
+        p{
+            width: 50%;
+            padding-left: 15%;
+            color: $off-white;
+            line-height: rem-calc(28);
+        }
+        :nth-child(1){
+            padding-bottom: 0;
+        }
+        :nth-child(2){
+            padding-top: 0;
+        }
+    }
+}
+#gallery-quote-2{
+    background-color: $dark-blue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        font-size: rem-calc(42);
+        line-height: rem-calc(60);
+        margin: 0;
+        width: 786px;
+        color: $blue;
+        text-align: center;
     }
 }

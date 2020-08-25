@@ -937,10 +937,12 @@ img {
 
 #gallery-content-1 #gallery-quote-1 {
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-image: url(../img/gallery/hero-2.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top center;
+  display: flex;
+  align-items: center;
 }
 #gallery-content-1 #gallery-quote-1 p {
   margin-left: 10%;
@@ -951,11 +953,78 @@ img {
     width: 500px;
   }
 }
+#gallery-content-1 #gallery-container {
+  background-color: #F5F5EE;
+}
+#gallery-content-1 #gallery-container p, #gallery-content-1 #gallery-container h3 {
+  color: #D43732;
+}
+#gallery-content-1 #gallery-container ul {
+  display: flex;
+}
 #gallery-content-1 #gallery-container ul li img {
   height: 400px;
 }
 #gallery-content-1 #gallery-container ul :nth-child(1) img {
   width: 300px;
+}
+
+#gallery-content-2 {
+  background-color: #22C9C6;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#gallery-content-2 img {
+  width: 60%;
+  height: 100vh;
+}
+#gallery-content-2 p {
+  width: 380px;
+  margin-left: -5%;
+}
+
+#gallery-content-3 {
+  background-color: #F5F5EE;
+  display: flex;
+  align-items: center;
+}
+#gallery-content-3 img {
+  height: 80vh;
+  margin-left: -15vw;
+}
+#gallery-content-3 > div {
+  background-color: #EF777A;
+  width: 75vw;
+  height: auto;
+}
+#gallery-content-3 > div p {
+  width: 50%;
+  padding-left: 15%;
+  color: #F5F5EE;
+  line-height: 1.75rem;
+}
+#gallery-content-3 > div :nth-child(1) {
+  padding-bottom: 0;
+}
+#gallery-content-3 > div :nth-child(2) {
+  padding-top: 0;
+}
+
+#gallery-quote-2 {
+  background-color: #007785;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#gallery-quote-2 p {
+  font-size: 2.625rem;
+  line-height: 3.75rem;
+  margin: 0;
+  width: 786px;
+  color: #B9DFE6;
+  text-align: center;
 }
 
 /* =============
