@@ -66,8 +66,9 @@ h3 {
 .body-text {
     //regular paragraph text
     padding: 0px 10px;
-    text-align: center;
+    
     color: $blue-black;
+    text-align: justify;
 
     @include md {
         text-align: left;
