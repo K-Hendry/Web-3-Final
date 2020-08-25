@@ -30,7 +30,7 @@ ul{
     //padding above/below sections in a page
     padding: 100px 0px;
 
-    @include md {
+    @include lg {
         padding: 150px 0px;
     }
 
