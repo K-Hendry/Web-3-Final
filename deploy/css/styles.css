@@ -483,14 +483,14 @@ h3 {
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.1875rem;
   line-height: 1.375rem;
   font-family: "Libre Franklin", sans-serif;
 }
 @media (min-width: 768px) {
   h4 {
     text-align: left;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.5rem;
   }
 }
@@ -624,15 +624,17 @@ footer {
 }
 #employment-start div #hero h1 {
   bottom: 200px;
+  text-align: left;
+  padding: 0px 5px;
 }
 #employment-start div #hero h2 {
   text-align: left;
   margin-top: -50px;
-  padding: 0px 90px 0px 20px;
+  padding: 0px 80px 0px 20px;
 }
 #employment-start p {
   color: #2E2E41;
-  padding: 100px 20px 0px 20px;
+  padding: 100px 80px 0px 20px;
 }
 
 #emp-quote {
@@ -687,17 +689,30 @@ footer {
   color: #22C9C6;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr;
-  grid-template-areas: "tween " "positions";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: ". tween ." ". positions .";
 }
 #emp-map div #emp-map-left #counter #count-tween {
   grid-area: tween;
+  margin-right: 80px;
 }
-#emp-map div #emp-map-left #counter p {
+#emp-map div #emp-map-left #counter #tween-text {
   grid-area: positions;
+  margin: 0px;
+  padding-left: 60px;
 }
 #emp-map div #emp-map-left #designers-wanted {
   color: #D43732;
+}
+#emp-map div #emp-map-left #designers-wanted p {
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 50px;
+}
+#emp-map div #emp-map-left #designers-wanted h3 {
+  text-align: right;
+  padding-left: 100px;
+  padding-right: 20px;
 }
 #emp-cards {
   background-color: #EF777A;
