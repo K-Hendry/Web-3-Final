@@ -435,10 +435,16 @@ h1 {
   text-align: center;
   font-family: "Fjalla One", sans-serif;
   color: #2E2E41;
+  font-size: 5.625rem;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 6.25rem;
+  }
 }
 @media (min-width: 992px) {
   h1 {
-    font-size: 6.1875rem;
+    font-size: 9.375rem;
   }
 }
 
@@ -446,6 +452,8 @@ h2 {
   text-align: left;
   font-family: "Libre Baskerville", sans-serif;
   color: #2E2E41;
+  font-size: 1.875rem;
+  line-height: 3.125rem;
 }
 @media (min-width: 992px) {
   h2 {
@@ -457,6 +465,14 @@ h2 {
 h3 {
   text-align: left;
   font-family: "Exo", sans-serif;
+  font-size: 1.875rem;
+  line-height: 3.125rem;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 2.5rem;
+    line-height: 3.4375rem;
+  }
 }
 @media (min-width: 992px) {
   h3 {
@@ -466,15 +482,38 @@ h3 {
   }
 }
 
+h4 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-family: "Libre Franklin", sans-serif;
+}
+@media (min-width: 768px) {
+  h4 {
+    text-align: left;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+}
+@media (min-width: 992px) {
+  h4 {
+    font-size: 1.3125rem;
+    line-height: 1.625rem;
+  }
+}
+
 .body-text {
   padding: 0px 10px;
   color: #2E2E41;
   text-align: justify;
+  font-size: 1rem;
+  line-height: 1.375rem;
   font-family: "Libre Franklin", sans-serif;
 }
 @media (min-width: 768px) {
   .body-text {
     text-align: left;
+    font-size: 1.0625rem;
+    line-height: 1.4375rem;
   }
 }
 @media (min-width: 992px) {
@@ -485,8 +524,15 @@ h3 {
 }
 
 .open-text {
-  line-height: 1.875rem;
+  line-height: 2.5rem;
+  font-size: 1.25rem;
   font-family: "Libre Franklin", sans-serif;
+}
+@media (min-width: 768px) {
+  .open-text {
+    font-size: 1.5625rem;
+    line-height: 2.8125rem;
+  }
 }
 @media (min-width: 992px) {
   .open-text {
@@ -497,13 +543,14 @@ h3 {
 }
 
 .pull-quote {
-  font-size: 2.5rem;
+  font-size: 3.75rem;
+  line-height: 4.6875rem;
   font-family: "Libre Baskerville", sans-serif;
 }
 @media (min-width: 992px) {
   .pull-quote {
-    font-size: 3.75rem;
-    line-height: 5.625rem;
+    font-size: 4.375rem;
+    line-height: 5.9375rem;
   }
 }
 
@@ -569,7 +616,6 @@ footer {
   object-fit: cover;
   height: 500px;
   width: 100%;
-  position: relative;
 }
 @media (min-width: 992px) {
   #employment-start div #hero img {
@@ -577,9 +623,7 @@ footer {
   }
 }
 #employment-start div #hero h1 {
-  position: absolute;
   bottom: 200px;
-  right: 30px;
 }
 #employment-start div #hero h2 {
   text-align: left;
