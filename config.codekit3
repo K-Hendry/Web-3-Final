@@ -43,67 +43,23 @@
 		"oAP": "/deploy/gallery.html",
 		"oF": 0
 		},
-	"/deploy/img/impact/change-img.jpg": {
+	"/deploy/img/employment/stickers-hero.jpg": {
 		"ft": 16384,
-		"iS": 3063362,
+		"iS": 152906,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/impact/change-img.jpg",
+		"oAP": "/deploy/img/employment/stickers-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/impact/hero-1.jpg": {
+	"/deploy/img/employment/suitcase.jpg": {
 		"ft": 16384,
-		"iS": 1629327,
+		"iS": 53040,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/impact/hero-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/impact/hero-2.jpg": {
-		"ft": 16384,
-		"iS": 1237591,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/impact/hero-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/impact/impact-intro.jpg": {
-		"ft": 16384,
-		"iS": 3308345,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/impact/impact-intro.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/deploy/img/impact/moral-img.jpg": {
-		"ft": 16384,
-		"iS": 1483343,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/impact/moral-img.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/deploy/img/impact/sway-img.jpg": {
-		"ft": 16384,
-		"iS": 1870968,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/impact/sway-img.jpg",
+		"oAP": "/deploy/img/employment/suitcase.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
