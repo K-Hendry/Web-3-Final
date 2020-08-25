@@ -82,12 +82,12 @@ h3 {
 
 h4{
     //used for titles on cards in employment page
-    font-size: rem-calc(16);
+    font-size: rem-calc(19);
         line-height: rem-calc(22);
 
     @include md {
         text-align: left;
-        font-size: rem-calc(18);
+        font-size: rem-calc(20);
         line-height: rem-calc(24);
     }
 
@@ -130,7 +130,8 @@ h4{
     line-height: rem-calc(40);
     font-size: rem-calc(20);
     font-family: 'Libre Franklin', sans-serif;
-
+    
+margin: 0;
     @include md{
         font-size: rem-calc(25);
         line-height: rem-calc(45);
