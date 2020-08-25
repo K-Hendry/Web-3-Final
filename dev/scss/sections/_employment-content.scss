@@ -20,7 +20,8 @@
                 }
 
                 @include lg {
-                    height: 525px;
+                    height: 700px;
+                    width: 90vw;
                 }
 
                 // position: relative;
@@ -34,10 +35,15 @@
                 margin-top: -300px;
                 margin-bottom: 90px;
                 padding: 0px 5px;
+                color: $red;
 
                 @include md {
                     margin-left: 25%;
                     margin-bottom: 180px;
+                }
+
+                @include lg{
+                    margin-left: 30%;
                 }
 
             }
@@ -49,6 +55,10 @@
 
                 @include md {
                     padding-left: 15%;
+                }
+
+                @include lg {
+                    margin-top: -120px;
                 }
             }
         }
@@ -64,6 +74,10 @@
             padding-right: 10px;
         }
 
+        @include lg {
+            padding-left: 50%
+        }
+
     }
 }
 
@@ -75,7 +89,7 @@
     align-items: center;
 
     div {
-        border: solid red 2px;
+        // border: solid red 2px;
 
         p {
             @include md {
@@ -83,7 +97,7 @@
             }
 
             padding: 0px 10px;
-            border: solid red 2px;
+            // border: solid red 2px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -98,57 +112,111 @@
     background-color: $red;
 
     div {
-        img {
-            height: 385px;
-            width: 230px;
-            object-fit: cover;
 
-            @include md {
-                width: 45%;
-            }
+        
 
+        #emp-text-grid {
             @include lg {
-                height: 500px;
+                display: grid;
+                grid-template-columns: 42% auto;
+                grid-template-rows: autp auto;
+                grid-template-areas: "suitcase ctext"
+                    "suitcase involved";
             }
-        }
 
-        #p1 {
-            color: $blue-black;
-            padding-bottom: 100px;
+            img {
+                height: 385px;
+                width: 230px;
+                object-fit: cover;
 
-            @include md {
-                padding-left: 25%;
-                padding-right: 12%;
-                margin: 0;
+                @include md {
+                    width: 45%;
+                }
+
+                @include lg {
+                    height: 500px;
+                    grid-area: suitcase;
+                    width: 42vw;
+                    margin-top: 100px;
+                }
             }
-        }
 
-        h3 {
-            padding: 0px 20px 0px 20px;
-            margin-top: -55px;
+            #p1 {
+                color: $blue-black;
+                padding-bottom: 100px;
 
-            @include md {
-                margin-top: -200px;
-                padding-left: 36%;
-                padding-right: 120px;
-                margin-bottom: 200px;
+                @include md {
+                    padding-left: 25%;
+                    padding-right: 12%;
+                    margin: 0;
+                }
+
+                @include lg {
+                    grid-area: ctext;
+                    padding-left: 60px;
+                }
+            }
+
+            h3 {
+                padding: 0px 20px 0px 20px;
+                margin-top: -55px;
+
+                @include md {
+                    margin-top: -200px;
+                    padding-left: 36%;
+                    padding-right: 120px;
+                    margin-bottom: 200px;
+                }
+
+                @include lg {
+                    grid-area: involved;
+                    margin-top: 0px;
+                    margin-left: -80px;
+                    padding-left: 0px;
+                    padding-right: 200px;
+                }
             }
         }
 
         #p2 {
             padding: 0px 90px;
+
+            @include lg{
+                padding: 0px 20vw;
+            }
         }
 
         #p3 {
             padding: 50px 90px 0 90px;
+
+            @include lg{
+                padding: 50px 10vw 0px 25vw;
+            }
         }
     }
 }
 
 #emp-map {
     background-color: $off-white;
+    padding: 100px 0px;
 
-    div {
+    @include lg{
+        padding: 0px;
+    }
+
+    @include xl{
+        padding: 150px 0px;
+        // height: 100vh;
+    }
+
+    #emp-map-content {
+        @include lg{
+            display: grid;
+            grid-template-rows: 50% auto;
+            grid-template-columns: 35% auto;
+            grid-template-areas: "102p mapgrid"
+                                "designers mapgrid";
+        }
 
         #counter {
             color: $green-blue;
@@ -164,15 +232,29 @@
                 grid-template-areas: ". tween positions .";
             }
 
+            @include lg{
+                grid-area: 102p;
+                grid-template-rows: 1fr 1fr;
+                grid-template-columns: 1fr;
+                grid-template-areas: "tween"
+                "positions";
+                padding-right: 20px;
+                padding-top: 15vh;
+                
+            }
+
             #count-tween {
                 grid-area: tween;
                 margin-right: 80px;
+                color: $green-blue;
 
                 @include md {
                     margin-right: 0px;
                 }
 
-
+                @include lg{
+                    text-align: right;
+                }
             }
 
             #tween-text {
@@ -184,12 +266,24 @@
                     padding-left: 0px;
                 }
 
+                @include lg{
+                    text-align: right;
+                    margin-top: -10px;
+                }
             }
 
         }
 
         #designers-wanted {
             color: $dark-red;
+
+            @include lg{
+                grid-area: designers;
+                padding-right: 20px;
+                padding-left: 15%;
+                padding-top: 90px;
+                
+            }
 
             p {
                 text-align: right;
@@ -201,6 +295,13 @@
                     padding-right: 12%;
                     padding-left: 400px;
                 }
+
+                @include lg{
+                    padding: 0px;
+                    padding-left: 150px;
+                    // display: inline-block;
+
+                }
             }
 
             h3 {
@@ -211,12 +312,23 @@
                 @include md {
                     text-align: left;
                 }
+
+                @include lg{
+                    padding: 0px;
+                    text-align: right;
+                    // display: inline-block;
+                }
             }
         }
 
 
         #google-map {
             padding: 100px 0px;
+
+            @include lg{
+                grid-area: mapgrid;
+                padding: 0px;
+            }
 
             #map {
                 img {
@@ -227,6 +339,11 @@
                     @include md {
                         width: 100vw;
                         height: 620px;
+                    }
+
+                    @include lg{
+                        height: 100vh;
+                        width: 100%;
                     }
                 }
             }
@@ -273,13 +390,18 @@
                     text-align: center;
                     padding: 40px 0px;
 
-                    @include md{
+                    @include md {
                         text-align: left;
+                        padding-left: 20px;
                     }
                 }
 
-                p{
+                p {
                     text-align: right;
+
+                    @include md {
+                        padding-right: 20px;
+                    }
                 }
 
             }
