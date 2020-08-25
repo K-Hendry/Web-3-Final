@@ -1,3 +1,71 @@
 /* =============
     Gallery
 ============= */
+img{
+    object-fit: cover;
+}
+.bold-text{
+    font-weight: 700;
+}
+#gallery-hero{
+    padding-top: 0;
+    background-color: $off-white;
+    div{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        img{
+            height: 500px;
+            @include md {
+                width: 90%;
+
+            }
+
+            @include lg {
+                height: 525px;
+            }
+        }
+        h1{
+            position: absolute;
+            left: 6%;
+            top: 262px;
+            color: $red;
+        }
+        p{
+            width: 550px;
+            margin-right: 10%;
+            text-align: right;
+            color: $red;
+        }
+    }
+}
+#gallery-content-1{
+    #gallery-quote-1{
+        width: 100%;
+        height: auto;
+        background-image: url(../img/gallery/hero-2.jpg);
+        background-size: cover;
+        background-position: center;
+        p{
+            margin-left: 10%;
+            color: $off-white;
+            @include md{
+                width: 500px;
+            }
+        }
+    }
+    #gallery-container{
+        ul{
+            li{
+                img{
+                    height: 400px;
+                }
+            }
+            :nth-child(1){
+                img{
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
