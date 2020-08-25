@@ -127,6 +127,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/gallery/Alexandria-Ocasio.jpg": {
+		"ft": 16384,
+		"iS": 77758,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/Alexandria-Ocasio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/gallery/Drew-Davies.jpg": {
 		"ft": 16384,
 		"iS": 154702,
@@ -144,6 +155,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/gallery/h-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/h-progress.jpg": {
+		"ft": 16384,
+		"iS": 78464,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/h-progress.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
