@@ -434,16 +434,26 @@ h4 {
 h1 {
   text-align: center;
   font-family: "Fjalla One", sans-serif;
+  color: #2E2E41;
+  font-size: 5.625rem;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 6.25rem;
+  }
 }
 @media (min-width: 992px) {
   h1 {
-    font-size: 6.1875rem;
+    font-size: 9.375rem;
   }
 }
 
 h2 {
   text-align: left;
   font-family: "Libre Baskerville", sans-serif;
+  color: #2E2E41;
+  font-size: 1.875rem;
+  line-height: 3.125rem;
 }
 @media (min-width: 992px) {
   h2 {
@@ -455,6 +465,14 @@ h2 {
 h3 {
   text-align: left;
   font-family: "Exo", sans-serif;
+  font-size: 1.875rem;
+  line-height: 3.125rem;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 2.5rem;
+    line-height: 3.4375rem;
+  }
 }
 @media (min-width: 992px) {
   h3 {
@@ -464,14 +482,38 @@ h3 {
   }
 }
 
+h4 {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-family: "Libre Franklin", sans-serif;
+}
+@media (min-width: 768px) {
+  h4 {
+    text-align: left;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+}
+@media (min-width: 992px) {
+  h4 {
+    font-size: 1.3125rem;
+    line-height: 1.625rem;
+  }
+}
+
 .body-text {
   padding: 0px 10px;
-  text-align: center;
+  color: #2E2E41;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.375rem;
   font-family: "Libre Franklin", sans-serif;
 }
 @media (min-width: 768px) {
   .body-text {
     text-align: left;
+    font-size: 1.0625rem;
+    line-height: 1.4375rem;
   }
 }
 @media (min-width: 992px) {
@@ -482,8 +524,15 @@ h3 {
 }
 
 .open-text {
-  line-height: 1.875rem;
+  line-height: 2.5rem;
+  font-size: 1.25rem;
   font-family: "Libre Franklin", sans-serif;
+}
+@media (min-width: 768px) {
+  .open-text {
+    font-size: 1.5625rem;
+    line-height: 2.8125rem;
+  }
 }
 @media (min-width: 992px) {
   .open-text {
@@ -494,13 +543,14 @@ h3 {
 }
 
 .pull-quote {
-  font-size: 2.5rem;
+  font-size: 3.75rem;
+  line-height: 4.6875rem;
   font-family: "Libre Baskerville", sans-serif;
 }
 @media (min-width: 992px) {
   .pull-quote {
-    font-size: 3.75rem;
-    line-height: 5.625rem;
+    font-size: 4.375rem;
+    line-height: 5.9375rem;
   }
 }
 
@@ -559,6 +609,116 @@ footer {
 /* =============
     Employment
 ============= */
+#employment-start {
+  background-color: #F5F5EE;
+}
+#employment-start div #hero img {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  #employment-start div #hero img {
+    height: 525px;
+  }
+}
+#employment-start div #hero h1 {
+  bottom: 200px;
+}
+#employment-start div #hero h2 {
+  text-align: left;
+  margin-top: -50px;
+  padding: 0px 90px 0px 20px;
+}
+#employment-start p {
+  color: #2E2E41;
+  padding: 100px 20px 0px 20px;
+}
+
+#emp-quote {
+  height: 100vh;
+  background-color: #007785;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#emp-quote div {
+  border: solid red 2px;
+}
+#emp-quote div p {
+  border: solid red 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #22C9C6;
+}
+@media (min-width: 768px) {
+  #emp-quote div p {
+    text-align: right;
+  }
+}
+
+#emp-text {
+  background-color: #EF777A;
+}
+#emp-text div img {
+  height: 385px;
+  width: 230px;
+  object-fit: cover;
+}
+@media (min-width: 992px) {
+  #emp-text div img {
+    height: 500px;
+  }
+}
+#emp-text div p {
+  color: #2E2E41;
+  padding-bottom: 100px;
+}
+#emp-text div h3 {
+  padding: 0px 20px 0px 20px;
+}
+
+#emp-map {
+  height: 100vh;
+  background-color: #F5F5EE;
+}
+#emp-map div #emp-map-left #counter {
+  color: #22C9C6;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: "tween " "positions";
+}
+#emp-map div #emp-map-left #counter #count-tween {
+  grid-area: tween;
+}
+#emp-map div #emp-map-left #counter p {
+  grid-area: positions;
+}
+#emp-map div #emp-map-left #designers-wanted {
+  color: #D43732;
+}
+#emp-cards {
+  background-color: #EF777A;
+}
+#emp-cards div h4 {
+  color: #D43732;
+}
+#emp-cards div .card {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F5F5EE;
+  width: 250px;
+  margin-bottom: 100px;
+}
+#emp-cards div .card img {
+  padding: 30px 0px;
+}
+#emp-cards div .card h4 {
+  text-align: center;
+  padding: 30px 0px;
+}
 /* =============
     Experiment
 ============= */

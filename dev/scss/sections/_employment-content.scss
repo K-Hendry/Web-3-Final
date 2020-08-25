@@ -2,68 +2,176 @@
     Employment
 ============= */
 
-#employment-start{
-    img{
+#employment-start {
+
+    background-color: $off-white;
+
+    div {
+
+        #hero {
+            img {
+                object-fit: cover;
+                height: 500px;
+                width: 100%;
+
+                @include lg {
+                    height: 525px;
+                }
+
+                
+                // position: relative;
+            }
+
+            h1 {
+                // position: absolute;
+                bottom: 200px;
+                // right: 30px;
+            
+            }
+
+            h2 {
+                text-align: left;
+                margin-top: -50px;
+                padding: 0px 90px 0px 20px
+            }
+        }
 
     }
-    h1{
 
-    }
-    h2{
-
-    }
-    p{
+    p {
+        color: $blue-black;
+        padding: 100px 20px 0px 20px;
 
     }
 }
 
-#emp-quote{
-    p{
+#emp-quote {
+    height: 100vh;
+    background-color: $dark-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    }
-}
+    div {
+        border: solid red 2px;
 
-#emp-text{
-    img{
+        p {
+            @include md {
+                text-align: right;
+            }
 
-    }
-    p{
+            border: solid red 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-    }
-    h2{
-
-    }
-}
-
-#emp-map{
-    #emp-map-left{
-        h1{
+            color: $green-blue;
 
         }
-        p{
-
-        }
-        h2{
-
-        }
-    }
-    #google-map{
-
     }
 }
 
-#emp-cards{
-    #high-five{
+#emp-text {
 
-    }
-    #threei{
+    background-color: $red;
 
-    }
-    #ssk{
+    div {
 
-    }
-    #blue-state{
-        
+
+        img {
+            height: 385px;
+            width: 230px;
+            object-fit: cover;
+
+
+            @include lg {
+                height: 500px;
+            }
+
+
+        }
+
+        p {
+            color: $blue-black;
+            padding-bottom: 100px;
+        }
+
+        h3 {
+            padding: 0px 20px 0px 20px;
+        }
     }
 }
 
+#emp-map {
+    height: 100vh;
+    background-color: $off-white;
+
+    div {
+        #emp-map-left {
+            #counter{
+                color: $green-blue;
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                grid-template-columns:  1fr;
+                grid-template-areas: "tween "
+                                    "positions";
+
+                #count-tween {
+                    grid-area: tween;
+                }
+
+                p {
+                    grid-area: positions;
+                    
+                }
+
+            }
+
+            #designers-wanted {
+                color: $dark-red;
+
+                p {}
+
+                h2 {}
+            }
+        }
+
+        #google-map {}
+    }
+}
+
+#emp-cards {
+
+    background-color: $red;
+
+
+    div {
+        h4 {
+            color: $dark-red;
+        }
+
+        .card {
+            margin-left: auto;
+            margin-right: auto;
+            background-color: $off-white;
+            width: 250px;
+            margin-bottom: 100px;
+            img{
+                padding: 30px 0px;
+            }
+            h4{
+                text-align: center;
+                padding: 30px 0px;
+            }
+
+        }
+
+        #high-five {}
+
+        #threei {}
+
+        #ssk {}
+
+        #blue-state {}
+    }
+}

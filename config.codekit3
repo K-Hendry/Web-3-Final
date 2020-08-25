@@ -43,6 +43,28 @@
 		"oAP": "/deploy/gallery.html",
 		"oF": 0
 		},
+	"/deploy/img/employment/stickers-hero.jpg": {
+		"ft": 16384,
+		"iS": 152906,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/employment/stickers-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/employment/suitcase.jpg": {
+		"ft": 16384,
+		"iS": 53040,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/employment/suitcase.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/impact.html": {
 		"cB": 0,
 		"ft": 8192,
