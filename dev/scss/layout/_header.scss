@@ -5,41 +5,19 @@ header{
     width: 100%;
     top: 0;
     left: 0;
-    position: fixed;
-    background-color: $dark-blue;
-    z-index: 1100;
-    
+    // position: fixed;
+    background-color: green;
+    z-index: 100;
 
     div{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-       
-
-        #logo-container{
-            p{ font-size: rem-calc(25);
-                line-height: 30px;
-                letter-spacing: 4px ;
-                font-family: 'Fjalla One', sans-serif;
-                color: $white;
-                margin: 10px 0;
-
-                span{
-                  color: $blue-black;  
-                }
-            }
-        }
-
+        padding: 20px;
 
         #burger-container{
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            color: $yellow;
-          
-
-            svg{fill: $yellow;
-                height: 30px;
-            }
 
            
         }

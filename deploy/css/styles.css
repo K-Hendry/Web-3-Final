@@ -549,34 +549,18 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  position: fixed;
-  background-color: #007785;
-  z-index: 1100;
+  background-color: green;
+  z-index: 100;
 }
 header div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
-header div #logo-container p {
-  font-size: 1.5625rem;
-  line-height: 30px;
-  letter-spacing: 4px;
-  font-family: "Fjalla One", sans-serif;
-  color: #fff;
-  margin: 10px 0;
-}
-header div #logo-container p span {
-  color: #2E2E41;
+  padding: 20px;
 }
 header div #burger-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: #FFDA37;
-}
-header div #burger-container svg {
-  fill: #FFDA37;
-  height: 30px;
 }
 
 /* =============
