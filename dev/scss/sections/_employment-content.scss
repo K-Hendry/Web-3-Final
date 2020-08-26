@@ -20,7 +20,13 @@
                 }
 
                 @include lg {
-                    height: 525px;
+                    height: 700px;
+                    width: 90vw;
+                }
+
+                @include xl {
+                    width: 80vw;
+
                 }
 
                 // position: relative;
@@ -34,10 +40,21 @@
                 margin-top: -300px;
                 margin-bottom: 90px;
                 padding: 0px 5px;
+                color: $red;
 
                 @include md {
                     margin-left: 25%;
                     margin-bottom: 180px;
+                }
+
+                @include lg {
+                    margin-left: 30%;
+                }
+
+                @include xl {
+                    text-align: center;
+                    margin-left: 0px;
+                    margin-top: -400px;
                 }
 
             }
@@ -49,6 +66,14 @@
 
                 @include md {
                     padding-left: 15%;
+                }
+
+                @include lg {
+                    margin-top: -120px;
+                }
+
+                @include xl {
+                    margin-top: -20px;
                 }
             }
         }
@@ -64,6 +89,10 @@
             padding-right: 10px;
         }
 
+        @include lg {
+            padding-left: 50%
+        }
+
     }
 }
 
@@ -75,7 +104,7 @@
     align-items: center;
 
     div {
-        border: solid red 2px;
+        // border: solid red 2px;
 
         p {
             @include md {
@@ -83,7 +112,7 @@
             }
 
             padding: 0px 10px;
-            border: solid red 2px;
+            // border: solid red 2px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -97,58 +126,155 @@
 #emp-text {
     background-color: $red;
 
-    div {
-        img {
-            height: 385px;
-            width: 230px;
-            object-fit: cover;
+    #emp-text-content {
 
-            @include md {
-                width: 45%;
+        #xl {
+            @include xl {
+                display: grid;
+                grid-template-columns: auto 1440px auto;
+                grid-template-areas: ". xl .";
             }
 
-            @include lg {
-                height: 500px;
-            }
-        }
+            #emp-text-grid {
+                @include lg {
+                    display: grid;
+                    grid-template-columns: 42% auto;
+                    grid-template-rows: autp auto;
+                    grid-template-areas: "suitcase ctext"
+                        "suitcase involved";
+                }
 
-        #p1 {
-            color: $blue-black;
-            padding-bottom: 100px;
+                @include xl {
+                    grid-area: xl;
+                }
 
-            @include md {
-                padding-left: 25%;
-                padding-right: 12%;
-                margin: 0;
-            }
-        }
+                img {
+                    height: 385px;
+                    width: 230px;
+                    object-fit: cover;
 
-        h3 {
-            padding: 0px 20px 0px 20px;
-            margin-top: -55px;
+                    @include md {
+                        width: 45%;
+                    }
 
-            @include md {
-                margin-top: -200px;
-                padding-left: 36%;
-                padding-right: 120px;
-                margin-bottom: 200px;
+                    @include lg {
+                        height: 500px;
+                        grid-area: suitcase;
+                        width: 42vw;
+                        margin-top: 100px;
+                    }
+
+                    @include xl {
+                        width: 530px;
+                        margin-left: auto;
+                    }
+                }
+
+
+                #p1 {
+                    color: $blue-black;
+                    padding-bottom: 100px;
+
+                    @include md {
+                        padding-left: 25%;
+                        padding-right: 12%;
+                        margin: 0;
+                    }
+
+                    @include lg {
+                        grid-area: ctext;
+                        padding-left: 60px;
+                    }
+
+                    @include xl {
+                        width: 500px;
+                        padding-left: 100px;
+                    }
+                }
+
+                h3 {
+                    padding: 0px 20px 0px 20px;
+                    margin-top: -55px;
+
+                    @include md {
+                        margin-top: -200px;
+                        padding-left: 36%;
+                        padding-right: 120px;
+                        margin-bottom: 200px;
+                    }
+
+                    @include lg {
+                        grid-area: involved;
+                        margin-top: 0px;
+                        margin-left: -80px;
+                        padding-left: 0px;
+                        padding-right: 200px;
+                    }
+
+                    @include xl {
+                        padding-right: 400px;
+                    }
+                }
             }
         }
 
         #p2 {
             padding: 0px 90px;
+
+            @include lg {
+                padding: 0px 20vw;
+            }
+
+            @include xl {
+                width: 700px;
+            }
         }
 
         #p3 {
             padding: 50px 90px 0 90px;
+
+            @include lg {
+                padding: 50px 10vw 0px 25vw;
+            }
+
+            @include xl {
+                width: 900px;
+            }
         }
     }
 }
 
 #emp-map {
     background-color: $off-white;
+    padding: 100px 0px;
 
-    div {
+    @include lg {
+        padding: 0px;
+    }
+
+    @include xl {
+        padding: 150px 0px;
+        // height: 100vh;
+    }
+
+    @include xl {
+        display: grid;
+        grid-template-columns: auto 1440px auto;
+        grid-template-areas: ". xl2 .";
+    }
+
+    #emp-map-content {
+        @include lg {
+            display: grid;
+            grid-template-rows: 50% auto;
+            grid-template-columns: 35% auto;
+            grid-template-areas: "102p mapgrid"
+                "designers mapgrid";
+        }
+
+        @include xl {
+            grid-area: xl2;
+        }
 
         #counter {
             color: $green-blue;
@@ -164,15 +290,33 @@
                 grid-template-areas: ". tween positions .";
             }
 
+            @include lg {
+                grid-area: 102p;
+                grid-template-rows: 1fr 1fr;
+                grid-template-columns: 1fr;
+                grid-template-areas: "tween"
+                    "positions";
+                padding-right: 20px;
+                padding-top: 15vh;
+
+            }
+
+            @include xl {
+                padding-top: 0px;
+            }
+
             #count-tween {
                 grid-area: tween;
                 margin-right: 80px;
+                color: $green-blue;
 
                 @include md {
                     margin-right: 0px;
                 }
 
-
+                @include lg {
+                    text-align: right;
+                }
             }
 
             #tween-text {
@@ -184,12 +328,24 @@
                     padding-left: 0px;
                 }
 
+                @include lg {
+                    text-align: right;
+                    margin-top: -10px;
+                }
             }
 
         }
 
         #designers-wanted {
             color: $dark-red;
+
+            @include lg {
+                grid-area: designers;
+                padding-right: 20px;
+                padding-left: 15%;
+                padding-top: 90px;
+
+            }
 
             p {
                 text-align: right;
@@ -201,6 +357,13 @@
                     padding-right: 12%;
                     padding-left: 400px;
                 }
+
+                @include lg {
+                    padding: 0px;
+                    padding-left: 150px;
+                    // display: inline-block;
+
+                }
             }
 
             h3 {
@@ -211,12 +374,23 @@
                 @include md {
                     text-align: left;
                 }
+
+                @include lg {
+                    padding: 0px;
+                    text-align: right;
+                    // display: inline-block;
+                }
             }
         }
 
 
         #google-map {
             padding: 100px 0px;
+
+            @include lg {
+                grid-area: mapgrid;
+                padding: 0px;
+            }
 
             #map {
                 img {
@@ -228,6 +402,16 @@
                         width: 100vw;
                         height: 620px;
                     }
+
+                    @include lg {
+                        height: 100vh;
+                        width: 100%;
+                    }
+
+                    @include xl {
+                        height: 630px;
+
+                    }
                 }
             }
         }
@@ -235,12 +419,9 @@
 }
 
 #emp-cards {
-
     background-color: $red;
 
-
-
-    div {
+    #emp-cards-content {
         h4 {
             color: $dark-red;
         }
@@ -255,12 +436,27 @@
                 // grid-row-gap: 100px;
             }
 
+            @include lg {
+                grid-template-columns: auto 350px 350px auto;
+                grid-template-rows: repeat(2, 430px);
+                grid-template-areas: ". hi5 three ."
+                    ". ssk bluestate .";
+                // gap: 100px;
+            }
+
+            @include xl{
+                grid-template-rows: 430px;
+                grid-template-columns: auto 350px 350px 350px 350px auto;
+                grid-template-areas: ". ssk hi5 three bluestate ."
+            }
+
             .card {
                 margin-left: auto;
                 margin-right: auto;
                 background-color: $off-white;
                 width: 250px;
                 margin-bottom: 100px;
+
 
                 img {
                     padding: 40px 0px 20px 0px;
@@ -273,13 +469,27 @@
                     text-align: center;
                     padding: 40px 0px;
 
-                    @include md{
+                    @include md {
                         text-align: left;
+                        padding-left: 20px;
                     }
+
+
                 }
 
-                p{
+                p {
                     text-align: right;
+
+                    @include md {
+                        padding-right: 20px;
+                    }
+
+                    @include lg {
+                        margin-top: 0px;
+                        font-size: rem-calc(18);
+                        height: 110px;
+                        overflow: scroll;
+                    }
                 }
 
             }
@@ -289,8 +499,21 @@
                     grid-area: 1 / 1 / 3 / 2;
                 }
 
+                @include lg {
+                    grid-area: hi5;
+                }
+
                 img {
                     height: 80px;
+
+                    @include lg {
+                        padding-top: 30px;
+                        padding-bottom: 25px;
+                    }
+                }
+
+                h4 {
+                    margin-top: -40px;
                 }
             }
 
@@ -299,9 +522,19 @@
                     grid-area: 2 / 2 / 4 / 3;
                 }
 
+                @include lg {
+                    grid-area: three;
+                }
+
                 img {
                     height: 35px;
 
+                }
+
+                h4 {
+                    @include lg {
+                        padding-bottom: 10px;
+                    }
                 }
             }
 
@@ -310,14 +543,30 @@
                     grid-area: 3 / 1 / 5 / 2;
                 }
 
+                @include lg {
+                    grid-area: ssk;
+                }
+
                 img {
                     height: 30px;
+
+
+                }
+
+                h4 {
+                    @include lg {
+                        margin-top: 10px;
+                    }
                 }
             }
 
             #blue-state {
                 @include md {
                     grid-area: 4 / 2 / 6 / 3;
+                }
+
+                @include lg {
+                    grid-area: bluestate;
                 }
 
                 img {
@@ -329,6 +578,10 @@
         #final-text {
             @include md {
                 padding: 0px 90px;
+            }
+
+            @include lg {
+                padding: 0 25vw;
             }
         }
     }
