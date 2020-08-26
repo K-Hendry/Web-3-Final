@@ -1161,7 +1161,10 @@ footer {
 /* =============
     Experiment
 ============= */
-#hero-experiment #hero-image-experiment {
+#experimentation {
+  background-color: #F5F5EE;
+}
+#experimentation #hero-experiment #hero-image-experiment {
   background-image: url("../img/experimentation/experimentation-hero.jpg");
   background-position: center;
   background-size: cover;
@@ -1169,102 +1172,102 @@ footer {
   width: 100%;
 }
 @media (min-width: 768px) {
-  #hero-experiment #hero-image-experiment {
+  #experimentation #hero-experiment #hero-image-experiment {
     width: 75vw;
   }
 }
 @media (min-width: 992px) {
-  #hero-experiment #hero-image-experiment {
+  #experimentation #hero-experiment #hero-image-experiment {
     height: 700px;
     width: 90vw;
   }
 }
 @media (min-width: 1200px) {
-  #hero-experiment #hero-image-experiment {
+  #experimentation #hero-experiment #hero-image-experiment {
     width: 80vw;
   }
 }
-#hero-experiment #title-experiment {
+#experimentation #hero-experiment #title-experiment {
   bottom: 200px;
-  text-align: left;
-  margin-top: -300px;
   margin-bottom: 90px;
+  margin-top: -300px;
   padding: 0px 5px;
+  text-align: left;
 }
 @media (min-width: 768px) {
-  #hero-experiment #title-experiment {
-    margin-left: 20%;
+  #experimentation #hero-experiment #title-experiment {
     margin-bottom: 180px;
+    margin-left: 20%;
   }
 }
 @media (min-width: 992px) {
-  #hero-experiment #title-experiment {
+  #experimentation #hero-experiment #title-experiment {
     margin-left: 30%;
   }
 }
 @media (min-width: 1200px) {
-  #hero-experiment #title-experiment {
-    text-align: center;
+  #experimentation #hero-experiment #title-experiment {
     margin-left: 0px;
     margin-top: -400px;
+    text-align: center;
   }
 }
-#hero-experiment #title-experiment h1 {
-  font-size: 2.8125rem;
+#experimentation #hero-experiment #title-experiment h1 {
   color: #EF777A;
+  font-size: 2.8125rem;
 }
 @media (min-width: 768px) {
-  #hero-experiment #title-experiment h1 {
+  #experimentation #hero-experiment #title-experiment h1 {
     font-size: 5.3125rem;
   }
 }
 @media (min-width: 992px) {
-  #hero-experiment #title-experiment h1 {
+  #experimentation #hero-experiment #title-experiment h1 {
     font-size: 8.4375rem;
   }
 }
-#hero-experiment #subtitle-experiment {
-  text-align: left;
+#experimentation #hero-experiment #subtitle-experiment {
   margin-top: -50px;
   padding: 100px 20px 0px 20px;
+  text-align: left;
 }
 @media (min-width: 768px) {
-  #hero-experiment #subtitle-experiment {
+  #experimentation #hero-experiment #subtitle-experiment {
     padding-left: 15%;
     padding-top: 3%;
   }
 }
 @media (min-width: 992px) {
-  #hero-experiment #subtitle-experiment {
+  #experimentation #hero-experiment #subtitle-experiment {
     margin-top: -120px;
     padding-right: 800px;
   }
 }
 @media (min-width: 1200px) {
-  #hero-experiment #subtitle-experiment {
+  #experimentation #hero-experiment #subtitle-experiment {
     margin-top: -20px;
   }
 }
-
 @media (min-width: 768px) {
-  #section-1-experiment {
+  #experimentation #section-1-experiment {
     display: grid;
     grid-template-columns: 40% 60%;
   }
 }
 @media (min-width: 768px) {
-  #section-1-experiment #pullquote-section-1 {
-    grid-column-start: 1;
+  #experimentation #section-1-experiment #pullquote-section-1 {
     grid-column-end: 3;
+    grid-column-start: 1;
     grid-row-start: 1;
   }
 }
 @media (min-width: 768px) {
-  #section-1-experiment #pullquote-section-1 h3 {
+  #experimentation #section-1-experiment #pullquote-section-1 h3 {
     text-align: right;
+    padding-right: 3%;
   }
 }
-#section-1-experiment #image-section-1 {
+#experimentation #section-1-experiment #image-section-1 {
   background-image: url("../img/experimentation/obama.jpg");
   background-position: center;
   background-size: cover;
@@ -1272,33 +1275,33 @@ footer {
   margin-top: 100px;
 }
 @media (min-width: 768px) {
-  #section-1-experiment #image-section-1 {
+  #experimentation #section-1-experiment #image-section-1 {
     grid-column-start: 1;
     grid-row-start: 2;
     height: 30vh;
   }
 }
-#section-1-experiment #para-section-1 {
+#experimentation #section-1-experiment #para-section-1 {
   padding-top: 100px;
 }
 @media (min-width: 768px) {
-  #section-1-experiment #para-section-1 {
+  #experimentation #section-1-experiment #para-section-1 {
     grid-column-start: 2;
     grid-row-start: 2;
     margin-top: 150px;
+    padding-top: 20px;
   }
 }
-
-#section-2-experiment #pullquote-section-2 h3 {
-  text-align: right;
+#experimentation #section-2-experiment #pullquote-section-2 h3 {
   padding-right: 3%;
+  text-align: right;
 }
 @media (min-width: 768px) {
-  #section-2-experiment #pullquote-section-2 {
-    margin: auto 5% auto 30%;
+  #experimentation #section-2-experiment #pullquote-section-2 {
+    margin: auto 3% auto 30%;
   }
 }
-#section-2-experiment #image-section-2 {
+#experimentation #section-2-experiment #image-section-2 {
   background-image: url("../img/experimentation/france.jpg");
   background-position: center;
   background-size: cover;
@@ -1306,43 +1309,96 @@ footer {
   margin-top: -300px;
 }
 @media (min-width: 768px) {
-  #section-2-experiment #image-section-2 {
-    margin: auto 10%;
+  #experimentation #section-2-experiment #image-section-2 {
+    height: 30vh;
+    margin: -20% 10% auto;
   }
 }
-
-#section-3-experiment #para-section-3 {
+#experimentation #section-3-experiment #para-section-3 {
   background-color: #EF777A;
   padding: 20% 3%;
 }
-
-#section-4-experiment #pullquote-section-4 h3 {
-  text-align: right;
-  padding-right: 3%;
+@media (min-width: 768px) {
+  #experimentation #section-4-experiment {
+    column-gap: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-#section-4-experiment #image-section-4 {
+@media (min-width: 768px) {
+  #experimentation #section-4-experiment #pullquote-section-4 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+}
+#experimentation #section-4-experiment #pullquote-section-4 h3 {
+  padding-right: 3%;
+  text-align: right;
+}
+#experimentation #section-4-experiment #image-section-4 {
   background-image: url("../img/experimentation/logos.jpg");
   background-position: center;
   background-size: cover;
   height: 70vh;
 }
-#section-5-experiment #image-1-section-5 {
+@media (min-width: 768px) {
+  #experimentation #section-4-experiment #image-section-4 {
+    grid-column-start: 2;
+    height: 50vh;
+  }
+}
+@media (min-width: 768px) {
+  #experimentation #section-4-experiment #para-section-4 {
+    grid-column-end: 3;
+    grid-column-start: 1;
+    padding-top: 100px;
+  }
+}
+@media (min-width: 768px) {
+  #experimentation #section-5-experiment {
+    display: grid;
+    gap: 3%;
+    grid-template-columns: 40% 60%;
+  }
+}
+#experimentation #section-5-experiment #image-1-section-5 {
   background-image: url("../img/experimentation/scotland.jpg");
   background-position: center;
   background-size: cover;
   height: 50vh;
 }
-#section-5-experiment #image-2-section-5 {
+@media (min-width: 768px) {
+  #experimentation #section-5-experiment #image-1-section-5 {
+    background-position: -50px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+}
+#experimentation #section-5-experiment #image-2-section-5 {
   background-image: url("../img/experimentation/denmark.jpg");
   background-position: center;
   background-size: cover;
   height: 50vh;
 }
-#section-5-experiment #image-3-section-5 {
+@media (min-width: 768px) {
+  #experimentation #section-5-experiment #image-2-section-5 {
+    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-row-start: 2;
+  }
+}
+#experimentation #section-5-experiment #image-3-section-5 {
   background-image: url("../img/experimentation/aroha.jpg");
   background-position: center;
   background-size: cover;
   height: 50vh;
+}
+@media (min-width: 768px) {
+  #experimentation #section-5-experiment #image-3-section-5 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
 }
 
 /* =============
