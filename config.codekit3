@@ -43,81 +43,275 @@
 		"oAP": "/deploy/gallery.html",
 		"oF": 0
 		},
-	"/deploy/img/experimentation/aroha.jpg": {
+	"/deploy/img/employment/logos/bluestate.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/employment/logos/bluestate.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/employment/logos/h5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/employment/logos/h5.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/employment/logos/ssk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/employment/logos/ssk.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/employment/logos/threei.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/employment/logos/threei.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/employment/map.jpg": {
 		"ft": 16384,
-		"iS": 79797,
+		"iS": 230699,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/experimentation/aroha.jpg",
+		"oAP": "/deploy/img/employment/map.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/experimentation/denmark.jpg": {
+	"/deploy/img/employment/stickers-hero.jpg": {
 		"ft": 16384,
-		"iS": 15863,
+		"iS": 152906,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/experimentation/denmark.jpg",
+		"oAP": "/deploy/img/employment/stickers-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/experimentation/experimentation-hero.jpg": {
+	"/deploy/img/employment/suitcase.jpg": {
 		"ft": 16384,
-		"iS": 130642,
+		"iS": 53040,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/experimentation/experimentation-hero.jpg",
+		"oAP": "/deploy/img/employment/suitcase.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/experimentation/france.jpg": {
+	"/deploy/img/gallery/Alexandra-South.jpg": {
 		"ft": 16384,
-		"iS": 124728,
+		"iS": 232799,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/experimentation/france.jpg",
+		"oAP": "/deploy/img/gallery/Alexandra-South.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/experimentation/logos.jpg": {
+	"/deploy/img/gallery/Alexandria-Ocasio.jpg": {
 		"ft": 16384,
-		"iS": 155960,
+		"iS": 77758,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/experimentation/logos.jpg",
+		"oAP": "/deploy/img/gallery/Alexandria-Ocasio.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/experimentation/obama.jpg": {
+	"/deploy/img/gallery/Drew-Davies.jpg": {
 		"ft": 16384,
-		"iS": 122962,
+		"iS": 154702,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/experimentation/obama.jpg",
+		"oAP": "/deploy/img/gallery/Drew-Davies.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/gallery/h-logo.jpg": {
+		"ft": 16384,
+		"iS": 5144,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/h-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/experimentation/scotland.jpg": {
+	"/deploy/img/gallery/h-progress.jpg": {
 		"ft": 16384,
-		"iS": 80108,
+		"iS": 78464,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/experimentation/scotland.jpg",
+		"oAP": "/deploy/img/gallery/h-progress.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/hero-1.jpg": {
+		"ft": 16384,
+		"iS": 94474,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/hero-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/hero-2.jpg": {
+		"ft": 16384,
+		"iS": 168267,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/hero-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/hope.jpg": {
+		"ft": 16384,
+		"iS": 96919,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/hope.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/Jesse-Wu.jpg": {
+		"ft": 16384,
+		"iS": 45105,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/Jesse-Wu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/Jessica-Helfand.jpg": {
+		"ft": 16384,
+		"iS": 502811,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/Jessica-Helfand.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/gallery/Jesus-Garcia.jpg": {
+		"ft": 16384,
+		"iS": 142369,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/Jesus-Garcia.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/gallery/Jonathan-Mikulich.jpg": {
+		"ft": 16384,
+		"iS": 48682,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/Jonathan-Mikulich.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/gallery/k-logo.jpg": {
+		"ft": 16384,
+		"iS": 32056,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/k-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/Milton-Glaser.jpg": {
+		"ft": 16384,
+		"iS": 77227,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/Milton-Glaser.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/Natalia-Warren.jpg": {
+		"ft": 16384,
+		"iS": 340648,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/Natalia-Warren.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/gallery/political-logo.jpeg": {
+		"ft": 16384,
+		"iS": 68093,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/political-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/Robbie-Knight.jpg": {
+		"ft": 16384,
+		"iS": 778949,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/Robbie-Knight.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/gallery/Sarah-Hinman.jpg": {
+		"ft": 16384,
+		"iS": 764873,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/Sarah-Hinman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/impact.html": {
