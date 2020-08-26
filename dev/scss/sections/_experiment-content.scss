@@ -31,10 +31,9 @@
         margin-top: -300px;
         margin-bottom: 90px;
         padding: 0px 5px;
-        //color: $red;
 
         @include md {
-            margin-left: 25%;
+            margin-left: 20%;
             margin-bottom: 180px;
         }
 
@@ -48,21 +47,31 @@
             margin-top: -400px;
         }
         h1{
-            font-size: rem-calc(35);
+            font-size: rem-calc(45);
+            color: $red;
+            @include md{
+                font-size: rem-calc(85);
+            }
+            @include lg{
+                font-size: rem-calc(135);
+            }
         }
     }
 
     #subtitle-experiment {
         text-align: left;
         margin-top: -50px;
-        padding: 0px 80px 0px 20px;
+        padding: 100px 20px 0px 20px;
+
 
         @include md {
             padding-left: 15%;
+            padding-top: 3%;
         }
 
         @include lg {
             margin-top: -120px;
+            padding-right: 800px;
         }
 
         @include xl {
@@ -72,15 +81,42 @@
 }
 
 #section-1-experiment {
-    #pullquote-section-1 {}
+    @include md{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    #pullquote-section-1 {
+        @include md{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+        }
+        h3{
+            @include md{
+                text-align: right;
+            }
+        }
+    }
 
-    #para-section-1 {}
 
     #image-section-1 {
         background-image: url('../img/experimentation/obama.jpg');
         background-position: center;
         background-size: cover;
-        height: 70vh;
+        height: 10vh;
+        margin-top: 100px;
+        @include md{
+            grid-column-start: 1;
+            grid-row-start: 2;
+            height: 30vh;
+        }
+    }
+    #para-section-1 {
+        @include md{
+            grid-column-start: 2;
+            grid-row-start: 2;
+            margin-top: 150px;
+        }
     }
 }
 

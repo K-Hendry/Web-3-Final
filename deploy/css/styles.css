@@ -1193,7 +1193,7 @@ footer {
 }
 @media (min-width: 768px) {
   #hero-experiment #title-experiment {
-    margin-left: 25%;
+    margin-left: 20%;
     margin-bottom: 180px;
   }
 }
@@ -1210,21 +1210,34 @@ footer {
   }
 }
 #hero-experiment #title-experiment h1 {
-  font-size: 2.1875rem;
+  font-size: 2.8125rem;
+  color: #EF777A;
+}
+@media (min-width: 768px) {
+  #hero-experiment #title-experiment h1 {
+    font-size: 5.3125rem;
+  }
+}
+@media (min-width: 992px) {
+  #hero-experiment #title-experiment h1 {
+    font-size: 8.4375rem;
+  }
 }
 #hero-experiment #subtitle-experiment {
   text-align: left;
   margin-top: -50px;
-  padding: 0px 80px 0px 20px;
+  padding: 100px 20px 0px 20px;
 }
 @media (min-width: 768px) {
   #hero-experiment #subtitle-experiment {
     padding-left: 15%;
+    padding-top: 3%;
   }
 }
 @media (min-width: 992px) {
   #hero-experiment #subtitle-experiment {
     margin-top: -120px;
+    padding-right: 800px;
   }
 }
 @media (min-width: 1200px) {
@@ -1233,11 +1246,44 @@ footer {
   }
 }
 
+@media (min-width: 768px) {
+  #section-1-experiment {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+}
+@media (min-width: 768px) {
+  #section-1-experiment #pullquote-section-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+  }
+}
+@media (min-width: 768px) {
+  #section-1-experiment #pullquote-section-1 h3 {
+    text-align: right;
+  }
+}
 #section-1-experiment #image-section-1 {
   background-image: url("../img/experimentation/obama.jpg");
   background-position: center;
   background-size: cover;
-  height: 70vh;
+  height: 10vh;
+  margin-top: 100px;
+}
+@media (min-width: 768px) {
+  #section-1-experiment #image-section-1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    height: 30vh;
+  }
+}
+@media (min-width: 768px) {
+  #section-1-experiment #para-section-1 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-top: 150px;
+  }
 }
 
 #section-2-experiment #image-section-2 {
