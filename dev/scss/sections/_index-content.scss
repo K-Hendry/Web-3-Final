@@ -7,3 +7,69 @@
         color: red;
     }
 }
+ /* --------------------------
+    Intro
+ --------------------------*/
+#index-opening{height: 100vh;
+    background-image:url('../img/index/intro-index.jpg') ;
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+        justify-content: center;
+
+        @include md{
+            height: 60vh;
+        }
+
+        @include lg{
+            height: 100vh;
+        }
+    >div{display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+        @include md{
+            padding: 0 30px;
+        }
+        h1{font-size: rem-calc(50);
+           @include md{ 
+               font-size: rem-calc(80);
+            text-align: left;
+            padding-top: 100px;
+            
+            }
+
+            @include lg{ 
+                font-size: rem-calc(150);
+             text-align: left;
+             width: 70vw;
+             }
+        }
+
+        h2{
+            font-size: rem-calc(23);
+            text-align: center;
+
+            @include md{ 
+                font-size: rem-calc(30);
+             text-align: left;
+        
+             }
+
+             @include lg{
+                width: 40vw;
+                text-align: right;
+             }
+
+         
+        }
+       
+    }
+}
+ /* --------------------------
+   Employment
+ --------------------------*/
+ 

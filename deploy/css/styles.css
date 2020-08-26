@@ -588,7 +588,7 @@ header {
   left: 0;
   position: fixed;
   background-color: #007785;
-  z-index: 100;
+  z-index: 2000;
 }
 header div {
   display: grid;
@@ -1938,6 +1938,78 @@ textarea {
   color: red;
 }
 
+/* --------------------------
+   Intro
+--------------------------*/
+#index-opening {
+  height: 100vh;
+  background-image: url("../img/index/intro-index.jpg");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  #index-opening {
+    height: 60vh;
+  }
+}
+@media (min-width: 992px) {
+  #index-opening {
+    height: 100vh;
+  }
+}
+#index-opening > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px;
+}
+@media (min-width: 768px) {
+  #index-opening > div {
+    padding: 0 30px;
+  }
+}
+#index-opening > div h1 {
+  font-size: 3.125rem;
+}
+@media (min-width: 768px) {
+  #index-opening > div h1 {
+    font-size: 5rem;
+    text-align: left;
+    padding-top: 100px;
+  }
+}
+@media (min-width: 992px) {
+  #index-opening > div h1 {
+    font-size: 9.375rem;
+    text-align: left;
+    width: 70vw;
+  }
+}
+#index-opening > div h2 {
+  font-size: 1.4375rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #index-opening > div h2 {
+    font-size: 1.875rem;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  #index-opening > div h2 {
+    width: 40vw;
+    text-align: right;
+  }
+}
+
+/* --------------------------
+  Employment
+--------------------------*/
 /* =============
     Publicity
 ============= */
