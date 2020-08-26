@@ -759,7 +759,7 @@ footer div #logos ul li a:visited:active {
 }
 @media (min-width: 992px) {
   #employment-start div #hero #title {
-    margin-left: 30%;
+    margin-left: 15%;
   }
 }
 @media (min-width: 1200px) {
@@ -1256,13 +1256,35 @@ footer div #logos ul li a:visited:active {
 #emp-cards #emp-cards-content #card-gallery #blue-state img {
   height: 40px;
 }
+#emp-cards #emp-cards-content #emp-end #final-quote {
+  font-family: "Libre Baskerville", sans-serif;
+  color: #2E2E41;
+  line-height: 1.875rem;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 1.125rem;
+  text-align: center;
+}
 @media (min-width: 768px) {
-  #emp-cards #emp-cards-content #final-text {
+  #emp-cards #emp-cards-content #emp-end #final-quote {
+    padding: 0px 60px;
+    text-align: center;
+    line-height: 3.125rem;
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #emp-end #final-quote {
+    padding: 0 20vw;
+  }
+}
+@media (min-width: 768px) {
+  #emp-cards #emp-cards-content #emp-end #final-text1, #emp-cards #emp-cards-content #emp-end #final-text2 {
     padding: 0px 90px;
   }
 }
 @media (min-width: 992px) {
-  #emp-cards #emp-cards-content #final-text {
+  #emp-cards #emp-cards-content #emp-end #final-text1, #emp-cards #emp-cards-content #emp-end #final-text2 {
     padding: 0 25vw;
   }
 }
