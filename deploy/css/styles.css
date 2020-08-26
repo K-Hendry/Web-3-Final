@@ -1430,6 +1430,11 @@ textarea {
 /* =============
     Impact
 ============= */
+#impact {
+  background-color: #F5F5EE;
+  z-index: 100;
+}
+
 .impact-container {
   padding: 0 15px;
 }
@@ -1619,12 +1624,11 @@ textarea {
 }
 #moral-section div #moral-content-1 h3 {
   color: #D43732;
-  width: 100vw;
   background-image: url("../img/impact/moral-img.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 70px 15px 0 15px;
+  padding: 100px 15px 20px;
 }
 @media (min-width: 768px) {
   #moral-section div #moral-content-1 h3 {
@@ -1748,20 +1752,161 @@ textarea {
 /* --------------------------
    Change
 --------------------------*/
+#change-section > div {
+  background-color: #B9DFE6;
+  padding: 100px 0;
+}
+@media (min-width: 768px) {
+  #change-section > div {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-areas: "c-img ct" "c-img cb1" "cb2 cb2";
+  }
+}
+@media (min-width: 992px) {
+  #change-section > div {
+    padding: 150px 0;
+    grid-template-areas: "c-img ct" "c-img cb1" "c-img cb2";
+  }
+}
+#change-section > div #change-img {
+  grid-area: c-img;
+}
+#change-section > div #change-img img {
+  z-index: 400;
+  object-position: center;
+  object-fit: cover;
+  height: 30vh;
+  width: 100vw;
+}
+@media (min-width: 768px) {
+  #change-section > div #change-img img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 992px) {
+  #change-section > div #change-img img {
+    height: 90vh;
+  }
+}
+#change-section > div #change-title {
+  grid-area: ct;
+}
+@media (min-width: 768px) {
+  #change-section > div #change-title {
+    z-index: 500;
+    padding-top: 100px;
+    margin: 0 0 0 -100px;
+  }
+}
+@media (min-width: 992px) {
+  #change-section > div #change-title {
+    width: 50vw;
+    margin: 0 0 0 -150px;
+  }
+}
+#change-section > div #change-body-1 {
+  grid-area: cb1;
+}
+@media (min-width: 992px) {
+  #change-section > div #change-body-1 {
+    padding-right: 10vw;
+  }
+}
+#change-section > div #change-body-2 {
+  grid-area: cb2;
+}
+@media (min-width: 992px) {
+  #change-section > div #change-body-2 {
+    padding-right: 10vw;
+  }
+}
+
 /* --------------------------
    Hero-2
 --------------------------*/
 #impact-hero-2 {
   background-image: url("../img/impact/hero-2.jpg");
   background-size: cover;
-  background-position: center -800px;
+  background-position: bottom;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 40vh;
+  z-index: 700;
+}
+@media (min-width: 768px) {
+  #impact-hero-2 {
+    height: 50vh;
+  }
+}
+@media (min-width: 1200px) {
+  #impact-hero-2 {
+    height: 100vh;
+    background-position: center -650px;
+  }
 }
 
 /* --------------------------
    Sway
 --------------------------*/
+@media (min-width: 768px) {
+  #sway-section > div {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "st si" "sb si";
+  }
+}
+@media (min-width: 992px) {
+  #sway-section > div {
+    grid-template-columns: 60% auto;
+  }
+}
+@media (min-width: 992px) {
+  #sway-section > div #sway-content {
+    padding-left: 15vw;
+  }
+}
+#sway-section > div #sway-content h3 {
+  color: #2E2E41;
+  background-image: url("../img/impact/sway-img-mobile.jpg");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding: 100px 15px 20px;
+  grid-area: st;
+}
+@media (min-width: 768px) {
+  #sway-section > div #sway-content h3 {
+    background-image: none;
+    padding: 100px 30px 0;
+    text-align: right;
+  }
+}
+@media (min-width: 992px) {
+  #sway-section > div #sway-content h3 {
+    z-index: 800;
+    margin: 0 -10vw 0 20vw;
+    position: relative;
+  }
+}
+#sway-section > div #sway-content p {
+  grid-area: sb;
+}
+#sway-section > div #sway-img {
+  grid-area: si;
+}
+#sway-section > div #sway-img img {
+  z-index: 110;
+  display: none;
+}
+@media (min-width: 768px) {
+  #sway-section > div #sway-img img {
+    display: initial;
+    height: auto;
+    width: 100%;
+  }
+}
+
 /* =============
     Index
 ============= */

@@ -116,6 +116,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/experimentation/experimentation hero.jpg": {
+		"ft": 16384,
+		"iS": 130642,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/experimentation hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/gallery/Alexandra-South.jpg": {
 		"ft": 16384,
 		"iS": 232799,
@@ -146,7 +157,7 @@
 		"oAP": "/deploy/img/gallery/Drew-Davies.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/gallery/h-logo.jpg": {
@@ -223,7 +234,7 @@
 		"oAP": "/deploy/img/gallery/Jessica-Helfand.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/gallery/Jesus-Garcia.jpg": {
@@ -234,7 +245,7 @@
 		"oAP": "/deploy/img/gallery/Jesus-Garcia.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/gallery/Jonathan-Mikulich.jpg": {
@@ -245,7 +256,7 @@
 		"oAP": "/deploy/img/gallery/Jonathan-Mikulich.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/gallery/k-logo.jpg": {
@@ -278,7 +289,7 @@
 		"oAP": "/deploy/img/gallery/Natalia-Warren.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/gallery/political-logo.jpeg": {
@@ -300,7 +311,7 @@
 		"oAP": "/deploy/img/gallery/Robbie-Knight.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/gallery/Sarah-Hinman.jpg": {
@@ -311,7 +322,95 @@
 		"oAP": "/deploy/img/gallery/Sarah-Hinman.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/impact/change-img.jpg": {
+		"ft": 16384,
+		"iS": 3063362,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/change-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/impact/hero-1.jpg": {
+		"ft": 16384,
+		"iS": 1629327,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/hero-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/impact/hero-2.jpg": {
+		"ft": 16384,
+		"iS": 1237591,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/hero-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/impact/impact-intro-mobile.jpg": {
+		"ft": 16384,
+		"iS": 3137482,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/impact-intro-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/impact/impact-intro.jpg": {
+		"ft": 16384,
+		"iS": 3308345,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/impact-intro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/impact/moral-img.jpg": {
+		"ft": 16384,
+		"iS": 1483343,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/moral-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/impact/sway-img-mobile.jpg": {
+		"ft": 16384,
+		"iS": 1548094,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/sway-img-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/impact/sway-img.jpg": {
+		"ft": 16384,
+		"iS": 1870968,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/sway-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/impact.html": {

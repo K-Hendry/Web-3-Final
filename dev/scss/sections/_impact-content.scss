@@ -1,12 +1,16 @@
 /* =============
     Impact
 ============= */
+#impact{
+    background-color: $off-white;
+    z-index: 100;
+}
+
 .impact-container{
     padding: 0 15px;
-
-    @include md{
-        padding: 0 30px;
-    }
+                @include md{
+                    padding: 0 30px;
+                }
 }
 #impact-intro{
      height: 100vh;
@@ -189,12 +193,11 @@
                 padding-top: 100px;
             }
             h3{color: $dark-red;
-                width: 100vw;
                 background-image:url('../img/impact/moral-img.jpg') ;
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
-               padding: 70px 15px 0 15px;
+                padding: 100px 15px 20px ;
                 @include md{background-image: none;
                     padding: 0;
                     width: auto ;
@@ -306,7 +309,74 @@
  /* --------------------------
     Change
  --------------------------*/
+#change-section{
+    >div{
+        background-color: $blue;
+        padding: 100px 0;
 
+        @include md{
+            display: grid;
+            grid-template-columns: 40% auto;
+            grid-template-areas: 
+            "c-img ct"
+            "c-img cb1"
+            "cb2 cb2";
+        }
+
+        @include lg{padding: 150px 0;
+            grid-template-areas: 
+            "c-img ct"
+            "c-img cb1"
+            "c-img cb2";
+        }
+        
+        #change-img{
+            grid-area: c-img;
+            img{z-index: 400;
+                object-position: center;
+                object-fit: cover;
+                height: 30vh;
+                width: 100vw;
+
+                @include md{
+                    width: 100%;
+                    height: 100%;
+                }
+
+                @include lg{
+                    height: 90vh;
+                }
+            }
+        }
+
+        #change-title{
+            grid-area: ct;
+            @include md{ z-index: 500;
+                padding-top: 100px;
+                margin: 0 0 0 -100px;
+            }
+
+            @include lg{
+                width: 50vw;
+                margin: 0 0 0 -150px;
+            }
+
+        }
+        #change-body-1{
+            grid-area: cb1;
+            @include lg{
+                padding-right: 10vw;
+            }
+        }
+        #change-body-2{
+            grid-area: cb2;
+            @include lg{
+                padding-right: 10vw;
+            }
+        }
+
+    }
+}
  /* --------------------------
     Hero-2
  --------------------------*/
@@ -314,11 +384,75 @@
  #impact-hero-2{
     background-image:url('../img/impact/hero-2.jpg') ;
     background-size: cover;
-    background-position: center -800px;
+    background-position: bottom ;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 40vh;
+    z-index: 700;
+    @include md{
+        height: 50vh;
+    }
+    @include xl{
+        height: 100vh;
+        background-position: center -650px ;
+    }
 }
  /* --------------------------
     Sway
  --------------------------*/
+ #sway-section{
+    >div{
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: "st si"
+            "sb si";
+        }
+
+        @include lg{
+            grid-template-columns: 60% auto;
+        }
+        #sway-content{
+            @include lg{
+                padding-left: 15vw;
+            }
+            h3{
+                color: $blue-black;
+                
+                background-image:url('../img/impact/sway-img-mobile.jpg') ;
+                background-size: cover;
+                background-position: right center;
+                background-repeat: no-repeat;
+                padding: 100px 15px 20px ;
+                grid-area: st;
+                @include  md{
+                    background-image: none;
+                    padding:100px 30px 0;
+                    text-align: right ;
+
+                }
+
+                @include lg{z-index: 800;
+                    margin: 0 -10vw 0 20vw ;
+                    position: relative;
+                }
+            }
+            p{grid-area: sb;
+    
+            }
+           
+         }
+         #sway-img{grid-area: si;
+            
+            img{z-index: 110;
+                display: none;
+
+                @include md{
+                    display: initial;
+                    height: auto;
+                    width: 100%;
+                }
+            }
+        }
+    }
+ }
  
