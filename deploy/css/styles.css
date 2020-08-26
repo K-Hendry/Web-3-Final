@@ -1278,6 +1278,9 @@ footer {
     height: 30vh;
   }
 }
+#section-1-experiment #para-section-1 {
+  padding-top: 100px;
+}
 @media (min-width: 768px) {
   #section-1-experiment #para-section-1 {
     grid-column-start: 2;
@@ -1286,11 +1289,31 @@ footer {
   }
 }
 
+#section-2-experiment #pullquote-section-2 h3 {
+  text-align: right;
+  padding-right: 3%;
+}
+@media (min-width: 768px) {
+  #section-2-experiment #pullquote-section-2 {
+    margin: auto 5% auto 30%;
+  }
+}
 #section-2-experiment #image-section-2 {
   background-image: url("../img/experimentation/france.jpg");
   background-position: center;
   background-size: cover;
-  height: 70vh;
+  height: 100vh;
+  margin-top: -300px;
+}
+@media (min-width: 768px) {
+  #section-2-experiment #image-section-2 {
+    margin: auto 10%;
+  }
+}
+
+#section-3-experiment #para-section-3 {
+  background-color: #EF777A;
+  padding: 20% 3%;
 }
 
 #section-4-experiment #image-section-4 {

@@ -112,6 +112,7 @@
         }
     }
     #para-section-1 {
+        padding-top: 100px;
         @include md{
             grid-column-start: 2;
             grid-row-start: 2;
@@ -121,18 +122,33 @@
 }
 
 #section-2-experiment {
-    #pullquote-section-2 {}
+    #pullquote-section-2 {
+        h3{
+            text-align: right;
+            padding-right: 3%;
+        }
+        @include md{
+            margin: auto 5% auto 30%;
+        }
+    }
 
     #image-section-2 {
         background-image: url('../img/experimentation/france.jpg');
         background-position: center;
         background-size: cover;
-        height: 70vh;
+        height: 100vh;
+        margin-top: -300px;
+        @include md{
+            margin: auto 10%;
+        }
     }
 }
 
 #section-3-experiment {
-    #para-section-3 {}
+    #para-section-3 {
+        background-color: $red;
+        padding: 20% 3%;
+    }
 }
 
 #section-4-experiment {
