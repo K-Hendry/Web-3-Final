@@ -152,7 +152,12 @@
 }
 
 #section-4-experiment {
-    #pullquote-section-4 {}
+    #pullquote-section-4 {
+        h3{
+            text-align: right;
+            padding-right: 3%;
+        }
+    }
 
     #image-section-4 {
         background-image: url('../img/experimentation/logos.jpg');
@@ -169,20 +174,20 @@
         background-image: url('../img/experimentation/scotland.jpg');
         background-position: center;
         background-size: cover;
-        height: 70vh;
+        height: 50vh;
     }
 
     #image-2-section-5 {
         background-image: url('../img/experimentation/denmark.jpg');
         background-position: center;
         background-size: cover;
-        height: 70vh;
+        height: 50vh;
     }
 
     #image-3-section-5 {
         background-image: url('../img/experimentation/aroha.jpg');
         background-position: center;
         background-size: cover;
-        height: 70vh;
+        height: 50vh;
     }
 }
