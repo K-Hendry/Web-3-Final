@@ -24,6 +24,11 @@
                     width: 90vw;
                 }
 
+                @include xl {
+                    width: 80vw;
+
+                }
+
                 // position: relative;
             }
 
@@ -42,8 +47,14 @@
                     margin-bottom: 180px;
                 }
 
-                @include lg{
+                @include lg {
                     margin-left: 30%;
+                }
+
+                @include xl {
+                    text-align: center;
+                    margin-left: 0px;
+                    margin-top: -400px;
                 }
 
             }
@@ -59,6 +70,10 @@
 
                 @include lg {
                     margin-top: -120px;
+                }
+
+                @include xl {
+                    margin-top: -20px;
                 }
             }
         }
@@ -111,67 +126,94 @@
 #emp-text {
     background-color: $red;
 
-    div {
+    #emp-text-content {
 
-        #emp-text-grid {
-            @include lg {
+        #xl {
+            @include xl {
                 display: grid;
-                grid-template-columns: 42% auto;
-                grid-template-rows: autp auto;
-                grid-template-areas: "suitcase ctext"
-                    "suitcase involved";
+                grid-template-columns: auto 1440px auto;
+                grid-template-areas: ". xl .";
             }
 
-            img {
-                height: 385px;
-                width: 230px;
-                object-fit: cover;
-
-                @include md {
-                    width: 45%;
-                }
-
+            #emp-text-grid {
                 @include lg {
-                    height: 500px;
-                    grid-area: suitcase;
-                    width: 42vw;
-                    margin-top: 100px;
-                }
-            }
-
-            #p1 {
-                color: $blue-black;
-                padding-bottom: 100px;
-
-                @include md {
-                    padding-left: 25%;
-                    padding-right: 12%;
-                    margin: 0;
+                    display: grid;
+                    grid-template-columns: 42% auto;
+                    grid-template-rows: autp auto;
+                    grid-template-areas: "suitcase ctext"
+                        "suitcase involved";
                 }
 
-                @include lg {
-                    grid-area: ctext;
-                    padding-left: 60px;
-                }
-            }
-
-            h3 {
-                padding: 0px 20px 0px 20px;
-                margin-top: -55px;
-
-                @include md {
-                    margin-top: -200px;
-                    padding-left: 36%;
-                    padding-right: 120px;
-                    margin-bottom: 200px;
+                @include xl {
+                    grid-area: xl;
                 }
 
-                @include lg {
-                    grid-area: involved;
-                    margin-top: 0px;
-                    margin-left: -80px;
-                    padding-left: 0px;
-                    padding-right: 200px;
+                img {
+                    height: 385px;
+                    width: 230px;
+                    object-fit: cover;
+
+                    @include md {
+                        width: 45%;
+                    }
+
+                    @include lg {
+                        height: 500px;
+                        grid-area: suitcase;
+                        width: 42vw;
+                        margin-top: 100px;
+                    }
+
+                    @include xl {
+                        width: 530px;
+                        margin-left: auto;
+                    }
+                }
+
+
+                #p1 {
+                    color: $blue-black;
+                    padding-bottom: 100px;
+
+                    @include md {
+                        padding-left: 25%;
+                        padding-right: 12%;
+                        margin: 0;
+                    }
+
+                    @include lg {
+                        grid-area: ctext;
+                        padding-left: 60px;
+                    }
+
+                    @include xl {
+                        width: 500px;
+                        padding-left: 100px;
+                    }
+                }
+
+                h3 {
+                    padding: 0px 20px 0px 20px;
+                    margin-top: -55px;
+
+                    @include md {
+                        margin-top: -200px;
+                        padding-left: 36%;
+                        padding-right: 120px;
+                        margin-bottom: 200px;
+                    }
+
+                    @include lg {
+                        grid-area: involved;
+                        margin-top: 0px;
+                        margin-left: -80px;
+                        padding-left: 0px;
+                        padding-right: 200px;
+                    }
+
+                    @include xl {
+                        padding-right: 400px;
+                    }
                 }
             }
         }
@@ -179,16 +221,24 @@
         #p2 {
             padding: 0px 90px;
 
-            @include lg{
+            @include lg {
                 padding: 0px 20vw;
+            }
+
+            @include xl {
+                width: 700px;
             }
         }
 
         #p3 {
             padding: 50px 90px 0 90px;
 
-            @include lg{
+            @include lg {
                 padding: 50px 10vw 0px 25vw;
+            }
+
+            @include xl {
+                width: 900px;
             }
         }
     }
@@ -198,22 +248,32 @@
     background-color: $off-white;
     padding: 100px 0px;
 
-    @include lg{
+    @include lg {
         padding: 0px;
     }
 
-    @include xl{
+    @include xl {
         padding: 150px 0px;
         // height: 100vh;
     }
 
+    @include xl {
+        display: grid;
+        grid-template-columns: auto 1440px auto;
+        grid-template-areas: ". xl2 .";
+    }
+
     #emp-map-content {
-        @include lg{
+        @include lg {
             display: grid;
             grid-template-rows: 50% auto;
             grid-template-columns: 35% auto;
             grid-template-areas: "102p mapgrid"
-                                "designers mapgrid";
+                "designers mapgrid";
+        }
+
+        @include xl {
+            grid-area: xl2;
         }
 
         #counter {
@@ -230,15 +290,19 @@
                 grid-template-areas: ". tween positions .";
             }
 
-            @include lg{
+            @include lg {
                 grid-area: 102p;
                 grid-template-rows: 1fr 1fr;
                 grid-template-columns: 1fr;
                 grid-template-areas: "tween"
-                "positions";
+                    "positions";
                 padding-right: 20px;
                 padding-top: 15vh;
-                
+
+            }
+
+            @include xl {
+                padding-top: 0px;
             }
 
             #count-tween {
@@ -250,7 +314,7 @@
                     margin-right: 0px;
                 }
 
-                @include lg{
+                @include lg {
                     text-align: right;
                 }
             }
@@ -264,7 +328,7 @@
                     padding-left: 0px;
                 }
 
-                @include lg{
+                @include lg {
                     text-align: right;
                     margin-top: -10px;
                 }
@@ -275,12 +339,12 @@
         #designers-wanted {
             color: $dark-red;
 
-            @include lg{
+            @include lg {
                 grid-area: designers;
                 padding-right: 20px;
                 padding-left: 15%;
                 padding-top: 90px;
-                
+
             }
 
             p {
@@ -294,7 +358,7 @@
                     padding-left: 400px;
                 }
 
-                @include lg{
+                @include lg {
                     padding: 0px;
                     padding-left: 150px;
                     // display: inline-block;
@@ -311,7 +375,7 @@
                     text-align: left;
                 }
 
-                @include lg{
+                @include lg {
                     padding: 0px;
                     text-align: right;
                     // display: inline-block;
@@ -323,7 +387,7 @@
         #google-map {
             padding: 100px 0px;
 
-            @include lg{
+            @include lg {
                 grid-area: mapgrid;
                 padding: 0px;
             }
@@ -339,9 +403,14 @@
                         height: 620px;
                     }
 
-                    @include lg{
+                    @include lg {
                         height: 100vh;
                         width: 100%;
+                    }
+
+                    @include xl {
+                        height: 630px;
+
                     }
                 }
             }
@@ -367,12 +436,18 @@
                 // grid-row-gap: 100px;
             }
 
-            @include lg{
+            @include lg {
                 grid-template-columns: auto 350px 350px auto;
                 grid-template-rows: repeat(2, 430px);
                 grid-template-areas: ". hi5 three ."
-                                    ". ssk bluestate .";
+                    ". ssk bluestate .";
                 // gap: 100px;
+            }
+
+            @include xl{
+                grid-template-rows: 430px;
+                grid-template-columns: auto 350px 350px 350px 350px auto;
+                grid-template-areas: ". ssk hi5 three bluestate ."
             }
 
             .card {
@@ -381,7 +456,7 @@
                 background-color: $off-white;
                 width: 250px;
                 margin-bottom: 100px;
-                
+
 
                 img {
                     padding: 40px 0px 20px 0px;
@@ -399,7 +474,7 @@
                         padding-left: 20px;
                     }
 
-                    
+
                 }
 
                 p {
@@ -409,7 +484,7 @@
                         padding-right: 20px;
                     }
 
-                    @include lg{
+                    @include lg {
                         margin-top: 0px;
                         font-size: rem-calc(18);
                         height: 110px;
@@ -424,20 +499,20 @@
                     grid-area: 1 / 1 / 3 / 2;
                 }
 
-                @include lg{
+                @include lg {
                     grid-area: hi5;
                 }
 
                 img {
                     height: 80px;
 
-                    @include lg{
+                    @include lg {
                         padding-top: 30px;
                         padding-bottom: 25px;
                     }
                 }
-                
-                h4{
+
+                h4 {
                     margin-top: -40px;
                 }
             }
@@ -447,8 +522,8 @@
                     grid-area: 2 / 2 / 4 / 3;
                 }
 
-                @include lg{
-                    grid-area: three ;
+                @include lg {
+                    grid-area: three;
                 }
 
                 img {
@@ -456,8 +531,8 @@
 
                 }
 
-                h4{
-                    @include lg{
+                h4 {
+                    @include lg {
                         padding-bottom: 10px;
                     }
                 }
@@ -468,18 +543,18 @@
                     grid-area: 3 / 1 / 5 / 2;
                 }
 
-                @include lg{
+                @include lg {
                     grid-area: ssk;
                 }
 
                 img {
                     height: 30px;
 
-                    
+
                 }
 
-                h4{
-                    @include lg{
+                h4 {
+                    @include lg {
                         margin-top: 10px;
                     }
                 }
@@ -490,9 +565,10 @@
                     grid-area: 4 / 2 / 6 / 3;
                 }
 
-                @include lg{
+                @include lg {
                     grid-area: bluestate;
-                } 
+                }
+
                 img {
                     height: 40px;
                 }
@@ -504,7 +580,7 @@
                 padding: 0px 90px;
             }
 
-            @include lg{
+            @include lg {
                 padding: 0 25vw;
             }
         }
