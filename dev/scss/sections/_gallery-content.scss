@@ -8,12 +8,12 @@ img{
     font-weight: 700;
 }
 #gallery-hero{
-    padding-top: 0;
     background-color: $off-white;
     div{
         position: relative;
         display: flex;
         justify-content: flex-end;
+    
         img{
             height: 500px;
             @include md {
@@ -22,7 +22,7 @@ img{
             }
 
             @include lg {
-                height: 525px;
+                height: 85vh;
             }
         }
         h1{
