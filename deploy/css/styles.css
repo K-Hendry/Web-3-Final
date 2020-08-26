@@ -607,6 +607,11 @@ footer {
   background-color: #007785;
   padding: 50px;
 }
+@media (min-width: 768px) {
+  footer div {
+    display: flex;
+  }
+}
 footer div #footer-title {
   font-family: "Fjalla One", sans-serif;
   color: #fff;
@@ -615,8 +620,28 @@ footer div #footer-title {
   padding-bottom: 20px;
   line-height: 1.875rem;
 }
+@media (min-width: 768px) {
+  footer div #footer-title {
+    flex: 1;
+  }
+}
 footer div #footer-links {
   padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  footer div #footer-links {
+    flex: 2;
+  }
+}
+@media (min-width: 768px) {
+  footer div #footer-links #break {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  footer div #footer-links #break {
+    display: none;
+  }
 }
 footer div #footer-links p {
   color: #FFDA37;
@@ -625,11 +650,32 @@ footer div #footer-links p {
   margin: 0;
   line-height: 2.5rem;
 }
-footer div #footer-links #link1 {
-  padding-bottom: 10px;
+@media (min-width: 768px) {
+  footer div #footer-links p {
+    line-height: 1.5625rem;
+  }
+}
+@media (min-width: 992px) {
+  footer div #footer-links p {
+    font-size: 1.375rem;
+  }
+}
+@media (min-width: 768px) {
+  footer div #logos {
+    flex: 1;
+    margin-right: -100px;
+  }
 }
 footer div #logos ul {
   display: flex;
+}
+@media (min-width: 768px) {
+  footer div #logos ul {
+    display: grid;
+    grid-template-rows: repeat(2, 40px);
+    grid-template-columns: repeat(2, 40px);
+    text-align: right;
+  }
 }
 footer div #logos ul li {
   flex: 1;
