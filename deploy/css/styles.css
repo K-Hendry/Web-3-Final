@@ -374,26 +374,12 @@ ul li {
   grid-area: container;
 }
 
-.header-container {
-  display: grid;
-  grid-template-columns: 15px auto 15px;
-  grid-template-areas: ". container .";
-}
-@media (min-width: 992px) {
-  .header-container {
-    grid-template-columns: 30px auto 30px;
-  }
-}
-.header-container > div {
-  grid-area: container;
-}
-
 .content-spacing {
-  margin: 100px 0 0 0;
+  margin: 100px 0px;
 }
 @media (min-width: 992px) {
   .content-spacing {
-    margin: 150px 0 0 0;
+    margin: 150px 0px;
   }
 }
 
@@ -909,11 +895,33 @@ footer {
 /* =============
     Impact
 ============= */
+.impact-container {
+  padding: 0 15px;
+}
+@media (min-width: 768px) {
+  .impact-container {
+    padding: 0 30px;
+  }
+}
+
 #impact-intro {
-  display: grid;
-  grid-template-columns: 50% auto;
-  grid-template-areas: "im-c im-i";
   height: 100vh;
+  margin-bottom: -220px;
+}
+@media (min-width: 768px) {
+  #impact-intro {
+    background-image: none;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "im-c im-i";
+    height: 50vh;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 992px) {
+  #impact-intro {
+    height: 100vh;
+  }
 }
 #impact-intro #impact-content {
   display: flex;
@@ -922,30 +930,78 @@ footer {
   flex-direction: column;
   grid-area: im-c;
   z-index: 200;
+  margin-top: -220px;
+  padding: 0 20px;
+}
+@media (min-width: 768px) {
+  #impact-intro #impact-content {
+    padding: 0;
+    margin-top: 0;
+  }
 }
 #impact-intro #impact-content h1 {
-  font-size: 12.5rem;
-  margin: 0 -100px 0 0;
+  font-size: 6.25rem;
   color: #2E2E41;
 }
+@media (min-width: 768px) {
+  #impact-intro #impact-content h1 {
+    font-size: 7.8125rem;
+    margin: 0 -150px 0 0;
+  }
+}
+@media (min-width: 992px) {
+  #impact-intro #impact-content h1 {
+    font-size: 12.5rem;
+    margin: 0 -100px 0 0;
+  }
+}
 #impact-intro #impact-content h2 {
-  margin: 0 -200px 0 0;
-  text-align: right;
-  font-size: 1.875rem;
-  width: 50vw;
+  font-size: 1.25rem;
   color: #007785;
+}
+@media (min-width: 768px) {
+  #impact-intro #impact-content h2 {
+    margin: 0 -150px 0 0;
+    text-align: right;
+    width: 50vw;
+  }
+}
+@media (min-width: 992px) {
+  #impact-intro #impact-content h2 {
+    margin: 0 -200px 0 0;
+    text-align: right;
+    font-size: 1.875rem;
+    width: 50vw;
+  }
 }
 #impact-intro #impact-img {
   z-index: 100;
   grid-area: im-i;
-  background-image: url("../img/impact/impact-intro.jpg");
+  background-image: url("../img/impact/impact-intro-mobile.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 50vw;
-  display: flex;
-  opacity: 70%;
+  height: 50vh;
+  width: 100vw;
+}
+@media (min-width: 768px) {
+  #impact-intro #impact-img {
+    z-index: 100;
+    grid-area: im-i;
+    background-image: url("../img/impact/impact-intro.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    opacity: 70%;
+  }
+}
+@media (min-width: 992px) {
+  #impact-intro #impact-img {
+    height: 100vh;
+  }
 }
 
 /* --------------------------
@@ -958,17 +1014,165 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 100px 10vw 100px 0;
+  padding: 100px 20px 100px 20px;
+}
+@media (min-width: 768px) {
+  #impact-thesis > div {
+    padding: 100px 10vw 100px 0;
+  }
 }
 #impact-thesis > div p {
-  width: 70vw;
   text-align: right;
   color: #F5F5EE;
+}
+@media (min-width: 768px) {
+  #impact-thesis > div p {
+    width: 80vw;
+  }
 }
 
 /* --------------------------
    Moral
 --------------------------*/
+@media (min-width: 768px) {
+  #moral-section div {
+    display: grid;
+    grid-template-columns: auto 40%;
+    grid-template-areas: "mc-1 m-img" "mco mco" "mc-2 mc-2";
+  }
+}
+@media (min-width: 992px) {
+  #moral-section div {
+    grid-template-areas: "mc-1 m-img" "mco m-img" "mc-2 m-img";
+  }
+}
+#moral-section div #moral-img {
+  grid-area: m-img;
+}
+#moral-section div #moral-img img {
+  display: none;
+}
+@media (min-width: 768px) {
+  #moral-section div #moral-img img {
+    display: initial;
+    object-position: center;
+    object-fit: cover;
+    width: 40vw;
+    height: 40vh;
+  }
+}
+@media (min-width: 992px) {
+  #moral-section div #moral-img img {
+    height: 100%;
+  }
+}
+#moral-section div #moral-content-1 {
+  grid-area: mc-1;
+  display: inline;
+}
+@media (min-width: 768px) {
+  #moral-section div #moral-content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+@media (min-width: 992px) {
+  #moral-section div #moral-content-1 {
+    padding-top: 100px;
+  }
+}
+#moral-section div #moral-content-1 h3 {
+  color: #D43732;
+  width: 100vw;
+  background-image: url("../img/impact/moral-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 15px 0 15px;
+}
+@media (min-width: 768px) {
+  #moral-section div #moral-content-1 h3 {
+    background-image: none;
+    padding: 0;
+    width: auto;
+    text-align: right;
+    margin: 0 -100px 0 100px;
+  }
+}
+@media (min-width: 992px) {
+  #moral-section div #moral-content-1 h3 {
+    margin: 0 -150px 0 400px;
+  }
+}
+#moral-section div #moral-content-1 p {
+  padding: 0 15px;
+}
+@media (min-width: 768px) {
+  #moral-section div #moral-content-1 p {
+    padding: 0 30px;
+  }
+}
+@media (min-width: 992px) {
+  #moral-section div #moral-content-1 p {
+    padding-right: 20px;
+    padding-left: 15vw;
+  }
+}
+#moral-section div #moral-callout {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  grid-area: mco;
+}
+#moral-section div #moral-callout h2 {
+  color: #007785;
+  text-align: center;
+  width: 95vw;
+  font-size: 1.0625rem;
+  line-height: 30px;
+}
+@media (min-width: 768px) {
+  #moral-section div #moral-callout h2 {
+    font-size: 1.4375rem;
+    width: auto;
+    width: 70vw;
+    padding-top: 20px;
+  }
+}
+@media (min-width: 992px) {
+  #moral-section div #moral-callout h2 {
+    width: 45vw;
+    padding-top: 0;
+  }
+}
+#moral-section div #moral-content-2 {
+  grid-area: mc-2;
+}
+@media (min-width: 768px) {
+  #moral-section div #moral-content-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+  }
+}
+#moral-section div #moral-content-2 p {
+  padding: 0 15px;
+}
+@media (min-width: 768px) {
+  #moral-section div #moral-content-2 p {
+    width: 90vw;
+    padding: 0 30px;
+  }
+}
+@media (min-width: 992px) {
+  #moral-section div #moral-content-2 p {
+    padding-left: 15vw;
+    width: 100%;
+    padding-bottom: 100px;
+  }
+}
+
 /* --------------------------
    Hero-1
 --------------------------*/
@@ -978,6 +1182,32 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  padding: 40px 15px 0;
+}
+@media (min-width: 768px) {
+  #impact-hero-1 {
+    height: 50vh;
+  }
+}
+#impact-hero-1 h1 {
+  font-size: 3.125rem;
+}
+#impact-hero-1 p {
+  text-align: right;
+}
+@media (min-width: 768px) {
+  #impact-hero-1 p {
+    padding-right: 20vh;
+  }
+}
+@media (min-width: 992px) {
+  #impact-hero-1 p {
+    padding-right: 60vh;
+  }
 }
 
 /* --------------------------

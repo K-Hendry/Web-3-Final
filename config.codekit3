@@ -116,6 +116,83 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/impact/change-img.jpg": {
+		"ft": 16384,
+		"iS": 3063362,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/change-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/impact/hero-1.jpg": {
+		"ft": 16384,
+		"iS": 1629327,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/hero-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/impact/hero-2.jpg": {
+		"ft": 16384,
+		"iS": 1237591,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/hero-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/impact/impact-intro-mobile.jpg": {
+		"ft": 16384,
+		"iS": 3137482,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/impact-intro-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/impact/impact-intro.jpg": {
+		"ft": 16384,
+		"iS": 3308345,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/impact-intro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/impact/moral-img.jpg": {
+		"ft": 16384,
+		"iS": 1483343,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/moral-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/impact/sway-img.jpg": {
+		"ft": 16384,
+		"iS": 1870968,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/sway-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/impact.html": {
 		"cB": 0,
 		"ft": 8192,
