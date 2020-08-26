@@ -122,29 +122,36 @@
                 <div id="gallery-quote-2">
                     <p class="pull-quote">Good campaign design isn’t always about fancy or complex graphics; often it’s about presenting a message in a clear and effective way.</p>
                 </div>
-                <div id="gallery-content-4" class="content-spacing">
-                    <div>
-                        <img src="img/gallery/h-progress.jpg" alt="Sketches of Hillary Clinton campaign logo">
-                        <p class="body-text">The Clinton campaign followed suit, though Bierut and his team at Pentagram strove to make Clinton’s branding less about exuding familiarity and experience more about being approachable.</p>
+                <section id="gallery-content-4">
+                    <div class="content-spacing">
+                        <div id="gallery-logo-1">
+                            <img src="img/gallery/h-progress.jpg" alt="Sketches of Hillary Clinton campaign logo">
+                            <p class="body-text">The Clinton campaign followed suit, though Bierut and his team at Pentagram strove to make Clinton’s branding less about exuding familiarity and experience more about being approachable.</p>
+                        </div>
+                        <div id="gallery-logo-2">
+                            <p class="body-text">Designed by Maria Arenas, the Alexandria Ocasio’s campaign was fresh, stylish, and modern. Arenas’ work combined great photography with striking typography, using the simple concept of complimentary colours (#EFCA2D for the yellow and #464675 for the purple) to devise a powerful, shareable set of graphics.</p>
+                            <img id="i2" src="img/gallery/Alexandria-Ocasio.jpg" alt="Alexandria Ocasio campaign poster">
+                            <img id="i3" src="img/gallery/h-logo.jpg" alt="Hillary Clinton campaign logo">
+                            <img id="i4" class="show-for-md" src="img/gallery/k-logo.jpg" alt="Kalama Harris campaign logo">
+                        </div>
                     </div>
-                    <div>
-                        <p class="body-text">Designed by Maria Arenas, the Alexandria Ocasio’s campaign was fresh, stylish, and modern. Arenas’ work combined great photography with striking typography, using the simple concept of complimentary colours (#EFCA2D for the yellow and #464675 for the purple) to devise a powerful, shareable set of graphics.</p>
-                        <img src="img/gallery/Alexandria-Ocasio.jpg" alt="Alexandria Ocasio campaign poster">
-                        <img src="img/gallery/h-logo.jpg" alt="Hillary Clinton campaign logo">
-                        <img class="show-for-md" src="img/gallery/k-logo.jpg" alt="Kalama Harris campaign logo">
-                    </div>
-                </div>
+                </section>
             </section>
             <section id="gallery-form">
                 <div>
-                    <h3>Vote for<br class="show-for-lg">your<br>favorite</h3>
-                    <form action="https://formspree.io/mlepowjj" method="POST">
-                        <p>Hi, my name is <input type="name" placeholder="Name" name="name"> and I love <textarea placeholder="your favorite work" name="comment" rows="1"></textarea>. Could you send more similar designs to me at <input type="your email" placeholder="Email" name="email">?
-                        </p>
-                        <textarea placeholder="Comments" name="comment" rows="1"></textarea>
-                        <div>
+                    <h3>Vote for<br class="show-for-lg"> your<br>favorite</h3>
+                    <form class="content-spacing" action="https://formspree.io/mlepowjj" method="POST">
+                        <section>
+                            <p>Hi, my name is <input type="name" placeholder="Name" name="name"> and I love <input placeholder="your favorite work" name="comment"> . Could you send more similar designs to me at <input type="your email" placeholder="Email" name="email"> ?
+                            </p>
+                        </section>
+                        <section>
+                            <textarea placeholder="Comments" name="comment" rows="1"></textarea>
+                        </section>
+                        <section>
                             <button type="submit" class="button">Send</button>
-                        </div>
+                        </section>
+                        
                     </form>
                 </div>
             </section>
