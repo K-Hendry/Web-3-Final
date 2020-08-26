@@ -517,8 +517,74 @@ footer {
   background-image: url("../img/experimentation/experimentation-hero.jpg");
   background-position: center;
   background-size: cover;
-  height: 70vh;
+  height: 500px;
+  width: 100%;
 }
+@media (min-width: 768px) {
+  #hero-experiment #hero-image-experiment {
+    width: 75vw;
+  }
+}
+@media (min-width: 992px) {
+  #hero-experiment #hero-image-experiment {
+    height: 700px;
+    width: 90vw;
+  }
+}
+@media (min-width: 1200px) {
+  #hero-experiment #hero-image-experiment {
+    width: 80vw;
+  }
+}
+#hero-experiment #title-experiment {
+  bottom: 200px;
+  text-align: left;
+  margin-top: -300px;
+  margin-bottom: 90px;
+  padding: 0px 5px;
+}
+@media (min-width: 768px) {
+  #hero-experiment #title-experiment {
+    margin-left: 25%;
+    margin-bottom: 180px;
+  }
+}
+@media (min-width: 992px) {
+  #hero-experiment #title-experiment {
+    margin-left: 30%;
+  }
+}
+@media (min-width: 1200px) {
+  #hero-experiment #title-experiment {
+    text-align: center;
+    margin-left: 0px;
+    margin-top: -400px;
+  }
+}
+#hero-experiment #title-experiment h1 {
+  font-size: 2.1875rem;
+}
+#hero-experiment #subtitle-experiment {
+  text-align: left;
+  margin-top: -50px;
+  padding: 0px 80px 0px 20px;
+}
+@media (min-width: 768px) {
+  #hero-experiment #subtitle-experiment {
+    padding-left: 15%;
+  }
+}
+@media (min-width: 992px) {
+  #hero-experiment #subtitle-experiment {
+    margin-top: -120px;
+  }
+}
+@media (min-width: 1200px) {
+  #hero-experiment #subtitle-experiment {
+    margin-top: -20px;
+  }
+}
+
 #section-1-experiment #image-section-1 {
   background-image: url("../img/experimentation/obama.jpg");
   background-position: center;

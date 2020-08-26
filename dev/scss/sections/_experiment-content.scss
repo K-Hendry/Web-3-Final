@@ -1,83 +1,136 @@
 /* =============
     Experiment
 ============= */
-#hero-experiment{
-    #hero-image-experiment{
+#hero-experiment {
+    #hero-image-experiment {
         background-image: url('../img/experimentation/experimentation-hero.jpg');
         background-position: center;
         background-size: cover;
-        height: 70vh;
-    }
-    #title-experiment{
-        
-    }
-    #subtitle-experiment{
+        height: 500px;
+        width: 100%;
 
+        @include md {
+            width: 75vw;
+
+        }
+
+        @include lg {
+            height: 700px;
+            width: 90vw;
+        }
+
+        @include xl {
+            width: 80vw;
+
+        }
+    }
+
+    #title-experiment {
+        bottom: 200px;
+        text-align: left;
+        margin-top: -300px;
+        margin-bottom: 90px;
+        padding: 0px 5px;
+        //color: $red;
+
+        @include md {
+            margin-left: 25%;
+            margin-bottom: 180px;
+        }
+
+        @include lg {
+            margin-left: 30%;
+        }
+
+        @include xl {
+            text-align: center;
+            margin-left: 0px;
+            margin-top: -400px;
+        }
+        h1{
+            font-size: rem-calc(35);
+        }
+    }
+
+    #subtitle-experiment {
+        text-align: left;
+        margin-top: -50px;
+        padding: 0px 80px 0px 20px;
+
+        @include md {
+            padding-left: 15%;
+        }
+
+        @include lg {
+            margin-top: -120px;
+        }
+
+        @include xl {
+            margin-top: -20px;
+        }
     }
 }
-#section-1-experiment{
-    #pullquote-section-1{
-        
-    }
-    #para-section-1{
-            
-    }
-    #image-section-1{
+
+#section-1-experiment {
+    #pullquote-section-1 {}
+
+    #para-section-1 {}
+
+    #image-section-1 {
         background-image: url('../img/experimentation/obama.jpg');
         background-position: center;
         background-size: cover;
         height: 70vh;
     }
 }
-#section-2-experiment{
-    #pullquote-section-2{
 
-    }
-    #image-section-2{
+#section-2-experiment {
+    #pullquote-section-2 {}
+
+    #image-section-2 {
         background-image: url('../img/experimentation/france.jpg');
         background-position: center;
         background-size: cover;
         height: 70vh;
     }
 }
-#section-3-experiment{
-    #para-section-3{
 
-    }
+#section-3-experiment {
+    #para-section-3 {}
 }
-#section-4-experiment{
-    #pullquote-section-4{
 
-    }
-    #image-section-4{
+#section-4-experiment {
+    #pullquote-section-4 {}
+
+    #image-section-4 {
         background-image: url('../img/experimentation/logos.jpg');
         background-position: center;
         background-size: cover;
         height: 70vh;
     }
-    #para-section-4{
 
-    }
+    #para-section-4 {}
 }
-#section-5-experiment{
-    #image-1-section-5{
+
+#section-5-experiment {
+    #image-1-section-5 {
         background-image: url('../img/experimentation/scotland.jpg');
         background-position: center;
         background-size: cover;
         height: 70vh;
     }
-    #image-2-section-5{
+
+    #image-2-section-5 {
         background-image: url('../img/experimentation/denmark.jpg');
         background-position: center;
         background-size: cover;
         height: 70vh;
     }
-    #image-3-section-5{
+
+    #image-3-section-5 {
         background-image: url('../img/experimentation/aroha.jpg');
         background-position: center;
         background-size: cover;
         height: 70vh;
     }
 }
-
-
