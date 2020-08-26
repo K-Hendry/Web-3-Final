@@ -586,7 +586,8 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: green;
+  position: fixed;
+  background-color: #007785;
   z-index: 100;
 }
 header div {
@@ -594,10 +595,34 @@ header div {
   grid-template-columns: repeat(2, 1fr);
   padding: 20px;
 }
+header div #logo-container {
+  width: 20%;
+}
+header div #logo-container h1 {
+  color: #FFDA37;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  text-align: left;
+  transition: 0.25s;
+  cursor: pointer;
+}
+header div #logo-container h1:hover, header div #logo-container h1:active {
+  color: #F5F5EE;
+}
 header div #burger-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+header div #burger-container i {
+  color: #FFDA37;
+  font-size: 1.375rem;
+  transition: 0.25s;
+  cursor: pointer;
+}
+header div #burger-container i:hover, header div #burger-container i:active {
+  color: #F5F5EE;
 }
 
 /* =============
@@ -1164,6 +1189,268 @@ footer {
 /* =============
     Gallery
 ============= */
+img {
+  object-fit: cover;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+#gallery-hero {
+  background-color: #F5F5EE;
+}
+#gallery-hero div {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+#gallery-hero div img {
+  height: 500px;
+}
+@media (min-width: 768px) {
+  #gallery-hero div img {
+    width: 90%;
+  }
+}
+@media (min-width: 992px) {
+  #gallery-hero div img {
+    height: 85vh;
+  }
+}
+#gallery-hero div h1 {
+  position: absolute;
+  left: 6%;
+  top: 262px;
+  color: #EF777A;
+}
+#gallery-hero div p {
+  width: 550px;
+  margin-right: 10%;
+  text-align: right;
+  color: #EF777A;
+}
+
+#gallery-content-1 #gallery-quote-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/gallery/hero-2.jpg);
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+}
+#gallery-content-1 #gallery-quote-1 p {
+  margin-left: 10%;
+  color: #F5F5EE;
+}
+@media (min-width: 768px) {
+  #gallery-content-1 #gallery-quote-1 p {
+    width: 500px;
+  }
+}
+#gallery-content-1 #gallery-container {
+  background-color: #F5F5EE;
+}
+#gallery-content-1 #gallery-container p, #gallery-content-1 #gallery-container h3 {
+  color: #D43732;
+}
+#gallery-content-1 #gallery-container ul {
+  display: flex;
+}
+#gallery-content-1 #gallery-container ul li img {
+  height: 400px;
+}
+#gallery-content-1 #gallery-container ul :nth-child(1) img {
+  width: 300px;
+}
+
+#gallery-content-2 {
+  background-color: #22C9C6;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#gallery-content-2 img {
+  width: 60%;
+  height: 100vh;
+}
+#gallery-content-2 p {
+  width: 380px;
+  margin-left: -5%;
+}
+
+#gallery-content-3 {
+  background-color: #F5F5EE;
+  display: flex;
+  align-items: center;
+}
+#gallery-content-3 img {
+  height: 80vh;
+  margin-left: -15vw;
+}
+#gallery-content-3 > div {
+  background-color: #EF777A;
+  width: 75vw;
+  height: auto;
+}
+#gallery-content-3 > div p {
+  width: 50%;
+  padding-left: 15%;
+  color: #F5F5EE;
+  line-height: 1.75rem;
+}
+#gallery-content-3 > div :nth-child(1) {
+  padding-bottom: 0;
+}
+#gallery-content-3 > div :nth-child(2) {
+  padding-top: 0;
+}
+
+#gallery-quote-2 {
+  background-color: #007785;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#gallery-quote-2 p {
+  font-size: 2.625rem;
+  line-height: 3.75rem;
+  margin: 0;
+  width: 786px;
+  color: #B9DFE6;
+  text-align: center;
+}
+
+#gallery-content-4 {
+  background-color: #F5F5EE;
+}
+#gallery-content-4 #gallery-logo-1 {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "i1 p1";
+  grid-gap: 20px;
+}
+#gallery-content-4 #gallery-logo-1 img {
+  grid-area: i1;
+  width: 100%;
+  height: 100%;
+}
+#gallery-content-4 #gallery-logo-1 p {
+  line-height: 1.75rem;
+  margin: 20% 20% 20% 10%;
+  grid-area: p1;
+}
+#gallery-content-4 #gallery-logo-2 {
+  display: grid;
+  grid-template-columns: auto 25% 25%;
+  grid-template-areas: "p2 i2 i3" "p2 i2 i4";
+  grid-gap: 20px;
+}
+#gallery-content-4 #gallery-logo-2 img {
+  width: 100%;
+  height: 100%;
+}
+#gallery-content-4 #gallery-logo-2 #i2 {
+  grid-area: i2;
+}
+#gallery-content-4 #gallery-logo-2 #i3 {
+  grid-area: i3;
+}
+#gallery-content-4 #gallery-logo-2 #i4 {
+  grid-area: i4;
+}
+#gallery-content-4 #gallery-logo-2 p {
+  line-height: 1.75rem;
+  margin: 20% 10% 20% 20%;
+  grid-area: p2;
+}
+
+#gallery-form > div {
+  background-color: #EF777A;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+#gallery-form > div h3 {
+  color: #FFDA37;
+  position: absolute;
+  text-align: right;
+  top: 12%;
+  left: 8%;
+}
+#gallery-form > div form {
+  width: 85%;
+  background-color: #007785;
+}
+#gallery-form > div form p {
+  color: #F5F5EE;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  font-family: "Libre Baskerville", sans-serif;
+  text-align: center;
+  width: 560px;
+  margin: 0;
+}
+#gallery-form > div form section {
+  display: flex;
+  justify-content: center;
+}
+#gallery-form > div form section input,
+#gallery-form > div form section textarea {
+  font-size: 1.5rem;
+  font-family: "Libre Baskerville", sans-serif;
+  text-align: center;
+  padding: 10px 0;
+  outline: none;
+  background-color: #22C9C6;
+}
+#gallery-form > div form section textarea {
+  width: 440px;
+  margin: 20px 0;
+}
+#gallery-form > div ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #F5F5EE;
+  text-align: center;
+}
+#gallery-form > div :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #F5F5EE;
+  text-align: center;
+}
+#gallery-form > div ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #F5F5EE;
+  text-align: center;
+}
+
+input,
+button,
+textarea {
+  border: none;
+}
+
+.button {
+  align-items: center;
+  font-family: "Exo", sans-serif;
+  font-size: 1.25rem;
+  background-color: #FFDA37;
+  color: #EF777A;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  text-align: center;
+  transition: 0.25s;
+}
+.button:hover, .button:active {
+  color: #F5F5EE;
+  background-color: #EF777A;
+}
+
 /* =============
     Impact
 ============= */
