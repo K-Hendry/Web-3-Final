@@ -604,7 +604,45 @@ header div #burger-container {
     Footer
 ============= */
 footer {
-  background-color: green;
+  background-color: #007785;
+  padding: 50px;
+}
+footer div #footer-title {
+  font-family: "Fjalla One", sans-serif;
+  color: #fff;
+  margin: 0;
+  font-size: 1.375rem;
+  padding-bottom: 20px;
+  line-height: 1.875rem;
+}
+footer div #footer-links {
+  padding-bottom: 20px;
+}
+footer div #footer-links p {
+  color: #FFDA37;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1.125rem;
+  margin: 0;
+  line-height: 2.5rem;
+}
+footer div #footer-links #link1 {
+  padding-bottom: 10px;
+}
+footer div #logos ul {
+  display: flex;
+}
+footer div #logos ul li {
+  flex: 1;
+  font-size: 1.25rem;
+}
+footer div #logos ul li a:link,
+footer div #logos ul li a:visited {
+  color: #FFDA37;
+}
+footer div #logos ul li a:link:hover, footer div #logos ul li a:link:active,
+footer div #logos ul li a:visited:hover,
+footer div #logos ul li a:visited:active {
+  color: #EF777A;
 }
 
 /* =============
