@@ -94,9 +94,20 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/employment/stickers-hero.jpg": {
+	"/deploy/img/employment/stickers-hero-old.jpg": {
 		"ft": 16384,
 		"iS": 152906,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/employment/stickers-hero-old.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/employment/stickers-hero.jpg": {
+		"ft": 16384,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/stickers-hero.jpg",
