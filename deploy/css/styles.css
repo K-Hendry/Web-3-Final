@@ -2387,6 +2387,141 @@ textarea {
 /* --------------------------
   Employment
 --------------------------*/
+@media (min-width: 768px) {
+  #index-experimentation > div {
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-areas: "e-t e-im" "e-c e-im";
+  }
+}
+#index-experimentation > div img {
+  grid-area: e-im;
+  object-position: center;
+  object-fit: cover;
+  height: 40vh;
+}
+@media (min-width: 768px) {
+  #index-experimentation > div img {
+    height: 35vh;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  #index-experimentation > div img {
+    height: 60vh;
+    width: 100%;
+  }
+}
+#index-experimentation > div h3 {
+  margin-top: -100px;
+  color: #D43732;
+  width: 80vw;
+  grid-area: e-t;
+}
+@media (min-width: 768px) {
+  #index-experimentation > div h3 {
+    margin-top: 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: -100px;
+  }
+}
+@media (min-width: 992px) {
+  #index-experimentation > div h3 {
+    margin: 0 -7vw 0 30vw;
+  }
+}
+#index-experimentation > div p {
+  grid-area: e-c;
+  padding-top: 20px;
+  text-align: right;
+}
+#index-experimentation > div p span {
+  font-size: 1.4375rem;
+  font-weight: 700;
+  color: #2E2E41;
+}
+@media (min-width: 768px) {
+  #index-experimentation > div p span {
+    font-size: 1.625rem;
+  }
+}
+@media (min-width: 768px) {
+  #index-experimentation > div p {
+    text-align: left;
+    width: auto;
+  }
+}
+@media (min-width: 992px) {
+  #index-experimentation > div p {
+    text-align: right;
+    padding: 20px 30px 0 20vw;
+  }
+}
+
+/* --------------------------
+ Impact
+--------------------------*/
+#index-impact > div {
+  background-image: url("../img/impact/impact-intro-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media (min-width: 992px) {
+  #index-impact > div {
+    height: 70vh;
+    width: 80vw;
+  }
+}
+#index-impact > div h3 {
+  color: #2E2E41;
+  font-size: 2.4375rem;
+}
+@media (min-width: 768px) {
+  #index-impact > div h3 {
+    color: #D43732;
+    font-size: 3.125rem;
+  }
+}
+@media (min-width: 992px) {
+  #index-impact > div h3 {
+    padding-left: 10vw;
+  }
+}
+#index-impact > div p {
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  #index-impact > div p {
+    text-align: right;
+    padding-left: 20vw;
+  }
+}
+@media (min-width: 992px) {
+  #index-impact > div p {
+    padding-left: 10vw;
+    text-align: left;
+  }
+}
+#index-impact > div p span {
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  #index-impact > div p span {
+    font-size: 2.1875rem;
+  }
+}
+
 /* =============
     Publicity
 ============= */

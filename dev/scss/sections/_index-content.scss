@@ -72,4 +72,140 @@
  /* --------------------------
    Employment
  --------------------------*/
+ #index-experimentation{
+     >div{
+         @include md{
+             display: grid;
+             grid-template-columns: 60% auto;
+             grid-template-areas: 
+             "e-t e-im"
+             "e-c e-im";
+         }
+         img{grid-area: e-im;
+            object-position: center;
+            object-fit: cover;
+            height: 40vh;
+            @include md{
+                height: 35vh;
+                width: 100%;
+
+            }
+
+            @include lg{
+                height: 60vh;
+                width: 100%;
+
+            }
+         }
+         h3{margin-top: -100px;
+             color: $dark-red;
+             width: 80vw;
+             grid-area: e-t;
+
+             @include md{
+                 margin-top: 0;
+                 width: auto;
+                 display: flex;
+                 justify-content: center;
+                 align-items: flex-end;
+                 text-align: right;
+                 margin-right: -100px;
+             }
+
+             @include lg{
+                 margin: 0 -7vw 0 30vw;
+             }
+         }
+         p{grid-area: e-c;
+            padding-top: 20px; 
+            text-align: right;
+             span{font-size: rem-calc(23);
+                 font-weight: 700;
+                 color: $blue-black;
+
+                 @include md{
+                    font-size: rem-calc(26);
+                 }
+             }
+             @include md{
+                text-align: left;
+                width: auto;
+            }
+
+            @include lg{
+                text-align: right;
+                padding: 20px 30px 0 20vw;
+            }
+         }
+     }
+ }
+
+  /* --------------------------
+  Impact
+ --------------------------*/
+#index-impact{
+    >div{background-image:url('../img/impact/impact-intro-mobile.jpg') ;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+        @include lg{
+            height: 70vh;
+            width: 80vw;
+        }
+
+       
+
+
+        h3{
+            color: $blue-black;
+            font-size: rem-calc(39);
+
+            @include md{
+                color: $dark-red;
+                font-size: rem-calc(50);
+            }
+
+            @include lg{
+                padding-left: 10vw;
+            }
+        }
+
+        p{padding-top: 20px;
+            @include md{
+                text-align: right;
+                padding-left: 20vw;
+            }
+            @include lg{
+                padding-left: 10vw;
+                text-align: left;
+            }
+            span{
+                font-weight: 700;
+                @include md{
+                    font-size: rem-calc(35);
+                }
+            }
+        }
+
+
+        // img{
+        //     display: none;
+
+        // @include md{
+        //     display: initial;
+        //     object-position: center;
+        //     object-fit: cover;
+        //     height: 30vh;
+        // }
+        // }
+        
+    }
+}
  
