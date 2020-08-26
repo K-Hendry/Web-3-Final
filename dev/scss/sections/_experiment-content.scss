@@ -63,21 +63,30 @@
 				padding-right: 800px;
 			}
 			@include xl {
-				margin-top: -20px;
+                margin-top: -50px;
+                margin-left: 550px;
+                margin-right: -600px;
 			}
 		}
 	}
 	#section-1-experiment {
 		@include md {
 			display: grid;
-			grid-template-columns: 40% 60%;
-		}
+			grid-template-columns: 40% 50%;
+        }
+        @include lg{
+            margin: auto 5%;
+            column-gap: 10%;
+        }
 		#pullquote-section-1 {
 			@include md {
 				grid-column-end: 3;
 				grid-column-start: 1;
                 grid-row-start: 1;
-			}
+            }
+            @include lg{
+                margin-right: -5%;
+            }
 			h3 {
 				@include md {
                     text-align: right;
@@ -103,8 +112,12 @@
 				grid-column-start: 2;
 				grid-row-start: 2;
 				margin-top: 150px;
-				padding-top: 20px;
-			}
+                padding-top: 20px;
+            }
+            @include lg{
+                padding-right: 15%;
+                margin-top: 90px;
+            }
 		}
 	}
 	#section-2-experiment {
@@ -126,7 +139,11 @@
 			@include md {
 				height: 30vh;
 				margin: -20% 10% auto;
-			}
+            }
+            @include lg{
+                margin-top: -300px;
+                margin-right: 5%;
+            }
 		}
 	}
 	#section-3-experiment {
@@ -166,15 +183,22 @@
 				grid-column-end: 3;
 				grid-column-start: 1;
 				padding-top: 100px;
-			}
+            }
+            @include lg{
+                margin: auto 20%;
+            }
 		}
 	}
 	#section-5-experiment {
 		@include md {
 			display: grid;
 			gap: 3%;
-			grid-template-columns: 40% 60%;
-		}
+            grid-template-columns: 40% 60%;
+        }
+        @include lg{
+            grid-template-columns: repeat(3, 1fr);
+            margin: auto 5%;
+        }
 		#image-1-section-5 {
 			background-image: url('../img/experimentation/scotland.jpg');
 			background-position: center;
@@ -184,7 +208,10 @@
 				background-position: -50px;
 				grid-column-start: 1;
 				grid-row-start: 1;
-			}
+            }
+            @include lg{
+				grid-column-start: 1;
+            }
 		}
 		#image-2-section-5 {
 			background-image: url('../img/experimentation/denmark.jpg');
@@ -196,7 +223,12 @@
 				grid-column-start: 1;
 				grid-row-end: 3;
 				grid-row-start: 2;
-			}
+            }
+            @include lg{
+                grid-column-start: 2;
+                grid-row-end: 1;
+				grid-row-start: 1;
+            }
 		}
 		#image-3-section-5 {
 			background-image: url('../img/experimentation/aroha.jpg');
@@ -206,7 +238,10 @@
 			@include md {
 				grid-column-start: 2;
 				grid-row-start: 1;
-			}
+            }
+            @include lg{
+				grid-column-start: 3;
+            }
 		}
 	}
 }

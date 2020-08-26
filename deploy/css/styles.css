@@ -1245,13 +1245,21 @@ footer {
 }
 @media (min-width: 1200px) {
   #experimentation #hero-experiment #subtitle-experiment {
-    margin-top: -20px;
+    margin-top: -50px;
+    margin-left: 550px;
+    margin-right: -600px;
   }
 }
 @media (min-width: 768px) {
   #experimentation #section-1-experiment {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 50%;
+  }
+}
+@media (min-width: 992px) {
+  #experimentation #section-1-experiment {
+    margin: auto 5%;
+    column-gap: 10%;
   }
 }
 @media (min-width: 768px) {
@@ -1259,6 +1267,11 @@ footer {
     grid-column-end: 3;
     grid-column-start: 1;
     grid-row-start: 1;
+  }
+}
+@media (min-width: 992px) {
+  #experimentation #section-1-experiment #pullquote-section-1 {
+    margin-right: -5%;
   }
 }
 @media (min-width: 768px) {
@@ -1292,6 +1305,12 @@ footer {
     padding-top: 20px;
   }
 }
+@media (min-width: 992px) {
+  #experimentation #section-1-experiment #para-section-1 {
+    padding-right: 15%;
+    margin-top: 90px;
+  }
+}
 #experimentation #section-2-experiment #pullquote-section-2 h3 {
   padding-right: 3%;
   text-align: right;
@@ -1312,6 +1331,12 @@ footer {
   #experimentation #section-2-experiment #image-section-2 {
     height: 30vh;
     margin: -20% 10% auto;
+  }
+}
+@media (min-width: 992px) {
+  #experimentation #section-2-experiment #image-section-2 {
+    margin-top: -300px;
+    margin-right: 5%;
   }
 }
 #experimentation #section-3-experiment #para-section-3 {
@@ -1354,11 +1379,22 @@ footer {
     padding-top: 100px;
   }
 }
+@media (min-width: 992px) {
+  #experimentation #section-4-experiment #para-section-4 {
+    margin: auto 20%;
+  }
+}
 @media (min-width: 768px) {
   #experimentation #section-5-experiment {
     display: grid;
     gap: 3%;
     grid-template-columns: 40% 60%;
+  }
+}
+@media (min-width: 992px) {
+  #experimentation #section-5-experiment {
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto 5%;
   }
 }
 #experimentation #section-5-experiment #image-1-section-5 {
@@ -1372,6 +1408,11 @@ footer {
     background-position: -50px;
     grid-column-start: 1;
     grid-row-start: 1;
+  }
+}
+@media (min-width: 992px) {
+  #experimentation #section-5-experiment #image-1-section-5 {
+    grid-column-start: 1;
   }
 }
 #experimentation #section-5-experiment #image-2-section-5 {
@@ -1388,6 +1429,13 @@ footer {
     grid-row-start: 2;
   }
 }
+@media (min-width: 992px) {
+  #experimentation #section-5-experiment #image-2-section-5 {
+    grid-column-start: 2;
+    grid-row-end: 1;
+    grid-row-start: 1;
+  }
+}
 #experimentation #section-5-experiment #image-3-section-5 {
   background-image: url("../img/experimentation/aroha.jpg");
   background-position: center;
@@ -1398,6 +1446,11 @@ footer {
   #experimentation #section-5-experiment #image-3-section-5 {
     grid-column-start: 2;
     grid-row-start: 1;
+  }
+}
+@media (min-width: 992px) {
+  #experimentation #section-5-experiment #image-3-section-5 {
+    grid-column-start: 3;
   }
 }
 
