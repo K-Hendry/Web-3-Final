@@ -96,7 +96,7 @@
 		},
 	"/deploy/img/employment/stickers-hero.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 152906,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/stickers-hero.jpg",
@@ -125,28 +125,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"/deploy/img/experimentation/aroha.jpg": {
-		"ft": 16384,
-		"iS": 79797,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/aroha.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/denmark.jpg": {
-		"ft": 16384,
-		"iS": 15863,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/denmark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/experimentation/aroha.jpg": {
