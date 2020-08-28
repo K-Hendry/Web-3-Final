@@ -179,7 +179,12 @@ img{
     }
 }
 #gallery-form{
+    
     >div{
+        padding-bottom: 100px;
+        @include lg {
+            padding-bottom: 150px;
+        };
         background-color: $red;
         display: flex;
         justify-content: flex-end;

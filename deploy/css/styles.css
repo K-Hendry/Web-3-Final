@@ -1746,10 +1746,16 @@ img {
 }
 
 #gallery-form > div {
+  padding-bottom: 100px;
   background-color: #EF777A;
   display: flex;
   justify-content: flex-end;
   position: relative;
+}
+@media (min-width: 992px) {
+  #gallery-form > div {
+    padding-bottom: 150px;
+  }
 }
 #gallery-form > div h3 {
   color: #FFDA37;
