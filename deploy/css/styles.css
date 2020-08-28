@@ -436,6 +436,7 @@ h1 {
   font-family: "Fjalla One", sans-serif;
   color: #2E2E41;
   font-size: 5.625rem;
+  font-weight: 400;
 }
 @media (min-width: 768px) {
   h1 {
@@ -551,7 +552,7 @@ h4 {
 @media (min-width: 992px) {
   .pull-quote {
     font-size: 4.375rem;
-    line-height: 5.9375rem;
+    line-height: 6.25rem;
   }
 }
 
@@ -637,6 +638,11 @@ footer {
     display: flex;
   }
 }
+@media (min-width: 1200px) {
+  footer div {
+    padding: 0 10vw;
+  }
+}
 footer div #footer-title {
   font-family: "Fjalla One", sans-serif;
   color: #fff;
@@ -685,10 +691,19 @@ footer div #footer-links p {
     font-size: 1.375rem;
   }
 }
+footer div #footer-links a:link,
+footer div #footer-links a:visited {
+  color: #FFDA37;
+  text-decoration: none;
+}
+footer div #footer-links a:link:hover, footer div #footer-links a:link:active,
+footer div #footer-links a:visited:hover,
+footer div #footer-links a:visited:active {
+  color: #EF777A;
+}
 @media (min-width: 768px) {
   footer div #logos {
-    flex: 1;
-    margin-right: -100px;
+    margin-left: auto;
   }
 }
 footer div #logos ul {
@@ -759,7 +774,7 @@ footer div #logos ul li a:visited:active {
 }
 @media (min-width: 992px) {
   #employment-start div #hero #title {
-    margin-left: 30%;
+    margin-left: 15%;
   }
 }
 @media (min-width: 1200px) {
@@ -992,7 +1007,7 @@ footer div #logos ul li a:visited:active {
 @media (min-width: 768px) {
   #emp-map #emp-map-content #counter {
     grid-template-rows: 1fr;
-    grid-template-columns: 20% auto auto 20%;
+    grid-template-columns: 15% auto auto 20%;
     grid-template-areas: ". tween positions .";
   }
 }
@@ -1015,31 +1030,45 @@ footer div #logos ul li a:visited:active {
   grid-area: tween;
   margin-right: 80px;
   color: #22C9C6;
+  font-size: 6.25rem;
+  text-align: center;
+  padding-left: 50px;
 }
 @media (min-width: 768px) {
   #emp-map #emp-map-content #counter #count-tween {
-    margin-right: 0px;
+    font-size: 8.75rem;
+    margin-right: 0;
   }
 }
 @media (min-width: 992px) {
   #emp-map #emp-map-content #counter #count-tween {
-    text-align: right;
+    font-size: 6.25rem;
+    padding-left: 190px;
   }
 }
 #emp-map #emp-map-content #counter #tween-text {
   grid-area: positions;
   margin: 0px;
-  padding-left: 60px;
+  padding-left: 0px;
+  text-align: center;
+  line-height: 1.875rem;
 }
 @media (min-width: 768px) {
   #emp-map #emp-map-content #counter #tween-text {
-    padding-left: 0px;
+    padding-left: 20px;
+    text-align: left;
+    line-height: 2.1875rem;
+    padding-top: 40px;
+    width: 200px;
   }
 }
 @media (min-width: 992px) {
   #emp-map #emp-map-content #counter #tween-text {
     text-align: right;
-    margin-top: -10px;
+    margin-top: -40px;
+    width: auto;
+    padding-top: 0px;
+    font-size: 1.5625rem;
   }
 }
 #emp-map #emp-map-content #designers-wanted {
@@ -1088,7 +1117,12 @@ footer div #logos ul li a:visited:active {
   }
 }
 #emp-map #emp-map-content #google-map {
-  padding: 100px 0px;
+  padding: 60px 0px 100px 0;
+}
+@media (min-width: 768px) {
+  #emp-map #emp-map-content #google-map {
+    padding: 100px 0px;
+  }
 }
 @media (min-width: 992px) {
   #emp-map #emp-map-content #google-map {
@@ -1096,25 +1130,23 @@ footer div #logos ul li a:visited:active {
     padding: 0px;
   }
 }
-#emp-map #emp-map-content #google-map #map img {
-  height: 410px;
-  width: 320px;
-  object-fit: cover;
+#emp-map #emp-map-content #google-map #map {
+  width: 100%;
+  height: 400px;
 }
 @media (min-width: 768px) {
-  #emp-map #emp-map-content #google-map #map img {
-    width: 100vw;
+  #emp-map #emp-map-content #google-map #map {
     height: 620px;
   }
 }
 @media (min-width: 992px) {
-  #emp-map #emp-map-content #google-map #map img {
+  #emp-map #emp-map-content #google-map #map {
     height: 100vh;
     width: 100%;
   }
 }
 @media (min-width: 1200px) {
-  #emp-map #emp-map-content #google-map #map img {
+  #emp-map #emp-map-content #google-map #map {
     height: 630px;
   }
 }
@@ -1153,6 +1185,16 @@ footer div #logos ul li a:visited:active {
   width: 250px;
   margin-bottom: 100px;
 }
+@media (min-width: 768px) {
+  #emp-cards #emp-cards-content #card-gallery .card {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #card-gallery .card {
+    height: auto;
+  }
+}
 #emp-cards #emp-cards-content #card-gallery .card img {
   padding: 40px 0px 20px 0px;
   margin-left: auto;
@@ -1161,7 +1203,7 @@ footer div #logos ul li a:visited:active {
 }
 #emp-cards #emp-cards-content #card-gallery .card h4 {
   text-align: center;
-  padding: 40px 0px;
+  padding: 40px 0px 20px 0px;
 }
 @media (min-width: 768px) {
   #emp-cards #emp-cards-content #card-gallery .card h4 {
@@ -1170,11 +1212,14 @@ footer div #logos ul li a:visited:active {
   }
 }
 #emp-cards #emp-cards-content #card-gallery .card p {
-  text-align: right;
+  text-align: left;
+  overflow: scroll;
+  height: 85px;
+  margin-top: 0px;
 }
 @media (min-width: 768px) {
   #emp-cards #emp-cards-content #card-gallery .card p {
-    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 @media (min-width: 992px) {
@@ -1182,7 +1227,6 @@ footer div #logos ul li a:visited:active {
     margin-top: 0px;
     font-size: 1.125rem;
     height: 110px;
-    overflow: scroll;
   }
 }
 @media (min-width: 768px) {
@@ -1256,13 +1300,37 @@ footer div #logos ul li a:visited:active {
 #emp-cards #emp-cards-content #card-gallery #blue-state img {
   height: 40px;
 }
+#emp-cards #emp-cards-content #emp-end #final-quote {
+  font-family: "Libre Baskerville", sans-serif;
+  color: #2E2E41;
+  line-height: 1.875rem;
+  padding: 10px 10px;
+  text-align: justify;
+  font-size: 1.125rem;
+  color: #fff;
+}
 @media (min-width: 768px) {
-  #emp-cards #emp-cards-content #final-text {
+  #emp-cards #emp-cards-content #emp-end #final-quote {
+    padding: 0px 60px;
+    text-align: center;
+    line-height: 3.125rem;
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 992px) {
+  #emp-cards #emp-cards-content #emp-end #final-quote {
+    padding: 20px 20vw;
+  }
+}
+@media (min-width: 768px) {
+  #emp-cards #emp-cards-content #emp-end #final-text1,
+#emp-cards #emp-cards-content #emp-end #final-text2 {
     padding: 0px 90px;
   }
 }
 @media (min-width: 992px) {
-  #emp-cards #emp-cards-content #final-text {
+  #emp-cards #emp-cards-content #emp-end #final-text1,
+#emp-cards #emp-cards-content #emp-end #final-text2 {
     padding: 0 25vw;
   }
 }
