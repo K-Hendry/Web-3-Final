@@ -28,10 +28,10 @@ ul{
 
 .content-spacing {
     //padding above/below sections in a page
-    padding: 100px 0px;
+    margin: 100px 0px;
 
     @include lg {
-        padding: 150px 0px;
+        margin: 150px 0px;
     }
 
 }
