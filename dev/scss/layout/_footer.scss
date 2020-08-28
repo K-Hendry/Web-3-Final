@@ -7,16 +7,22 @@ footer {
     padding: 50px;
 
     div {
-        @include md{
+        @include md {
             display: flex;
+            // border: red solid 3px;
+        }
+
+        @include xl{
+            padding: 0 10vw;
         }
 
         #footer-title {
-            @include md{
+            @include md {
                 flex: 1;
             }
 
-            font-family: 'Fjalla One', sans-serif;
+            font-family: 'Fjalla One',
+            sans-serif;
             color: $white;
             margin: 0;
             font-size: rem-calc(22);
@@ -25,18 +31,19 @@ footer {
         }
 
         #footer-links {
-            @include md{
+            @include md {
                 flex: 2;
-                
+
             }
+
             padding-bottom: 20px;
 
-            #break{
-                @include md{
+            #break {
+                @include md {
                     display: block;
                 }
 
-                @include lg{
+                @include lg {
                     display: none;
                 }
             }
@@ -47,14 +54,25 @@ footer {
                 font-size: rem-calc(18);
                 margin: 0;
                 line-height: rem-calc(40);
-                
 
-                @include md{
+
+                @include md {
                     line-height: rem-calc(25);
                 }
 
-                @include lg{
+                @include lg {
                     font-size: rem-calc(22);
+                }
+            }
+
+            a:link,
+            a:visited {
+                color: $yellow;
+                text-decoration: none;
+
+                &:hover,
+                &:active {
+                    color: $red;
                 }
             }
 
@@ -62,25 +80,29 @@ footer {
         }
 
         #logos {
-            @include md{
-                flex: 1;
-                margin-right: -100px;
+            @include md {
+                // flex: 1;
+
+                margin-left: auto;
+                // margin-right: -100px;
+                // text-align: right;
             }
 
             ul {
                 display: flex;
 
-                @include md{
+                @include md {
                     display: grid;
                     grid-template-rows: repeat(2, 40px);
                     grid-template-columns: repeat(2, 40px);
                     text-align: right;
-                    
+
                 }
 
                 li {
                     flex: 1;
                     font-size: rem-calc(20);
+                    // margin-left: auto;
 
                     a:link,
                     a:visited {
@@ -91,11 +113,6 @@ footer {
                             color: $red;
                         }
                     }
-
-                   
-
-
-
 
                 }
             }

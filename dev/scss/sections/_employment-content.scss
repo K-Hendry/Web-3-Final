@@ -13,6 +13,8 @@
                 object-fit: cover;
                 height: 500px;
                 width: 100%;
+                //use background image
+                
 
                 @include md {
                     width: 75vw;
@@ -48,7 +50,7 @@
                 }
 
                 @include lg {
-                    margin-left: 30%;
+                    margin-left: 15%;
                 }
 
                 @include xl {
@@ -110,6 +112,7 @@
             @include md {
                 text-align: left;
             }
+
 
             padding: 0px 10px;
             // border: solid red 2px;
@@ -283,10 +286,11 @@
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-areas: ". tween ."
                 ". positions .";
+            
 
             @include md {
                 grid-template-rows: 1fr;
-                grid-template-columns: 20% auto auto 20%;
+                grid-template-columns: 15% auto auto 20%;
                 grid-template-areas: ". tween positions .";
             }
 
@@ -310,27 +314,49 @@
                 margin-right: 80px;
                 color: $green-blue;
 
-                @include md {
-                    margin-right: 0px;
+                font-size: rem-calc(100);
+                text-align: center;
+                padding-left: 50px;
+
+                @include md{
+                    font-size: rem-calc(140);
+                    margin-right: 0;
+                    
+
+                    
                 }
 
-                @include lg {
-                    text-align: right;
+                @include lg{
+                    font-size: rem-calc(100);
+                   
+                    padding-left: 190px;
+
                 }
+                
             }
 
             #tween-text {
                 grid-area: positions;
                 margin: 0px;
-                padding-left: 60px;
+                padding-left: 0px;
+                text-align: center;
+                line-height:rem-calc(30);
 
                 @include md {
-                    padding-left: 0px;
+                    padding-left: 20px;
+                    text-align: left;
+                    line-height:rem-calc(35);
+                    padding-top: 40px;
+                   width: 200px;
+                    
                 }
 
                 @include lg {
                     text-align: right;
-                    margin-top: -10px;
+                    margin-top: -40px;
+                    width: auto;
+                    padding-top: 0px;
+                    font-size: rem-calc(25);
                 }
             }
 
@@ -385,34 +411,38 @@
 
 
         #google-map {
-            padding: 100px 0px;
+            padding: 60px 0px 100px 0;
+
+            @include md{
+                padding: 100px 0px;
+            }
 
             @include lg {
                 grid-area: mapgrid;
                 padding: 0px;
             }
 
-            #map {
-                img {
-                    height: 410px;
-                    width: 320px;
-                    object-fit: cover;
+            #map { 
+               
+                width: 100%;
+                height: 400px;
+                // background-color: grey;
 
-                    @include md {
-                        width: 100vw;
-                        height: 620px;
-                    }
+                @include md {
 
-                    @include lg {
-                        height: 100vh;
-                        width: 100%;
-                    }
-
-                    @include xl {
-                        height: 630px;
-
-                    }
+                    height: 620px;
                 }
+
+                @include lg {
+                    height: 100vh;
+                    width: 100%;
+                }
+
+                @include xl {
+                    height: 630px;
+
+                }
+
             }
         }
     }
@@ -444,7 +474,7 @@
                 // gap: 100px;
             }
 
-            @include xl{
+            @include xl {
                 grid-template-rows: 430px;
                 grid-template-columns: auto 350px 350px 350px 350px auto;
                 grid-template-areas: ". ssk hi5 three bluestate ."
@@ -457,6 +487,15 @@
                 width: 250px;
                 margin-bottom: 100px;
 
+                @include md{
+                    height: 300px;
+                }
+
+                @include lg{
+                    height: auto;
+                }
+                
+
 
                 img {
                     padding: 40px 0px 20px 0px;
@@ -467,7 +506,7 @@
 
                 h4 {
                     text-align: center;
-                    padding: 40px 0px;
+                    padding: 40px 0px 20px 0px;
 
                     @include md {
                         text-align: left;
@@ -478,17 +517,20 @@
                 }
 
                 p {
-                    text-align: right;
+                    text-align: left;
+                    overflow: scroll;
+                    height: 85px;
+                    margin-top: 0px;
 
                     @include md {
-                        padding-right: 20px;
+                        padding-left: 20px;
                     }
 
                     @include lg {
                         margin-top: 0px;
                         font-size: rem-calc(18);
                         height: 110px;
-                        overflow: scroll;
+                       
                     }
                 }
 
@@ -575,13 +617,42 @@
             }
         }
 
-        #final-text {
-            @include md {
-                padding: 0px 90px;
+        #emp-end {
+            #final-quote {
+                font-family: 'Libre Baskerville', sans-serif;
+                color: $blue-black;
+
+                line-height: rem-calc(30);
+                padding: 10px 10px;
+
+                text-align: justify;
+                font-size: rem-calc(18);
+
+                color: $white;
+
+                @include md {
+                    padding: 0px 60px;
+                    text-align: center;
+                    line-height: rem-calc(50);
+                    font-size: rem-calc(30);
+                }
+
+                @include lg {
+                    padding: 20px 20vw;
+                }
+
             }
 
-            @include lg {
-                padding: 0 25vw;
+            #final-text1,
+            #final-text2 {
+
+                @include md {
+                    padding: 0px 90px;
+                }
+
+                @include lg {
+                    padding: 0 25vw;
+                }
             }
         }
     }

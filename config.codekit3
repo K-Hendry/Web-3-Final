@@ -105,12 +105,45 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/employment/suitcase-old.jpg": {
+		"ft": 16384,
+		"iS": 66300,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/employment/suitcase-old.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/employment/suitcase.jpg": {
 		"ft": 16384,
-		"iS": 53040,
+		"iS": 66300,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/suitcase.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/experimentation/aroha.jpg": {
+		"ft": 16384,
+		"iS": 79797,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/aroha.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/denmark.jpg": {
+		"ft": 16384,
+		"iS": 15863,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/denmark.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
