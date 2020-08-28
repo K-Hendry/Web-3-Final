@@ -33,6 +33,7 @@ h1 {
     color: $blue-black;
 
     font-size: rem-calc(90);
+    font-weight: 400;
 
     @include md{
         font-size: rem-calc(100);
@@ -156,6 +157,6 @@ margin: 0;
 
     @include lg {
         font-size: rem-calc(70);
-        line-height: rem-calc(95);
+        line-height: rem-calc(100);
     }
 }
