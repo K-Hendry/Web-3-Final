@@ -81,8 +81,9 @@ footer {
 
         #logos {
             @include md {
-                flex: 1;
-                // margin-left: auto;
+                // flex: 1;
+
+                margin-left: auto;
                 // margin-right: -100px;
                 // text-align: right;
             }

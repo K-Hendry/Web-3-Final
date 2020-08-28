@@ -13,6 +13,8 @@
                 object-fit: cover;
                 height: 500px;
                 width: 100%;
+                //use background image
+                
 
                 @include md {
                     width: 75vw;
@@ -110,6 +112,7 @@
             @include md {
                 text-align: left;
             }
+
 
             padding: 0px 10px;
             // border: solid red 2px;
@@ -283,10 +286,11 @@
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-areas: ". tween ."
                 ". positions .";
+            
 
             @include md {
                 grid-template-rows: 1fr;
-                grid-template-columns: 20% auto auto 20%;
+                grid-template-columns: 15% auto auto 20%;
                 grid-template-areas: ". tween positions .";
             }
 
@@ -310,27 +314,49 @@
                 margin-right: 80px;
                 color: $green-blue;
 
-                @include md {
-                    margin-right: 0px;
+                font-size: rem-calc(100);
+                text-align: center;
+                padding-left: 50px;
+
+                @include md{
+                    font-size: rem-calc(140);
+                    margin-right: 0;
+                    
+
+                    
                 }
 
-                @include lg {
-                    text-align: right;
+                @include lg{
+                    font-size: rem-calc(100);
+                   
+                    padding-left: 190px;
+
                 }
+                
             }
 
             #tween-text {
                 grid-area: positions;
                 margin: 0px;
-                padding-left: 60px;
+                padding-left: 0px;
+                text-align: center;
+                line-height:rem-calc(30);
 
                 @include md {
-                    padding-left: 0px;
+                    padding-left: 20px;
+                    text-align: left;
+                    line-height:rem-calc(35);
+                    padding-top: 40px;
+                   width: 200px;
+                    
                 }
 
                 @include lg {
                     text-align: right;
-                    margin-top: -10px;
+                    margin-top: -40px;
+                    width: auto;
+                    padding-top: 0px;
+                    font-size: rem-calc(25);
                 }
             }
 
@@ -385,14 +411,19 @@
 
 
         #google-map {
-            padding: 100px 0px;
+            padding: 60px 0px 100px 0;
+
+            @include md{
+                padding: 100px 0px;
+            }
 
             @include lg {
                 grid-area: mapgrid;
                 padding: 0px;
             }
 
-            #map {
+            #map { 
+               
                 width: 100%;
                 height: 400px;
                 // background-color: grey;
@@ -456,6 +487,15 @@
                 width: 250px;
                 margin-bottom: 100px;
 
+                @include md{
+                    height: 300px;
+                }
+
+                @include lg{
+                    height: auto;
+                }
+                
+
 
                 img {
                     padding: 40px 0px 20px 0px;
@@ -466,7 +506,7 @@
 
                 h4 {
                     text-align: center;
-                    padding: 40px 0px;
+                    padding: 40px 0px 20px 0px;
 
                     @include md {
                         text-align: left;
@@ -477,17 +517,20 @@
                 }
 
                 p {
-                    text-align: right;
+                    text-align: left;
+                    overflow: scroll;
+                    height: 85px;
+                    margin-top: 0px;
 
                     @include md {
-                        padding-right: 20px;
+                        padding-left: 20px;
                     }
 
                     @include lg {
                         margin-top: 0px;
                         font-size: rem-calc(18);
                         height: 110px;
-                        overflow: scroll;
+                       
                     }
                 }
 
@@ -582,9 +625,10 @@
                 line-height: rem-calc(30);
                 padding: 10px 10px;
 
-                text-align: center;
+                text-align: justify;
                 font-size: rem-calc(18);
-                text-align: center;
+
+                color: $white;
 
                 @include md {
                     padding: 0px 60px;
@@ -594,7 +638,7 @@
                 }
 
                 @include lg {
-                    padding: 0 20vw;
+                    padding: 20px 20vw;
                 }
 
             }
