@@ -821,7 +821,6 @@ footer div #logos ul li a:visited:active {
 }
 
 #emp-quote {
-  z-index: 200;
   height: 100vh;
   background-color: #007785;
   display: flex;
@@ -842,7 +841,9 @@ footer div #logos ul li a:visited:active {
 }
 
 #emp-text {
+  z-index: 1000;
   background-color: #EF777A;
+  position: relative;
 }
 @media (min-width: 1200px) {
   #emp-text #emp-text-content #xl {
