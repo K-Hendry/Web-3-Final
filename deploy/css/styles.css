@@ -821,6 +821,7 @@ footer div #logos ul li a:visited:active {
 }
 
 #emp-quote {
+  z-index: 200;
   height: 100vh;
   background-color: #007785;
   display: flex;

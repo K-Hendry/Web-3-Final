@@ -18,13 +18,12 @@
 // });
 
 
-ScrollTrigger.create({
-    trigger: "#emp-quote",
-    start: "top top",
-    endTrigger: "#content-container",
-    end: "bottom bottom",
+gsap.to("#employment-start",{scrollTrigger:{
+    trigger:"#employment-start",
     pin: true,
     pinSpacing: false,
-    markers: true,
-    id:"quotePin"
-  });
+    start: "top 76",
+    end: "bottom 76",
+    // markers:true,
+    id:"hero"
+}})
