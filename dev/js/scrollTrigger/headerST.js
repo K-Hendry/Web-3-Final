@@ -10,6 +10,6 @@ ScrollTrigger.create({
     end: "bottom 50%",
     animation: headerTimeline,
     toggleActions: "play pause play stop",
-    markers: true,
+    // markers: true,
     id:"header"
 });

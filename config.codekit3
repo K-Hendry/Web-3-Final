@@ -576,13 +576,13 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/countUp.js": {
+	"/dev/js/employment/countUp.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/countUp-min.js",
+		"oAP": "/dev/js/employment/countUp-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

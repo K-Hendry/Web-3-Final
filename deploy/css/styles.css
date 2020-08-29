@@ -841,7 +841,7 @@ footer div #logos ul li a:visited:active {
 }
 
 #emp-text {
-  z-index: 1000;
+  z-index: 90;
   background-color: #EF777A;
   position: relative;
 }
