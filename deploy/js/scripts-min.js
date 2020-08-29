@@ -1,1 +1,1 @@
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);var paragraphYPercent=10,paragraphTimeline=gsap.timeline();paragraphTimeline.from(".body-text",{alpha:0,yPercent:paragraphYPercent}),ScrollTrigger.create({trigger:".body-text",start:"top 80%",end:"bottom 50%",animation:paragraphTimeline,toggleActions:"play pause play stop",id:"paragraph"}),ScrollTrigger.create({trigger:"#emp-quote",start:"top top",endTrigger:"#content-container",end:"bottom bottom",pin:!0,pinSpacing:!1,markers:!0,id:"quotePin"});
