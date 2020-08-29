@@ -1657,13 +1657,22 @@ img {
 #gallery-hero div {
   position: relative;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #gallery-hero div {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 #gallery-hero div img {
-  height: 500px;
+  display: none;
 }
 @media (min-width: 768px) {
   #gallery-hero div img {
+    display: block;
+    height: 550px;
     width: 90%;
   }
 }
@@ -1672,17 +1681,43 @@ img {
     height: 85vh;
   }
 }
-#gallery-hero div h1 {
-  position: absolute;
-  left: 6%;
-  top: 262px;
+#gallery-hero div > div {
+  background-image: url(../img/gallery/hero-1.jpg);
+  width: 100vw;
+  height: 70vh;
+}
+@media (min-width: 768px) {
+  #gallery-hero div > div {
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: none;
+    position: absolute;
+    top: 0;
+  }
+}
+#gallery-hero div > div h1 {
+  text-align: center;
   color: #EF777A;
 }
+@media (min-width: 768px) {
+  #gallery-hero div > div h1 {
+    text-align: left;
+    margin: 300px 0 0 6%;
+  }
+}
 #gallery-hero div p {
-  width: 550px;
-  margin-right: 10%;
-  text-align: right;
+  margin: 0 15%;
+  text-align: justify;
   color: #EF777A;
+}
+@media (min-width: 768px) {
+  #gallery-hero div p {
+    width: 550px;
+    text-align: right;
+    margin-right: 10%;
+  }
 }
 
 #gallery-content-1 #gallery-quote-1 {
@@ -1704,6 +1739,7 @@ img {
   }
 }
 #gallery-content-1 #gallery-container {
+  overflow: hidden;
   background-color: #F5F5EE;
 }
 #gallery-content-1 #gallery-container p, #gallery-content-1 #gallery-container h3 {
