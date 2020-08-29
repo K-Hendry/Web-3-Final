@@ -99,6 +99,7 @@
 }
 
 #emp-quote {
+    // z-index: 200;
     height: 100vh;
     background-color: $dark-blue;
     display: flex;
@@ -127,7 +128,9 @@
 }
 
 #emp-text {
+    z-index: 90;
     background-color: $red;
+    position: relative;
 
     #emp-text-content {
 

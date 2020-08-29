@@ -850,7 +850,9 @@ footer div #logos ul li a:visited:active {
 }
 
 #emp-text {
+  z-index: 90;
   background-color: #EF777A;
+  position: relative;
 }
 @media (min-width: 1200px) {
   #emp-text #emp-text-content #xl {
