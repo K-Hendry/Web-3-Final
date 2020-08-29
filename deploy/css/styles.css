@@ -375,10 +375,19 @@ ul li {
 }
 
 .content-spacing {
-  margin: 100px 0px;
+  padding: 100px 0px;
 }
 @media (min-width: 992px) {
   .content-spacing {
+    padding: 100px 0px;
+  }
+}
+
+.content-spacing-aaron {
+  margin: 100px 0px;
+}
+@media (min-width: 992px) {
+  .content-spacing-aaron {
     margin: 150px 0px;
   }
 }
