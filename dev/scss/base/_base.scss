@@ -31,7 +31,18 @@ ul{
     padding: 100px 0px;
 
     @include lg {
-        padding: 150px 0px;
+        padding: 100px 0px
+    }
+
+}
+
+.content-spacing-aaron {
+    //padding above/below sections in a page
+    margin: 100px 0px;
+
+    @include lg {
+        margin: 150px 0px;
+
     }
 
 }
