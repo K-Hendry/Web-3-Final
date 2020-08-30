@@ -228,9 +228,14 @@ img{
     background-color: $off-white;
     #gallery-logo-1{
         display: grid;
-        grid-template-columns: 50% auto;
-        grid-template-areas: "i1 p1";
+        grid-template-areas: "p1" "i1";
+        grid-template-rows: auto 300px;
         grid-gap: 20px;
+        @include md{
+            grid-template-rows: unset;
+            grid-template-columns: 50% auto;
+            grid-template-areas: "i1 p1";  
+        }
         @include lg{
             margin-bottom: 50px;
          }
@@ -242,7 +247,10 @@ img{
         p{
             line-height: rem-calc(28);
             grid-area: p1;
-            margin: 0 10%;
+            margin: 5%;
+            @include md{
+                margin: 0 10%;
+            }
             @include lg{
                 margin: 20% 20% 20% 10%;
             }
@@ -250,12 +258,20 @@ img{
     }
     #gallery-logo-2{
         display: grid;
-        grid-template-columns: 50% auto;
-        grid-template-rows: auto 500px;
+        grid-template-rows: 300px auto 500px;
         grid-template-areas: 
-        "p2 p2"
-        "i2 i3";
+        "i3"
+        "p2"
+        "i2"
+        ;
         grid-gap: 20px;
+        @include md{
+            grid-template-columns: 50% auto;
+            grid-template-rows: auto 500px;
+            grid-template-areas: 
+            "p2 p2"
+            "i2 i3";
+        }
         @include lg{
             grid-template-columns: auto 25% 25%;
             grid-template-rows: unset;
@@ -278,9 +294,11 @@ img{
         }
         p{
             line-height: rem-calc(28);
-            margin: 50px 10% 30px;
-            // margin-bottom: ;
+            margin: 5%;
             grid-area: p2;
+            @include md{
+                margin: 50px 10% 30px;
+            }
             @include lg{
                 margin: 20% 10% 20% 20%;
             }
@@ -290,36 +308,62 @@ img{
 #gallery-form{
     
     >div{
-        padding-bottom: 100px;
-        @include lg {
-            padding-bottom: 150px;
-        };
+        margin-bottom: 100px;
+        @include md{
+            margin-bottom: 0;
+            padding-bottom: 100px;
+        }
         background-color: $red;
         display: flex;
         justify-content: flex-end;
         position: relative;
         h3{
             color: $yellow;
+            font-size: rem-calc(48);
             position: absolute;
             text-align: right;
-            top: 12%;
-            left: 8%;
+            top: -3%;
+            right: 8%;
+            @include md{
+                top: 9%;
+                right: 8%;
+            }
+            @include lg{
+                top: 12%;
+                left: 8%;
+                right: unset;
+            }
         }
         form{
-            width: 85%;
+            //margin-top: 100px;
+            width: 100%;
             background-color: $dark-blue;
+            @include md{
+                margin-top: 100px;
+                
+            }
+            @include lg{
+                margin-top: 0;
+                width: 85%;
+            }
             p{
                 color: $off-white;
                 font-size: rem-calc(24);
                 line-height: rem-calc(56);
                 font-family: 'Libre Baskerville', sans-serif;
-                text-align: center;
+                text-align: left;
                 width: 560px;
-                margin: 0;
+                margin: 0 5%;
+                @include md{
+                    text-align: center;
+                    margin: 0;
+                }
             }
             section{
                 display: flex;
-                justify-content: center;
+                @include md{
+                    justify-content: center;
+                }
                 input,
                 textarea {
                     font-size: rem-calc(24);
@@ -331,7 +375,10 @@ img{
                 }
                 textarea{
                     width: 440px;
-                    margin: 20px 0;
+                    margin: 20px 5%;
+                    @include md{
+                        margin: 20px 0;
+                    }
                 }
             }
             
@@ -372,8 +419,10 @@ textarea {
     padding: 10px 20px;
     text-align: center;
     transition: 0.25s;
+    margin-left: 5%;
 
     @include md {
+        margin-left: 0;
     }
 
     @include lg {
