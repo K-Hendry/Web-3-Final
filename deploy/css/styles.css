@@ -365,7 +365,7 @@ ul li {
   grid-template-columns: 15px auto 15px;
   grid-template-areas: ". container .";
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .grid-container {
     grid-template-columns: auto 1440px auto;
   }
@@ -377,7 +377,7 @@ ul li {
 .content-spacing {
   padding: 100px 0px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   .content-spacing {
     padding: 100px 0px;
   }
@@ -386,7 +386,7 @@ ul li {
 .content-spacing-aaron {
   margin: 100px 0px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   .content-spacing-aaron {
     margin: 150px 0px;
   }
@@ -410,7 +410,7 @@ ul li {
 .show-for-lg {
   display: none;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   .show-for-lg {
     display: block;
   }
@@ -419,7 +419,7 @@ ul li {
 .show-for-xl {
   display: none;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .show-for-xl {
     display: block;
   }
@@ -452,7 +452,7 @@ h1 {
     font-size: 6.25rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   h1 {
     font-size: 9.375rem;
   }
@@ -465,7 +465,7 @@ h2 {
   font-size: 1.875rem;
   line-height: 3.125rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   h2 {
     font-size: 2.5rem;
     line-height: 3.75rem;
@@ -484,7 +484,7 @@ h3 {
     line-height: 3.4375rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   h3 {
     font-weight: 700;
     font-size: 2.8125rem;
@@ -504,7 +504,7 @@ h4 {
     line-height: 1.5rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   h4 {
     font-size: 1.3125rem;
     line-height: 1.625rem;
@@ -526,7 +526,7 @@ h4 {
     line-height: 1.4375rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   .body-text {
     font-size: 1.3125rem;
     line-height: 1.625rem;
@@ -545,7 +545,7 @@ h4 {
     line-height: 2.8125rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   .open-text {
     font-weight: 100;
     font-size: 1.875rem;
@@ -558,7 +558,7 @@ h4 {
   line-height: 4.6875rem;
   font-family: "Libre Baskerville", sans-serif;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   .pull-quote {
     font-size: 4.375rem;
     line-height: 6.25rem;
@@ -626,13 +626,13 @@ textarea {
     font-size: 2.5rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #main-nav ul li a:link,
 #main-nav ul li a:visited {
     font-size: 3.125rem;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #main-nav ul li a:link,
 #main-nav ul li a:visited {
     font-size: 3.75rem;
@@ -730,7 +730,7 @@ footer {
     display: flex;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   footer div {
     padding: 0 10vw;
   }
@@ -761,7 +761,7 @@ footer div #footer-links {
     display: block;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   footer div #footer-links #break {
     display: none;
   }
@@ -778,7 +778,7 @@ footer div #footer-links p {
     line-height: 1.5625rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   footer div #footer-links p {
     font-size: 1.375rem;
   }
@@ -839,13 +839,13 @@ footer div #logos ul li a:visited:active {
     width: 75vw;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #employment-start div #hero img {
     height: 700px;
     width: 90vw;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #employment-start div #hero img {
     width: 80vw;
   }
@@ -864,12 +864,12 @@ footer div #logos ul li a:visited:active {
     margin-bottom: 180px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #employment-start div #hero #title {
     margin-left: 15%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #employment-start div #hero #title {
     text-align: center;
     margin-left: 0px;
@@ -886,12 +886,12 @@ footer div #logos ul li a:visited:active {
     padding-left: 15%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #employment-start div #hero h2 {
     margin-top: -120px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #employment-start div #hero h2 {
     margin-top: -20px;
   }
@@ -906,7 +906,7 @@ footer div #logos ul li a:visited:active {
     padding-right: 10px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #employment-start p {
     padding-left: 50%;
   }
@@ -937,14 +937,14 @@ footer div #logos ul li a:visited:active {
   background-color: #EF777A;
   position: relative;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-text #emp-text-content #xl {
     display: grid;
     grid-template-columns: auto 1440px auto;
     grid-template-areas: ". xl .";
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-text #emp-text-content #xl #emp-text-grid {
     display: grid;
     grid-template-columns: 42% auto;
@@ -952,7 +952,7 @@ footer div #logos ul li a:visited:active {
     grid-template-areas: "suitcase ctext" "suitcase involved";
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-text #emp-text-content #xl #emp-text-grid {
     grid-area: xl;
   }
@@ -967,7 +967,7 @@ footer div #logos ul li a:visited:active {
     width: 45%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-text #emp-text-content #xl #emp-text-grid img {
     height: 500px;
     grid-area: suitcase;
@@ -975,7 +975,7 @@ footer div #logos ul li a:visited:active {
     margin-top: 100px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-text #emp-text-content #xl #emp-text-grid img {
     width: 530px;
     margin-left: auto;
@@ -992,13 +992,13 @@ footer div #logos ul li a:visited:active {
     margin: 0;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-text #emp-text-content #xl #emp-text-grid #p1 {
     grid-area: ctext;
     padding-left: 60px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-text #emp-text-content #xl #emp-text-grid #p1 {
     width: 500px;
     padding-left: 100px;
@@ -1016,7 +1016,7 @@ footer div #logos ul li a:visited:active {
     margin-bottom: 200px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-text #emp-text-content #xl #emp-text-grid h3 {
     grid-area: involved;
     margin-top: 0px;
@@ -1025,7 +1025,7 @@ footer div #logos ul li a:visited:active {
     padding-right: 200px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-text #emp-text-content #xl #emp-text-grid h3 {
     padding-right: 400px;
   }
@@ -1033,12 +1033,12 @@ footer div #logos ul li a:visited:active {
 #emp-text #emp-text-content #p2 {
   padding: 0px 90px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-text #emp-text-content #p2 {
     padding: 0px 20vw;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-text #emp-text-content #p2 {
     width: 700px;
   }
@@ -1046,12 +1046,12 @@ footer div #logos ul li a:visited:active {
 #emp-text #emp-text-content #p3 {
   padding: 50px 90px 0 90px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-text #emp-text-content #p3 {
     padding: 50px 10vw 0px 25vw;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-text #emp-text-content #p3 {
     width: 900px;
   }
@@ -1061,24 +1061,24 @@ footer div #logos ul li a:visited:active {
   background-color: #F5F5EE;
   padding: 100px 0px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-map {
     padding: 0px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-map {
     padding: 150px 0px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-map {
     display: grid;
     grid-template-columns: auto 1440px auto;
     grid-template-areas: ". xl2 .";
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-map #emp-map-content {
     display: grid;
     grid-template-rows: 50% auto;
@@ -1086,7 +1086,7 @@ footer div #logos ul li a:visited:active {
     grid-template-areas: "102p mapgrid" "designers mapgrid";
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-map #emp-map-content {
     grid-area: xl2;
   }
@@ -1105,7 +1105,7 @@ footer div #logos ul li a:visited:active {
     grid-template-areas: ". tween positions .";
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-map #emp-map-content #counter {
     grid-area: 102p;
     grid-template-rows: 1fr 1fr;
@@ -1115,7 +1115,7 @@ footer div #logos ul li a:visited:active {
     padding-top: 15vh;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-map #emp-map-content #counter {
     padding-top: 0px;
   }
@@ -1134,7 +1134,7 @@ footer div #logos ul li a:visited:active {
     margin-right: 0;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-map #emp-map-content #counter #count-tween {
     font-size: 6.25rem;
     padding-left: 190px;
@@ -1156,7 +1156,7 @@ footer div #logos ul li a:visited:active {
     width: 200px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-map #emp-map-content #counter #tween-text {
     text-align: right;
     margin-top: -40px;
@@ -1168,7 +1168,7 @@ footer div #logos ul li a:visited:active {
 #emp-map #emp-map-content #designers-wanted {
   color: #D43732;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-map #emp-map-content #designers-wanted {
     grid-area: designers;
     padding-right: 20px;
@@ -1188,7 +1188,7 @@ footer div #logos ul li a:visited:active {
     padding-left: 400px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-map #emp-map-content #designers-wanted p {
     padding: 0px;
     padding-left: 150px;
@@ -1204,7 +1204,7 @@ footer div #logos ul li a:visited:active {
     text-align: left;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-map #emp-map-content #designers-wanted h3 {
     padding: 0px;
     text-align: right;
@@ -1218,7 +1218,7 @@ footer div #logos ul li a:visited:active {
     padding: 100px 0px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-map #emp-map-content #google-map {
     grid-area: mapgrid;
     padding: 0px;
@@ -1233,13 +1233,13 @@ footer div #logos ul li a:visited:active {
     height: 620px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-map #emp-map-content #google-map #map {
     height: 100vh;
     width: 100%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-map #emp-map-content #google-map #map {
     height: 630px;
   }
@@ -1258,14 +1258,14 @@ footer div #logos ul li a:visited:active {
     grid-template-rows: repeat(5, 1fr);
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-cards #emp-cards-content #card-gallery {
     grid-template-columns: auto 350px 350px auto;
     grid-template-rows: repeat(2, 430px);
     grid-template-areas: ". hi5 three ." ". ssk bluestate .";
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #emp-cards #emp-cards-content #card-gallery {
     grid-template-rows: 430px;
     grid-template-columns: auto 350px 350px 350px 350px auto;
@@ -1284,7 +1284,7 @@ footer div #logos ul li a:visited:active {
     height: 300px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-cards #emp-cards-content #card-gallery .card {
     height: auto;
   }
@@ -1316,7 +1316,7 @@ footer div #logos ul li a:visited:active {
     padding-left: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-cards #emp-cards-content #card-gallery .card p {
     margin-top: 0px;
     font-size: 1.125rem;
@@ -1328,7 +1328,7 @@ footer div #logos ul li a:visited:active {
     grid-area: 1/1/3/2;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-cards #emp-cards-content #card-gallery #high-five {
     grid-area: hi5;
   }
@@ -1336,7 +1336,7 @@ footer div #logos ul li a:visited:active {
 #emp-cards #emp-cards-content #card-gallery #high-five img {
   height: 80px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-cards #emp-cards-content #card-gallery #high-five img {
     padding-top: 30px;
     padding-bottom: 25px;
@@ -1350,7 +1350,7 @@ footer div #logos ul li a:visited:active {
     grid-area: 2/2/4/3;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-cards #emp-cards-content #card-gallery #threei {
     grid-area: three;
   }
@@ -1358,7 +1358,7 @@ footer div #logos ul li a:visited:active {
 #emp-cards #emp-cards-content #card-gallery #threei img {
   height: 35px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-cards #emp-cards-content #card-gallery #threei h4 {
     padding-bottom: 10px;
   }
@@ -1368,7 +1368,7 @@ footer div #logos ul li a:visited:active {
     grid-area: 3/1/5/2;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-cards #emp-cards-content #card-gallery #ssk {
     grid-area: ssk;
   }
@@ -1376,7 +1376,7 @@ footer div #logos ul li a:visited:active {
 #emp-cards #emp-cards-content #card-gallery #ssk img {
   height: 30px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-cards #emp-cards-content #card-gallery #ssk h4 {
     margin-top: 10px;
   }
@@ -1386,7 +1386,7 @@ footer div #logos ul li a:visited:active {
     grid-area: 4/2/6/3;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-cards #emp-cards-content #card-gallery #blue-state {
     grid-area: bluestate;
   }
@@ -1411,7 +1411,7 @@ footer div #logos ul li a:visited:active {
     font-size: 1.875rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-cards #emp-cards-content #emp-end #final-quote {
     padding: 20px 20vw;
   }
@@ -1422,7 +1422,7 @@ footer div #logos ul li a:visited:active {
     padding: 0px 90px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #emp-cards #emp-cards-content #emp-end #final-text1,
 #emp-cards #emp-cards-content #emp-end #final-text2 {
     padding: 0 25vw;
@@ -1447,13 +1447,13 @@ footer div #logos ul li a:visited:active {
     width: 75vw;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #hero-experiment #hero-image-experiment {
     height: 700px;
     width: 90vw;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #experimentation #hero-experiment #hero-image-experiment {
     width: 80vw;
   }
@@ -1471,12 +1471,12 @@ footer div #logos ul li a:visited:active {
     margin-left: 20%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #hero-experiment #title-experiment {
     margin-left: 30%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #experimentation #hero-experiment #title-experiment {
     margin-left: 0px;
     margin-top: -400px;
@@ -1492,7 +1492,7 @@ footer div #logos ul li a:visited:active {
     font-size: 5.3125rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #hero-experiment #title-experiment h1 {
     font-size: 8.4375rem;
   }
@@ -1508,13 +1508,13 @@ footer div #logos ul li a:visited:active {
     padding-top: 3%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #hero-experiment #subtitle-experiment {
     margin-top: -120px;
     padding-right: 800px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #experimentation #hero-experiment #subtitle-experiment {
     margin-top: -50px;
     margin-left: 550px;
@@ -1527,7 +1527,7 @@ footer div #logos ul li a:visited:active {
     grid-template-columns: 40% 50%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #section-1-experiment {
     margin: auto 5%;
     column-gap: 10%;
@@ -1540,7 +1540,7 @@ footer div #logos ul li a:visited:active {
     grid-row-start: 1;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #section-1-experiment #pullquote-section-1 {
     margin-right: -5%;
   }
@@ -1576,7 +1576,7 @@ footer div #logos ul li a:visited:active {
     padding-top: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #section-1-experiment #para-section-1 {
     padding-right: 15%;
     margin-top: 90px;
@@ -1604,7 +1604,7 @@ footer div #logos ul li a:visited:active {
     margin: -20% 10% auto;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #section-2-experiment #image-section-2 {
     margin-top: -300px;
     margin-right: 5%;
@@ -1650,7 +1650,7 @@ footer div #logos ul li a:visited:active {
     padding-top: 100px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #section-4-experiment #para-section-4 {
     margin: auto 20%;
   }
@@ -1662,7 +1662,7 @@ footer div #logos ul li a:visited:active {
     grid-template-columns: 40% 60%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #section-5-experiment {
     grid-template-columns: repeat(3, 1fr);
     margin: auto 5%;
@@ -1681,7 +1681,7 @@ footer div #logos ul li a:visited:active {
     grid-row-start: 1;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #section-5-experiment #image-1-section-5 {
     grid-column-start: 1;
   }
@@ -1700,7 +1700,7 @@ footer div #logos ul li a:visited:active {
     grid-row-start: 2;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #section-5-experiment #image-2-section-5 {
     grid-column-start: 2;
     grid-row-end: 1;
@@ -1719,7 +1719,7 @@ footer div #logos ul li a:visited:active {
     grid-row-start: 1;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #experimentation #section-5-experiment #image-3-section-5 {
     grid-column-start: 3;
   }
@@ -1742,102 +1742,240 @@ img {
 #gallery-hero div {
   position: relative;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #gallery-hero div {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 #gallery-hero div img {
-  height: 500px;
+  display: none;
 }
 @media (min-width: 768px) {
   #gallery-hero div img {
+    display: block;
+    height: 550px;
     width: 90%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #gallery-hero div img {
     height: 85vh;
   }
 }
-#gallery-hero div h1 {
-  position: absolute;
-  left: 6%;
-  top: 262px;
+#gallery-hero div > div {
+  background-image: url(../img/gallery/hero-1.jpg);
+  width: 100vw;
+  height: 70vh;
+}
+@media (min-width: 768px) {
+  #gallery-hero div > div {
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: none;
+    position: absolute;
+    top: 0;
+  }
+}
+#gallery-hero div > div h1 {
+  text-align: center;
   color: #EF777A;
 }
+@media (min-width: 768px) {
+  #gallery-hero div > div h1 {
+    text-align: left;
+    margin: 300px 0 0 6%;
+  }
+}
 #gallery-hero div p {
-  width: 550px;
-  margin-right: 10%;
-  text-align: right;
+  margin: 0 15%;
+  text-align: justify;
   color: #EF777A;
+}
+@media (min-width: 768px) {
+  #gallery-hero div p {
+    width: 550px;
+    text-align: right;
+    margin-right: 10%;
+  }
 }
 
 #gallery-content-1 #gallery-quote-1 {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background-image: url(../img/gallery/hero-2.jpg);
   background-size: cover;
   background-position: top center;
   display: flex;
   align-items: center;
 }
+@media (min-width: 768px) {
+  #gallery-content-1 #gallery-quote-1 {
+    height: 100vh;
+  }
+}
 #gallery-content-1 #gallery-quote-1 p {
-  margin-left: 10%;
+  width: auto;
+  margin: 5%;
   color: #F5F5EE;
 }
 @media (min-width: 768px) {
+  #gallery-content-1 #gallery-quote-1 p {
+    margin-left: 10%;
+    width: 70vw;
+  }
+}
+@media (min-width: 1025px) {
   #gallery-content-1 #gallery-quote-1 p {
     width: 500px;
   }
 }
 #gallery-content-1 #gallery-container {
+  overflow: hidden;
   background-color: #F5F5EE;
 }
-#gallery-content-1 #gallery-container p, #gallery-content-1 #gallery-container h3 {
+@media (min-width: 1025px) {
+  #gallery-content-1 #gallery-container {
+    height: 100vh;
+  }
+}
+#gallery-content-1 #gallery-container h3 {
   color: #D43732;
+  font-size: 1.875rem;
+}
+#gallery-content-1 #gallery-container p {
+  color: #D43732;
+  padding: 0;
+  text-align: left;
 }
 #gallery-content-1 #gallery-container ul {
   display: flex;
+  grid-gap: 30px;
 }
 #gallery-content-1 #gallery-container ul li img {
-  height: 400px;
+  width: 50vw;
+  height: 60vh;
 }
-#gallery-content-1 #gallery-container ul :nth-child(1) img {
-  width: 300px;
+@media (min-width: 768px) {
+  #gallery-content-1 #gallery-container ul li img {
+    width: 30vw;
+  }
+}
+@media (min-width: 1025px) {
+  #gallery-content-1 #gallery-container ul li img {
+    width: 25vw;
+    height: 65vh;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery-content-1 #gallery-container ul li img {
+    width: 20vw;
+  }
+}
+#gallery-content-1 #gallery-container ul :nth-child(1) p {
+  text-align: right;
 }
 
 #gallery-content-2 {
   background-color: #22C9C6;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   align-items: center;
 }
+@media (min-width: 1025px) {
+  #gallery-content-2 {
+    height: 100vh;
+  }
+}
 #gallery-content-2 img {
-  width: 60%;
-  height: 100vh;
+  width: 40%;
+  height: 70vh;
+}
+@media (min-width: 768px) {
+  #gallery-content-2 img {
+    width: 60%;
+  }
+}
+@media (min-width: 1025px) {
+  #gallery-content-2 img {
+    height: 100vh;
+  }
 }
 #gallery-content-2 p {
-  width: 380px;
-  margin-left: -5%;
+  width: 230px;
+  margin-left: -20%;
+  text-align: justify;
+}
+@media (min-width: 768px) {
+  #gallery-content-2 p {
+    text-align: left;
+    width: 380px;
+    margin-left: -5%;
+  }
 }
 
 #gallery-content-3 {
-  background-color: #F5F5EE;
-  display: flex;
-  align-items: center;
+  background-color: #B9DFE6;
+  display: grid;
+  grid-template-areas: "hope" "content-3";
+}
+@media (min-width: 768px) {
+  #gallery-content-3 {
+    display: flex;
+    align-items: center;
+  }
 }
 #gallery-content-3 img {
-  height: 80vh;
-  margin-left: -15vw;
+  width: 100vw;
+  grid-area: hope;
+}
+@media (min-width: 768px) {
+  #gallery-content-3 img {
+    width: 40%;
+    margin-left: -20vw;
+  }
+}
+@media (min-width: 1025px) {
+  #gallery-content-3 img {
+    width: 350px;
+    margin-left: -16vw;
+  }
 }
 #gallery-content-3 > div {
+  grid-area: content-3;
   background-color: #EF777A;
-  width: 75vw;
-  height: auto;
+}
+@media (min-width: 768px) {
+  #gallery-content-3 > div {
+    width: auto;
+    height: auto;
+  }
+}
+@media (min-width: 1025px) {
+  #gallery-content-3 > div {
+    width: 80vw;
+    height: auto;
+  }
 }
 #gallery-content-3 > div p {
-  width: 50%;
-  padding-left: 15%;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: auto;
   color: #F5F5EE;
   line-height: 1.75rem;
+}
+@media (min-width: 768px) {
+  #gallery-content-3 > div p {
+    text-align: left;
+    width: 50%;
+    padding-left: 15%;
+  }
 }
 #gallery-content-3 > div :nth-child(1) {
   padding-bottom: 0;
@@ -1848,29 +1986,68 @@ img {
 
 #gallery-quote-2 {
   background-color: #007785;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+@media (min-width: 1025px) {
+  #gallery-quote-2 {
+    height: 100vh;
+  }
+}
 #gallery-quote-2 p {
-  font-size: 2.625rem;
-  line-height: 3.75rem;
+  font-size: 1.875rem;
+  line-height: 2.5rem;
+  padding: 0 5%;
   margin: 0;
-  width: 786px;
+  width: auto;
   color: #B9DFE6;
   text-align: center;
+}
+@media (min-width: 768px) {
+  #gallery-quote-2 p {
+    font-size: 2.625rem;
+    line-height: 3.75rem;
+    width: 700px;
+  }
+}
+@media (min-width: 1025px) {
+  #gallery-quote-2 p {
+    width: 786px;
+  }
 }
 
 #gallery-content-4 {
   background-color: #F5F5EE;
 }
+@media (min-width: 1440px) {
+  #gallery-content-4 {
+    display: grid;
+    grid-template-areas: ". container .";
+    grid-template-columns: auto 1440px auto;
+  }
+  #gallery-content-4 > div {
+    grid-area: container;
+  }
+}
 #gallery-content-4 #gallery-logo-1 {
-  margin-bottom: 50px;
   display: grid;
-  grid-template-columns: 50% auto;
-  grid-template-areas: "i1 p1";
+  grid-template-areas: "p1" "i1";
+  grid-template-rows: auto 300px;
   grid-gap: 20px;
+}
+@media (min-width: 768px) {
+  #gallery-content-4 #gallery-logo-1 {
+    grid-template-rows: unset;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "i1 p1";
+  }
+}
+@media (min-width: 1025px) {
+  #gallery-content-4 #gallery-logo-1 {
+    margin-bottom: 50px;
+  }
 }
 #gallery-content-4 #gallery-logo-1 img {
   grid-area: i1;
@@ -1879,14 +2056,38 @@ img {
 }
 #gallery-content-4 #gallery-logo-1 p {
   line-height: 1.75rem;
-  margin: 20% 20% 20% 10%;
   grid-area: p1;
+  margin: 5%;
+}
+@media (min-width: 768px) {
+  #gallery-content-4 #gallery-logo-1 p {
+    margin: 0 10%;
+  }
+}
+@media (min-width: 1025px) {
+  #gallery-content-4 #gallery-logo-1 p {
+    margin: 20% 20% 20% 10%;
+  }
 }
 #gallery-content-4 #gallery-logo-2 {
   display: grid;
-  grid-template-columns: auto 25% 25%;
-  grid-template-areas: "p2 i2 i3" "p2 i2 i4";
+  grid-template-rows: 300px auto 500px;
+  grid-template-areas: "i3" "p2" "i2";
   grid-gap: 20px;
+}
+@media (min-width: 768px) {
+  #gallery-content-4 #gallery-logo-2 {
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto 500px;
+    grid-template-areas: "p2 p2" "i2 i3";
+  }
+}
+@media (min-width: 1025px) {
+  #gallery-content-4 #gallery-logo-2 {
+    grid-template-columns: auto 25% 25%;
+    grid-template-rows: unset;
+    grid-template-areas: "p2 i2 i3" "p2 i2 i4";
+  }
 }
 #gallery-content-4 #gallery-logo-2 img {
   width: 100%;
@@ -1903,39 +2104,117 @@ img {
 }
 #gallery-content-4 #gallery-logo-2 p {
   line-height: 1.75rem;
-  margin: 20% 10% 20% 20%;
+  margin: 5%;
   grid-area: p2;
 }
+@media (min-width: 768px) {
+  #gallery-content-4 #gallery-logo-2 p {
+    margin: 50px 10% 30px;
+  }
+}
+@media (min-width: 1025px) {
+  #gallery-content-4 #gallery-logo-2 p {
+    margin: 20% 10% 20% 20%;
+  }
+}
 
+@media (min-width: 1440px) {
+  #gallery-form {
+    display: grid;
+    grid-template-areas: ". container .";
+    grid-template-columns: auto 1440px auto;
+    background-color: #EF777A;
+  }
+}
 #gallery-form > div {
+  margin-bottom: 100px;
   background-color: #EF777A;
   display: flex;
   justify-content: flex-end;
   position: relative;
 }
+@media (min-width: 768px) {
+  #gallery-form > div {
+    margin-bottom: 0;
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery-form > div {
+    background-color: unset;
+    justify-content: center;
+    grid-area: container;
+  }
+}
 #gallery-form > div h3 {
   color: #FFDA37;
+  font-size: 3.0625rem;
   position: absolute;
   text-align: right;
-  top: 12%;
-  left: 8%;
+  top: -3%;
+  right: 8%;
+}
+@media (min-width: 768px) {
+  #gallery-form > div h3 {
+    top: 9%;
+    right: 8%;
+  }
+}
+@media (min-width: 1025px) {
+  #gallery-form > div h3 {
+    top: 12%;
+    left: 8%;
+    right: unset;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery-form > div h3 {
+    top: 18%;
+  }
 }
 #gallery-form > div form {
-  width: 85%;
+  width: 100%;
   background-color: #007785;
+}
+@media (min-width: 768px) {
+  #gallery-form > div form {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 1025px) {
+  #gallery-form > div form {
+    margin-top: 0;
+    width: 85%;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery-form > div form {
+    margin-top: 100px;
+    width: 70%;
+  }
 }
 #gallery-form > div form p {
   color: #F5F5EE;
   font-size: 1.5rem;
   line-height: 3.5rem;
   font-family: "Libre Baskerville", sans-serif;
-  text-align: center;
+  text-align: left;
   width: 560px;
-  margin: 0;
+  margin: 0 5%;
+}
+@media (min-width: 768px) {
+  #gallery-form > div form p {
+    text-align: center;
+    margin: 0;
+  }
 }
 #gallery-form > div form section {
   display: flex;
-  justify-content: center;
+}
+@media (min-width: 768px) {
+  #gallery-form > div form section {
+    justify-content: center;
+  }
 }
 #gallery-form > div form section input,
 #gallery-form > div form section textarea {
@@ -1948,7 +2227,12 @@ img {
 }
 #gallery-form > div form section textarea {
   width: 440px;
-  margin: 20px 0;
+  margin: 20px 5%;
+}
+@media (min-width: 768px) {
+  #gallery-form > div form section textarea {
+    margin: 20px 0;
+  }
 }
 #gallery-form > div ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -1984,6 +2268,12 @@ textarea {
   padding: 10px 20px;
   text-align: center;
   transition: 0.25s;
+  margin-left: 5%;
+}
+@media (min-width: 768px) {
+  .button {
+    margin-left: 0;
+  }
 }
 .button:hover, .button:active {
   color: #F5F5EE;
@@ -2021,7 +2311,7 @@ textarea {
     margin-bottom: 0;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #impact-intro {
     height: 100vh;
   }
@@ -2052,7 +2342,7 @@ textarea {
     margin: 0 -150px 0 0;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #impact-intro #impact-content h1 {
     font-size: 12.5rem;
     margin: 0 -100px 0 0;
@@ -2069,7 +2359,7 @@ textarea {
     width: 50vw;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #impact-intro #impact-content h2 {
     margin: 0 -200px 0 0;
     text-align: right;
@@ -2101,7 +2391,7 @@ textarea {
     opacity: 70%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #impact-intro #impact-img {
     height: 100vh;
   }
@@ -2144,7 +2434,7 @@ textarea {
     grid-template-areas: "mc-1 m-img" "mco mco" "mc-2 mc-2";
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #moral-section div {
     grid-template-areas: "mc-1 m-img" "mco m-img" "mc-2 m-img";
   }
@@ -2164,7 +2454,7 @@ textarea {
     height: 40vh;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #moral-section div #moral-img img {
     height: 100%;
   }
@@ -2180,7 +2470,7 @@ textarea {
     justify-content: flex-end;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #moral-section div #moral-content-1 {
     padding-top: 100px;
   }
@@ -2202,7 +2492,7 @@ textarea {
     margin: 0 -100px 0 100px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #moral-section div #moral-content-1 h3 {
     margin: 0 -150px 0 400px;
   }
@@ -2215,7 +2505,7 @@ textarea {
     padding: 0 30px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #moral-section div #moral-content-1 p {
     padding-right: 20px;
     padding-left: 15vw;
@@ -2242,7 +2532,7 @@ textarea {
     padding-top: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #moral-section div #moral-callout h2 {
     width: 45vw;
     padding-top: 0;
@@ -2267,7 +2557,7 @@ textarea {
     padding: 0 30px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #moral-section div #moral-content-2 p {
     padding-left: 15vw;
     width: 100%;
@@ -2306,7 +2596,7 @@ textarea {
     padding-right: 20vh;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #impact-hero-1 p {
     padding-right: 60vh;
   }
@@ -2326,7 +2616,7 @@ textarea {
     grid-template-areas: "c-img ct" "c-img cb1" "cb2 cb2";
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #change-section > div {
     padding: 150px 0;
     grid-template-areas: "c-img ct" "c-img cb1" "c-img cb2";
@@ -2348,7 +2638,7 @@ textarea {
     height: 100%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #change-section > div #change-img img {
     height: 90vh;
   }
@@ -2363,7 +2653,7 @@ textarea {
     margin: 0 0 0 -100px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #change-section > div #change-title {
     width: 50vw;
     margin: 0 0 0 -150px;
@@ -2372,7 +2662,7 @@ textarea {
 #change-section > div #change-body-1 {
   grid-area: cb1;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #change-section > div #change-body-1 {
     padding-right: 10vw;
   }
@@ -2380,7 +2670,7 @@ textarea {
 #change-section > div #change-body-2 {
   grid-area: cb2;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #change-section > div #change-body-2 {
     padding-right: 10vw;
   }
@@ -2402,7 +2692,7 @@ textarea {
     height: 50vh;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #impact-hero-2 {
     height: 100vh;
     background-position: center -650px;
@@ -2419,12 +2709,12 @@ textarea {
     grid-template-areas: "st si" "sb si";
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #sway-section > div {
     grid-template-columns: 60% auto;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #sway-section > div #sway-content {
     padding-left: 15vw;
   }
@@ -2445,7 +2735,7 @@ textarea {
     text-align: right;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #sway-section > div #sway-content h3 {
     z-index: 800;
     margin: 0 -10vw 0 20vw;
@@ -2495,7 +2785,7 @@ textarea {
     height: 60vh;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #index-opening {
     height: 100vh;
   }
@@ -2522,7 +2812,7 @@ textarea {
     padding-top: 100px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #index-opening > div h1 {
     font-size: 9.375rem;
     text-align: left;
@@ -2539,7 +2829,7 @@ textarea {
     text-align: left;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #index-opening > div h2 {
     width: 40vw;
     text-align: right;
@@ -2568,7 +2858,7 @@ textarea {
     width: 100%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #index-experimentation > div img {
     height: 60vh;
     width: 100%;
@@ -2591,7 +2881,7 @@ textarea {
     margin-right: -100px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #index-experimentation > div h3 {
     margin: 0 -7vw 0 30vw;
   }
@@ -2617,7 +2907,7 @@ textarea {
     width: auto;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #index-experimentation > div p {
     text-align: right;
     padding: 20px 30px 0 20vw;
@@ -2639,7 +2929,7 @@ textarea {
   align-items: flex-start;
   flex-direction: column;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #index-impact > div {
     height: 70vh;
     width: 80vw;
@@ -2655,7 +2945,7 @@ textarea {
     font-size: 3.125rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #index-impact > div h3 {
     padding-left: 10vw;
   }
@@ -2669,7 +2959,7 @@ textarea {
     padding-left: 20vw;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #index-impact > div p {
     padding-left: 10vw;
     text-align: left;

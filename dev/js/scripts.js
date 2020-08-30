@@ -8,5 +8,7 @@
 
 // @codekit-prepend "employment/countUp.js"; 
 
+// @codekit-prepend "gallery/gallerySwipe.js"; 
+
 // @codekit-prepend "main-nav/nav-global.js";
 // @codekit-prepend "main-nav/main-nav-click.js";
