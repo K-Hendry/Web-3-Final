@@ -477,6 +477,7 @@ h3 {
   font-family: "Exo", sans-serif;
   font-size: 1.875rem;
   line-height: 3.125rem;
+  color: #2E2E41;
 }
 @media (min-width: 768px) {
   h3 {
@@ -495,6 +496,7 @@ h3 {
 h4 {
   font-size: 1.1875rem;
   line-height: 1.375rem;
+  color: #2E2E41;
   font-family: "Libre Franklin", sans-serif;
 }
 @media (min-width: 768px) {
@@ -537,6 +539,7 @@ h4 {
   line-height: 2.5rem;
   font-size: 1.25rem;
   font-family: "Libre Franklin", sans-serif;
+  color: #2E2E41;
   margin: 0;
 }
 @media (min-width: 768px) {
@@ -829,25 +832,37 @@ footer div #logos ul li a:visited:active {
 #employment-start {
   background-color: #F5F5EE;
 }
-#employment-start div #hero img {
-  object-fit: cover;
+#employment-start div #hero #hero-img {
+  background-image: url("../img/employment/stickers-hero.jpg");
+  background-position: center;
+  background-size: 300%;
   height: 500px;
-  width: 100%;
+  width: 100vw;
+  background-position-y: -10px;
 }
 @media (min-width: 768px) {
-  #employment-start div #hero img {
+  #employment-start div #hero #hero-img {
+    background-size: 200%;
+    background-position-y: -100px;
+    background-position-x: -160px;
     width: 75vw;
   }
 }
 @media (min-width: 1025px) {
-  #employment-start div #hero img {
+  #employment-start div #hero #hero-img {
     height: 700px;
+    background-size: 150%;
+    background-position-y: -20px;
+    background-position-x: -160px;
     width: 90vw;
   }
 }
 @media (min-width: 1440px) {
-  #employment-start div #hero img {
+  #employment-start div #hero #hero-img {
     width: 80vw;
+    background-size: 180%;
+    background-position-y: -150px;
+    background-position-x: -300px;
   }
 }
 #employment-start div #hero #title {
@@ -897,7 +912,7 @@ footer div #logos ul li a:visited:active {
   }
 }
 #employment-start p {
-  color: #2E2E41;
+  color: #EF777A;
   padding: 100px 80px 0px 20px;
 }
 @media (min-width: 768px) {
@@ -957,26 +972,32 @@ footer div #logos ul li a:visited:active {
     grid-area: xl;
   }
 }
-#emp-text #emp-text-content #xl #emp-text-grid img {
+#emp-text #emp-text-content #xl #emp-text-grid #suitcase-img {
+  background-image: url("../img/employment/suitcase.jpg");
+  background-position: center;
   height: 385px;
+  background-position-x: -100px;
   width: 230px;
-  object-fit: cover;
+  background-size: 270%;
 }
 @media (min-width: 768px) {
-  #emp-text #emp-text-content #xl #emp-text-grid img {
+  #emp-text #emp-text-content #xl #emp-text-grid #suitcase-img {
     width: 45%;
+    background-size: 200%;
   }
 }
 @media (min-width: 1025px) {
-  #emp-text #emp-text-content #xl #emp-text-grid img {
+  #emp-text #emp-text-content #xl #emp-text-grid #suitcase-img {
     height: 500px;
     grid-area: suitcase;
     width: 42vw;
     margin-top: 100px;
+    background-size: 150%;
+    background-position-x: -10px;
   }
 }
 @media (min-width: 1440px) {
-  #emp-text #emp-text-content #xl #emp-text-grid img {
+  #emp-text #emp-text-content #xl #emp-text-grid #suitcase-img {
     width: 530px;
     margin-left: auto;
   }
@@ -1007,6 +1028,14 @@ footer div #logos ul li a:visited:active {
 #emp-text #emp-text-content #xl #emp-text-grid h3 {
   padding: 0px 20px 0px 20px;
   margin-top: -55px;
+}
+#emp-text #emp-text-content #xl #emp-text-grid h3 span {
+  color: #fff;
+}
+@media (min-width: 768px) {
+  #emp-text #emp-text-content #xl #emp-text-grid h3 span {
+    color: #2E2E41;
+  }
 }
 @media (min-width: 768px) {
   #emp-text #emp-text-content #xl #emp-text-grid h3 {
@@ -1246,7 +1275,7 @@ footer div #logos ul li a:visited:active {
 }
 
 #emp-cards {
-  background-color: #EF777A;
+  background-color: #B9DFE6;
 }
 #emp-cards #emp-cards-content h4 {
   color: #D43732;
@@ -1394,37 +1423,16 @@ footer div #logos ul li a:visited:active {
 #emp-cards #emp-cards-content #card-gallery #blue-state img {
   height: 40px;
 }
-#emp-cards #emp-cards-content #emp-end #final-quote {
-  font-family: "Libre Baskerville", sans-serif;
+#emp-cards #emp-cards-content #emp-end p {
   color: #2E2E41;
-  line-height: 1.875rem;
-  padding: 10px 10px;
-  text-align: justify;
-  font-size: 1.125rem;
-  color: #fff;
 }
 @media (min-width: 768px) {
-  #emp-cards #emp-cards-content #emp-end #final-quote {
-    padding: 0px 60px;
-    text-align: center;
-    line-height: 3.125rem;
-    font-size: 1.875rem;
-  }
-}
-@media (min-width: 1025px) {
-  #emp-cards #emp-cards-content #emp-end #final-quote {
-    padding: 20px 20vw;
-  }
-}
-@media (min-width: 768px) {
-  #emp-cards #emp-cards-content #emp-end #final-text1,
-#emp-cards #emp-cards-content #emp-end #final-text2 {
+  #emp-cards #emp-cards-content #emp-end p {
     padding: 0px 90px;
   }
 }
 @media (min-width: 1025px) {
-  #emp-cards #emp-cards-content #emp-end #final-text1,
-#emp-cards #emp-cards-content #emp-end #final-text2 {
+  #emp-cards #emp-cards-content #emp-end p {
     padding: 0 25vw;
   }
 }
