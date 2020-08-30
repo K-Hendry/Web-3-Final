@@ -587,12 +587,12 @@
 		"oAP": "/dev/content/index-content.html",
 		"oF": 0
 		},
-	"/dev/content/publicity-content.kit": {
+	"/dev/content/safi-content.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/publicity-content.html",
+		"oAP": "/dev/content/safi-content.html",
 		"oF": 0
 		},
 	"/dev/employment.kit": {
@@ -763,7 +763,7 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/publicity.kit": {
+	"/dev/safi.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
