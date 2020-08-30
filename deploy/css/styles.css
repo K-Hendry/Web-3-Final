@@ -1766,13 +1766,20 @@ img {
 #gallery-content-1 #gallery-container p {
   color: #D43732;
   padding: 0;
+  text-align: left;
 }
 #gallery-content-1 #gallery-container ul {
   display: flex;
   grid-gap: 30px;
 }
 #gallery-content-1 #gallery-container ul li img {
-  height: 500px;
+  width: 50vw;
+  height: 60vh;
+}
+@media (min-width: 768px) {
+  #gallery-content-1 #gallery-container ul li img {
+    width: 30vw;
+  }
 }
 @media (min-width: 1025px) {
   #gallery-content-1 #gallery-container ul li img {

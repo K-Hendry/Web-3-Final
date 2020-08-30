@@ -102,15 +102,19 @@ img{
         }
         p{
             color: $dark-red;
-            //width: 200px;
             padding:0;
+            text-align: left;
         }
         ul{
             display: flex;
             grid-gap: 30px;
             li{
                 img{
-                    height: 500px;
+                    width: 50vw;
+                    height: 60vh;
+                    @include md{
+                        width: 30vw;
+                    }
                     @include lg{
                         height: 65vh;  
                     }
