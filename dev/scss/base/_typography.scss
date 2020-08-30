@@ -68,6 +68,7 @@ h3 {
     font-family: 'Exo', sans-serif;
     font-size: rem-calc(30);
         line-height: rem-calc(50);
+        color: $blue-black;
 
         @include md{
             font-size: rem-calc(40);
@@ -91,6 +92,8 @@ h4{
         font-size: rem-calc(20);
         line-height: rem-calc(24);
     }
+
+    color: $blue-black;
 
     font-family: 'Libre Franklin',
     sans-serif;
@@ -131,6 +134,7 @@ h4{
     line-height: rem-calc(40);
     font-size: rem-calc(20);
     font-family: 'Libre Franklin', sans-serif;
+    color: $blue-black;
     
 margin: 0;
     @include md{

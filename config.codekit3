@@ -2579,7 +2579,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, TweenLite",
+	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, TweenLite,Scrollbar",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
