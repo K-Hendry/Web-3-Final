@@ -17,6 +17,6 @@ ScrollTrigger.create({
     end: "bottom 50%",
     animation: TweenLite,
     toggleActions: "play none none none",
-    // markers: true,
+    markers: true,
     id:"counter"
 });
