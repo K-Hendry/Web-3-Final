@@ -7,7 +7,8 @@
 // @codekit-prepend "scrollTrigger/headerST.js";
 
 // @codekit-prepend "employment/counter.js"; 
-
+// @codekit-prepend "impact/impact-pin.js"; 
+// @codekit-prepend "impact/impact-para.js"; 
 // @codekit-prepend "gallery/gallerySwipe.js"; 
 
 // @codekit-prepend "main-nav/nav-global.js";

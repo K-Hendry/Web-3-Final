@@ -413,9 +413,20 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/deploy/img/impact/change-img.jpg": {
+	"/deploy/img/impact/change-img-2.jpg": {
 		"ft": 16384,
 		"iS": 3063362,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/change-img-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/impact/change-img.jpg": {
+		"ft": 16384,
+		"iS": 806214,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/change-img.jpg",
@@ -723,6 +734,28 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/gsap-register-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/impact/impact-para.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-para-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/impact/impact-pin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-pin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
