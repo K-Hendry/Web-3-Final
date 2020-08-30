@@ -116,7 +116,11 @@ img{
                         width: 30vw;
                     }
                     @include lg{
+                        width: 25vw;
                         height: 65vh;  
+                    }
+                    @include xl{
+                        width: 20vw;
                     }
                 }
             }

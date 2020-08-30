@@ -626,13 +626,13 @@ textarea {
     font-size: 2.5rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   #main-nav ul li a:link,
 #main-nav ul li a:visited {
     font-size: 3.125rem;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   #main-nav ul li a:link,
 #main-nav ul li a:visited {
     font-size: 3.75rem;
@@ -1868,7 +1868,13 @@ img {
 }
 @media (min-width: 1025px) {
   #gallery-content-1 #gallery-container ul li img {
+    width: 25vw;
     height: 65vh;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery-content-1 #gallery-container ul li img {
+    width: 20vw;
   }
 }
 #gallery-content-1 #gallery-container ul :nth-child(1) p {
