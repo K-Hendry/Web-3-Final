@@ -547,6 +547,14 @@
 		"oAP": "/deploy/publicity.html",
 		"oF": 0
 		},
+	"/deploy/safi.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/safi.html",
+		"oF": 0
+		},
 	"/dev/content/employment-content.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -591,7 +599,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/content/safi-content.html",
 		"oF": 0
 		},
