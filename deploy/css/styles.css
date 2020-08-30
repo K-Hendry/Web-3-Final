@@ -846,7 +846,7 @@ footer div #logos ul li a:visited:active {
   }
 }
 @media (min-width: 1025px) {
-  #employment-start div #hero img {
+  #employment-start div #hero #hero-img {
     height: 700px;
     background-size: 150%;
     background-position-y: -20px;
@@ -855,7 +855,7 @@ footer div #logos ul li a:visited:active {
   }
 }
 @media (min-width: 1440px) {
-  #employment-start div #hero img {
+  #employment-start div #hero #hero-img {
     width: 80vw;
     background-size: 180%;
     background-position-y: -150px;
@@ -909,7 +909,7 @@ footer div #logos ul li a:visited:active {
   }
 }
 #employment-start p {
-  color: #2E2E41;
+  color: #EF777A;
   padding: 100px 80px 0px 20px;
 }
 @media (min-width: 768px) {
@@ -984,7 +984,7 @@ footer div #logos ul li a:visited:active {
   }
 }
 @media (min-width: 1025px) {
-  #emp-text #emp-text-content #xl #emp-text-grid img {
+  #emp-text #emp-text-content #xl #emp-text-grid #suitcase-img {
     height: 500px;
     grid-area: suitcase;
     width: 42vw;
@@ -994,7 +994,7 @@ footer div #logos ul li a:visited:active {
   }
 }
 @media (min-width: 1440px) {
-  #emp-text #emp-text-content #xl #emp-text-grid img {
+  #emp-text #emp-text-content #xl #emp-text-grid #suitcase-img {
     width: 530px;
     margin-left: auto;
   }
@@ -1420,27 +1420,8 @@ footer div #logos ul li a:visited:active {
 #emp-cards #emp-cards-content #card-gallery #blue-state img {
   height: 40px;
 }
-#emp-cards #emp-cards-content #emp-end #final-quote {
-  font-family: "Libre Baskerville", sans-serif;
-  color: #2E2E41;
-  line-height: 1.875rem;
-  padding: 10px 10px;
-  text-align: justify;
-  font-size: 1.125rem;
+#emp-cards #emp-cards-content #emp-end p {
   color: #fff;
-}
-@media (min-width: 768px) {
-  #emp-cards #emp-cards-content #emp-end #final-quote {
-    padding: 0px 60px;
-    text-align: center;
-    line-height: 3.125rem;
-    font-size: 1.875rem;
-  }
-}
-@media (min-width: 1025px) {
-  #emp-cards #emp-cards-content #emp-end #final-quote {
-    padding: 20px 20vw;
-  }
 }
 @media (min-width: 768px) {
   #emp-cards #emp-cards-content #emp-end p {
@@ -1448,8 +1429,7 @@ footer div #logos ul li a:visited:active {
   }
 }
 @media (min-width: 1025px) {
-  #emp-cards #emp-cards-content #emp-end #final-text1,
-#emp-cards #emp-cards-content #emp-end #final-text2 {
+  #emp-cards #emp-cards-content #emp-end p {
     padding: 0 25vw;
   }
 }

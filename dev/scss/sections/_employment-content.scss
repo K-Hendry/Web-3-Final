@@ -93,7 +93,7 @@
     }
 
     p {
-        color: $blue-black;
+        color: $red;
         padding: 100px 80px 0px 20px;
 
         @include md {
@@ -649,6 +649,7 @@
         #emp-end {
            
             p {
+                color: $white;
 
                 @include md {
                     padding: 0px 90px;
