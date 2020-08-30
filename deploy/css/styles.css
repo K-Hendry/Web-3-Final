@@ -969,26 +969,32 @@ footer div #logos ul li a:visited:active {
     grid-area: xl;
   }
 }
-#emp-text #emp-text-content #xl #emp-text-grid img {
+#emp-text #emp-text-content #xl #emp-text-grid #suitcase-img {
+  background-image: url("../img/employment/suitcase.jpg");
+  background-position: center;
   height: 385px;
+  background-position-x: -100px;
   width: 230px;
-  object-fit: cover;
+  background-size: 270%;
 }
 @media (min-width: 768px) {
-  #emp-text #emp-text-content #xl #emp-text-grid img {
+  #emp-text #emp-text-content #xl #emp-text-grid #suitcase-img {
     width: 45%;
+    background-size: 200%;
   }
 }
 @media (min-width: 992px) {
-  #emp-text #emp-text-content #xl #emp-text-grid img {
+  #emp-text #emp-text-content #xl #emp-text-grid #suitcase-img {
     height: 500px;
     grid-area: suitcase;
     width: 42vw;
     margin-top: 100px;
+    background-size: 150%;
+    background-position-x: -10px;
   }
 }
 @media (min-width: 1200px) {
-  #emp-text #emp-text-content #xl #emp-text-grid img {
+  #emp-text #emp-text-content #xl #emp-text-grid #suitcase-img {
     width: 530px;
     margin-left: auto;
   }
@@ -1019,6 +1025,14 @@ footer div #logos ul li a:visited:active {
 #emp-text #emp-text-content #xl #emp-text-grid h3 {
   padding: 0px 20px 0px 20px;
   margin-top: -55px;
+}
+#emp-text #emp-text-content #xl #emp-text-grid h3 span {
+  color: #fff;
+}
+@media (min-width: 768px) {
+  #emp-text #emp-text-content #xl #emp-text-grid h3 span {
+    color: #2E2E41;
+  }
 }
 @media (min-width: 768px) {
   #emp-text #emp-text-content #xl #emp-text-grid h3 {
@@ -1406,37 +1420,13 @@ footer div #logos ul li a:visited:active {
 #emp-cards #emp-cards-content #card-gallery #blue-state img {
   height: 40px;
 }
-#emp-cards #emp-cards-content #emp-end #final-quote {
-  font-family: "Libre Baskerville", sans-serif;
-  color: #2E2E41;
-  line-height: 1.875rem;
-  padding: 10px 10px;
-  text-align: justify;
-  font-size: 1.125rem;
-  color: #fff;
-}
 @media (min-width: 768px) {
-  #emp-cards #emp-cards-content #emp-end #final-quote {
-    padding: 0px 60px;
-    text-align: center;
-    line-height: 3.125rem;
-    font-size: 1.875rem;
-  }
-}
-@media (min-width: 992px) {
-  #emp-cards #emp-cards-content #emp-end #final-quote {
-    padding: 20px 20vw;
-  }
-}
-@media (min-width: 768px) {
-  #emp-cards #emp-cards-content #emp-end #final-text1,
-#emp-cards #emp-cards-content #emp-end #final-text2 {
+  #emp-cards #emp-cards-content #emp-end p {
     padding: 0px 90px;
   }
 }
 @media (min-width: 992px) {
-  #emp-cards #emp-cards-content #emp-end #final-text1,
-#emp-cards #emp-cards-content #emp-end #final-text2 {
+  #emp-cards #emp-cards-content #emp-end p {
     padding: 0 25vw;
   }
 }
