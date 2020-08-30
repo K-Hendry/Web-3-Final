@@ -1839,11 +1839,6 @@ img {
   overflow: hidden;
   background-color: #F5F5EE;
 }
-@media (min-width: 1025px) {
-  #gallery-content-1 #gallery-container {
-    height: 100vh;
-  }
-}
 #gallery-content-1 #gallery-container h3 {
   color: #D43732;
   font-size: 1.875rem;
@@ -1869,7 +1864,7 @@ img {
 @media (min-width: 1025px) {
   #gallery-content-1 #gallery-container ul li img {
     width: 25vw;
-    height: 65vh;
+    height: 60vh;
   }
 }
 @media (min-width: 1440px) {

@@ -93,9 +93,7 @@ img{
     #gallery-container{
         overflow: hidden;
         background-color: $off-white;
-        @include lg{
-            height: 100vh;
-        }
+        
         h3 {
             color: $dark-red;
             font-size: rem-calc(30);
@@ -108,6 +106,7 @@ img{
         ul{
             display: flex;
             grid-gap: 30px;
+            
             li{
                 img{
                     width: 50vw;
@@ -117,7 +116,7 @@ img{
                     }
                     @include lg{
                         width: 25vw;
-                        height: 65vh;  
+                        height: 60vh;  
                     }
                     @include xl{
                         width: 20vw;
