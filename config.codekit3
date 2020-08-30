@@ -683,13 +683,13 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/employment/countUp.js": {
+	"/dev/js/employment/counter.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/employment/countUp-min.js",
+		"oAP": "/dev/js/employment/counter-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -2579,7 +2579,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, CountUp",
+	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, TweenLite",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

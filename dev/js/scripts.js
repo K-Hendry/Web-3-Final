@@ -6,7 +6,7 @@
 // @codekit-prepend "scrollTrigger/pullQuoteST.js";
 // @codekit-prepend "scrollTrigger/headerST.js";
 
-// @codekit-prepend "employment/countUp.js"; 
+// @codekit-prepend "employment/counter.js"; 
 
 // @codekit-prepend "gallery/gallerySwipe.js"; 
 
