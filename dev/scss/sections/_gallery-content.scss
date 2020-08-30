@@ -93,19 +93,32 @@ img{
     #gallery-container{
         overflow: hidden;
         background-color: $off-white;
-        p,h3 {
+        @include lg{
+            height: 100vh;
+        }
+        h3 {
             color: $dark-red;
+            font-size: rem-calc(30);
+        }
+        p{
+            color: $dark-red;
+            //width: 200px;
+            padding:0;
         }
         ul{
             display: flex;
+            grid-gap: 30px;
             li{
                 img{
-                    height: 400px;
+                    height: 500px;
+                    @include lg{
+                        height: 65vh;  
+                    }
                 }
             }
             :nth-child(1){
-                img{
-                    width: 300px;
+                p{
+                    text-align: right;
                 }
             }
         }
@@ -141,7 +154,7 @@ img{
     }
 }
 #gallery-content-3{
-    background-color: $off-white;
+    background-color: $blue;
     display: grid;
     grid-template-areas: 
     "hope"
@@ -226,6 +239,14 @@ img{
 }
 #gallery-content-4{
     background-color: $off-white;
+    @include xl{
+        display: grid;
+        grid-template-areas: ". container .";
+        grid-template-columns: auto 1440px auto;
+        >div {
+            grid-area: container;
+        }
+    }
     #gallery-logo-1{
         display: grid;
         grid-template-areas: "p1" "i1";
@@ -306,20 +327,30 @@ img{
     }
 }
 #gallery-form{
-    
+    @include xl{
+        display: grid;
+        grid-template-areas: ". container .";
+        grid-template-columns: auto 1440px auto;
+        background-color: $red;
+    }
     >div{
         margin-bottom: 100px;
-        @include md{
-            margin-bottom: 0;
-            padding-bottom: 100px;
-        }
         background-color: $red;
         display: flex;
         justify-content: flex-end;
         position: relative;
+        @include md{
+            margin-bottom: 0;
+            padding-bottom: 100px;
+        }
+        @include xl{
+            background-color: unset;
+            justify-content: center;
+            grid-area: container;
+        }
         h3{
             color: $yellow;
-            font-size: rem-calc(48);
+            font-size: rem-calc(49);
             position: absolute;
             text-align: right;
             top: -3%;
@@ -333,6 +364,9 @@ img{
                 left: 8%;
                 right: unset;
             }
+            @include xl{
+                top: 18%;
+            }
         }
         form{
             //margin-top: 100px;
@@ -345,6 +379,10 @@ img{
             @include lg{
                 margin-top: 0;
                 width: 85%;
+            }
+            @include xl{
+                margin-top: 100px;
+                width: 70%;
             }
             p{
                 color: $off-white;
