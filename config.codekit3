@@ -124,7 +124,7 @@
 		"oAP": "/deploy/img/employment/suitcase.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/experimentation/aroha.jpg": {
@@ -245,7 +245,7 @@
 		"oAP": "/deploy/img/gallery/Drew-Davies.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/gallery/h-logo.jpg": {
@@ -322,7 +322,7 @@
 		"oAP": "/deploy/img/gallery/Jessica-Helfand.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/gallery/Jesus-Garcia.jpg": {
@@ -333,7 +333,7 @@
 		"oAP": "/deploy/img/gallery/Jesus-Garcia.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/gallery/Jonathan-Mikulich.jpg": {
@@ -344,7 +344,7 @@
 		"oAP": "/deploy/img/gallery/Jonathan-Mikulich.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/gallery/k-logo.jpg": {
@@ -377,7 +377,7 @@
 		"oAP": "/deploy/img/gallery/Natalia-Warren.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/gallery/political-logo.jpeg": {
@@ -399,7 +399,7 @@
 		"oAP": "/deploy/img/gallery/Robbie-Knight.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/gallery/Sarah-Hinman.jpg": {
@@ -410,7 +410,7 @@
 		"oAP": "/deploy/img/gallery/Sarah-Hinman.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/impact/change-img.jpg": {
@@ -454,7 +454,7 @@
 		"oAP": "/deploy/img/impact/impact-intro-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/impact/impact-intro.jpg": {
@@ -465,7 +465,7 @@
 		"oAP": "/deploy/img/impact/impact-intro.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/impact/moral-img.jpg": {
@@ -476,7 +476,7 @@
 		"oAP": "/deploy/img/impact/moral-img.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/impact/sway-img-mobile.jpg": {
@@ -547,6 +547,14 @@
 		"oAP": "/deploy/publicity.html",
 		"oF": 0
 		},
+	"/deploy/safi.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/safi.html",
+		"oF": 0
+		},
 	"/dev/content/employment-content.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -587,12 +595,12 @@
 		"oAP": "/dev/content/index-content.html",
 		"oF": 0
 		},
-	"/dev/content/publicity-content.kit": {
+	"/dev/content/safi-content.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/publicity-content.html",
+		"oAP": "/dev/content/safi-content.html",
 		"oF": 0
 		},
 	"/dev/employment.kit": {
@@ -675,6 +683,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/employment/counter.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/employment/counter-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/fancyBox.js": {
 		"bF": 0,
 		"ft": 64,
@@ -682,6 +701,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/fancyBox-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/gallery/gallerySwipe.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gallery/gallerySwipe-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -697,6 +727,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/main-nav/main-nav-click.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/main-nav-click-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/main-nav/nav-global.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/nav-global-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
@@ -705,6 +757,39 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scrollTrigger/headerST.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger/headerST-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scrollTrigger/paragraphST.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger/paragraphST-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scrollTrigger/pullQuoteST.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger/pullQuoteST-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -719,12 +804,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/publicity.kit": {
+	"/dev/safi.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/publicity.html",
+		"oAP": "/deploy/safi.html",
 		"oF": 2
 		},
 	"/dev/scss/base/_base.scss": {
@@ -2494,7 +2579,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "ScrollTrigger, gsap",
+	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, TweenLite",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

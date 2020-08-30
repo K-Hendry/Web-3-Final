@@ -12,65 +12,121 @@ img{
     div{
         position: relative;
         display: flex;
-        justify-content: flex-end;
-    
+        justify-content: center;
+        align-items: center;
+        @include md{
+            display: flex;
+            justify-content: flex-end;
+        }
         img{
-            height: 500px;
+            display: none;
             @include md {
+                display: block;
+                height: 550px;
                 width: 90%;
-
             }
 
             @include lg {
                 height: 85vh;
             }
         }
-        h1{
-            position: absolute;
-            left: 6%;
-            top: 262px;
-            color: $red;
+        >div{
+            background-image: url(../img/gallery/hero-1.jpg);
+            width: 100vw;
+            height: 70vh;
+            @include md{
+                height: auto;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                background-image: none;
+                position: absolute;
+                top: 0;
+            }
+            h1{
+                text-align: center;
+                color: $red;
+                @include md{
+                    text-align: left;
+                    margin: 300px 0 0 6%;
+                }
+            }
         }
         p{
-            width: 550px;
-            margin-right: 10%;
-            text-align: right;
+            margin: 0 15%;
+            text-align: justify;
             color: $red;
+            @include md{
+                width: 550px;
+                text-align: right;
+                margin-right: 10%;
+            }
         }
     }
 }
 #gallery-content-1{
     #gallery-quote-1{
         width: 100%;
-        height: 100vh;
+        height: 80vh;
         background-image: url(../img/gallery/hero-2.jpg);
         background-size: cover;
         background-position: top center;
         display: flex;
         align-items: center;
+        @include md{
+            height: 100vh;
+        }
         p{
-            margin-left: 10%;
+            width: auto;
+            margin: 5%;
             color: $off-white;
             @include md{
+                margin-left: 10%;
+                width: 70vw;
+            }
+            @include lg{
+                
                 width: 500px;
             }
         }
     }
     #gallery-container{
+        overflow: hidden;
         background-color: $off-white;
-        p,h3 {
+        @include lg{
+            height: 100vh;
+        }
+        h3 {
             color: $dark-red;
+            font-size: rem-calc(30);
+        }
+        p{
+            color: $dark-red;
+            padding:0;
+            text-align: left;
         }
         ul{
             display: flex;
+            grid-gap: 30px;
             li{
                 img{
-                    height: 400px;
+                    width: 50vw;
+                    height: 60vh;
+                    @include md{
+                        width: 30vw;
+                    }
+                    @include lg{
+                        width: 25vw;
+                        height: 65vh;  
+                    }
+                    @include xl{
+                        width: 20vw;
+                    }
                 }
             }
             :nth-child(1){
-                img{
-                    width: 300px;
+                p{
+                    text-align: right;
                 }
             }
         }
@@ -78,35 +134,81 @@ img{
 }
 #gallery-content-2{
     background-color: $green-blue;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     align-items: center;
-    img{
-        width: 60%;
+    @include lg{
         height: 100vh;
     }
+    img{
+        width: 40%;
+        height: 70vh;
+        @include md{
+            width: 60%;
+        }
+        @include lg{
+            height: 100vh;
+        }
+    }
     p{
-        width: 380px;
-        margin-left: -5%;
+        width: 230px;
+        margin-left: -20%;
+        text-align: justify;
+        @include md{
+            text-align: left;
+            width: 380px;
+            margin-left: -5%;
+        }
     }
 }
 #gallery-content-3{
-    background-color: $off-white;
-    display: flex;
-    align-items: center;
+    background-color: $blue;
+    display: grid;
+    grid-template-areas: 
+    "hope"
+    "content-3";
+    @include md{
+        display: flex;
+        align-items: center;
+    }
+    
     img{
-        height: 80vh;
-        margin-left: -15vw;
+        width: 100vw;
+        grid-area: hope;
+        @include md{
+            width: 40%;
+            margin-left: -20vw;
+        }
+        @include lg{
+            width: 350px;
+            margin-left: -16vw;
+        }
+
     }
     >div{
+        grid-area: content-3;
         background-color: $red;
-        width: 75vw;
-        height: auto;
+        @include md{
+            width: auto;
+            height: auto;
+        }
+        @include lg{
+            width: 80vw;
+            height: auto;
+        }
         p{
-            width: 50%;
-            padding-left: 15%;
+            text-align: justify;
+            padding-left: 5%;
+            padding-right: 5%;
+            width: auto;
             color: $off-white;
             line-height: rem-calc(28);
+            @include md{
+                text-align: left;
+                width: 50%;
+                padding-left: 15%;
+            }
+            
         }
         :nth-child(1){
             padding-bottom: 0;
@@ -118,27 +220,54 @@ img{
 }
 #gallery-quote-2{
     background-color: $dark-blue;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    @include lg{
+        height: 100vh;
+    }
     p{
-        font-size: rem-calc(42);
-        line-height: rem-calc(60);
+        font-size: rem-calc(30);
+        line-height: rem-calc(40);
+        padding:0 5%;
         margin: 0;
-        width: 786px;
+        width: auto;
         color: $blue;
         text-align: center;
+        @include md{
+            font-size: rem-calc(42);
+            line-height: rem-calc(60);
+            width: 700px;
+        }
+        @include lg{
+            width: 786px;
+        }
     }
 }
 #gallery-content-4{
     background-color: $off-white;
-    #gallery-logo-1{
-        margin-bottom: 50px;
+    @include xl{
         display: grid;
-        grid-template-columns: 50% auto;
-        grid-template-areas: "i1 p1";
+        grid-template-areas: ". container .";
+        grid-template-columns: auto 1440px auto;
+        >div {
+            grid-area: container;
+        }
+    }
+    #gallery-logo-1{
+        display: grid;
+        grid-template-areas: "p1" "i1";
+        grid-template-rows: auto 300px;
         grid-gap: 20px;
+        @include md{
+            grid-template-rows: unset;
+            grid-template-columns: 50% auto;
+            grid-template-areas: "i1 p1";  
+        }
+        @include lg{
+            margin-bottom: 50px;
+         }
         img{
             grid-area: i1;
             width: 100%;
@@ -146,18 +275,39 @@ img{
         }
         p{
             line-height: rem-calc(28);
-            margin: 20% 20% 20% 10%;
             grid-area: p1;
+            margin: 5%;
+            @include md{
+                margin: 0 10%;
+            }
+            @include lg{
+                margin: 20% 20% 20% 10%;
+            }
         }
     }
     #gallery-logo-2{
         display: grid;
-        grid-template-columns: auto 25% 25%;
-        // grid-template-rows: 180px 200px;
+        grid-template-rows: 300px auto 500px;
         grid-template-areas: 
-        "p2 i2 i3"
-        "p2 i2 i4";
+        "i3"
+        "p2"
+        "i2"
+        ;
         grid-gap: 20px;
+        @include md{
+            grid-template-columns: 50% auto;
+            grid-template-rows: auto 500px;
+            grid-template-areas: 
+            "p2 p2"
+            "i2 i3";
+        }
+        @include lg{
+            grid-template-columns: auto 25% 25%;
+            grid-template-rows: unset;
+            grid-template-areas: 
+            "p2 i2 i3"
+            "p2 i2 i4";
+        }
         img{
             width: 100%;
             height: 100%;
@@ -173,39 +323,93 @@ img{
         }
         p{
             line-height: rem-calc(28);
-            margin: 20% 10% 20% 20%;
+            margin: 5%;
             grid-area: p2;
+            @include md{
+                margin: 50px 10% 30px;
+            }
+            @include lg{
+                margin: 20% 10% 20% 20%;
+            }
         }
     }
 }
 #gallery-form{
+    @include xl{
+        display: grid;
+        grid-template-areas: ". container .";
+        grid-template-columns: auto 1440px auto;
+        background-color: $red;
+    }
     >div{
+        margin-bottom: 100px;
         background-color: $red;
         display: flex;
         justify-content: flex-end;
         position: relative;
+        @include md{
+            margin-bottom: 0;
+            padding-bottom: 100px;
+        }
+        @include xl{
+            background-color: unset;
+            justify-content: center;
+            grid-area: container;
+        }
         h3{
             color: $yellow;
+            font-size: rem-calc(49);
             position: absolute;
             text-align: right;
-            top: 12%;
-            left: 8%;
+            top: -3%;
+            right: 8%;
+            @include md{
+                top: 9%;
+                right: 8%;
+            }
+            @include lg{
+                top: 12%;
+                left: 8%;
+                right: unset;
+            }
+            @include xl{
+                top: 18%;
+            }
         }
         form{
-            width: 85%;
+            //margin-top: 100px;
+            width: 100%;
             background-color: $dark-blue;
+            @include md{
+                margin-top: 100px;
+                
+            }
+            @include lg{
+                margin-top: 0;
+                width: 85%;
+            }
+            @include xl{
+                margin-top: 100px;
+                width: 70%;
+            }
             p{
                 color: $off-white;
                 font-size: rem-calc(24);
                 line-height: rem-calc(56);
                 font-family: 'Libre Baskerville', sans-serif;
-                text-align: center;
+                text-align: left;
                 width: 560px;
-                margin: 0;
+                margin: 0 5%;
+                @include md{
+                    text-align: center;
+                    margin: 0;
+                }
             }
             section{
                 display: flex;
-                justify-content: center;
+                @include md{
+                    justify-content: center;
+                }
                 input,
                 textarea {
                     font-size: rem-calc(24);
@@ -217,7 +421,10 @@ img{
                 }
                 textarea{
                     width: 440px;
-                    margin: 20px 0;
+                    margin: 20px 5%;
+                    @include md{
+                        margin: 20px 0;
+                    }
                 }
             }
             
@@ -258,8 +465,10 @@ textarea {
     padding: 10px 20px;
     text-align: center;
     transition: 0.25s;
+    margin-left: 5%;
 
     @include md {
+        margin-left: 0;
     }
 
     @include lg {

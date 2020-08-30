@@ -9,25 +9,35 @@
     div {
 
         #hero {
-            img {
-                object-fit: cover;
+            #hero-img {
+                background-image: url('../img/employment/stickers-hero.jpg');
+                background-position: center;
+                background-size: 300%;
                 height: 500px;
-                width: 100%;
-                //use background image
-                
+                width: 100vw;
+                background-position-y: -10px;
 
                 @include md {
+                    background-size: 200%;
+                    background-position-y: -100px;
+                    background-position-x: -160px;
                     width: 75vw;
 
                 }
 
                 @include lg {
                     height: 700px;
+                    background-size: 150%;
+                    background-position-y: -20px;
+                    background-position-x: -160px;
                     width: 90vw;
                 }
 
                 @include xl {
                     width: 80vw;
+                    background-size: 180%;
+                    background-position-y: -150px;
+                    background-position-x: -300px;
 
                 }
 
@@ -83,7 +93,7 @@
     }
 
     p {
-        color: $blue-black;
+        color: $red;
         padding: 100px 80px 0px 20px;
 
         @include md {
@@ -99,6 +109,7 @@
 }
 
 #emp-quote {
+    // z-index: 200;
     height: 100vh;
     background-color: $dark-blue;
     display: flex;
@@ -127,7 +138,9 @@
 }
 
 #emp-text {
+    z-index: 90;
     background-color: $red;
+    position: relative;
 
     #emp-text-content {
 
@@ -151,13 +164,18 @@
                     grid-area: xl;
                 }
 
-                img {
+                #suitcase-img {
+                    background-image: url('../img/employment/suitcase.jpg');
+                    background-position: center;
                     height: 385px;
-                    width: 230px;
-                    object-fit: cover;
+                    background-position-x: -100px;
+                    width: 230px;                 
+                    background-size: 270%;
+
 
                     @include md {
                         width: 45%;
+                        background-size: 200%;
                     }
 
                     @include lg {
@@ -165,6 +183,9 @@
                         grid-area: suitcase;
                         width: 42vw;
                         margin-top: 100px;
+                        background-size: 150%;
+                        background-position-x: -10px;
+
                     }
 
                     @include xl {
@@ -198,6 +219,14 @@
                 h3 {
                     padding: 0px 20px 0px 20px;
                     margin-top: -55px;
+
+                    span{
+                        color: $white;
+
+                        @include md{
+                            color: $blue-black;
+                        }
+                    }
 
                     @include md {
                         margin-top: -200px;
@@ -618,33 +647,9 @@
         }
 
         #emp-end {
-            #final-quote {
-                font-family: 'Libre Baskerville', sans-serif;
-                color: $blue-black;
-
-                line-height: rem-calc(30);
-                padding: 10px 10px;
-
-                text-align: justify;
-                font-size: rem-calc(18);
-
+           
+            p {
                 color: $white;
-
-                @include md {
-                    padding: 0px 60px;
-                    text-align: center;
-                    line-height: rem-calc(50);
-                    font-size: rem-calc(30);
-                }
-
-                @include lg {
-                    padding: 20px 20vw;
-                }
-
-            }
-
-            #final-text1,
-            #final-text2 {
 
                 @include md {
                     padding: 0px 90px;

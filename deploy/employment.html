@@ -11,11 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Fjalla+One&family=Libre+Baskerville&family=Libre+Franklin:wght@100;400;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/db8be9eca2.js" crossorigin="anonymous"></script>
+    <!-- AnimateCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <!-- Fancy Box -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <!-- Tiny Slider -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
     <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+    
 
     <link rel="stylesheet" href="css/styles.css">
     <title>Web3 Final</title>
@@ -37,12 +40,22 @@
         </div>
     
     </header>
-    
+    <nav id="main-nav">
+            <ul>
+                <li id="nav-home"><a href="home.html">HOME</a></li>
+                <li id="nav-impact"><a href="impact.html">IMPACT</a></li>
+                <li id="nav-experiment"><a href="experiment.html">EXPERIMENT</a></li>
+                <li id="nav-employment"><a href="employment.html">EMPLOYMENT</a></li>
+                <li id="nav-gallery"><a href="gallery.html">GALLERY</a></li>
+                <li id="nav-safi"><a href="safi.html">SAFIA*</a></li>
+                
+            </ul>
+        </nav>
     <section id="employment-start">
                 <div class="content-spacing">
                     <div id="hero">
-                        <img src="img/employment/stickers-hero.jpg" alt="vote stickers littered across white table">
-                        <h1 id="title">EMPLOY<span class="show-for-sm">-</span>MENT</h1>
+                        <div id="hero-img"></div>
+                        <h1 id="title" class="animate__animated animate__fadeInDown">EMPLOY<span class="show-for-sm">-</span>MENT</h1>
                         <h2>Election years can be great <br> for graphic designers.</h2>
                     </div>
                     <p class="open-text">Why? Because, quote Mike Monteiro,</p>
@@ -51,7 +64,7 @@
             
             <section id="emp-quote" class="pull-quote">
                 <div class="content-spacing">
-                    <p>"Design is always <br>political."</p>
+                    <p id="emp-quote-text">"Design is always <br>political."</p>
                 </div>
             </section>
             
@@ -60,26 +73,17 @@
                     <div id="xl">
                         <div id="emp-text-grid">
                             <p id="p1" class="body-text">This past decade has seen catastrophic shifts in global politics, the
-                                economy
-                                and
-                                the
-                                environment. With change
-                                having the ability to insight everything from hope to anger to fear, it's become increasingly
-                                important
-                                for
-                                the
-                                public to engage, have an opinion and be “in the know”. Graphic design has played a pivotal role in
-                                dictating
+                                economy and the environment. With change having the ability to insight everything from hope to anger
+                                to fear, it's become increasingly
+                                important for the public to engage, have an opinion and be “in the know”. Graphic design has played
+                                a pivotal role in dictating
                                 and reacting to the major political moments of our times, and quite simply, one design can change
-                                the
-                                face
-                                of a
-                                campaign forever. There are many ways to create and disseminate political ideas. Graphic design
-                                makes a
-                                demonstrable difference in how people are informed, educated, entertained and provoked. Therefore...
+                                the face of a campaign forever. There are many ways to create and disseminate political ideas.
+                                Graphic design makes a demonstrable difference in how people are informed, educated, entertained and
+                                provoked. Therefore...
                             </p>
-                            <img src="img/employment/suitcase.jpg" alt="close crop of suitcase next to someone's legs">
-                            <h3>Get involved and use design for good</h3>
+                            <div id="suitcase-img"></div>
+                            <h3 class="header"><span>Get</span> involved and use design for good</h3>
                         </div>
                     </div>
                     <p id="p2" class="body-text show-for-md">
@@ -92,11 +96,9 @@
                         Campaign work is certainly not for everyone. There is usually little formal mentoring, little structured
                         feedback, little administrative support, and little free time – and given the finite nature of the campaign
                         cycle, often little long-term stability. But for those with a passion for political campaigns or for getting
-                        a
-                        unique perspective on our democratic process, getting involved in one can be an incredibly rewarding and
+                        a unique perspective on our democratic process, getting involved in one can be an incredibly rewarding and
                         fruitful experience. And as in other career arenas, getting involved in one campaign is usually the best way
-                        to
-                        get involved in others down the road.
+                        to get involved in others down the road.
                     </p>
                 </div>
             </section>
@@ -105,7 +107,7 @@
                 <div id="emp-map-content">
             
                     <div id="counter">
-                        <h1 id="count-tween">#102</h1>
+                        <h1 id="count-tween">#</h1>
                         <p id="tween-text" class="open-text ">positions open <br> in your area</p>
                     </div>
             
@@ -129,16 +131,14 @@
                             <img src="img/employment/logos/h5.svg">
                             <h4>High Five Media</h4>
                             <p class="body-text show-for-md">High Five Media is a full-service agency dedicated to the success of
-                                small and
-                                medium-size businesses.</p>
+                                small and medium-size businesses.</p>
                         </article>
             
                         <article class="card" id="threei">
                             <img src="img/employment/logos/threei.svg">
                             <h4>Three(i) Creative Communications</h4>
                             <p class="body-text show-for-md">Three(i) is a social impact marketing agency providing support to our
-                                community super
-                                heroes across America.
+                                community super heroes across America.
                             </p>
                         </article>
             
@@ -146,40 +146,26 @@
                             <img src="img/employment/logos/ssk.svg">
                             <h4>SS+K</h4>
                             <p class="body-text show-for-md">SS+K blends strategy with socio-cultural lights to create ideas that
-                                inspire action and
-                                catalyze change.</p>
+                                inspire action and catalyze change.</p>
                         </article>
             
                         <article class="card" id="blue-state">
                             <img src="img/employment/logos/bluestate.svg">
                             <h4>Blue State</h4>
                             <p class="body-text show-for-md">Blue State Digital is a digital strategy and technology firm that
-                                specializes in online
-                                fundraising,
-                                advocacy, social networking, and constituency development.</p>
+                                specializes in online fundraising, advocacy, social networking, and constituency development.</p>
                         </article>
                     </div>
             
                     <section id="emp-end">
-                        <p id="final-text1" class="body-text">
+                        <p class="body-text">
                             If you have any inclination to be involved in a political campaign, do it! The pace can be challenging,
-                            but
-                            the
-                            work is rarely boring, and individual effort makes a difference every day. In addition to the
-                            satisfaction
-                            that
-                            comes from working for someone you respect and whose positions you support, there is a sense of
-                            gratification
-                            that comes from working on a project where there will be demonstrable winners, losers, and an end date.
-                        </p>
-                        <p id="final-quote">You
-                            will
-                            also build cameraderie and relationships with individuals that can be beneficial far into the future.
-                        </p>
-                        <p id="final-text2" class="body-text">
-                            Campaigns
-                            can provide a host of experiences and levels of excitement that are difficult to match in any other
-                            environment.
+                            but the work is rarely boring, and individual effort makes a difference every day. In addition to the
+                            satisfaction that comes from working for someone you respect and whose positions you support, there is a
+                            sense of gratification that comes from working on a project where there will be demonstrable winners, losers, and
+                            an end date. You will also build cameraderie and relationships with individuals that can be
+                            beneficial far into the future. Campaigns can provide a host of experiences and levels of excitement that are difficult to match in any
+                            other environment.
                         </p>
                     </section>
                 </div>
@@ -190,7 +176,7 @@
                         <p id="footer-title">DESIGNING <br>POLITICS</p>
                 
                         <section id="footer-links">
-                            <p><a href="index.html">HOME</a> / <a href="impact.html">IMPACT</a> / <a href="experiment.html">EXPERIMENT</a> / <span id="break" class="show-for-sm"><br></span><a href="employment.html">EMPLOYMENT</a> / <a href="gallery.html">GALLERY</a> / <a href="publicity.html">PUBLICITY</a></p>
+                            <p><a href="index.html">HOME</a> / <a href="impact.html">IMPACT</a> / <a href="experiment.html">EXPERIMENT</a> / <span id="break" class="show-for-sm"><br></span><a href="employment.html">EMPLOYMENT</a> / <a href="gallery.html">GALLERY</a> / <a href="safi.html">SAFIA*</a></p>
                         </section>
                 
                         <section id="logos">
@@ -499,10 +485,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Greensock -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
+    <!-- Greensock ScrollTrigger Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
+    <!-- Greensock TweenLight -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
     <!-- Fancy Box -->
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <!-- Tiny Slider -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    
     
     <script src="js/scripts-min.js"></script>       
 </body>
