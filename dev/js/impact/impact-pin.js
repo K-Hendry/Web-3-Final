@@ -25,7 +25,7 @@ gsap.to("#sway-img",{ease: "none", scrollTrigger:{
     trigger:"#sway-img",
     pin: true,
     start: "top 75",
-    end: "top 10",
+    end: "top 5",
     // markers:true,
     id:"obama-pin",
     scrub: true
