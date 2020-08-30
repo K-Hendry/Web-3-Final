@@ -245,6 +245,8 @@
 				margin-left: 10%;
 				width: auto;
 				margin-right: 10%;
+				margin-top: -115px;
+				margin-bottom: 150px;
 			}
 		}
 
@@ -264,6 +266,11 @@
 				height: 80vh;
 				padding: 0px 150px;
 
+			}
+
+			@include xl{
+				padding-left: 25%;
+				padding-right: 25%;
 			}
 
 			p {
@@ -341,6 +348,10 @@
 				// background-color: $blue;
 			}
 
+			@include xl{
+				margin-right: 10%;
+			}
+
 
 		}
 
@@ -355,7 +366,10 @@
 			}
 
 			#ps4p2{
-				padding-left: 100px;
+				@include md{
+					padding-left: 100px;
+				}
+				
 				padding-top: 50px;
 			}
 
