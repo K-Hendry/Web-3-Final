@@ -2305,9 +2305,11 @@ textarea {
   }
 }
 
+/* =============
+    Intro
+============= */
 #impact-intro {
-  height: 100vh;
-  margin-bottom: -220px;
+  padding-top: 90px;
 }
 @media (min-width: 768px) {
   #impact-intro {
@@ -2315,7 +2317,7 @@ textarea {
     display: grid;
     grid-template-columns: 50% auto;
     grid-template-areas: "im-c im-i";
-    height: 50vh;
+    height: 100vh;
     margin-bottom: 0;
   }
 }
@@ -2359,6 +2361,7 @@ textarea {
 #impact-intro #impact-content h2 {
   font-size: 1.25rem;
   color: #007785;
+  padding-bottom: 100px;
 }
 @media (min-width: 768px) {
   #impact-intro #impact-content h2 {
@@ -2393,7 +2396,7 @@ textarea {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 60vh;
     width: 50vw;
     display: flex;
     opacity: 70%;
@@ -2411,16 +2414,20 @@ textarea {
 #impact-thesis {
   background-color: #007785;
 }
+@media (min-width: 768px) {
+  #impact-thesis {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 #impact-thesis > div {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 100px 20px 100px 20px;
-}
-@media (min-width: 768px) {
-  #impact-thesis > div {
-    padding: 100px 10vw 100px 0;
-  }
+  padding-right: 10px;
+  padding-left: 10px;
 }
 #impact-thesis > div p {
   text-align: right;
@@ -2433,8 +2440,11 @@ textarea {
 }
 
 /* --------------------------
-   Moral
---------------------------*/
+    Moral
+ --------------------------*/
+#moral-section {
+  padding-top: 100px;
+}
 @media (min-width: 768px) {
   #moral-section div {
     display: grid;
@@ -2490,6 +2500,7 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   padding: 100px 15px 20px;
+  height: 300px;
 }
 @media (min-width: 768px) {
   #moral-section div #moral-content-1 h3 {
@@ -2574,8 +2585,8 @@ textarea {
 }
 
 /* --------------------------
-   Hero-1
---------------------------*/
+    Hero-1
+ --------------------------*/
 #impact-hero-1 {
   background-image: url("../img/impact/hero-1.jpg");
   background-size: cover;
@@ -2590,11 +2601,16 @@ textarea {
 }
 @media (min-width: 768px) {
   #impact-hero-1 {
-    height: 50vh;
+    height: 100vh;
   }
 }
 #impact-hero-1 h1 {
   font-size: 3.125rem;
+}
+@media (min-width: 768px) {
+  #impact-hero-1 h1 {
+    padding-top: 50px;
+  }
 }
 #impact-hero-1 p {
   text-align: right;
@@ -2611,8 +2627,8 @@ textarea {
 }
 
 /* --------------------------
-   Change
---------------------------*/
+    Change
+ --------------------------*/
 #change-section > div {
   background-color: #B9DFE6;
   padding: 100px 0;
@@ -2685,8 +2701,8 @@ textarea {
 }
 
 /* --------------------------
-   Hero-2
---------------------------*/
+    Hero-2
+ --------------------------*/
 #impact-hero-2 {
   background-image: url("../img/impact/hero-2.jpg");
   background-size: cover;
@@ -2708,8 +2724,8 @@ textarea {
 }
 
 /* --------------------------
-   Sway
---------------------------*/
+    Sway
+ --------------------------*/
 @media (min-width: 768px) {
   #sway-section > div {
     display: grid;
