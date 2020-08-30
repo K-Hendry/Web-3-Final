@@ -547,6 +547,14 @@
 		"oAP": "/deploy/publicity.html",
 		"oF": 0
 		},
+	"/deploy/safi.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/safi.html",
+		"oF": 0
+		},
 	"/dev/content/employment-content.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -587,12 +595,12 @@
 		"oAP": "/dev/content/index-content.html",
 		"oF": 0
 		},
-	"/dev/content/publicity-content.kit": {
+	"/dev/content/safi-content.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/publicity-content.html",
+		"oAP": "/dev/content/safi-content.html",
 		"oF": 0
 		},
 	"/dev/employment.kit": {
@@ -675,6 +683,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/employment/countUp.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/employment/countUp-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/fancyBox.js": {
 		"bF": 0,
 		"ft": 64,
@@ -697,6 +716,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/main-nav/main-nav-click.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/main-nav-click-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/main-nav/nav-global.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/main-nav/nav-global-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
@@ -705,6 +746,39 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scrollTrigger/headerST.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger/headerST-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scrollTrigger/paragraphST.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger/paragraphST-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scrollTrigger/pullQuoteST.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger/pullQuoteST-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -719,12 +793,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/publicity.kit": {
+	"/dev/safi.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/deploy/publicity.html",
+		"oAP": "/deploy/safi.html",
 		"oF": 2
 		},
 	"/dev/scss/base/_base.scss": {
@@ -2494,7 +2568,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "ScrollTrigger, gsap",
+	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, CountUp",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
