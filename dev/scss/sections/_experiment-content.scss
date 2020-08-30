@@ -29,7 +29,8 @@
 			}
 
 			@include xl {
-				width: 80vw;
+				// width: 80vw;
+				margin-left: 10%;
 			}
 		}
 
@@ -69,6 +70,8 @@
 				@include lg {
 					// font-size: rem-calc(135);
 				}
+
+				
 			}
 		}
 
@@ -90,9 +93,10 @@
 			}
 
 			@include xl {
-				margin-top: -50px;
-				margin-left: 550px;
-				margin-right: -600px;
+				padding: 0px;
+				margin-top: -120px;
+				margin-left: 50%;
+				margin-right: 10%;
 			}
 		}
 	}
@@ -119,6 +123,7 @@
 
 			@include lg {
 				margin-right: -5%;
+				padding-bottom: 100px;
 			}
 
 			p {
@@ -132,6 +137,12 @@
 					text-align: right;
 					padding-right: 10%;
 					padding-left: 40%;
+				}
+
+				@include xl{
+					padding: 0;
+					margin: 0;
+					text-align: center;
 				}
 			}
 		}
@@ -150,6 +161,16 @@
 				grid-row-start: 2;
 				height: 30vh;
 			}
+
+			@include lg{
+				margin-top: 0px;
+				height: 400px;
+			}
+
+			
+
+
+			
 		}
 
 		#para-section-1 {
@@ -166,7 +187,8 @@
 
 			@include lg {
 				padding-right: 15%;
-				margin-top: 90px;
+				margin-top: 0px;
+				padding-top: 0px;
 			}
 		}
 	}
@@ -191,6 +213,11 @@
 			@include md {
 				margin: auto 3% auto 30%;
 			}
+
+			@include xl{
+				margin-left: 40%;
+				margin-right: 15%;
+			}
 		}
 
 		#image-section-2 {
@@ -207,10 +234,20 @@
 			}
 
 			@include lg {
-				margin-top: -300px;
-				margin-right: 5%;
+				margin: 0px;
+				margin-top: -100px;
+				width: 100vw;
+				height: 80vh;
+				// margin-right: 5%;
+			}
+
+			@include xl{
+				margin-left: 10%;
+				width: auto;
+				margin-right: 10%;
 			}
 		}
+
 	}
 
 	#section-3-experiment {
@@ -263,6 +300,10 @@
 				padding-left: 20px;
 			}
 
+			@include lg{
+				height: auto;
+			}
+
 			background-color: $dark-blue;
 
 			h3 {
@@ -278,6 +319,11 @@
 					font-family: 'Libre Franklin', sans-serif;
 					font-size: rem-calc(25);
 					line-height: rem-calc(45);
+				}
+
+				@include lg{
+					padding: 100px;
+					text-align: right;
 				}
 
 			}
@@ -320,15 +366,20 @@
 	}
 
 	#section-5-experiment {
+		background-color: $red;
+
 		@include md {
 			display: grid;
 			gap: 3%;
 			grid-template-columns: 40% auto;
+			padding: 100px 20px;
 		}
 
 		@include lg {
 			grid-template-columns: repeat(3, 1fr);
-			margin: auto 5%;
+			// margin: auto 5%;
+			padding: 150px 20px;
+			
 		}
 
 		#image-1-section-5 {
@@ -381,6 +432,7 @@
 
 			@include lg {
 				grid-column-start: 3;
+
 			}
 		}
 	}

@@ -1471,7 +1471,7 @@ footer div #logos ul li a:visited:active {
 }
 @media (min-width: 1440px) {
   #experimentation #hero-experiment #hero-image-experiment {
-    width: 80vw;
+    margin-left: 10%;
   }
 }
 #experimentation #hero-experiment #title-experiment {
@@ -1527,9 +1527,10 @@ footer div #logos ul li a:visited:active {
 }
 @media (min-width: 1440px) {
   #experimentation #hero-experiment #subtitle-experiment {
-    margin-top: -50px;
-    margin-left: 550px;
-    margin-right: -600px;
+    padding: 0px;
+    margin-top: -120px;
+    margin-left: 50%;
+    margin-right: 10%;
   }
 }
 @media (min-width: 768px) {
@@ -1554,6 +1555,7 @@ footer div #logos ul li a:visited:active {
 @media (min-width: 1025px) {
   #experimentation #section-1-experiment #pullquote-section-1 {
     margin-right: -5%;
+    padding-bottom: 100px;
   }
 }
 #experimentation #section-1-experiment #pullquote-section-1 p {
@@ -1568,6 +1570,13 @@ footer div #logos ul li a:visited:active {
     text-align: right;
     padding-right: 10%;
     padding-left: 40%;
+  }
+}
+@media (min-width: 1440px) {
+  #experimentation #section-1-experiment #pullquote-section-1 p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
   }
 }
 #experimentation #section-1-experiment #image-section-1 {
@@ -1586,6 +1595,12 @@ footer div #logos ul li a:visited:active {
     height: 30vh;
   }
 }
+@media (min-width: 1025px) {
+  #experimentation #section-1-experiment #image-section-1 {
+    margin-top: 0px;
+    height: 400px;
+  }
+}
 #experimentation #section-1-experiment #para-section-1 {
   padding-top: 100px;
 }
@@ -1600,7 +1615,8 @@ footer div #logos ul li a:visited:active {
 @media (min-width: 1025px) {
   #experimentation #section-1-experiment #para-section-1 {
     padding-right: 15%;
-    margin-top: 90px;
+    margin-top: 0px;
+    padding-top: 0px;
   }
 }
 #experimentation #section-2-experiment #pullquote-section-2 {
@@ -1622,6 +1638,12 @@ footer div #logos ul li a:visited:active {
     margin: auto 3% auto 30%;
   }
 }
+@media (min-width: 1440px) {
+  #experimentation #section-2-experiment #pullquote-section-2 {
+    margin-left: 40%;
+    margin-right: 15%;
+  }
+}
 #experimentation #section-2-experiment #image-section-2 {
   background-image: url("../img/experimentation/france.jpg");
   background-position: center;
@@ -1637,8 +1659,17 @@ footer div #logos ul li a:visited:active {
 }
 @media (min-width: 1025px) {
   #experimentation #section-2-experiment #image-section-2 {
-    margin-top: -300px;
-    margin-right: 5%;
+    margin: 0px;
+    margin-top: -100px;
+    width: 100vw;
+    height: 80vh;
+  }
+}
+@media (min-width: 1440px) {
+  #experimentation #section-2-experiment #image-section-2 {
+    margin-left: 10%;
+    width: auto;
+    margin-right: 10%;
   }
 }
 #experimentation #section-3-experiment #para-section-3 {
@@ -1686,6 +1717,11 @@ footer div #logos ul li a:visited:active {
     padding-left: 20px;
   }
 }
+@media (min-width: 1025px) {
+  #experimentation #section-4-experiment #pullquote-section-4 {
+    height: auto;
+  }
+}
 #experimentation #section-4-experiment #pullquote-section-4 h3 {
   padding-left: 10px;
   padding-right: 10px;
@@ -1700,6 +1736,12 @@ footer div #logos ul li a:visited:active {
     font-family: "Libre Franklin", sans-serif;
     font-size: 1.5625rem;
     line-height: 2.8125rem;
+  }
+}
+@media (min-width: 1025px) {
+  #experimentation #section-4-experiment #pullquote-section-4 h3 {
+    padding: 100px;
+    text-align: right;
   }
 }
 #experimentation #section-4-experiment #image-section-4 {
@@ -1732,17 +1774,21 @@ footer div #logos ul li a:visited:active {
     margin: auto 20%;
   }
 }
+#experimentation #section-5-experiment {
+  background-color: #EF777A;
+}
 @media (min-width: 768px) {
   #experimentation #section-5-experiment {
     display: grid;
     gap: 3%;
     grid-template-columns: 40% auto;
+    padding: 100px 20px;
   }
 }
 @media (min-width: 1025px) {
   #experimentation #section-5-experiment {
     grid-template-columns: repeat(3, 1fr);
-    margin: auto 5%;
+    padding: 150px 20px;
   }
 }
 #experimentation #section-5-experiment #image-1-section-5 {
