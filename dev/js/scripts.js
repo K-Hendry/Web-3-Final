@@ -7,3 +7,6 @@
 // @codekit-prepend "scrollTrigger/headerST.js";
 
 // @codekit-prepend "employment/countUp.js"; 
+
+// @codekit-prepend "main-nav/nav-global.js";
+// @codekit-prepend "main-nav/main-nav-click.js";
