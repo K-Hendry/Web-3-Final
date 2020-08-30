@@ -478,7 +478,7 @@
 }
 
 #emp-cards {
-    background-color: $red;
+    background-color: $blue;
 
     #emp-cards-content {
         h4 {
@@ -649,7 +649,7 @@
         #emp-end {
            
             p {
-                color: $white;
+                color: $blue-black;
 
                 @include md {
                     padding: 0px 90px;
