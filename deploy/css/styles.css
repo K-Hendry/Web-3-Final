@@ -596,6 +596,7 @@ textarea {
   background-color: #B9DFE6;
   display: flex;
   align-items: flex-end;
+  display: none;
   position: fixed;
   top: 0;
   bottom: 0;
