@@ -118,7 +118,7 @@
 		},
 	"/deploy/img/employment/suitcase.jpg": {
 		"ft": 16384,
-		"iS": 66300,
+		"iS": 53040,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/suitcase.jpg",
@@ -413,9 +413,20 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/deploy/img/impact/change-img.jpg": {
+	"/deploy/img/impact/change-img-2.jpg": {
 		"ft": 16384,
 		"iS": 3063362,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/change-img-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/impact/change-img.jpg": {
+		"ft": 16384,
+		"iS": 806214,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/change-img.jpg",
@@ -470,7 +481,7 @@
 		},
 	"/deploy/img/impact/moral-img.jpg": {
 		"ft": 16384,
-		"iS": 1483343,
+		"iS": 806214,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/moral-img.jpg",
@@ -659,6 +670,14 @@
 		"oAP": "/dev/global/main-nav.html",
 		"oF": 0
 		},
+	"/dev/global/progress-bar.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/progress-bar.html",
+		"oF": 1
+		},
 	"/dev/global/scripts.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -727,6 +746,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/impact/impact-para.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-para-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/impact/impact-pin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-pin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/main-nav/main-nav-click.js": {
 		"bF": 0,
 		"ft": 64,
@@ -779,6 +820,17 @@
 		"oA": 1,
 		"oAP": "/dev/js/scrollTrigger/paragraphST-min.js",
 		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/scrollTrigger/progress-bar.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/scrollTrigger/progress-bar-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -938,6 +990,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/layout/_progress-bar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/layout/_progress-bar.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
@@ -2579,7 +2644,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, TweenLite,Scrollbar",
+	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, TweenLite",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
