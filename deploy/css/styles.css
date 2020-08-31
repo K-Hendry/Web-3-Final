@@ -1872,7 +1872,15 @@ img {
 }
 #gallery-content-1 #gallery-container ul {
   display: flex;
+  align-items: center;
   grid-gap: 30px;
+  height: 100vh;
+  background-color: #F5F5EE;
+}
+#gallery-content-1 #gallery-container ul li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 #gallery-content-1 #gallery-container ul li img {
   width: 50vw;
@@ -1893,6 +1901,9 @@ img {
   #gallery-content-1 #gallery-container ul li img {
     width: 20vw;
   }
+}
+#gallery-content-1 #gallery-container ul :nth-child(1) {
+  justify-content: flex-end;
 }
 #gallery-content-1 #gallery-container ul :nth-child(1) p {
   text-align: right;

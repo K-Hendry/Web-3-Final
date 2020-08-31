@@ -107,7 +107,7 @@
 		},
 	"/deploy/img/employment/suitcase-old.jpg": {
 		"ft": 16384,
-		"iS": 66300,
+		"iS": 53040,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/suitcase-old.jpg",
@@ -426,7 +426,7 @@
 		},
 	"/deploy/img/impact/change-img.jpg": {
 		"ft": 16384,
-		"iS": 806214,
+		"iS": 3063362,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/change-img.jpg",
@@ -459,7 +459,7 @@
 		},
 	"/deploy/img/impact/impact-intro-mobile.jpg": {
 		"ft": 16384,
-		"iS": 3137482,
+		"iS": 2611557,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/impact-intro-mobile.jpg",
@@ -470,7 +470,7 @@
 		},
 	"/deploy/img/impact/impact-intro.jpg": {
 		"ft": 16384,
-		"iS": 3308345,
+		"iS": 3307548,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/impact-intro.jpg",
@@ -481,7 +481,7 @@
 		},
 	"/deploy/img/impact/moral-img.jpg": {
 		"ft": 16384,
-		"iS": 806214,
+		"iS": 1482984,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/moral-img.jpg",
@@ -724,6 +724,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/gallery/galleryPin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gallery/galleryPin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/gallery/gallerySwipe.js": {
 		"bF": 0,
 		"ft": 64,
@@ -742,6 +753,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/gsap-register-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/headerScroll.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/headerScroll-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1565,7 +1587,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
