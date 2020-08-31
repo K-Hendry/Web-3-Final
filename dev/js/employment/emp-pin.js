@@ -29,7 +29,10 @@ ScrollTrigger.create({
     id:"pull-quote"
 });
 
+
+
 //pin map section
+//make so only pins on xl size? if else sentence?
 
 gsap.to("#emp-map",{ease: "none", scrollTrigger:{
     trigger:"#emp-map",

@@ -15,19 +15,21 @@ ScrollTrigger.create({
     // scrub: 2
 });
 
-// var empParagraph2YPercent = 10;
+//paragraph 2
 
-// var empParagraph2Timeline = gsap.timeline();
+var empParagraph2YPercent = 10;
 
-// empParagraph2Timeline.from("#emp-p2", {alpha:0, yPercent:empParagraph2YPercent})
+var empParagraph2Timeline = gsap.timeline();
 
-// ScrollTrigger.create({
-//     trigger: "#emp-p2",
-//     start: "top 50%",
-//     end: "bottom 50%",
-//     animation: empParagraph2Timeline,
-//     toggleActions: "play play none none",
-//     markers: true,
-//     id:"paragraph"
-//     // scrub: 2
-// });
+empParagraph2Timeline.from("#emp-p2", {alpha:0, yPercent:empParagraph2YPercent})
+
+ScrollTrigger.create({
+    trigger: "#emp-p2",
+    start: "top 50%",
+    end: "bottom 50%",
+    animation: empParagraph2Timeline,
+    toggleActions: "play play none none",
+    markers: true,
+    id:"paragraph"
+    // scrub: 2
+});
