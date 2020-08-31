@@ -8,7 +8,6 @@ if(employmentChecker){
         pinSpacing: false,
         start: "top top",
         end: "bottom 1",
-        
         // markers:true,
         id:"emp-quote-pin"
     }})
@@ -38,6 +37,8 @@ if(employmentChecker){
 //pin map section
 
 if(employmentChecker){
+    
+    //only pin if desktop size
     if($(window).width() >= 1024){
         gsap.to("#emp-map",{ease: "none", scrollTrigger:{
             trigger:"#emp-map",
