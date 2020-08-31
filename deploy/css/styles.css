@@ -2356,7 +2356,7 @@ textarea {
   align-items: flex-end;
   flex-direction: column;
   grid-area: im-c;
-  z-index: 1200;
+  z-index: 1100;
   margin-top: -220px;
   padding: 0 20px;
 }
