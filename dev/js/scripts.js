@@ -1,4 +1,4 @@
-
+// @codekit-prepend "scrollTrigger/progress-bar.js";
 // @codekit-prepend "fancyBox.js";
 // @codekit-prepend "tinySlider.js";
 
@@ -6,7 +6,6 @@
 // @codekit-prepend "scrollTrigger/paragraphST.js";
 // @codekit-prepend "scrollTrigger/pullQuoteST.js";
 // @codekit-prepend "scrollTrigger/headerST.js";
-// @codekit-prepend "scrollTrigger/progress-bar.js";
 // @codekit-prepend "headerScroll.js";
 
 // @codekit-prepend "main-nav/nav-global.js";
