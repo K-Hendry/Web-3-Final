@@ -1,5 +1,4 @@
 //pins pull quote so next section overlaps on top of it
-//make following section z-index:200; and position:relative; so it goes on top, not below
 
 if(employmentChecker){
     gsap.to("#emp-quote",{ease: "none", scrollTrigger:{
