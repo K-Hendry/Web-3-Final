@@ -713,6 +713,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/employment/emp-cards-ST.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/employment/emp-cards-ST-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/employment/emp-paragraph-ST.js": {
 		"bF": 0,
 		"ft": 64,

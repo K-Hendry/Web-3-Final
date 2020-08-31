@@ -1290,6 +1290,8 @@ footer div #logos ul li a:visited:active {
 
 #emp-cards {
   background-color: #B9DFE6;
+  z-index: 90;
+  position: relative;
 }
 #emp-cards #emp-cards-content h4 {
   color: #D43732;

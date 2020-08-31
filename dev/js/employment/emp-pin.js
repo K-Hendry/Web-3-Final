@@ -1,16 +1,16 @@
 //pins pull quote so next section overlaps on top of it
 //make following section z-index:200; and position:relative; so it goes on top, not below
 
-gsap.to("#emp-quote",{scrollTrigger:{
+gsap.to("#emp-quote",{ease: "none", scrollTrigger:{
     trigger:"#emp-quote",
     pin: true,
     pinSpacing: false,
     start: "top top",
-    end: "bottom 76",
+    end: "bottom 1",
+    
     // markers:true,
-    id:"quote-pin"
+    id:"emp-quote-pin"
 }})
-
 
 //animates quote in from side 
 
@@ -29,3 +29,15 @@ ScrollTrigger.create({
     id:"pull-quote"
 });
 
+//pin map section
+
+gsap.to("#emp-map",{ease: "none", scrollTrigger:{
+    trigger:"#emp-map",
+    pin: true,
+    pinSpacing: false,
+    start: "top top",
+    end: "bottom 1",
+    
+    // markers:true,
+    id:"emp-map-pin"
+}})
