@@ -20,7 +20,7 @@ gsap.to("#gallery-container",{ease: "none", scrollTrigger:{
     id:"gallery-pin"
 }})
 
-// pinning "what goes into a good.."
+// pinning "what goes into a good.." and the quote runs from bottom up
 gsap.to("#gallery-content-2",{ease: "none", scrollTrigger:{
     trigger:"#gallery-content-2",
     pin: true,
@@ -37,7 +37,7 @@ gsap.from("#content-2-quote",{
     trigger:"#gallery-content-2",
     scrub: 1,
     toggleActions: "restart reverse restart reverse",
-    markers:true,
+    //markers:true,
     id:"content-3-text"
 }}, "content2Scroll")
 
