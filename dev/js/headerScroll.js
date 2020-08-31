@@ -1,4 +1,4 @@
-
+var canYouSeeTheMenu = false;
 var headerHeight = $("header").outerHeight();
 //move the header off screen on the Y axis
 gsap.set("header", {
@@ -13,7 +13,7 @@ headerTimeline.to("header", {
 })
 
 //animation of header sliding up when scrolling down-sliding dowm when scrolling up
-var canYouSeeTheMenu = false;
+
 $(function () {
 
     var CurrentScroll = 200;
@@ -21,7 +21,7 @@ $(function () {
         if (canYouSeeTheMenu === false) {
             var NextScroll = $(this).scrollTop();
             var position = jQuery(window).scrollTop();
-            if (position >= 250 && NextScroll >= CurrentScroll) {
+            if (position >= 200 && NextScroll >= CurrentScroll) {
                 //write the codes related to down-ward scrolling here
                 headerTimeline.reverse();
             } else {
