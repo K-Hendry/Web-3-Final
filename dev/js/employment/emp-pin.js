@@ -20,7 +20,7 @@ pullQuoteTimeline.from("#emp-quote-text", {alpha:0, xPercent:5})
 
 ScrollTrigger.create({
     trigger: "#emp-quote-text",
-    start: "top 80%",
+    start: "top 60%",
     end: "bottom 70%",
     animation: pullQuoteTimeline,
     toggleActions: "play play none none",
