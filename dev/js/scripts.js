@@ -7,6 +7,7 @@
 // @codekit-prepend "scrollTrigger/pullQuoteST.js";
 // @codekit-prepend "scrollTrigger/headerST.js";
 // @codekit-prepend "scrollTrigger/progress-bar.js";
+// @codekit-prepend "headerScroll.js";
 
 // @codekit-prepend "employment/counter.js"; 
 // @codekit-prepend "employment/emp-pin.js"; 
@@ -14,7 +15,7 @@
 // @codekit-prepend "impact/impact-pin.js"; 
 // @codekit-prepend "impact/impact-para.js"; 
 // @codekit-prepend "gallery/gallerySwipe.js"; 
-
+// @codekit-prepend "gallery/galleryPin.js"; 
 
 // @codekit-prepend "main-nav/nav-global.js";
 // @codekit-prepend "main-nav/main-nav-click.js";
