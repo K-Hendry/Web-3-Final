@@ -253,8 +253,6 @@
 	}
 
 	#section-3-experiment {
-
-
 		#para-section-3 {
 			padding: 100px 20px;
 			background-color: $red;
@@ -271,6 +269,7 @@
 			@include xl{
 				padding-left: 25%;
 				padding-right: 25%;
+				height: 100vh;
 			}
 
 			p {
@@ -381,7 +380,7 @@
 
 	#section-5-experiment {
 		background-color: $red;
-
+		height: 100vh;
 		@include md {
 			display: grid;
 			gap: 3%;
