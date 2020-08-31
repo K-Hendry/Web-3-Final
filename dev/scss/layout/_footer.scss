@@ -23,7 +23,7 @@ footer {
 
             font-family: 'Fjalla One',
             sans-serif;
-            color: $white;
+            color: $off-white;
             margin: 0;
             font-size: rem-calc(22);
             padding-bottom: 20px;
@@ -72,7 +72,7 @@ footer {
 
                 &:hover,
                 &:active {
-                    color: $red;
+                    color: $off-white;
                 }
             }
 
@@ -110,7 +110,7 @@ footer {
 
                         &:hover,
                         &:active {
-                            color: $red;
+                            color: $off-white;
                         }
                     }
 

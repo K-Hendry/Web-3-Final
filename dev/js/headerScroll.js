@@ -6,7 +6,6 @@ gsap.set("header", {
     y: -headerHeight
 })
 
-
 var headerTimeline = gsap.timeline()
 headerTimeline.to("header", {
     duration: 0.4,

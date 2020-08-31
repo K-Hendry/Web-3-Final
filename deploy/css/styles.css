@@ -765,7 +765,7 @@ footer {
 }
 footer div #footer-title {
   font-family: "Fjalla One", sans-serif;
-  color: #fff;
+  color: #F5F5EE;
   margin: 0;
   font-size: 1.375rem;
   padding-bottom: 20px;
@@ -819,7 +819,7 @@ footer div #footer-links a:visited {
 footer div #footer-links a:link:hover, footer div #footer-links a:link:active,
 footer div #footer-links a:visited:hover,
 footer div #footer-links a:visited:active {
-  color: #EF777A;
+  color: #F5F5EE;
 }
 @media (min-width: 768px) {
   footer div #logos {
@@ -848,7 +848,7 @@ footer div #logos ul li a:visited {
 footer div #logos ul li a:link:hover, footer div #logos ul li a:link:active,
 footer div #logos ul li a:visited:hover,
 footer div #logos ul li a:visited:active {
-  color: #EF777A;
+  color: #F5F5EE;
 }
 
 progress {
@@ -969,16 +969,20 @@ progress::-moz-progress-bar {
 }
 @media (min-width: 768px) {
   #employment-start p {
-    padding-left: 40%;
-    padding-right: 10px;
+    padding-left: 33%;
+    padding-right: 10%;
   }
 }
 @media (min-width: 1025px) {
   #employment-start p {
     padding-left: 50%;
+    padding-right: 5%;
   }
 }
 
+/* =============
+    Pull Quote
+============= */
 #emp-quote {
   height: 100vh;
   background-color: #007785;
@@ -999,6 +1003,9 @@ progress::-moz-progress-bar {
   }
 }
 
+/* =============
+    Suitcase Text
+============= */
 #emp-text {
   z-index: 90;
   background-color: #EF777A;
@@ -1117,6 +1124,7 @@ progress::-moz-progress-bar {
 @media (min-width: 1025px) {
   #emp-text #emp-text-content #emp-p2 {
     padding: 0px 20vw;
+    margin-top: -40px;
   }
 }
 @media (min-width: 1440px) {
@@ -1138,6 +1146,9 @@ progress::-moz-progress-bar {
   }
 }
 
+/* =============
+    Map
+============= */
 #emp-map {
   background-color: #F5F5EE;
   padding: 100px 0px;
@@ -1175,7 +1186,7 @@ progress::-moz-progress-bar {
 #emp-map #emp-map-content #counter {
   color: #22C9C6;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: ". tween ." ". positions .";
 }
@@ -1192,7 +1203,6 @@ progress::-moz-progress-bar {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas: "tween" "positions";
-    padding-right: 20px;
     padding-top: 15vh;
   }
 }
@@ -1203,22 +1213,23 @@ progress::-moz-progress-bar {
 }
 #emp-map #emp-map-content #counter #count-tween {
   grid-area: tween;
-  margin-right: 80px;
   color: #22C9C6;
+  padding: 0 20px;
   font-size: 6.25rem;
   text-align: center;
-  padding-left: 50px;
 }
 @media (min-width: 768px) {
   #emp-map #emp-map-content #counter #count-tween {
     font-size: 8.75rem;
     margin-right: 0;
+    margin-left: auto;
   }
 }
 @media (min-width: 1025px) {
   #emp-map #emp-map-content #counter #count-tween {
     font-size: 6.25rem;
-    padding-left: 190px;
+    text-align: center;
+    margin-left: 0;
   }
 }
 #emp-map #emp-map-content #counter #tween-text {
@@ -1227,23 +1238,27 @@ progress::-moz-progress-bar {
   padding-left: 0px;
   text-align: center;
   line-height: 1.875rem;
+  color: #007785;
 }
 @media (min-width: 768px) {
   #emp-map #emp-map-content #counter #tween-text {
-    padding-left: 20px;
+    margin-right: auto;
     text-align: left;
-    line-height: 2.1875rem;
-    padding-top: 40px;
+    line-height: 2.5rem;
+    margin-top: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
     width: 200px;
   }
 }
 @media (min-width: 1025px) {
   #emp-map #emp-map-content #counter #tween-text {
-    text-align: right;
+    text-align: center;
     margin-top: -40px;
     width: auto;
     padding-top: 0px;
     font-size: 1.5625rem;
+    margin-right: 0;
   }
 }
 #emp-map #emp-map-content #designers-wanted {
@@ -1252,33 +1267,38 @@ progress::-moz-progress-bar {
 @media (min-width: 1025px) {
   #emp-map #emp-map-content #designers-wanted {
     grid-area: designers;
-    padding-right: 20px;
-    padding-left: 15%;
+    padding-right: 30%;
     padding-top: 90px;
   }
 }
 #emp-map #emp-map-content #designers-wanted p {
-  text-align: right;
-  padding-right: 20px;
-  padding-left: 50px;
+  text-align: left;
+  padding-left: 60px;
+  padding-right: 70px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
 }
 @media (min-width: 768px) {
   #emp-map #emp-map-content #designers-wanted p {
     text-align: right;
     padding-right: 12%;
-    padding-left: 400px;
+    padding-left: 45%;
+    margin-bottom: 0;
   }
 }
 @media (min-width: 1025px) {
   #emp-map #emp-map-content #designers-wanted p {
     padding: 0px;
-    padding-left: 150px;
+    padding-left: 30%;
   }
 }
 #emp-map #emp-map-content #designers-wanted h3 {
   text-align: right;
   padding-left: 100px;
-  padding-right: 20px;
+  padding-right: 60px;
+  color: #D43732;
+  font-size: 2.5rem;
+  line-height: 2.8125rem;
 }
 @media (min-width: 768px) {
   #emp-map #emp-map-content #designers-wanted h3 {
@@ -1291,8 +1311,13 @@ progress::-moz-progress-bar {
     text-align: right;
   }
 }
+@media (min-width: 1440px) {
+  #emp-map #emp-map-content #designers-wanted h3 {
+    padding-left: 40%;
+  }
+}
 #emp-map #emp-map-content #google-map {
-  padding: 60px 0px 100px 0;
+  padding: 100px 0px;
 }
 @media (min-width: 768px) {
   #emp-map #emp-map-content #google-map {
@@ -1303,6 +1328,12 @@ progress::-moz-progress-bar {
   #emp-map #emp-map-content #google-map {
     grid-area: mapgrid;
     padding: 0px;
+    border-left: solid 30px #007785;
+  }
+}
+@media (min-width: 1440px) {
+  #emp-map #emp-map-content #google-map {
+    border: none;
   }
 }
 #emp-map #emp-map-content #google-map #map {
@@ -1326,6 +1357,9 @@ progress::-moz-progress-bar {
   }
 }
 
+/* =============
+   Cards
+============= */
 #emp-cards {
   background-color: #B9DFE6;
   z-index: 90;
@@ -1478,7 +1512,7 @@ progress::-moz-progress-bar {
   height: 40px;
 }
 #emp-cards #emp-cards-content #emp-end p {
-  color: #2E2E41;
+  color: #007785;
 }
 @media (min-width: 768px) {
   #emp-cards #emp-cards-content #emp-end p {
