@@ -713,6 +713,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/employment/emp-paragraph-ST.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/employment/emp-paragraph-ST-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/employment/emp-pin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/employment/emp-pin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/fancyBox.js": {
 		"bF": 0,
 		"ft": 64,

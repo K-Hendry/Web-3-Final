@@ -4,7 +4,7 @@ ScrollTrigger.create({
     end: "bottom 70%",
     animation: paragraphTimeline,
     // toggleActions: "play pause play stop",
-    markers: true,
+    // markers: true,
     id:"paragraph",
     scrub: 2
 });
