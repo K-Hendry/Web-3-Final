@@ -4,7 +4,7 @@ gsap.to("#gallery-quote-1",{ease: "none", scrollTrigger:{
     pin: true,
     pinSpacing: false,
     start: "top top",
-    end: "bottom bottom",
+    end: "bottom top",
     markers:true,
     id:"quote-1-pin"
 }})
