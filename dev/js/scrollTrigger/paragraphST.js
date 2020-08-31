@@ -1,10 +1,10 @@
 //animates paragraphs up from the bottom on scroll
 
-var paragraphYPercent = 20;
+// var paragraphYPercent = 20;
 
-var paragraphTimeline = gsap.timeline();
+// var paragraphTimeline = gsap.timeline();
 
-paragraphTimeline.from(".body-text", {alpha:0, yPercent:paragraphYPercent})
+// paragraphTimeline.from("", {alpha:0, yPercent:paragraphYPercent})
 
 // ScrollTrigger.create({
 //     trigger: ".body-text",

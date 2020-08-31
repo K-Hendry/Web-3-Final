@@ -37,27 +37,14 @@ gsap.to("#impact-thesis",{ease: "none", scrollTrigger:{
     pin: true,
     pinSpacing: false,
     start: "top 76",
-    end: "bottom 76"
+    end: "bottom 76",
     // markers:true
-    // id:"obama-pin"
+    id:"obama-pin"
 }})
 
 // pinning vote sticker
-// gsap.to("#change-body",{scrollTrigger:{
-//     trigger:"#change-img",
-//     pin: true,
-//     pinSpacing: false,
-//     start: "top 76",
-//     end: "bottom 76",
-//     // markers:true,
-//     id:"change-pin"
-// }})
-
-var changeBodyChecker = document.querySelector("#change-body");
-if(changeBodyChecker){
-    // pinning vote sticker
-gsap.to("#change-img",{scrollTrigger:{
-    trigger:"#change-body",
+gsap.to("#change-body",{scrollTrigger:{
+    trigger:"#change-img",
     pin: true,
     pinSpacing: false,
     start: "top 76",
@@ -65,7 +52,6 @@ gsap.to("#change-img",{scrollTrigger:{
     // markers:true,
     id:"change-pin"
 }})
-}
 
 // // pinning moral
 // gsap.to("#moral-section",{scrollTrigger:{
