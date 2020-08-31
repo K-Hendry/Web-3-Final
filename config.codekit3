@@ -107,7 +107,7 @@
 		},
 	"/deploy/img/employment/suitcase-old.jpg": {
 		"ft": 16384,
-		"iS": 66300,
+		"iS": 53040,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/suitcase-old.jpg",
@@ -118,7 +118,7 @@
 		},
 	"/deploy/img/employment/suitcase.jpg": {
 		"ft": 16384,
-		"iS": 66300,
+		"iS": 53040,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/suitcase.jpg",
@@ -448,7 +448,7 @@
 		},
 	"/deploy/img/impact/impact-intro-mobile.jpg": {
 		"ft": 16384,
-		"iS": 3137482,
+		"iS": 2611557,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/impact-intro-mobile.jpg",
@@ -459,7 +459,7 @@
 		},
 	"/deploy/img/impact/impact-intro.jpg": {
 		"ft": 16384,
-		"iS": 3308345,
+		"iS": 3307548,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/impact-intro.jpg",
@@ -470,7 +470,7 @@
 		},
 	"/deploy/img/impact/moral-img.jpg": {
 		"ft": 16384,
-		"iS": 1483343,
+		"iS": 1482984,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/moral-img.jpg",
@@ -690,6 +690,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/employment/counter-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/employment/countUp.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/employment/countUp-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1500,7 +1511,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -2579,7 +2590,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, TweenLite,Scrollbar",
+	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, CountUp, ",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
