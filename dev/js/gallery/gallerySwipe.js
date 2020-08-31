@@ -94,18 +94,18 @@ gsap.to("#gallery-container", {
 })
 
 //horizontal scrolling
-$target = $("#gallery-main").first(),
-    currentPosition = parseInt($target.css("transform").split(",")[4]),
-    moveBy = function (scrolledBy) {
-        currentPosition += scrolledBy;
-        $target.css("transform", "translateX(" + (currentPosition) + "px)")
-    },
-    lastScrollTop = 0;
+// $target = $("#gallery-main").first(),
+//     currentPosition = parseInt($target.css("transform").split(",")[4]),
+//     moveBy = function (scrolledBy) {
+//         currentPosition += scrolledBy;
+//         $target.css("transform", "translateX(" + (currentPosition) + "px)")
+//     },
+//     lastScrollTop = 0;
 
-    currentPosition = isNaN(currentPosition) ? 0 : currentPosition;
-    $(window).bind("scroll", function (e) {
-        var scrolledBy = $(window).scrollTop() - lastScrollTop;
-        moveBy(-scrolledBy);
-        lastScrollTop = $(window).scrollTop();
-    });
+//     currentPosition = isNaN(currentPosition) ? 0 : currentPosition;
+//     $(window).bind("scroll", function (e) {
+//         var scrolledBy = $(window).scrollTop() - lastScrollTop;
+//         moveBy(-scrolledBy);
+//         lastScrollTop = $(window).scrollTop();
+//     });
 
