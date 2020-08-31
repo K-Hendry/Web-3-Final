@@ -18,6 +18,12 @@
 // @codekit-prepend "employment/emp-cards-ST.js"; 
 // @codekit-prepend "employment/emp-header-ST.js"; 
 
+// @codekit-prepend "experiment/expHero.js";
+// @codekit-prepend "experiment/expParagraphs.js";
+// @codekit-prepend "experiment/expPullQuotes.js";
+// @codekit-prepend "experiment/experimentPin.js";
+// @codekit-prepend "experiment/photoST.js";
+
 // @codekit-prepend "impact/impact-pin.js"; 
 // @codekit-prepend "impact/impact-para.js"; 
 // @codekit-prepend "gallery/gallerySwipe.js"; 
