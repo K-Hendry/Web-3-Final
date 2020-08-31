@@ -11,18 +11,18 @@
 //     id:"quote-pin"
 // }})
 
-var empBodyChecker = document.querySelector("#emp-quote");
-if(empBodyChecker){
-    gsap.to("#emp-quote",{scrollTrigger:{
-        trigger:"#emp-quote",
-        pin: true,
-        pinSpacing: false,
-        start: "top 76",
-        end: "bottom 76",
-        // markers:true,
-        id:"quote-pin"
-    }})
-}
+// var empBodyChecker = document.querySelector("#emp-quote");
+// if(empBodyChecker){
+//     gsap.to("#emp-quote",{scrollTrigger:{
+//         trigger:"#emp-quote",
+//         pin: true,
+//         pinSpacing: false,
+//         start: "top 76",
+//         end: "bottom 76",
+//         // markers:true,
+//         id:"quote-pin"
+//     }})
+// }
 //animates quote in from side **KEEPS MOVING... ASK JOSH?
 
 // var pullQuoteTimeline = gsap.timeline();
