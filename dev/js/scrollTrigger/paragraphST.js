@@ -4,7 +4,7 @@
 
 // var paragraphTimeline = gsap.timeline();
 
-// paragraphTimeline.from(".body-text", {alpha:0, yPercent:paragraphYPercent})
+// paragraphTimeline.from("", {alpha:0, yPercent:paragraphYPercent})
 
 // ScrollTrigger.create({
 //     trigger: ".body-text",

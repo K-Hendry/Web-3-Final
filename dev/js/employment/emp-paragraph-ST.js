@@ -1,16 +1,33 @@
-var paragraphYPercent = 20;
+var empParagraphYPercent = 10;
 
-var paragraphTimeline = gsap.timeline();
+var empParagraphTimeline = gsap.timeline();
 
-paragraphTimeline.from("#emp-p1", {alpha:0, yPercent:paragraphYPercent})
+empParagraphTimeline.from("#emp-p1", {alpha:0, yPercent:empParagraphYPercent})
 
 ScrollTrigger.create({
     trigger: "#emp-p1",
-    start: "top 90%",
-    end: "bottom 70%",
-    animation: paragraphTimeline,
-    toggleActions: "play none play none",
+    start: "top 50%",
+    end: "bottom 50%",
+    animation: empParagraphTimeline,
+    toggleActions: "play play none none",
     // markers: true,
+    id:"paragraph"
+    // scrub: 2
+});
+
+var empParagraph2YPercent = 10;
+
+var empParagraph2Timeline = gsap.timeline();
+
+empParagraph2Timeline.from("#emp-p2", {alpha:0, yPercent:empParagraph2YPercent})
+
+ScrollTrigger.create({
+    trigger: "#emp-p2",
+    start: "top 50%",
+    end: "bottom 50%",
+    animation: empParagraph2Timeline,
+    toggleActions: "play play none none",
+    markers: true,
     id:"paragraph"
     // scrub: 2
 });

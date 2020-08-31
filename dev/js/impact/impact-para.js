@@ -1,3 +1,9 @@
+var paragraphYPercent = 20;
+
+var paragraphTimeline = gsap.timeline();
+
+paragraphTimeline.from("#moral-para-1", {alpha:0, yPercent:paragraphYPercent})
+
 ScrollTrigger.create({
     trigger: "#moral-para-1",
     start: "top 90%",
