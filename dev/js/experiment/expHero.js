@@ -1,3 +1,5 @@
+var experimentChecker = document.querySelector("#experimentation");
+
 if(experimentChecker){
     const expHeaderTimeline = gsap.timeline();
 
