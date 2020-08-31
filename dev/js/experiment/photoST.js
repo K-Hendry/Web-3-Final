@@ -10,7 +10,7 @@ if(experimentChecker){
         pin: true,
             pinSpacing: true,
             start: "top top",
-            end: "bottom top",
-        scrub: 1
+            end: "bottom top"
+        //scrub: 1
     });
 }

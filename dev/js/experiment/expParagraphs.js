@@ -9,9 +9,9 @@ ScrollTrigger.create({
     trigger:"#pullquote-section-1",
     pin: true,
         pinSpacing: true,
-        start: "top top",
+        start: "top top"
         //end: "bottom top",
-        scrub: 1
+        //scrub: 1
 });
 }
 if(experimentChecker){
@@ -23,8 +23,8 @@ ScrollTrigger.create({
     animation: expPara2Timeline,
     toggleActions: "restart none none none",
     trigger:"#image-section-4",
-        start: "top top",
+        start: "top top"
         //end: "bottom top",
-        scrub: 1
+        //scrub: 1
 });
 }
