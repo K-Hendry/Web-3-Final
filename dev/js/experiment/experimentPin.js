@@ -10,4 +10,4 @@ gsap.to("#para-section-3", {
         end: "bottom top",
         id: "para-3-experiment"
     }
-})
+});

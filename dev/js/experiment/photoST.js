@@ -11,4 +11,4 @@ ScrollTrigger.create({
         start: "top top",
         end: "bottom top",
     scrub: 1
-})
+});
