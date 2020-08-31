@@ -2,149 +2,167 @@
     Index
 ============= */
 
-#index-content{
-    h1{
-        color: red;
-    }
+#index-background {
+background-color: $off-white;
 }
- /* --------------------------
+
+/* --------------------------
     Intro
  --------------------------*/
-#index-opening{height: 100vh;
-    background-image:url('../img/index/intro-index.jpg') ;
+#index-opening {
+    height: 100vh;
+    background-image: url('../img/index/intro-index.jpg');
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-        justify-content: center;
+    justify-content: center;
 
-        @include md{
-            height: 60vh;
-        }
+    @include md {
+        height: 60vh;
+    }
 
-        @include lg{
-            height: 100vh;
-        }
-    >div{display: flex;
+    @include lg {
+        height: 100vh;
+    }
+
+    >div {
+        display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
         padding: 0 15px;
-        @include md{
+
+        @include md {
             padding: 0 30px;
         }
-        h1{font-size: rem-calc(50);
-           @include md{ 
-               font-size: rem-calc(80);
-            text-align: left;
-            padding-top: 100px;
-            
+
+        h1 {
+            font-size: rem-calc(50);
+
+            @include md {
+                font-size: rem-calc(80);
+                text-align: left;
+                padding-top: 100px;
+
             }
 
-            @include lg{ 
+            @include lg {
                 font-size: rem-calc(150);
-             text-align: left;
-             width: 70vw;
-             }
+                text-align: left;
+                width: 70vw;
+            }
         }
 
-        h2{
+        h2 {
             font-size: rem-calc(23);
             text-align: center;
 
-            @include md{ 
+            @include md {
                 font-size: rem-calc(30);
-             text-align: left;
-        
-             }
+                text-align: left;
 
-             @include lg{
+            }
+
+            @include lg {
                 width: 40vw;
                 text-align: right;
-             }
+            }
 
-         
+
         }
-       
+
     }
 }
- /* --------------------------
-   Employment
+
+/* --------------------------
+   Experimentation
  --------------------------*/
- #index-experimentation{
-     >div{
-         @include md{
-             display: grid;
-             grid-template-columns: 60% auto;
-             grid-template-areas: 
-             "e-t e-im"
-             "e-c e-im";
-         }
-         img{grid-area: e-im;
+#index-experimentation {
+    >div {
+        @include md {
+            display: grid;
+            grid-template-columns: 60% auto;
+            grid-template-areas:
+                "e-t e-im"
+                "e-c e-im";
+        }
+
+        img {
+            grid-area: e-im;
             object-position: center;
             object-fit: cover;
             height: 40vh;
-            @include md{
+
+            @include md {
                 height: 35vh;
                 width: 100%;
 
             }
 
-            @include lg{
+            @include lg {
                 height: 60vh;
                 width: 100%;
 
             }
-         }
-         h3{margin-top: -100px;
-             color: $dark-red;
-             width: 80vw;
-             grid-area: e-t;
+        }
 
-             @include md{
-                 margin-top: 0;
-                 width: auto;
-                 display: flex;
-                 justify-content: center;
-                 align-items: flex-end;
-                 text-align: right;
-                 margin-right: -100px;
-             }
+        h3 {
+            margin-top: -100px;
+            color: $dark-red;
+            width: 80vw;
+            grid-area: e-t;
 
-             @include lg{
-                 margin: 0 -7vw 0 30vw;
-             }
-         }
-         p{grid-area: e-c;
-            padding-top: 20px; 
+            @include md {
+                margin-top: 0;
+                width: auto;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                text-align: right;
+                margin-right: -100px;
+            }
+
+            @include lg {
+                margin: 0 -7vw 0 30vw;
+            }
+        }
+
+        p {
+            grid-area: e-c;
+            padding-top: 20px;
             text-align: right;
-             span{font-size: rem-calc(23);
-                 font-weight: 700;
-                 color: $blue-black;
 
-                 @include md{
+            span {
+                font-size: rem-calc(23);
+                font-weight: 700;
+                color: $blue-black;
+
+                @include md {
                     font-size: rem-calc(26);
-                 }
-             }
-             @include md{
+                }
+            }
+
+            @include md {
                 text-align: left;
                 width: auto;
             }
 
-            @include lg{
+            @include lg {
                 text-align: right;
                 padding: 20px 30px 0 20vw;
             }
-         }
-     }
- }
+        }
+    }
+}
 
-  /* --------------------------
+/* --------------------------
   Impact
  --------------------------*/
-#index-impact{
-    >div{background-image:url('../img/impact/impact-intro-mobile.jpg') ;
+#index-impact {
+    >div {
+        background-image: url('../img/impact/impact-intro-mobile.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -155,40 +173,42 @@
         align-items: flex-start;
         flex-direction: column;
 
-        @include lg{
+        @include lg {
             height: 70vh;
             width: 80vw;
         }
 
-       
-
-
-        h3{
+        h3 {
             color: $blue-black;
             font-size: rem-calc(39);
 
-            @include md{
+            @include md {
                 color: $dark-red;
                 font-size: rem-calc(50);
             }
 
-            @include lg{
+            @include lg {
                 padding-left: 10vw;
             }
         }
 
-        p{padding-top: 20px;
-            @include md{
+        p {
+            padding-top: 20px;
+
+            @include md {
                 text-align: right;
                 padding-left: 20vw;
             }
-            @include lg{
+
+            @include lg {
                 padding-left: 10vw;
                 text-align: left;
             }
-            span{
+
+            span {
                 font-weight: 700;
-                @include md{
+
+                @include md {
                     font-size: rem-calc(35);
                 }
             }
@@ -205,7 +225,223 @@
         //     height: 30vh;
         // }
         // }
-        
+
     }
 }
- 
+
+/* --------------------------
+  publicity
+ --------------------------*/
+#index-publicity {
+    >div {
+        height: 100vh;
+        img{
+            background-image: url('../img/employment/suitcase-old.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 50vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            margin-top: 50px;
+            @include md{
+                margin-right: 30vw;
+                width: 70vw;
+                height: 70vh;
+            }
+            @include lg {
+                margin-right: 0;
+                margin-right: 70vw;
+                height: 100vh;
+                width: 30vw;
+                margin-top: 0;
+            }
+        }
+
+        h3 {
+            color: $blue-black;
+            font-size: rem-calc(39);
+            text-align: right;
+            margin-top: -350px;
+
+            @include md {
+                color: $dark-red;
+                font-size: rem-calc(50);
+                text-align: left;
+                padding-right: 30vw;
+                padding-left: 15vw;
+                margin-top: -650px;
+            }
+
+            @include lg {
+                padding-left: 50vw;
+                text-align: right;
+                padding-right: 5vw;
+            }
+        }
+
+        p {
+            padding-top: 20px;
+            padding-left: 90px;
+            padding-right: 90px;
+
+            @include md {
+                text-align: left;
+                padding-left: 40vw;
+            }
+
+            @include lg {
+                padding-left: 40vw;
+                text-align: left;
+            }
+
+            span {
+                font-weight: 700;
+
+                @include md {
+                    font-size: rem-calc(35);
+                }
+            }
+        }
+    }
+}
+/* --------------------------
+  history
+ --------------------------*/
+ #index-history {
+    >div {
+        height: 100vh;
+        img{
+            background-image: url('../img/impact/moral-img.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            @include md{
+                margin-top: 300px;
+                margin-left: 20vw;
+                width: 80vw;
+                height: 70vh;
+            }
+            @include lg {
+                height: 100vh;
+                width: 100vw;
+                margin-top: 0px;
+                margin-left: 0vw;
+            }
+        }
+
+        h3 {
+            color: $blue-black;
+            font-size: rem-calc(39);
+            text-align: left;
+            margin-top: -550px;
+
+            @include md {
+                color: $dark-red;
+                font-size: rem-calc(50);
+                text-align: right;
+                padding-right: 15vw;
+                padding-left: 15vw;
+                margin-top: -600px;
+            }
+
+            @include lg {
+                padding-left: 10vw;
+                text-align: left;
+            }
+        }
+
+        p {
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-right: 40px;
+            text-align: right;
+
+            @include md {
+                text-align: left;
+                padding-left: 40vw;
+            }
+
+            @include lg {
+                padding-left: 10vw;
+                text-align: left;
+                padding-right: 50vw;
+            }
+
+            span {
+                font-weight: 700;
+
+                @include md {
+                    font-size: rem-calc(35);
+                }
+            }
+        }
+    }
+}
+
+    /* --------------------------
+  Gallery
+ --------------------------*/
+    #index-gallery {
+        background-color: $green-blue;
+
+        h4 {
+            color: $blue-black;
+            font-size: rem-calc(39);
+            padding-left: 3vw;
+
+            @include md {
+                color: $dark-red;
+                text-align: center;
+                padding-left: 0;
+                font-size: rem-calc(50);
+            }
+
+            @include lg {
+                padding-left: 10vw;
+            }
+        }
+
+        #ind-gal {
+            padding-left: 5vw;
+
+            #ind-gal-1 {
+                background-image: url('../img/gallery/h-logo.jpg');
+                background-size: cover;
+                margin-top: 50px;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 50vh;
+                width: 90vw;
+            }
+
+            #ind-gal-2 {
+                background-image: url('../img/gallery/Jessica-Helfand.jpg');
+                background-size: cover;
+                margin-top: 50px;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 50vh;
+                width: 90vw;
+            }
+
+            #ind-gal-3 {
+                background-image: url('../img/gallery/Milton-Glaser.jpg');
+                background-size: cover;
+                margin-top: 50px;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 50vh;
+                width: 90vw;
+            }
+        }
+    }
