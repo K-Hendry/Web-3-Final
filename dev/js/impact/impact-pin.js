@@ -3,8 +3,8 @@ gsap.to("#impact-hero-1",{ease: "none", scrollTrigger:{
     trigger:"#impact-hero-1",
     pin: true,
     pinSpacing: false,
-    start: "top 76",
-    end: "bottom 76",
+    start: "top top",
+    end: "bottom top",
     // markers:true,
     id:"quote-pin"
 }})
@@ -14,8 +14,8 @@ gsap.to("#impact-hero-2",{ease: "none", scrollTrigger:{
     trigger:"#impact-hero-2",
     pin: true,
     pinSpacing: false,
-    start: "top 76",
-    end: "bottom 76",
+    start: "top top",
+    end: "bottom top",
     // markers:true,
     id:"hero-pin"
 }})
@@ -24,11 +24,11 @@ gsap.to("#impact-hero-2",{ease: "none", scrollTrigger:{
 gsap.to("#sway-img",{ease: "none", scrollTrigger:{
     trigger:"#sway-img",
     pin: true,
-    start: "top 75",
-    end: "top 5",
+    start: "top top",
+    end: "bottom",
     // markers:true,
-    id:"obama-pin",
-    scrub: true
+    id:"obama-pin"
+    // scrub: true
 }})
 
 // pinning thesis
@@ -36,8 +36,8 @@ gsap.to("#impact-thesis",{ease: "none", scrollTrigger:{
     trigger:"#impact-thesis",
     pin: true,
     pinSpacing: false,
-    start: "top 76",
-    end: "bottom 76",
+    start: "top top",
+    end: "bottom top",
     // markers:true
     id:"obama-pin"
 }})
@@ -47,8 +47,8 @@ gsap.to("#change-body",{scrollTrigger:{
     trigger:"#change-img",
     pin: true,
     pinSpacing: false,
-    start: "top 76",
-    end: "bottom 76",
+    start: "top top",
+    end: "bottom top",
     // markers:true,
     id:"change-pin"
 }})
