@@ -1,5 +1,6 @@
 var canYouSeeTheMenu = false;
 var headerHeight = $("header").outerHeight();
+
 //move the header off screen on the Y axis
 gsap.set("header", {
     y: -headerHeight
@@ -12,8 +13,7 @@ headerTimeline.to("header", {
     y: 0
 })
 
-//animation of header sliding up when scrolling down-sliding dowm when scrolling up
-
+//animation of header sliding up when scrolling down-sliding down when scrolling up
 $(function () {
 
     var CurrentScroll = 200;
