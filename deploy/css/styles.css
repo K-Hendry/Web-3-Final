@@ -571,6 +571,22 @@ h4 {
 /* =============
     Buttons
 ============= */
+.button {
+  align-items: center;
+  font-family: "Exo", sans-serif;
+  font-size: 1.25rem;
+  background-color: #FFDA37;
+  color: #EF777A;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  transition: 0.25s;
+}
+.button:hover, .button:active {
+  color: #D43732;
+  background-color: #F5F5EE;
+}
+
 /* =============
     Forms
 ============= */
@@ -2438,8 +2454,6 @@ textarea {
   background-color: #FFDA37;
   color: #EF777A;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
   padding: 10px 20px;
   text-align: center;
   transition: 0.25s;
@@ -2451,8 +2465,8 @@ textarea {
   }
 }
 .button:hover, .button:active {
-  color: #F5F5EE;
-  background-color: #EF777A;
+  color: #D43732;
+  background-color: #F5F5EE;
 }
 
 /* =============

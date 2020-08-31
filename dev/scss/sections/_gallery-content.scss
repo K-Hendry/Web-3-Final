@@ -466,8 +466,6 @@ textarea {
     background-color: $yellow;
     color: $red;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
     padding: 10px 20px;
     text-align: center;
     transition: 0.25s;
@@ -482,8 +480,8 @@ textarea {
 
     &:hover,
     &:active {
-        color: $off-white;
-        background-color: $red;
+        color: $dark-red;
+        background-color: $off-white;
     }
 }
 
