@@ -88,7 +88,7 @@ gsap.to("#gallery-container", {
         pinSpacing: true,
         // start: "top top",
         end: "bottom top",
-        markers: true,
+        //markers: true,
         id: "gallery-pin"
     }
 })
