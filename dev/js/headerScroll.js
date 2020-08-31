@@ -1,4 +1,4 @@
-var canYouSeeTheMenu = false;
+
 var headerHeight = $("header").outerHeight();
 
 //move the header off screen on the Y axis

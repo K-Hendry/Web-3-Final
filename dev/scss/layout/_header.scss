@@ -15,19 +15,21 @@ header{
         padding: 20px;
         #logo-container{
             width: 20%;
-            h1{
-                color: $yellow;
-                font-weight: 400;
-                font-size: rem-calc(20);
-                line-height: rem-calc(27);
-                text-align: left;
-                transition: 0.25s;
-                cursor: pointer;
-                &:hover,
-                &:active {
-                    color: $off-white;
+            a{
+                h1{
+                    color: $yellow;
+                    font-weight: 400;
+                    font-size: rem-calc(20);
+                    line-height: rem-calc(27);
+                    text-align: left;
+                    transition: 0.25s;
+                    cursor: pointer;
+                    &:hover,
+                    &:active {
+                        color: $off-white;
+                    }
                 }
-        
+                text-decoration: none;
             }
         }
         #burger-container{
