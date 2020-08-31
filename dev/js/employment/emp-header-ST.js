@@ -1,5 +1,8 @@
 //animates headers from 0 opacity
 
+
+//"get involved and use design for good"
+
 var empHeaderTimeline = gsap.timeline();
 
 empHeaderTimeline.from("#emp-header", {alpha:0})
@@ -12,4 +15,20 @@ ScrollTrigger.create({
     toggleActions: "play play none none",
     // markers: true,
     id:"emp-header"
+});
+
+//"designers wanted"
+
+var empHeader2Timeline = gsap.timeline();
+
+empHeader2Timeline.from("#designers-wanted", {alpha:0})
+
+ScrollTrigger.create({
+    trigger: "#designers-wanted",
+    start: "top 60%",
+    end: "bottom 50%",
+    animation: empHeader2Timeline,
+    toggleActions: "play play none none",
+    // markers: true,
+    id:"emp-header2"
 });
