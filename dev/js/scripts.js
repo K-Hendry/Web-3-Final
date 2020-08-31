@@ -10,6 +10,7 @@
 // @codekit-prepend "headerScroll.js";
 
 // @codekit-prepend "employment/counter.js"; 
+// @codekit-prepend "experiment/photoST.js"; 
 // @codekit-prepend "impact/impact-pin.js"; 
 // @codekit-prepend "impact/impact-para.js"; 
 // @codekit-prepend "gallery/gallerySwipe.js"; 
