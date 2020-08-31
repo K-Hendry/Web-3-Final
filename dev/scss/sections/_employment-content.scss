@@ -8,8 +8,8 @@
 
     div {
 
-        #hero {
-            #hero-img {
+        #emp-hero {
+            #emp-hero-img {
                 background-image: url('../img/employment/stickers-hero.jpg');
                 background-position: center;
                 background-size: 300%;
@@ -44,7 +44,7 @@
                 // position: relative;
             }
 
-            #title {
+            #emp-title {
                 // position: absolute;
                 bottom: 200px;
                 // right: 30px;
@@ -195,7 +195,7 @@
                 }
 
 
-                #p1 {
+                #emp-p1 {
                     color: $blue-black;
                     padding-bottom: 100px;
 
@@ -250,7 +250,7 @@
             }
         }
 
-        #p2 {
+        #emp-p2 {
             padding: 0px 90px;
 
             @include lg {
@@ -262,7 +262,7 @@
             }
         }
 
-        #p3 {
+        #emp-p3 {
             padding: 50px 90px 0 90px;
 
             @include lg {
@@ -479,6 +479,8 @@
 
 #emp-cards {
     background-color: $blue;
+    z-index: 90;
+    position: relative;
 
     #emp-cards-content {
         h4 {
@@ -509,7 +511,7 @@
                 grid-template-areas: ". ssk hi5 three bluestate ."
             }
 
-            .card {
+            .emp-card {
                 margin-left: auto;
                 margin-right: auto;
                 background-color: $off-white;
