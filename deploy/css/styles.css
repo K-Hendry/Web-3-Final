@@ -846,7 +846,7 @@ footer div #logos ul li a:visited:active {
 #employment-start {
   background-color: #F5F5EE;
 }
-#employment-start div #hero #hero-img {
+#employment-start div #emp-hero #emp-hero-img {
   background-image: url("../img/employment/stickers-hero.jpg");
   background-position: center;
   background-size: 300%;
@@ -855,7 +855,7 @@ footer div #logos ul li a:visited:active {
   background-position-y: -10px;
 }
 @media (min-width: 768px) {
-  #employment-start div #hero #hero-img {
+  #employment-start div #emp-hero #emp-hero-img {
     background-size: 200%;
     background-position-y: -100px;
     background-position-x: -160px;
@@ -863,7 +863,7 @@ footer div #logos ul li a:visited:active {
   }
 }
 @media (min-width: 1025px) {
-  #employment-start div #hero #hero-img {
+  #employment-start div #emp-hero #emp-hero-img {
     height: 700px;
     background-size: 150%;
     background-position-y: -20px;
@@ -872,14 +872,14 @@ footer div #logos ul li a:visited:active {
   }
 }
 @media (min-width: 1440px) {
-  #employment-start div #hero #hero-img {
+  #employment-start div #emp-hero #emp-hero-img {
     width: 80vw;
     background-size: 180%;
     background-position-y: -150px;
     background-position-x: -300px;
   }
 }
-#employment-start div #hero #title {
+#employment-start div #emp-hero #emp-title {
   bottom: 200px;
   text-align: left;
   margin-top: -300px;
@@ -888,40 +888,40 @@ footer div #logos ul li a:visited:active {
   color: #EF777A;
 }
 @media (min-width: 768px) {
-  #employment-start div #hero #title {
+  #employment-start div #emp-hero #emp-title {
     margin-left: 25%;
     margin-bottom: 180px;
   }
 }
 @media (min-width: 1025px) {
-  #employment-start div #hero #title {
+  #employment-start div #emp-hero #emp-title {
     margin-left: 15%;
   }
 }
 @media (min-width: 1440px) {
-  #employment-start div #hero #title {
+  #employment-start div #emp-hero #emp-title {
     text-align: center;
     margin-left: 0px;
     margin-top: -400px;
   }
 }
-#employment-start div #hero h2 {
+#employment-start div #emp-hero h2 {
   text-align: left;
   margin-top: -50px;
   padding: 0px 80px 0px 20px;
 }
 @media (min-width: 768px) {
-  #employment-start div #hero h2 {
+  #employment-start div #emp-hero h2 {
     padding-left: 15%;
   }
 }
 @media (min-width: 1025px) {
-  #employment-start div #hero h2 {
+  #employment-start div #emp-hero h2 {
     margin-top: -120px;
   }
 }
 @media (min-width: 1440px) {
-  #employment-start div #hero h2 {
+  #employment-start div #emp-hero h2 {
     margin-top: -20px;
   }
 }
@@ -1016,25 +1016,25 @@ footer div #logos ul li a:visited:active {
     margin-left: auto;
   }
 }
-#emp-text #emp-text-content #xl #emp-text-grid #p1 {
+#emp-text #emp-text-content #xl #emp-text-grid #emp-p1 {
   color: #2E2E41;
   padding-bottom: 100px;
 }
 @media (min-width: 768px) {
-  #emp-text #emp-text-content #xl #emp-text-grid #p1 {
+  #emp-text #emp-text-content #xl #emp-text-grid #emp-p1 {
     padding-left: 25%;
     padding-right: 12%;
     margin: 0;
   }
 }
 @media (min-width: 1025px) {
-  #emp-text #emp-text-content #xl #emp-text-grid #p1 {
+  #emp-text #emp-text-content #xl #emp-text-grid #emp-p1 {
     grid-area: ctext;
     padding-left: 60px;
   }
 }
 @media (min-width: 1440px) {
-  #emp-text #emp-text-content #xl #emp-text-grid #p1 {
+  #emp-text #emp-text-content #xl #emp-text-grid #emp-p1 {
     width: 500px;
     padding-left: 100px;
   }
@@ -1073,29 +1073,29 @@ footer div #logos ul li a:visited:active {
     padding-right: 400px;
   }
 }
-#emp-text #emp-text-content #p2 {
+#emp-text #emp-text-content #emp-p2 {
   padding: 0px 90px;
 }
 @media (min-width: 1025px) {
-  #emp-text #emp-text-content #p2 {
+  #emp-text #emp-text-content #emp-p2 {
     padding: 0px 20vw;
   }
 }
 @media (min-width: 1440px) {
-  #emp-text #emp-text-content #p2 {
+  #emp-text #emp-text-content #emp-p2 {
     width: 700px;
   }
 }
-#emp-text #emp-text-content #p3 {
+#emp-text #emp-text-content #emp-p3 {
   padding: 50px 90px 0 90px;
 }
 @media (min-width: 1025px) {
-  #emp-text #emp-text-content #p3 {
+  #emp-text #emp-text-content #emp-p3 {
     padding: 50px 10vw 0px 25vw;
   }
 }
 @media (min-width: 1440px) {
-  #emp-text #emp-text-content #p3 {
+  #emp-text #emp-text-content #emp-p3 {
     width: 900px;
   }
 }
@@ -1290,6 +1290,8 @@ footer div #logos ul li a:visited:active {
 
 #emp-cards {
   background-color: #B9DFE6;
+  z-index: 90;
+  position: relative;
 }
 #emp-cards #emp-cards-content h4 {
   color: #D43732;
@@ -1315,7 +1317,7 @@ footer div #logos ul li a:visited:active {
     grid-template-areas: ". ssk hi5 three bluestate .";
   }
 }
-#emp-cards #emp-cards-content #card-gallery .card {
+#emp-cards #emp-cards-content #card-gallery .emp-card {
   margin-left: auto;
   margin-right: auto;
   background-color: #F5F5EE;
@@ -1323,44 +1325,44 @@ footer div #logos ul li a:visited:active {
   margin-bottom: 100px;
 }
 @media (min-width: 768px) {
-  #emp-cards #emp-cards-content #card-gallery .card {
+  #emp-cards #emp-cards-content #card-gallery .emp-card {
     height: 300px;
   }
 }
 @media (min-width: 1025px) {
-  #emp-cards #emp-cards-content #card-gallery .card {
+  #emp-cards #emp-cards-content #card-gallery .emp-card {
     height: auto;
   }
 }
-#emp-cards #emp-cards-content #card-gallery .card img {
+#emp-cards #emp-cards-content #card-gallery .emp-card img {
   padding: 40px 0px 20px 0px;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
-#emp-cards #emp-cards-content #card-gallery .card h4 {
+#emp-cards #emp-cards-content #card-gallery .emp-card h4 {
   text-align: center;
   padding: 40px 0px 20px 0px;
 }
 @media (min-width: 768px) {
-  #emp-cards #emp-cards-content #card-gallery .card h4 {
+  #emp-cards #emp-cards-content #card-gallery .emp-card h4 {
     text-align: left;
     padding-left: 20px;
   }
 }
-#emp-cards #emp-cards-content #card-gallery .card p {
+#emp-cards #emp-cards-content #card-gallery .emp-card p {
   text-align: left;
   overflow: scroll;
   height: 85px;
   margin-top: 0px;
 }
 @media (min-width: 768px) {
-  #emp-cards #emp-cards-content #card-gallery .card p {
+  #emp-cards #emp-cards-content #card-gallery .emp-card p {
     padding-left: 20px;
   }
 }
 @media (min-width: 1025px) {
-  #emp-cards #emp-cards-content #card-gallery .card p {
+  #emp-cards #emp-cards-content #card-gallery .emp-card p {
     margin-top: 0px;
     font-size: 1.125rem;
     height: 110px;
@@ -2965,13 +2967,13 @@ textarea {
 /* =============
     Index
 ============= */
-#index-content h1 {
-  color: red;
+#index-background {
+  background-color: #F5F5EE;
 }
 
 /* --------------------------
-   Intro
---------------------------*/
+    Intro
+ --------------------------*/
 #index-opening {
   height: 100vh;
   background-image: url("../img/index/intro-index.jpg");
@@ -3039,8 +3041,8 @@ textarea {
 }
 
 /* --------------------------
-  Employment
---------------------------*/
+   Experimentation
+ --------------------------*/
 @media (min-width: 768px) {
   #index-experimentation > div {
     display: grid;
@@ -3117,8 +3119,8 @@ textarea {
 }
 
 /* --------------------------
- Impact
---------------------------*/
+  Impact
+ --------------------------*/
 #index-impact > div {
   background-image: url("../img/impact/impact-intro-mobile.jpg");
   background-size: cover;
@@ -3174,6 +3176,229 @@ textarea {
   #index-impact > div p span {
     font-size: 2.1875rem;
   }
+}
+
+/* --------------------------
+  publicity
+ --------------------------*/
+#index-publicity > div {
+  height: 100vh;
+}
+#index-publicity > div img {
+  background-image: url("../img/employment/suitcase-old.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 50px;
+}
+@media (min-width: 768px) {
+  #index-publicity > div img {
+    margin-right: 30vw;
+    width: 70vw;
+    height: 70vh;
+  }
+}
+@media (min-width: 1025px) {
+  #index-publicity > div img {
+    margin-right: 0;
+    margin-right: 70vw;
+    height: 100vh;
+    width: 30vw;
+    margin-top: 0;
+  }
+}
+#index-publicity > div h3 {
+  color: #2E2E41;
+  font-size: 2.4375rem;
+  text-align: right;
+  margin-top: -350px;
+}
+@media (min-width: 768px) {
+  #index-publicity > div h3 {
+    color: #D43732;
+    font-size: 3.125rem;
+    text-align: left;
+    padding-right: 30vw;
+    padding-left: 15vw;
+    margin-top: -650px;
+  }
+}
+@media (min-width: 1025px) {
+  #index-publicity > div h3 {
+    padding-left: 50vw;
+    text-align: right;
+    padding-right: 5vw;
+  }
+}
+#index-publicity > div p {
+  padding-top: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+@media (min-width: 768px) {
+  #index-publicity > div p {
+    text-align: left;
+    padding-left: 40vw;
+  }
+}
+@media (min-width: 1025px) {
+  #index-publicity > div p {
+    padding-left: 40vw;
+    text-align: left;
+  }
+}
+#index-publicity > div p span {
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  #index-publicity > div p span {
+    font-size: 2.1875rem;
+  }
+}
+
+/* --------------------------
+  history
+ --------------------------*/
+#index-history > div {
+  height: 100vh;
+}
+#index-history > div img {
+  background-image: url("../img/impact/moral-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  #index-history > div img {
+    margin-top: 300px;
+    margin-left: 20vw;
+    width: 80vw;
+    height: 70vh;
+  }
+}
+@media (min-width: 1025px) {
+  #index-history > div img {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0px;
+    margin-left: 0vw;
+  }
+}
+#index-history > div h3 {
+  color: #2E2E41;
+  font-size: 2.4375rem;
+  text-align: left;
+  margin-top: -550px;
+}
+@media (min-width: 768px) {
+  #index-history > div h3 {
+    color: #D43732;
+    font-size: 3.125rem;
+    text-align: right;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    margin-top: -600px;
+  }
+}
+@media (min-width: 1025px) {
+  #index-history > div h3 {
+    padding-left: 10vw;
+    text-align: left;
+  }
+}
+#index-history > div p {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 40px;
+  text-align: right;
+}
+@media (min-width: 768px) {
+  #index-history > div p {
+    text-align: left;
+    padding-left: 40vw;
+  }
+}
+@media (min-width: 1025px) {
+  #index-history > div p {
+    padding-left: 10vw;
+    text-align: left;
+    padding-right: 50vw;
+  }
+}
+#index-history > div p span {
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  #index-history > div p span {
+    font-size: 2.1875rem;
+  }
+}
+
+/* --------------------------
+ Gallery
+--------------------------*/
+#index-gallery {
+  background-color: #22C9C6;
+}
+#index-gallery h4 {
+  color: #2E2E41;
+  font-size: 2.4375rem;
+  padding-left: 3vw;
+}
+@media (min-width: 768px) {
+  #index-gallery h4 {
+    color: #D43732;
+    text-align: center;
+    padding-left: 0;
+    font-size: 3.125rem;
+  }
+}
+@media (min-width: 1025px) {
+  #index-gallery h4 {
+    padding-left: 10vw;
+  }
+}
+#index-gallery #ind-gal {
+  padding-left: 5vw;
+}
+#index-gallery #ind-gal #ind-gal-1 {
+  background-image: url("../img/gallery/h-logo.jpg");
+  background-size: cover;
+  margin-top: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 90vw;
+}
+#index-gallery #ind-gal #ind-gal-2 {
+  background-image: url("../img/gallery/Jessica-Helfand.jpg");
+  background-size: cover;
+  margin-top: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 90vw;
+}
+#index-gallery #ind-gal #ind-gal-3 {
+  background-image: url("../img/gallery/Milton-Glaser.jpg");
+  background-size: cover;
+  margin-top: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 90vw;
 }
 
 /* =============

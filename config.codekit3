@@ -107,7 +107,7 @@
 		},
 	"/deploy/img/employment/suitcase-old.jpg": {
 		"ft": 16384,
-		"iS": 53040,
+		"iS": 66300,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/suitcase-old.jpg",
@@ -118,7 +118,7 @@
 		},
 	"/deploy/img/employment/suitcase.jpg": {
 		"ft": 16384,
-		"iS": 53040,
+		"iS": 66300,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/suitcase.jpg",
@@ -459,7 +459,7 @@
 		},
 	"/deploy/img/impact/impact-intro-mobile.jpg": {
 		"ft": 16384,
-		"iS": 2611557,
+		"iS": 3137482,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/impact-intro-mobile.jpg",
@@ -470,7 +470,7 @@
 		},
 	"/deploy/img/impact/impact-intro.jpg": {
 		"ft": 16384,
-		"iS": 3307548,
+		"iS": 3308345,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/impact-intro.jpg",
@@ -481,7 +481,7 @@
 		},
 	"/deploy/img/impact/moral-img.jpg": {
 		"ft": 16384,
-		"iS": 1482984,
+		"iS": 1483343,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/moral-img.jpg",
@@ -709,6 +709,50 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/employment/counter-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/employment/emp-cards-ST.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/employment/emp-cards-ST-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/employment/emp-header-ST.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/employment/emp-header-ST-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/employment/emp-paragraph-ST.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/employment/emp-paragraph-ST-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/employment/emp-pin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/employment/emp-pin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

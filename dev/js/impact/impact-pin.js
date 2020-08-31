@@ -38,8 +38,8 @@ gsap.to("#impact-thesis",{ease: "none", scrollTrigger:{
     pinSpacing: false,
     start: "top 76",
     end: "bottom 76",
-    markers:true
-    // id:"obama-pin"
+    // markers:true
+    id:"obama-pin"
 }})
 
 // pinning vote sticker
