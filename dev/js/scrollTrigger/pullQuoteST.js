@@ -13,18 +13,18 @@ gsap.to("#emp-quote",{scrollTrigger:{
 
 //animates quote in from side **KEEPS MOVING... ASK JOSH?
 
-var pullQuoteTimeline = gsap.timeline();
+// var pullQuoteTimeline = gsap.timeline();
 
-pullQuoteTimeline.from("#emp-quote-text", {alpha:0, xPercent:5})
+// pullQuoteTimeline.from("#emp-quote-text", {alpha:0, xPercent:5})
 
-ScrollTrigger.create({
-    trigger: "#emp-quote-text",
-    start: "top 80%",
-    end: "bottom 70%",
-    animation: pullQuoteTimeline,
-    toggleActions: "play pause play stop",
-    // markers: true,
-    scrub: true,
-    id:"pull-quote"
-});
+// ScrollTrigger.create({
+//     trigger: "#emp-quote-text",
+//     start: "top 80%",
+//     end: "bottom 70%",
+//     animation: pullQuoteTimeline,
+//     toggleActions: "play pause play stop",
+//     // markers: true,
+//     scrub: true,
+//     id:"pull-quote"
+// });
 

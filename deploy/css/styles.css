@@ -826,6 +826,20 @@ footer div #logos ul li a:visited:active {
   color: #EF777A;
 }
 
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+  z-index: 3000;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+  z-index: 3100;
+}
+
 /* =============
     Employment
 ============= */
@@ -2302,7 +2316,6 @@ textarea {
 
 #impact-intro {
   height: 100vh;
-  margin-bottom: -220px;
 }
 @media (min-width: 768px) {
   #impact-intro {
@@ -2325,7 +2338,7 @@ textarea {
   align-items: flex-end;
   flex-direction: column;
   grid-area: im-c;
-  z-index: 200;
+  z-index: 1200;
   margin-top: -220px;
   padding: 0 20px;
 }
@@ -2371,7 +2384,7 @@ textarea {
   }
 }
 #impact-intro #impact-img {
-  z-index: 100;
+  z-index: 1000;
   grid-area: im-i;
   background-image: url("../img/impact/impact-intro-mobile.jpg");
   background-size: cover;
@@ -2405,6 +2418,7 @@ textarea {
  --------------------------*/
 #impact-thesis {
   background-color: #007785;
+  z-index: 200;
 }
 #impact-thesis > div {
   display: flex;
@@ -2415,6 +2429,13 @@ textarea {
 @media (min-width: 768px) {
   #impact-thesis > div {
     padding: 100px 10vw 100px 0;
+  }
+}
+@media (min-width: 1025px) {
+  #impact-thesis > div {
+    height: 100vh;
+    padding: 0;
+    justify-content: center;
   }
 }
 #impact-thesis > div p {
@@ -2430,6 +2451,12 @@ textarea {
 /* --------------------------
    Moral
 --------------------------*/
+#moral-section {
+  position: relative;
+  z-index: 300;
+  background-color: #F5F5EE;
+  padding-top: 1px;
+}
 @media (min-width: 768px) {
   #moral-section div {
     display: grid;
@@ -2582,10 +2609,17 @@ textarea {
   justify-content: flex-start;
   align-content: center;
   padding: 40px 15px 0;
+  z-index: 400;
 }
 @media (min-width: 768px) {
   #impact-hero-1 {
     height: 50vh;
+  }
+}
+@media (min-width: 1025px) {
+  #impact-hero-1 {
+    justify-content: center;
+    height: 100vh;
   }
 }
 #impact-hero-1 h1 {
@@ -2601,6 +2635,7 @@ textarea {
 }
 @media (min-width: 1025px) {
   #impact-hero-1 p {
+    padding-bottom: 40vh;
     padding-right: 60vh;
   }
 }
@@ -2608,6 +2643,10 @@ textarea {
 /* --------------------------
    Change
 --------------------------*/
+#change-section {
+  z-index: 500;
+  position: relative;
+}
 #change-section > div {
   background-color: #B9DFE6;
   padding: 100px 0;
@@ -2622,7 +2661,8 @@ textarea {
 @media (min-width: 1025px) {
   #change-section > div {
     padding: 150px 0;
-    grid-template-areas: "c-img ct" "c-img cb1" "c-img cb2";
+    grid-template-rows: 30vh auto auto;
+    grid-template-areas: "c-img ct" ".cb1" ". cb2";
   }
 }
 #change-section > div #change-img {
@@ -2643,7 +2683,7 @@ textarea {
 }
 @media (min-width: 1025px) {
   #change-section > div #change-img img {
-    height: 90vh;
+    height: 100vh;
   }
 }
 #change-section > div #change-title {
@@ -2689,6 +2729,7 @@ textarea {
   background-repeat: no-repeat;
   height: 40vh;
   z-index: 700;
+  position: relative;
 }
 @media (min-width: 768px) {
   #impact-hero-2 {
@@ -2705,21 +2746,29 @@ textarea {
 /* --------------------------
    Sway
 --------------------------*/
+#sway-section {
+  z-index: 900;
+  position: relative;
+  background-color: #F5F5EE;
+}
 @media (min-width: 768px) {
   #sway-section > div {
     display: grid;
     grid-template-columns: 50% auto;
-    grid-template-areas: "st si" "sb si";
+    grid-template-areas: "st si" "sb .";
   }
 }
 @media (min-width: 1025px) {
   #sway-section > div {
     grid-template-columns: 60% auto;
+    padding-top: 100px;
+    grid-template-areas: "st si" "sb .";
   }
 }
 @media (min-width: 1025px) {
   #sway-section > div #sway-content {
-    padding-left: 15vw;
+    z-index: 1500;
+    padding-left: 20vw;
   }
 }
 #sway-section > div #sway-content h3 {
@@ -2752,14 +2801,21 @@ textarea {
   grid-area: si;
 }
 #sway-section > div #sway-img img {
-  z-index: 110;
+  z-index: 1400;
   display: none;
 }
 @media (min-width: 768px) {
   #sway-section > div #sway-img img {
     display: initial;
-    height: auto;
     width: 100%;
+    height: 90vh;
+  }
+}
+@media (min-width: 1025px) {
+  #sway-section > div #sway-img img {
+    display: initial;
+    width: 100%;
+    height: 110vh;
   }
 }
 
