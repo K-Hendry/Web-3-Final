@@ -1087,6 +1087,7 @@ progress::-moz-progress-bar {
 #emp-text #emp-text-content #xl #emp-text-grid h3 {
   padding: 0px 20px 0px 20px;
   margin-top: -55px;
+  color: #2E2E41;
 }
 #emp-text #emp-text-content #xl #emp-text-grid h3 span {
   color: #fff;
@@ -1256,8 +1257,9 @@ progress::-moz-progress-bar {
     text-align: center;
     margin-top: -40px;
     width: auto;
-    padding-top: 0px;
+    padding-top: 10px;
     font-size: 1.5625rem;
+    line-height: 2.1875rem;
     margin-right: 0;
   }
 }
@@ -1427,6 +1429,7 @@ progress::-moz-progress-bar {
   overflow: scroll;
   height: 85px;
   margin-top: 0px;
+  color: #2E2E41;
 }
 @media (min-width: 768px) {
   #emp-cards #emp-cards-content #card-gallery .emp-card p {
