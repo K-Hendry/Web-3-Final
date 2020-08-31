@@ -56,8 +56,8 @@ gsap.to("#impact-thesis",{ease: "none", scrollTrigger:{
 var changeBodyChecker = document.querySelector("#change-body");
 if(changeBodyChecker){
     // pinning vote sticker
-gsap.to("#change-body",{scrollTrigger:{
-    trigger:"#change-img",
+gsap.to("#change-img",{scrollTrigger:{
+    trigger:"#change-body",
     pin: true,
     pinSpacing: false,
     start: "top 76",
