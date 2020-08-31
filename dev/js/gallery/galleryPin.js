@@ -9,16 +9,7 @@ gsap.to("#gallery-quote-1",{ease: "none", scrollTrigger:{
     id:"quote-1-pin"
 }})
 
-// pinning gallery
-gsap.to("#gallery-container",{ease: "none", scrollTrigger:{
-    trigger:"#gallery-container",
-    pin: true,
-    pinSpacing: true,
-    start: "top top",
-    end: "bottom top",
-    //markers:true,
-    id:"gallery-pin"
-}})
+
 
 // pinning "what goes into a good.." and the quote runs from bottom up
 gsap.to("#gallery-content-2",{ease: "none", scrollTrigger:{
