@@ -617,7 +617,7 @@ textarea {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 900;
+  z-index: 1900;
 }
 #main-nav ul {
   display: grid;
@@ -636,7 +636,7 @@ textarea {
 }
 @media (min-width: 1025px) {
   #main-nav ul {
-    height: 88vh;
+    height: 90vh;
   }
 }
 #main-nav ul li a:link,
