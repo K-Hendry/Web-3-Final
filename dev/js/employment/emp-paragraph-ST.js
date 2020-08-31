@@ -4,57 +4,67 @@
 #Emp-Text Section
 ============= */
 
-//"this past decade.."
 var empParagraphYPercent = 10;
 
-var empParagraphTimeline = gsap.timeline();
+//"this past decade.."
 
-empParagraphTimeline.from("#emp-p1", {alpha:0, yPercent:empParagraphYPercent})
+if(employmentChecker){
 
-ScrollTrigger.create({
-    trigger: "#emp-p1",
-    start: "top 50%",
-    end: "bottom 50%",
-    animation: empParagraphTimeline,
-    toggleActions: "play play none none",
-    // markers: true,
-    id:"paragraph"
-    // scrub: 2
-});
+    var empParagraphTimeline = gsap.timeline();
+
+    empParagraphTimeline.from("#emp-p1", {alpha:0, yPercent:empParagraphYPercent})
+
+    ScrollTrigger.create({
+        trigger: "#emp-p1",
+        start: "top 50%",
+        end: "bottom 50%",
+        animation: empParagraphTimeline,
+        toggleActions: "play play none none",
+        // markers: true,
+        id:"paragraph"
+        // scrub: 2
+    });
+}
 
 //"political campaigns offer.."
 
-var empParagraph2Timeline = gsap.timeline();
+if(employmentChecker){
 
-empParagraph2Timeline.from("#emp-p2", {alpha:0, yPercent:empParagraphYPercent})
+    var empParagraph2Timeline = gsap.timeline();
 
-ScrollTrigger.create({
-    trigger: "#emp-p2",
-    start: "top 80%",
-    end: "bottom 50%",
-    animation: empParagraph2Timeline,
-    toggleActions: "play play none none",
-    // markers: true,
-    id:"paragraph2"
-    // scrub: 2
+    empParagraph2Timeline.from("#emp-p2", {alpha:0, yPercent:empParagraphYPercent})
+
+    ScrollTrigger.create({
+        trigger: "#emp-p2",
+        start: "top 80%",
+        end: "bottom 50%",
+        animation: empParagraph2Timeline,
+        toggleActions: "play play none none",
+        // markers: true,
+        id:"paragraph2"
+        // scrub: 2
 });
+}
 
 //"campaign work is certainly.."
 
-var empParagraph3Timeline = gsap.timeline();
+if(employmentChecker){
 
-empParagraph3Timeline.from("#emp-p3", {alpha:0, yPercent:empParagraphYPercent})
+    var empParagraph3Timeline = gsap.timeline();
 
-ScrollTrigger.create({
-    trigger: "#emp-p3",
-    start: "top 80%",
-    end: "bottom 50%",
-    animation: empParagraph3Timeline,
-    toggleActions: "play play none none",
-    // markers: true,
-    id:"paragraph3"
-    // scrub: 2
-});
+    empParagraph3Timeline.from("#emp-p3", {alpha:0, yPercent:empParagraphYPercent})
+
+    ScrollTrigger.create({
+        trigger: "#emp-p3",
+        start: "top 80%",
+        end: "bottom 50%",
+        animation: empParagraph3Timeline,
+        toggleActions: "play play none none",
+        // markers: true,
+        id:"paragraph3"
+        // scrub: 2
+    });
+}
 
 /* =============
 #Emp-cards Section
@@ -62,17 +72,19 @@ ScrollTrigger.create({
 
 //"if you have any inclination..."
 
-var empParagraph4Timeline = gsap.timeline();
+if(employmentChecker){
+    var empParagraph4Timeline = gsap.timeline();
 
-empParagraph4Timeline.from("#emp-end-p", {alpha:0, yPercent:empParagraphYPercent})
+    empParagraph4Timeline.from("#emp-end-p", {alpha:0, yPercent:empParagraphYPercent})
 
-ScrollTrigger.create({
-    trigger: "#emp-end-p",
-    start: "top 80%",
-    end: "bottom 50%",
-    animation: empParagraph4Timeline,
-    toggleActions: "play play none none",
-    // markers: true,
-    id:"paragraph4"
-    // scrub: 2
-});
+    ScrollTrigger.create({
+        trigger: "#emp-end-p",
+        start: "top 80%",
+        end: "bottom 50%",
+        animation: empParagraph4Timeline,
+        toggleActions: "play play none none",
+        // markers: true,
+        id:"paragraph4"
+        // scrub: 2
+    });
+}
