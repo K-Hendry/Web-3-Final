@@ -479,12 +479,34 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/impact/moral-img.jpg": {
+	"/deploy/img/impact/moral-img-1.jpg": {
 		"ft": 16384,
 		"iS": 806214,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/moral-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/impact/moral-img.jpg": {
+		"ft": 16384,
+		"iS": 463984,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/moral-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/impact/sway-img-1.jpg": {
+		"ft": 16384,
+		"iS": 1870968,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/impact/sway-img-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -503,13 +525,13 @@
 		},
 	"/deploy/img/impact/sway-img.jpg": {
 		"ft": 16384,
-		"iS": 1870968,
+		"iS": 863820,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/sway-img.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/index/intro-index.jpg": {

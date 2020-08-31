@@ -373,8 +373,8 @@
                 }
             }
         }
-
         #change-title{
+    
             grid-area: ct;
             @include md{ z-index: 500;
                 padding-top: 100px;
