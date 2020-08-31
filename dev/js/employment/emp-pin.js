@@ -23,7 +23,7 @@ ScrollTrigger.create({
     start: "top 80%",
     end: "bottom 70%",
     animation: pullQuoteTimeline,
-    toggleActions: "play pause play stop",
+    toggleActions: "play play none none",
     // markers: true,
     scrub: true,
     id:"pull-quote"

@@ -97,16 +97,21 @@
         padding: 100px 80px 0px 20px;
 
         @include md {
-            padding-left: 40%;
-            padding-right: 10px;
+            padding-left: 33%;
+            padding-right: 10%;
         }
 
         @include lg {
-            padding-left: 50%
+            padding-left: 50%;
+            padding-right: 5%;
         }
 
     }
 }
+
+/* =============
+    Pull Quote
+============= */
 
 #emp-quote {
     // z-index: 200;
@@ -136,6 +141,10 @@
         }
     }
 }
+
+/* =============
+    Suitcase Text
+============= */
 
 #emp-text {
     z-index: 90;
@@ -255,6 +264,7 @@
 
             @include lg {
                 padding: 0px 20vw;
+                margin-top: -40px;
             }
 
             @include xl {
@@ -275,6 +285,10 @@
         }
     }
 }
+
+/* =============
+    Map
+============= */
 
 #emp-map {
     background-color: $off-white;
@@ -311,7 +325,7 @@
         #counter {
             color: $green-blue;
             display: grid;
-            grid-template-rows: 1fr 1fr;
+            grid-template-rows: 1fr auto;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-areas: ". tween ."
                 ". positions .";
@@ -329,7 +343,7 @@
                 grid-template-columns: 1fr;
                 grid-template-areas: "tween"
                     "positions";
-                padding-right: 20px;
+                // padding-right: 20px;
                 padding-top: 15vh;
 
             }
@@ -340,16 +354,18 @@
 
             #count-tween {
                 grid-area: tween;
-                margin-right: 80px;
+                // margin-right: 80px;
                 color: $green-blue;
+                padding: 0 20px;
 
                 font-size: rem-calc(100);
                 text-align: center;
-                padding-left: 50px;
+                // padding-left: 50px;
 
                 @include md{
                     font-size: rem-calc(140);
                     margin-right: 0;
+                    margin-left: auto;
                     
 
                     
@@ -357,8 +373,9 @@
 
                 @include lg{
                     font-size: rem-calc(100);
-                   
-                    padding-left: 190px;
+                   text-align: center;
+                   margin-left: 0;
+                    // padding-left: 190px;
 
                 }
                 
@@ -370,22 +387,29 @@
                 padding-left: 0px;
                 text-align: center;
                 line-height:rem-calc(30);
+                color: $dark-blue;
 
                 @include md {
-                    padding-left: 20px;
+                    // padding-left: 20px;
+                    margin-right: auto;
                     text-align: left;
-                    line-height:rem-calc(35);
-                    padding-top: 40px;
+                    line-height:rem-calc(40);
+                    margin-top: auto;
+                    padding-bottom: 30px;
+                    
+                    padding-top: 30px;
                    width: 200px;
                     
                 }
 
                 @include lg {
-                    text-align: right;
+                    text-align: center;
+        
                     margin-top: -40px;
                     width: auto;
                     padding-top: 0px;
                     font-size: rem-calc(25);
+                    margin-right: 0;
                 }
             }
 
@@ -396,26 +420,31 @@
 
             @include lg {
                 grid-area: designers;
-                padding-right: 20px;
-                padding-left: 15%;
+                padding-right: 30%;
+                // padding-left: 15%;
+                
                 padding-top: 90px;
 
             }
 
             p {
-                text-align: right;
-                padding-right: 20px;
-                padding-left: 50px;
+                text-align:left;
+                padding-left: 60px;
+                padding-right: 70px;
+                font-size: rem-calc(18);
+                line-height: rem-calc(30);
 
                 @include md {
                     text-align: right;
                     padding-right: 12%;
-                    padding-left: 400px;
+                    padding-left: 45%;
+                    margin-bottom: 0;
                 }
 
                 @include lg {
                     padding: 0px;
-                    padding-left: 150px;
+                    padding-left: 30%;
+
                     // display: inline-block;
 
                 }
@@ -424,7 +453,10 @@
             h3 {
                 text-align: right;
                 padding-left: 100px;
-                padding-right: 20px;
+                padding-right: 60px;
+                color: $dark-red;
+                font-size: rem-calc(40);
+                line-height: rem-calc(45);
 
                 @include md {
                     text-align: left;
@@ -435,12 +467,16 @@
                     text-align: right;
                     // display: inline-block;
                 }
+
+                @include xl{
+                    padding-left: 40%;
+                }
             }
         }
 
 
         #google-map {
-            padding: 60px 0px 100px 0;
+            padding: 100px 0px;
 
             @include md{
                 padding: 100px 0px;
@@ -449,6 +485,12 @@
             @include lg {
                 grid-area: mapgrid;
                 padding: 0px;
+                border-left: solid 30px $dark-blue;
+            }
+
+            @include xl{
+                border: none;
+                // background-color: $dark-blue;
             }
 
             #map { 
@@ -476,6 +518,10 @@
         }
     }
 }
+
+/* =============
+   Cards
+============= */
 
 #emp-cards {
     background-color: $blue;
@@ -651,7 +697,7 @@
         #emp-end {
            
             p {
-                color: $blue-black;
+                color: $dark-blue;
 
                 @include md {
                     padding: 0px 90px;

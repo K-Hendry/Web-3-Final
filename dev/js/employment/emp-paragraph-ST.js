@@ -1,11 +1,18 @@
+//animate paragraphs on scroll
+
+/* =============
+#Emp-Text Section
+============= */
+
+//"this past decade.."
 var empParagraphYPercent = 10;
 
 var empParagraphTimeline = gsap.timeline();
 
-empParagraphTimeline.from("#emp-p1, #emp-p2", {alpha:0, yPercent:empParagraphYPercent})
+empParagraphTimeline.from("#emp-p1", {alpha:0, yPercent:empParagraphYPercent})
 
 ScrollTrigger.create({
-    trigger: "#emp-p1, #emp-p2",
+    trigger: "#emp-p1",
     start: "top 50%",
     end: "bottom 50%",
     animation: empParagraphTimeline,
@@ -15,21 +22,57 @@ ScrollTrigger.create({
     // scrub: 2
 });
 
-//paragraph 2
-
-var empParagraph2YPercent = 10;
+//"political campaigns offer.."
 
 var empParagraph2Timeline = gsap.timeline();
 
-empParagraph2Timeline.from("#emp-p2", {alpha:0, yPercent:empParagraph2YPercent})
+empParagraph2Timeline.from("#emp-p2", {alpha:0, yPercent:empParagraphYPercent})
 
 ScrollTrigger.create({
     trigger: "#emp-p2",
-    start: "top 50%",
+    start: "top 80%",
     end: "bottom 50%",
     animation: empParagraph2Timeline,
     toggleActions: "play play none none",
-    markers: true,
-    id:"paragraph"
+    // markers: true,
+    id:"paragraph2"
+    // scrub: 2
+});
+
+//"campaign work is certainly.."
+
+var empParagraph3Timeline = gsap.timeline();
+
+empParagraph3Timeline.from("#emp-p3", {alpha:0, yPercent:empParagraphYPercent})
+
+ScrollTrigger.create({
+    trigger: "#emp-p3",
+    start: "top 80%",
+    end: "bottom 50%",
+    animation: empParagraph3Timeline,
+    toggleActions: "play play none none",
+    // markers: true,
+    id:"paragraph3"
+    // scrub: 2
+});
+
+/* =============
+#Emp-cards Section
+============= */
+
+//"if you have any inclination..."
+
+var empParagraph4Timeline = gsap.timeline();
+
+empParagraph4Timeline.from("#emp-end-p", {alpha:0, yPercent:empParagraphYPercent})
+
+ScrollTrigger.create({
+    trigger: "#emp-end-p",
+    start: "top 80%",
+    end: "bottom 50%",
+    animation: empParagraph4Timeline,
+    toggleActions: "play play none none",
+    // markers: true,
+    id:"paragraph4"
     // scrub: 2
 });
