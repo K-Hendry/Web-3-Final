@@ -107,7 +107,7 @@
 		},
 	"/deploy/img/employment/suitcase-old.jpg": {
 		"ft": 16384,
-		"iS": 53040,
+		"iS": 66300,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/suitcase-old.jpg",
@@ -426,7 +426,7 @@
 		},
 	"/deploy/img/impact/change-img.jpg": {
 		"ft": 16384,
-		"iS": 3063362,
+		"iS": 806214,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/change-img.jpg",
@@ -459,7 +459,7 @@
 		},
 	"/deploy/img/impact/impact-intro-mobile.jpg": {
 		"ft": 16384,
-		"iS": 2611557,
+		"iS": 3137482,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/impact-intro-mobile.jpg",
@@ -470,7 +470,7 @@
 		},
 	"/deploy/img/impact/impact-intro.jpg": {
 		"ft": 16384,
-		"iS": 3307548,
+		"iS": 3308345,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/impact-intro.jpg",
@@ -481,7 +481,7 @@
 		},
 	"/deploy/img/impact/moral-img-1.jpg": {
 		"ft": 16384,
-		"iS": 1482984,
+		"iS": 806214,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/moral-img.jpg",
@@ -2039,7 +2039,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -2439,7 +2439,7 @@
 			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
 			},
 		"no-undef": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
@@ -2487,7 +2487,7 @@
 			"optionString": ""
 			},
 		"no-unused-vars": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
@@ -2787,7 +2787,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, TweenLite, ",
+	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, TweenLite",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
