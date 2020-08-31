@@ -33,6 +33,7 @@ ScrollTrigger.create({
 
 //pin map section
 //make so only pins on xl size? if else sentence?
+//https://stackoverflow.com/questions/17237935/jquery-execute-scripts-based-on-screen-size
 
 gsap.to("#emp-map",{ease: "none", scrollTrigger:{
     trigger:"#emp-map",
