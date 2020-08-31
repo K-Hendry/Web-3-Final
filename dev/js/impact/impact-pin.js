@@ -37,8 +37,8 @@ gsap.to("#impact-thesis",{ease: "none", scrollTrigger:{
     pin: true,
     pinSpacing: false,
     start: "top 76",
-    end: "bottom 76",
-    markers:true
+    end: "bottom 76"
+    // markers:true
     // id:"obama-pin"
 }})
 
