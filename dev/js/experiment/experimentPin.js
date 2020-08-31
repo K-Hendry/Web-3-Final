@@ -1,5 +1,6 @@
 //pins pink quote box momentarily on scroll 
 
+if(experimentChecker){
 gsap.to("#para-section-3", {
     ease: "none",
     scrollTrigger: {
@@ -11,3 +12,4 @@ gsap.to("#para-section-3", {
         id: "para-3-experiment"
     }
 });
+}
