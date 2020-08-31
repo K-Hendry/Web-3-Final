@@ -1,7 +1,7 @@
 /* =============
     Index
 ============= */
-
+ 
 #index-content{
     h1{
         color: red;
@@ -70,7 +70,7 @@
     }
 }
  /* --------------------------
-   Employment
+   Experimentation
  --------------------------*/
  #index-experimentation{
      >div{
@@ -160,13 +160,9 @@
             width: 80vw;
         }
 
-       
-
-
         h3{
             color: $blue-black;
             font-size: rem-calc(39);
-
             @include md{
                 color: $dark-red;
                 font-size: rem-calc(50);
@@ -205,6 +201,60 @@
         //     height: 30vh;
         // }
         // }
+        
+    }
+}
+  /* --------------------------
+  Gallery
+ --------------------------*/
+ #index-gallery{
+    >div{background-image:url('../img/impact/impact-intro-mobile.jpg') ;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+        @include lg{
+            height: 70vh;
+            width: 80vw;
+        }
+
+
+        h3{
+            color: $blue-black;
+            font-size: rem-calc(39);
+
+            @include md{
+                color: $dark-red;
+                font-size: rem-calc(50);
+            }
+
+            @include lg{
+                padding-left: 10vw;
+            }
+        }
+
+        p{padding-top: 20px;
+            @include md{
+                text-align: right;
+                padding-left: 20vw;
+            }
+            @include lg{
+                padding-left: 10vw;
+                text-align: left;
+            }
+            span{
+                font-weight: 700;
+                @include md{
+                    font-size: rem-calc(35);
+                }
+            }
+        }
         
     }
 }

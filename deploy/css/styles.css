@@ -2845,7 +2845,7 @@ textarea {
 }
 
 /* --------------------------
-  Employment
+  Experimentation
 --------------------------*/
 @media (min-width: 768px) {
   #index-experimentation > div {
@@ -2978,6 +2978,66 @@ textarea {
 }
 @media (min-width: 768px) {
   #index-impact > div p span {
+    font-size: 2.1875rem;
+  }
+}
+
+/* --------------------------
+ Gallery
+--------------------------*/
+#index-gallery > div {
+  background-image: url("../img/impact/impact-intro-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media (min-width: 1025px) {
+  #index-gallery > div {
+    height: 70vh;
+    width: 80vw;
+  }
+}
+#index-gallery > div h3 {
+  color: #2E2E41;
+  font-size: 2.4375rem;
+}
+@media (min-width: 768px) {
+  #index-gallery > div h3 {
+    color: #D43732;
+    font-size: 3.125rem;
+  }
+}
+@media (min-width: 1025px) {
+  #index-gallery > div h3 {
+    padding-left: 10vw;
+  }
+}
+#index-gallery > div p {
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  #index-gallery > div p {
+    text-align: right;
+    padding-left: 20vw;
+  }
+}
+@media (min-width: 1025px) {
+  #index-gallery > div p {
+    padding-left: 10vw;
+    text-align: left;
+  }
+}
+#index-gallery > div p span {
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  #index-gallery > div p span {
     font-size: 2.1875rem;
   }
 }
