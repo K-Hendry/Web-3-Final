@@ -2771,8 +2771,8 @@ textarea {
 /* =============
     Index
 ============= */
-#index-content h1 {
-  color: red;
+#index-background {
+  background-color: #F5F5EE;
 }
 
 /* --------------------------
@@ -2985,6 +2985,9 @@ textarea {
 /* --------------------------
   publicity
  --------------------------*/
+#index-publicity > div {
+  height: 100vh;
+}
 #index-publicity > div img {
   background-image: url("../img/employment/suitcase-old.jpg");
   background-size: cover;
@@ -3008,10 +3011,10 @@ textarea {
 @media (min-width: 1025px) {
   #index-publicity > div img {
     margin-right: 0;
-    margin-left: 20vw;
-    height: 70vh;
-    width: 10vw;
-    overflow: hidden;
+    margin-right: 70vw;
+    height: 100vh;
+    width: 30vw;
+    margin-top: 0;
   }
 }
 #index-publicity > div h3 {
@@ -3032,8 +3035,9 @@ textarea {
 }
 @media (min-width: 1025px) {
   #index-publicity > div h3 {
-    padding-left: 70;
+    padding-left: 50vw;
     text-align: right;
+    padding-right: 5vw;
   }
 }
 #index-publicity > div p {
@@ -3049,7 +3053,7 @@ textarea {
 }
 @media (min-width: 1025px) {
   #index-publicity > div p {
-    padding-left: 10vw;
+    padding-left: 40vw;
     text-align: left;
   }
 }
@@ -3065,76 +3069,83 @@ textarea {
 /* --------------------------
   history
  --------------------------*/
-#index-publicity > div img {
-  background-image: url("../img/employment/suitcase-old.jpg");
+#index-history > div {
+  height: 100vh;
+}
+#index-history > div img {
+  background-image: url("../img/impact/moral-img.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  margin-top: 50px;
 }
 @media (min-width: 768px) {
-  #index-publicity > div img {
-    margin-right: 30vw;
-    width: 70vw;
+  #index-history > div img {
+    margin-top: 300px;
+    margin-left: 20vw;
+    width: 80vw;
     height: 70vh;
   }
 }
 @media (min-width: 1025px) {
-  #index-publicity > div img {
-    height: 70vh;
-    width: 80vw;
-    margin-top: 150px;
+  #index-history > div img {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0px;
+    margin-left: 0vw;
   }
 }
-#index-publicity > div h3 {
+#index-history > div h3 {
   color: #2E2E41;
   font-size: 2.4375rem;
-  text-align: right;
-  margin-top: -350px;
+  text-align: left;
+  margin-top: -550px;
 }
 @media (min-width: 768px) {
-  #index-publicity > div h3 {
+  #index-history > div h3 {
     color: #D43732;
     font-size: 3.125rem;
-    text-align: left;
-    padding-right: 30vw;
+    text-align: right;
+    padding-right: 15vw;
     padding-left: 15vw;
-    margin-top: -650px;
+    margin-top: -600px;
   }
 }
 @media (min-width: 1025px) {
-  #index-publicity > div h3 {
+  #index-history > div h3 {
     padding-left: 10vw;
+    text-align: left;
   }
 }
-#index-publicity > div p {
+#index-history > div p {
   padding-top: 20px;
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 10px;
+  padding-right: 40px;
+  text-align: right;
 }
 @media (min-width: 768px) {
-  #index-publicity > div p {
+  #index-history > div p {
     text-align: left;
     padding-left: 40vw;
   }
 }
 @media (min-width: 1025px) {
-  #index-publicity > div p {
+  #index-history > div p {
     padding-left: 10vw;
     text-align: left;
+    padding-right: 50vw;
   }
 }
-#index-publicity > div p span {
+#index-history > div p span {
   font-weight: 700;
 }
 @media (min-width: 768px) {
-  #index-publicity > div p span {
+  #index-history > div p span {
     font-size: 2.1875rem;
   }
 }
@@ -3153,6 +3164,8 @@ textarea {
 @media (min-width: 768px) {
   #index-gallery h4 {
     color: #D43732;
+    text-align: center;
+    padding-left: 0;
     font-size: 3.125rem;
   }
 }

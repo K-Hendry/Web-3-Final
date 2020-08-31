@@ -2,10 +2,8 @@
     Index
 ============= */
 
-#index-content {
-    h1 {
-        color: red;
-    }
+#index-background {
+background-color: $off-white;
 }
 
 /* --------------------------
@@ -236,6 +234,7 @@
  --------------------------*/
 #index-publicity {
     >div {
+        height: 100vh;
         img{
             background-image: url('../img/employment/suitcase-old.jpg');
             background-size: cover;
@@ -255,10 +254,10 @@
             }
             @include lg {
                 margin-right: 0;
-                margin-left: 20vw;
-                height: 70vh;
-                width: 10vw;
-                overflow: hidden;
+                margin-right: 70vw;
+                height: 100vh;
+                width: 30vw;
+                margin-top: 0;
             }
         }
 
@@ -278,8 +277,9 @@
             }
 
             @include lg {
-                padding-left: 70;
+                padding-left: 50vw;
                 text-align: right;
+                padding-right: 5vw;
             }
         }
 
@@ -294,7 +294,7 @@
             }
 
             @include lg {
-                padding-left: 10vw;
+                padding-left: 40vw;
                 text-align: left;
             }
 
@@ -311,56 +311,60 @@
 /* --------------------------
   history
  --------------------------*/
- #index-publicity {
+ #index-history {
     >div {
+        height: 100vh;
         img{
-            background-image: url('../img/employment/suitcase-old.jpg');
+            background-image: url('../img/impact/moral-img.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 50vh;
+            height: 100vh;
             width: 100vw;
             display: flex;
             justify-content: center;
             align-items: flex-start;
             flex-direction: column;
-            margin-top: 50px;
             @include md{
-                margin-right: 30vw;
-                width: 70vw;
+                margin-top: 300px;
+                margin-left: 20vw;
+                width: 80vw;
                 height: 70vh;
             }
             @include lg {
-                height: 70vh;
-                width: 80vw;
-                margin-top: 150px;
+                height: 100vh;
+                width: 100vw;
+                margin-top: 0px;
+                margin-left: 0vw;
             }
         }
 
         h3 {
             color: $blue-black;
             font-size: rem-calc(39);
-            text-align: right;
-            margin-top: -350px;
+            text-align: left;
+            margin-top: -550px;
 
             @include md {
                 color: $dark-red;
                 font-size: rem-calc(50);
-                text-align: left;
-                padding-right: 30vw;
+                text-align: right;
+                padding-right: 15vw;
                 padding-left: 15vw;
-                margin-top: -650px;
+                margin-top: -600px;
             }
 
             @include lg {
                 padding-left: 10vw;
+                text-align: left;
             }
         }
 
         p {
             padding-top: 20px;
-            padding-left: 90px;
-            padding-right: 90px;
+            padding-left: 10px;
+            padding-right: 40px;
+            text-align: right;
 
             @include md {
                 text-align: left;
@@ -370,6 +374,7 @@
             @include lg {
                 padding-left: 10vw;
                 text-align: left;
+                padding-right: 50vw;
             }
 
             span {
@@ -396,6 +401,8 @@
 
             @include md {
                 color: $dark-red;
+                text-align: center;
+                padding-left: 0;
                 font-size: rem-calc(50);
             }
 
