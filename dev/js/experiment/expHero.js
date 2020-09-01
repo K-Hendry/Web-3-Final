@@ -9,9 +9,9 @@ if(experimentChecker){
         animation: expHeaderTimeline,
         toggleActions: "restart none none none",
         trigger:"#hero-experiment",
-            start: "top top",
+            start: "top top"
             //end: "bottom top",
-            scrub: 1
+            //scrub: 1
     });
 }
 if(experimentChecker){
@@ -24,9 +24,9 @@ if(experimentChecker){
         trigger:"#hero-image-experiment",
         // pin: true,
         //     pinSpacing: true,
-            start: "top 10%",
+            start: "top 10%"
             //end: "bottom 60%",
-            scrub: 1
+            //scrub: 1
     });
 } 
 
