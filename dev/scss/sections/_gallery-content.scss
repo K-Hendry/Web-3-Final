@@ -143,6 +143,7 @@ img{
     height: 70vh;
     display: flex;
     align-items: center;
+    
     @include lg{
         height: 100vh;
     }

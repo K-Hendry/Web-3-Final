@@ -120,6 +120,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
     div {
         // border: solid red 2px;
@@ -150,6 +151,7 @@
     z-index: 90;
     background-color: $red;
     position: relative;
+    // top: 0;
 
     #emp-text-content {
 
@@ -228,6 +230,7 @@
                 h3 {
                     padding: 0px 20px 0px 20px;
                     margin-top: -55px;
+                    color: $blue-black;
 
                     span{
                         color: $white;
@@ -367,8 +370,6 @@
                     margin-right: 0;
                     margin-left: auto;
                     
-
-                    
                 }
 
                 @include lg{
@@ -407,8 +408,9 @@
         
                     margin-top: -40px;
                     width: auto;
-                    padding-top: 0px;
+                    padding-top: 10px;
                     font-size: rem-calc(25);
+                    line-height: rem-calc(35);
                     margin-right: 0;
                 }
             }
@@ -598,6 +600,7 @@
                     overflow: scroll;
                     height: 85px;
                     margin-top: 0px;
+                    color: $blue-black;
 
                     @include md {
                         padding-left: 20px;
