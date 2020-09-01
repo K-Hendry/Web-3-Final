@@ -2124,6 +2124,7 @@ img {
   height: 70vh;
   display: flex;
   align-items: center;
+  overflow-x: hidden;
 }
 @media (min-width: 1025px) {
   #gallery-content-2 {
