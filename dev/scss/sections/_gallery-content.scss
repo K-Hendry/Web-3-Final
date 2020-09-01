@@ -238,7 +238,7 @@ img{
     p{
         font-size: rem-calc(30);
         line-height: rem-calc(40);
-        padding:0 5%;
+        padding:0 7%;
         margin: 0;
         width: auto;
         color: $blue;
@@ -270,10 +270,11 @@ img{
         grid-gap: 20px;
         @include md{
             grid-template-columns: 50% auto;
-            grid-template-rows: 180px;
+            grid-template-rows: 200px;
             grid-template-areas: "i1 p1";  
         }
         @include lg{
+            grid-template-rows: unset;
             margin-bottom: 50px;
          }
         img{
@@ -284,9 +285,9 @@ img{
         p{
             line-height: rem-calc(28);
             grid-area: p1;
-            margin: 5%;
+            margin: 0 5%;
             @include md{
-                margin: 0 10%;
+                margin: 0 15%;
             }
             @include lg{
                 margin: 20% 20% 20% 10%;
@@ -334,7 +335,7 @@ img{
             margin: 5%;
             grid-area: p2;
             @include md{
-                margin: 50px 10% 30px;
+                margin: 50px 9% 30px;
             }
             @include lg{
                 margin: 20% 10% 20% 20%;

@@ -2240,7 +2240,7 @@ img {
 #gallery-quote-2 p {
   font-size: 1.875rem;
   line-height: 2.5rem;
-  padding: 0 5%;
+  padding: 0 7%;
   margin: 0;
   width: auto;
   color: #B9DFE6;
@@ -2281,12 +2281,13 @@ img {
 @media (min-width: 768px) {
   #gallery-content-4 #gallery-logo-1 {
     grid-template-columns: 50% auto;
-    grid-template-rows: 180px;
+    grid-template-rows: 200px;
     grid-template-areas: "i1 p1";
   }
 }
 @media (min-width: 1025px) {
   #gallery-content-4 #gallery-logo-1 {
+    grid-template-rows: unset;
     margin-bottom: 50px;
   }
 }
@@ -2298,11 +2299,11 @@ img {
 #gallery-content-4 #gallery-logo-1 p {
   line-height: 1.75rem;
   grid-area: p1;
-  margin: 5%;
+  margin: 0 5%;
 }
 @media (min-width: 768px) {
   #gallery-content-4 #gallery-logo-1 p {
-    margin: 0 10%;
+    margin: 0 15%;
   }
 }
 @media (min-width: 1025px) {
@@ -2350,7 +2351,7 @@ img {
 }
 @media (min-width: 768px) {
   #gallery-content-4 #gallery-logo-2 p {
-    margin: 50px 10% 30px;
+    margin: 50px 9% 30px;
   }
 }
 @media (min-width: 1025px) {
