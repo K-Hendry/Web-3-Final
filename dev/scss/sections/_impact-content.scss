@@ -44,7 +44,7 @@
     align-items: flex-end;
     flex-direction: column;
     grid-area: im-c;
-    z-index: 1100;
+    z-index: 800;
     margin-top: -220px;
     padding: 0 20px;
     
@@ -87,7 +87,7 @@
     }
 }
     #impact-img{
-        z-index: 1000;
+        z-index: 700;
         grid-area: im-i;
         background-image:url('../img/impact/impact-intro-mobile.jpg') ;
         background-size: cover;

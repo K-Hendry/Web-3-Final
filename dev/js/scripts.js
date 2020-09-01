@@ -23,9 +23,14 @@
 // @codekit-prepend "experiment/experimentPin.js";
 // @codekit-prepend "experiment/photoST.js";
 
-// @codekit-prepend "impact/impact-pin.js"; 
 // @codekit-prepend "impact/impact-para.js"; 
+// @codekit-prepend "impact/impact-pin.js"; 
+// @codekit-prepend "impact/impact-header.js"; 
+// @codekit-prepend "impact/impact-title.js"; 
+// @codekit-prepend "impact/impact-quotes.js"; 
+
 // @codekit-prepend "gallery/gallerySwipe.js"; 
 // @codekit-prepend "gallery/galleryPin.js"; 
+
 
 
