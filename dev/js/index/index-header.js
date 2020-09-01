@@ -7,7 +7,7 @@ if(indexChecker){
     
     ScrollTrigger.create({
         animation: indexHeaderTimeline,
-        toggleActions: "restart none none none",
+        toggleActions: "play none none none",
         trigger:"#index-opening",
             start: "top top",
             //end: "bottom top",
@@ -16,11 +16,11 @@ if(indexChecker){
 }
 if(indexChecker){
     const campaignWork = gsap.timeline();
-    campaignWork.from(".subHeaderSlideRight", {duration: .25, xPercent:-10});
+    campaignWork.from(".subHeaderSlideRight", {duration: 1, xPercent:-10});
     
     ScrollTrigger.create({
         animation: campaignWork,
-        toggleActions: "restart none none none",
+        toggleActions: "play none none none",
         trigger:"#hero-image-experiment",
         // pin: true,
         //     pinSpacing: true,

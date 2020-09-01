@@ -7,20 +7,20 @@ if(experimentChecker){
     
     ScrollTrigger.create({
         animation: expHeaderTimeline,
-        toggleActions: "restart none none none",
+        toggleActions: "play none none none",
         trigger:"#hero-experiment",
             start: "top top"
             //end: "bottom top",
             //scrub: 1
     });
-}
+} 
 if(experimentChecker){
     const needsDesigners = gsap.timeline();
-    needsDesigners.from(".subHeaderSlide", {duration: .25, xPercent:-10});
+    needsDesigners.from(".subHeaderSlide", {duration: 1, xPercent:-10});
     
     ScrollTrigger.create({
         animation: needsDesigners,
-        toggleActions: "restart none none none",
+        toggleActions: "play none none none",
         trigger:"#hero-image-experiment",
         // pin: true,
         //     pinSpacing: true,

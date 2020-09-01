@@ -1,15 +1,19 @@
 //pins pink quote box momentarily on scroll 
 
 if(experimentChecker){
-gsap.to("#para-section-3", {
-    ease: "none",
-    scrollTrigger: {
-        trigger: "#para-section-3",
+    
+    const afterObama = gsap.timeline();
+    afterObama.from(".para-3-experiment", {alpha: 0});
+    
+    ScrollTrigger.create({
+        animation: afterObama,
+        toggleActions: "play none none none",
+        trigger:"#para-section-3",
         pin: true,
         pinSpacing: true,
-        start: "top top",
-        end: "bottom top",
-        id: "para-3-experiment"
-    }
-});
-}
+            start: "top top",
+            end: "bottom 70%"
+            //scrub: 1
+    });
+} 
+
