@@ -9,7 +9,7 @@ if(experimentChecker){
         trigger:"#section-2-experiment",
         // pin: true,
         //     pinSpacing: true,
-            start: "top 60%"
+            start: "top 10%"
             //end: "bottom 60%",
             //scrub: 1
     });

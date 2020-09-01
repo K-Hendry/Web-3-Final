@@ -254,6 +254,8 @@
 	}
 
 	#section-3-experiment {
+		position: relative;
+
 		#para-section-3 {
 			padding: 100px 20px;
 			background-color: $red;
@@ -262,7 +264,7 @@
 			align-items: center;
 
 			@include md {
-				height: 80vh;
+				height: 100vh;
 				padding: 0px 150px;
 
 			}
@@ -286,11 +288,14 @@
 	}
 
 	#section-4-experiment {
+		background-color: $dark-blue;
+		position: relative;
 		@include md {
 			column-gap: 20px;
 			display: grid;
 			grid-template-columns: repeat(2, 1fr);
 			padding-top: 100px;
+			background-color: $off-white;
 		}
 
 		#pullquote-section-4 {
@@ -299,10 +304,10 @@
 			align-items: center;
 			height: 100vh;
 
-			@include md {
+			@include md { 
 				grid-column-start: 1;
 				grid-row-start: 1;
-				background-color: $off-white;
+				// background-color: $off-white;
 				// padding-top: 100px;
 				padding-left: 20px;
 			}
@@ -311,7 +316,7 @@
 				height: auto;
 			}
 
-			background-color: $dark-blue;
+			// background-color: $dark-blue;
 
 			h3 {
 				padding-left: 10px;
