@@ -1,4 +1,5 @@
 
+//console.log("Hello from FancyBox file");
 
 $('[data-fancybox="gallery"]').fancybox({
     touch : {
@@ -14,4 +15,4 @@ $('[data-fancybox="gallery"]').fancybox({
         // "close"
     ]
     
-});
+});   
