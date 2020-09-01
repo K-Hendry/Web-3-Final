@@ -107,7 +107,7 @@
 		},
 	"/deploy/img/employment/suitcase-old.jpg": {
 		"ft": 16384,
-		"iS": 66300,
+		"iS": 53040,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/suitcase-old.jpg",
@@ -118,10 +118,43 @@
 		},
 	"/deploy/img/employment/suitcase.jpg": {
 		"ft": 16384,
-		"iS": 66300,
+		"iS": 53040,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/suitcase.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/aroha.jpg": {
+		"ft": 16384,
+		"iS": 79797,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/aroha.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/denmark.jpg": {
+		"ft": 16384,
+		"iS": 15863,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/denmark.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/experimentation hero.jpg": {
+		"ft": 16384,
+		"iS": 130642,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/experimentation hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -133,6 +166,50 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/experimentation/experimentation-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/france.jpg": {
+		"ft": 16384,
+		"iS": 124728,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/france.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/logos.jpg": {
+		"ft": 16384,
+		"iS": 155960,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/logos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/obama.jpg": {
+		"ft": 16384,
+		"iS": 122962,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/obama.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/scotland.jpg": {
+		"ft": 16384,
+		"iS": 80108,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/scotland.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -382,7 +459,7 @@
 		},
 	"/deploy/img/impact/impact-intro-mobile.jpg": {
 		"ft": 16384,
-		"iS": 3137482,
+		"iS": 2611557,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/impact-intro-mobile.jpg",
@@ -393,7 +470,7 @@
 		},
 	"/deploy/img/impact/impact-intro.jpg": {
 		"ft": 16384,
-		"iS": 3308345,
+		"iS": 3307548,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/impact-intro.jpg",
@@ -415,7 +492,7 @@
 		},
 	"/deploy/img/impact/moral-img.jpg": {
 		"ft": 16384,
-		"iS": 1483343,
+		"iS": 1482984,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/moral-img.jpg",
@@ -647,6 +724,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/burgerAnimation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/burgerAnimation-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/employment/counter.js": {
 		"bF": 0,
 		"ft": 64,
@@ -764,6 +852,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/fancyBox-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/gallery/galleryPara.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gallery/galleryPara-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -2395,7 +2494,7 @@
 			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
 			},
 		"no-undef": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'typeof': false}"
 			},
 		"no-undef-init": {
@@ -2443,7 +2542,7 @@
 			"optionString": ""
 			},
 		"no-unused-vars": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
 			},
 		"no-use-before-define": {
