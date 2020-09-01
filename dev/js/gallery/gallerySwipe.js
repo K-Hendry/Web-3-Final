@@ -15,7 +15,7 @@ if(galleryChecker){
     var scrollWidth = theseItemsWidth * theseItems.length;
     var windowWidth = $(window).innerWidth();
 
-    var fromValue = 0;
+    // var fromValue = 0;
     var toValue = -(scrollWidth - windowWidth + 300);
 
     galleryTimeline.to("#gallery-container", {

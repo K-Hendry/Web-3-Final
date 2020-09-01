@@ -12,7 +12,6 @@ if(employmentChecker){
         id:"emp-quote-pin"
     });
 
-
 }
 
 //animates quote in from side 
