@@ -255,6 +255,7 @@ img{
 }
 #gallery-content-4{
     background-color: $off-white;
+    position: relative;
     @include xl{
         display: grid;
         grid-template-areas: ". container .";

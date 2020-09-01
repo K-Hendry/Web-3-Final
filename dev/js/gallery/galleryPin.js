@@ -37,7 +37,7 @@ if(galleryChecker){
                 duration:0.5,
                 scrollTrigger: {
                     trigger: "#gallery-content-2",
-                    start: "top top",
+                    start: "top 50%",
                     scrub: 1,
                     toggleActions: "play none none none",
                     //markers:true,
@@ -63,10 +63,10 @@ if(galleryChecker){
                     id: "content-3-text"
                 }
             })
-        }})
+        }}
+    )
 
     // pinning pull-quote-2
-   
     gsap.to("#gallery-quote-2", {
         ease: "none",
         scrollTrigger: {
@@ -74,22 +74,9 @@ if(galleryChecker){
             pin: "#pin-pull-quote",
             start: "top top",
             end: "bottom top",
-            //pinSpacing: true,
-            markers: true,
+            //markers: true,
             id: "quote-2-pin"
         }
     })
 
-    // gsap.to("#gallery-content-4", {
-    //     ease: "none",
-
-    //     scrollTrigger: {
-    //         trigger: "#gallery-content-4",
-    //         //pin: true,
-            
-    //         pinSpacing: true,
-    //         markers: true,
-    //         id: "content-4-pin"
-    //     }
-    // })
 }

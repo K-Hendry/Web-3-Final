@@ -31,5 +31,6 @@
 // @codekit-prepend "impact/impact-para.js"; 
 // @codekit-prepend "gallery/gallerySwipe.js"; 
 // @codekit-prepend "gallery/galleryPin.js"; 
+// @codekit-prepend "gallery/galleryPara.js"; 
 
 

@@ -845,6 +845,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/gallery/galleryPara.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gallery/galleryPara-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/gallery/galleryPin.js": {
 		"bF": 0,
 		"ft": 64,
