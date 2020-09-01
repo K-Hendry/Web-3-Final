@@ -639,6 +639,9 @@ textarea {
     height: 88vh;
   }
 }
+#main-nav ul li {
+  font-family: "Exo", sans-serif;
+}
 #main-nav ul li a:link,
 #main-nav ul li a:visited {
   color: #2E2E41;
