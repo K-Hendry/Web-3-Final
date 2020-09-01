@@ -11,6 +11,10 @@
 // @codekit-prepend "main-nav/nav-global.js";
 // @codekit-prepend "main-nav/main-nav-click.js";
 
+// @codekit-prepend "index/index-header.js"; 
+// @codekit-prepend "index/index-paragraphs.js"; 
+// @codekit-prepend "index/index-titles.js"; 
+
 // @codekit-prepend "employment/counter.js"; 
 // @codekit-prepend "employment/emp-pin.js"; 
 // @codekit-prepend "employment/emp-paragraph-ST.js"; 
