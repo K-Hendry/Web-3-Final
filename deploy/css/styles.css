@@ -2086,7 +2086,6 @@ img {
 #gallery-content-1 #gallery-container ul {
   display: flex;
   align-items: center;
-  grid-gap: 30px;
   height: 100vh;
   background-color: #F5F5EE;
 }
@@ -2094,6 +2093,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-right: 35px;
 }
 #gallery-content-1 #gallery-container ul li img {
   width: 50vw;
@@ -2149,13 +2149,13 @@ img {
 }
 #gallery-content-2 p {
   width: 230px;
-  margin-left: -20%;
+  margin-left: -16%;
   text-align: justify;
 }
 @media (min-width: 768px) {
   #gallery-content-2 p {
     text-align: left;
-    width: 380px;
+    width: 350px;
     margin-left: -5%;
   }
 }
@@ -2280,8 +2280,8 @@ img {
 }
 @media (min-width: 768px) {
   #gallery-content-4 #gallery-logo-1 {
-    grid-template-rows: unset;
     grid-template-columns: 50% auto;
+    grid-template-rows: 180px;
     grid-template-areas: "i1 p1";
   }
 }
@@ -2440,7 +2440,7 @@ img {
   line-height: 3.5rem;
   font-family: "Libre Baskerville", sans-serif;
   text-align: left;
-  width: 560px;
+  width: 550px;
   margin: 0 5%;
 }
 @media (min-width: 768px) {
@@ -2459,14 +2459,16 @@ img {
 }
 #gallery-form > div form section input,
 #gallery-form > div form section textarea {
+  border-radius: 0;
   font-size: 1.5rem;
   font-family: "Libre Baskerville", sans-serif;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 10px;
   outline: none;
   background-color: #22C9C6;
 }
 #gallery-form > div form section textarea {
+  padding: 10px 0;
   width: 440px;
   margin: 20px 5%;
 }
