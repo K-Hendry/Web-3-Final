@@ -5,7 +5,7 @@ indexParaTimeline.from(".indexPara1", {duration: 1, yPercent:10});
 
 ScrollTrigger.create({
     animation: indexParaTimeline,
-    toggleActions: "restart none none none",
+    toggleActions: "play none none none",
     trigger:"#index-experimentation",
     // pin: true,
     //     pinSpacing: true,
@@ -19,7 +19,7 @@ indexParaTimeline2.from(".indexPara2", {duration: 1, yPercent:10});
 
 ScrollTrigger.create({
     animation: indexParaTimeline2,
-    toggleActions: "restart none none none",
+    toggleActions: "play none none none",
     trigger:"#index-impact",
     // pin: true,
     //     pinSpacing: true,
@@ -33,7 +33,7 @@ indexParaTimeline3.from(".indexPara3", {duration: 1, yPercent:10});
 
 ScrollTrigger.create({
     animation: indexParaTimeline3,
-    toggleActions: "restart none none none",
+    toggleActions: "play none none none",
     trigger:"#index-publicity",
     // pin: true,
     //     pinSpacing: true,
@@ -47,7 +47,7 @@ indexParaTimeline4.from(".indexPara4", {duration: 1, yPercent:10});
 
 ScrollTrigger.create({
     animation: indexParaTimeline4,
-    toggleActions: "restart none none none",
+    toggleActions: "play none none none",
     trigger:"#index-history",
     // pin: true,
     //     pinSpacing: true,

@@ -5,7 +5,7 @@ if(experimentChecker){
     
     ScrollTrigger.create({
         animation: galleryTimeline,
-        toggleActions: "restart none none none",
+        toggleActions: "play none none none",
         trigger:"#section-5-experiment",
         pin: true,
             pinSpacing: true,

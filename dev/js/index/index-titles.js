@@ -4,7 +4,7 @@ if(indexChecker){
     
     ScrollTrigger.create({
         animation: needsDesigners,
-        toggleActions: "restart none none none",
+        toggleActions: "play none none none",
         trigger:"#index-experimentation",
         // pin: true,
         //     pinSpacing: true,
@@ -19,7 +19,7 @@ if(indexChecker){
     
     ScrollTrigger.create({
         animation: makeImpact,
-        toggleActions: "restart none none none",
+        toggleActions: "play none none none",
         trigger:"#index-impact",
         // pin: true,
         //     pinSpacing: true,
@@ -34,7 +34,7 @@ if(indexChecker){
     
     ScrollTrigger.create({
         animation: getPublicity,
-        toggleActions: "restart none none none",
+        toggleActions: "play none none none",
         trigger:"#index-publicity",
         // pin: true,
         //     pinSpacing: true,
@@ -49,7 +49,7 @@ if(indexChecker){
     
     ScrollTrigger.create({
         animation: beHistory,
-        toggleActions: "restart none none none",
+        toggleActions: "play none none none",
         trigger:"#index-history",
         // pin: true,
         //     pinSpacing: true,
@@ -64,7 +64,7 @@ if(indexChecker){
     
     ScrollTrigger.create({
         animation: exploreGallery,
-        toggleActions: "restart none none none",
+        toggleActions: "play none none none",
         trigger:"#index-gallery",
         // pin: true,
         //     pinSpacing: true,
