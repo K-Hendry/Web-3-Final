@@ -2228,7 +2228,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 @media (min-width: 1025px) {
   #gallery-quote-2 {

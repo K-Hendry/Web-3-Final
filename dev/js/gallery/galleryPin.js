@@ -38,7 +38,7 @@ if(galleryChecker){
                 scrollTrigger: {
                     trigger: "#gallery-content-2",
                     start: "top top",
-                    //scrub: 1,
+                    scrub: 1,
                     toggleActions: "play none none none",
                     //markers:true,
                     id: "content-3-text"
@@ -66,25 +66,28 @@ if(galleryChecker){
         }})
 
     // pinning pull-quote-2
+   
     gsap.to("#gallery-quote-2", {
         ease: "none",
         scrollTrigger: {
             trigger: "#gallery-quote-2",
-            pin: true,
+            pin: "#pin-pull-quote",
             start: "top top",
             end: "bottom top",
-            pinSpacing: false,
-            //markers: true,
+            //pinSpacing: true,
+            markers: true,
             id: "quote-2-pin"
         }
     })
 
     // gsap.to("#gallery-content-4", {
     //     ease: "none",
+
     //     scrollTrigger: {
     //         trigger: "#gallery-content-4",
     //         //pin: true,
-    //         //pinSpacing: false,
+            
+    //         pinSpacing: true,
     //         markers: true,
     //         id: "content-4-pin"
     //     }

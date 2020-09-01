@@ -231,7 +231,6 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     @include lg{
         height: 100vh;
     }
