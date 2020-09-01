@@ -3479,5 +3479,77 @@ textarea {
 }
 
 /* =============
-    Publicity
+    Safi Honors Pg
 ============= */
+#honors-page p {
+  margin: 0;
+}
+
+/* =============
+    Hero
+============= */
+#honors-hero {
+  background-color: #F5F5EE;
+}
+#honors-hero #honors-hero-img {
+  background-image: url("../img/employment/stickers-hero.jpg");
+  background-position: center;
+  background-size: 300%;
+  height: 800px;
+  width: 100vw;
+  background-position-y: -10px;
+}
+#honors-hero #honors-title {
+  color: #EF777A;
+  bottom: 200px;
+  font-size: 4.375rem;
+  text-align: left;
+  margin-top: -500px;
+  margin-bottom: 100px;
+  padding: 0px 5px;
+}
+
+/* =============
+    Section 01
+============= */
+#honors-01 {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-areas: "hnrs01txt" "hnrs01img";
+  padding-top: 100px;
+  background-color: #22C9C6;
+}
+#honors-01 #honors-01-img {
+  height: 300px;
+  width: 100%;
+  grid-area: hnrs01img;
+  padding-top: 100px;
+}
+#honors-01 #honors-01-p {
+  grid-area: hnrs01txt;
+}
+
+/* =============
+    Logo Design 101
+============= */
+#honors-logo-design {
+  background-color: #F5F5EE;
+}
+/* =============
+   Rand
+============= */
+#honors-rand {
+  background-color: #B9DFE6;
+}
+/* =============
+    Obama
+============= */
+#honors-obama {
+  background-color: #EF777A;
+}
+/* =============
+    Critics
+============= */
+#honors-critics {
+  background-color: #F5F5EE;
+}
