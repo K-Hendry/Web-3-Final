@@ -1,7 +1,4 @@
-
 // pinning my pull quote
-
-
 if(impactChecker){
     gsap.to("#impact-hero-1",{ease: "none", scrollTrigger:{
         trigger:"#impact-hero-1",
@@ -14,8 +11,6 @@ if(impactChecker){
     }})
 }
 // pinning my hero
-
-
 if(impactChecker){
     gsap.to("#impact-hero-2",{ease: "none", scrollTrigger:{
         trigger:"#impact-hero-2",
@@ -28,8 +23,6 @@ if(impactChecker){
     }})
 }
 // pinning my obama
-
-
 if(impactChecker){
     gsap.to("#sway-img",{ease: "none", scrollTrigger:{
         trigger:"#sway-img",
@@ -42,7 +35,6 @@ if(impactChecker){
     }})
 }
 // pinning thesis
-
 if(impactChecker){
     gsap.to("#impact-thesis",{ease: "none", scrollTrigger:{
         trigger:"#impact-thesis",
@@ -54,16 +46,6 @@ if(impactChecker){
         id:"obama-pin"
     }})
 }
-// pinning vote sticker
-// gsap.to("#change-img",{scrollTrigger:{
-//     trigger:"#change-img",
-//     pin: true,
-//     pinSpacing: false,
-//     start: "top top",
-//     end: "bottom top",
-//     // markers:true,
-//     id:"change-pin"
-// }})
 
 if(impactChecker){
     gsap.to("#change-img",{scrollTrigger:{
@@ -77,13 +59,3 @@ if(impactChecker){
     }})
 }
 
-
-// // pinning moral
-// gsap.to("#moral-section",{scrollTrigger:{
-//     trigger:"#moral-img",
-//     pin: true,
-//     pinSpacing: false,
-//     start: "top 76",
-//     end: "bottom 76"
-//     // markers:true,
-// }})
