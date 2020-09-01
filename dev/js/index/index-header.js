@@ -3,7 +3,7 @@ var indexChecker = document.querySelector("#index-background");
 if(indexChecker){
     const indexHeaderTimeline = gsap.timeline();
 
-    indexHeaderTimeline.from(".headerSlideUp", {duration: 1, yPercent:.5});
+    indexHeaderTimeline.from(".headerSlideUp", {duration: 1, yPercent:2});
     
     ScrollTrigger.create({
         animation: indexHeaderTimeline,
