@@ -118,43 +118,10 @@
 		},
 	"/deploy/img/employment/suitcase.jpg": {
 		"ft": 16384,
-		"iS": 53040,
+		"iS": 66300,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/employment/suitcase.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/aroha.jpg": {
-		"ft": 16384,
-		"iS": 79797,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/aroha.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/denmark.jpg": {
-		"ft": 16384,
-		"iS": 15863,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/denmark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/experimentation hero.jpg": {
-		"ft": 16384,
-		"iS": 130642,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/experimentation hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -166,50 +133,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/experimentation/experimentation-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/france.jpg": {
-		"ft": 16384,
-		"iS": 124728,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/france.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/logos.jpg": {
-		"ft": 16384,
-		"iS": 155960,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/logos.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/obama.jpg": {
-		"ft": 16384,
-		"iS": 122962,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/obama.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/scotland.jpg": {
-		"ft": 16384,
-		"iS": 80108,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/scotland.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -426,7 +349,7 @@
 		},
 	"/deploy/img/impact/change-img.jpg": {
 		"ft": 16384,
-		"iS": 806214,
+		"iS": 3063362,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/change-img.jpg",
@@ -481,10 +404,10 @@
 		},
 	"/deploy/img/impact/moral-img-1.jpg": {
 		"ft": 16384,
-		"iS": 806214,
+		"iS": 1482984,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/impact/moral-img.jpg",
+		"oAP": "/deploy/img/impact/moral-img-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -492,7 +415,7 @@
 		},
 	"/deploy/img/impact/moral-img.jpg": {
 		"ft": 16384,
-		"iS": 463984,
+		"iS": 1483343,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/moral-img.jpg",
@@ -525,13 +448,13 @@
 		},
 	"/deploy/img/impact/sway-img.jpg": {
 		"ft": 16384,
-		"iS": 863820,
+		"iS": 1870968,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/impact/sway-img.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/index/intro-index.jpg": {
@@ -724,6 +647,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/burgerAnimation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/burgerAnimation-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/employment/counter.js": {
 		"bF": 0,
 		"ft": 64,
@@ -845,6 +779,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/gallery/galleryPara.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gallery/galleryPara-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/gallery/galleryPin.js": {
 		"bF": 0,
 		"ft": 64,
@@ -940,6 +885,39 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/impact/impact-title-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/index/index-header.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/index/index-header-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/index/index-paragraphs.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/index/index-paragraphs-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/index/index-titles.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/index/index-titles-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -2820,7 +2798,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, TweenLite, tns",
+	"jsCheckerReservedNamesString": "ScrollTrigger, gsap, TweenLite, ",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
