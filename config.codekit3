@@ -856,12 +856,38 @@
 		"sC": 3,
 		"tS": 0
 		},
+<<<<<<< Updated upstream
 	"/dev/js/index/index-titles.js": {
+=======
+	"/dev/js/index/index-paragraphs.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/index/index-paragraphs-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/index/index-pin.js": {
+>>>>>>> Stashed changes
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
+		"oAP": "/dev/js/index/index-titles-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/index/index-titles.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
 		"oAP": "/dev/js/index/index-titles-min.js",
 		"oF": 0,
 		"sC": 3,
