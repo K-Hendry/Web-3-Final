@@ -10,8 +10,8 @@ if(indexChecker){
         start: "top 50%",
         end: "bottom 50%",
         animation: indexHeaderTimeline,
-        toggleActions: "play play none none",
-        markers: true
+        toggleActions: "play play none none"
+        // markers: true
         
         
     });
