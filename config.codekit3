@@ -127,12 +127,78 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/experimentation/aroha.jpg": {
+		"ft": 16384,
+		"iS": 104799,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/aroha.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/denmark.jpg": {
+		"ft": 16384,
+		"iS": 6216,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/denmark.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/experimentation/experimentation-hero.jpg": {
 		"ft": 16384,
 		"iS": 130642,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/experimentation/experimentation-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/france.jpg": {
+		"ft": 16384,
+		"iS": 118987,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/france.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/logos.jpg": {
+		"ft": 16384,
+		"iS": 186121,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/logos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/obama.jpg": {
+		"ft": 16384,
+		"iS": 1487176,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/obama.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/scotland.jpg": {
+		"ft": 16384,
+		"iS": 83373,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/scotland.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1257,19 +1323,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_publicity-content.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 0
-		},
-	"/dev/scss/sections/_safi-content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_safi-content.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
