@@ -1,8 +1,7 @@
 //pins pull quote so next section overlaps on top of it
 
 if(employmentChecker){
-    
-    ScrollTrigger.create({
+    gsap.to("#emp-quote",{ease: "none", scrollTrigger:{
         trigger:"#emp-quote",
         pin: true,
         pinSpacing: false,
@@ -10,8 +9,7 @@ if(employmentChecker){
         end: "bottom 1",
         // markers:true,
         id:"emp-quote-pin"
-    });
-
+    }})
 }
 
 //animates quote in from side 
@@ -41,7 +39,7 @@ if(employmentChecker){
     
     //only pin if desktop size
     if($(window).width() >= 1024){
-        ScrollTrigger.create({
+        gsap.to("#emp-map",{ease: "none", scrollTrigger:{
             trigger:"#emp-map",
             pin: true,
             pinSpacing: false,
@@ -50,6 +48,6 @@ if(employmentChecker){
             
             // markers:true,
             id:"emp-map-pin"
-        });
+        }})
     }
 }

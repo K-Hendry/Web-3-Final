@@ -6,4 +6,3 @@ gsap.to('#progress', {
   // markers: true
 }
 });
-

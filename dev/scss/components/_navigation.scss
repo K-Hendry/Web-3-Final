@@ -21,10 +21,10 @@
         grid-template-areas: 
         "n1" "n2"
         "n3" "n4";
-        height: 75vh;
+        height: 90vh;
         width: 100%;
         @include md {
-            height: 90vh;
+            height: 92vh;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, auto);
             grid-template-areas: 
@@ -36,7 +36,7 @@
         }
         
         li {
-            font-family: 'Exo', sans-serif;
+            
             a:link,
             a:visited {
                 color: $blue-black;

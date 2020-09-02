@@ -1,4 +1,4 @@
-//pins pink Obama quote box momentarily on scroll 
+//pins pink quote box momentarily on scroll 
 
 if(experimentChecker){
     

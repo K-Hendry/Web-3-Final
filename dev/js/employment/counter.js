@@ -21,7 +21,6 @@ if(employmentChecker){
   }});
 
   //triggered by scroll
-  
   ScrollTrigger.create({
     trigger: "#counter",
     start: "top 50%",
