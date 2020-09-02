@@ -3,7 +3,7 @@
 if(experimentChecker){
     
     const afterObama = gsap.timeline();
-    afterObama.from(".para-3-experiment", {alpha: 0});
+    afterObama.from(".para-3-experiment", {alpha: 1});
     
     ScrollTrigger.create({
         animation: afterObama,
