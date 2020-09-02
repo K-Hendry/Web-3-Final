@@ -534,6 +534,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/safi/mac-desktop.jpg": {
+		"ft": 16384,
+		"iS": 131441,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/safi/mac-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/safi/pen-sketchbook.jpg": {
+		"ft": 16384,
+		"iS": 25522,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/safi/pen-sketchbook.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/impact.html": {
 		"cB": 0,
 		"ft": 8192,
