@@ -4,7 +4,7 @@
 
 #index-background {
 
-background-color: $off-white;
+    background-color: $off-white;
 }
 
 /* --------------------------
@@ -12,14 +12,14 @@ background-color: $off-white;
  --------------------------*/
 #index-opening {
 
-    @include md{
+    @include md {
         height: 100vh;
     }
-    
+
     >div {
         align-items: center;
-      
-        #index-opening-hero{
+
+        #index-opening-hero {
             background-image: url('../img/index/intro-index.jpg');
             background-size: 500%;
             background-position-x: -200px;
@@ -28,7 +28,7 @@ background-color: $off-white;
             height: 500px;
             // width: 100vw;
 
-            @include md{
+            @include md {
                 background-size: 200%;
                 height: 100vh;
             }
@@ -48,15 +48,20 @@ background-color: $off-white;
                 text-align: left;
                 margin-top: -600px;
                 padding: 0px 50px 100px 50px
-
             }
 
             @include lg {
                 font-size: rem-calc(100);
                 text-align: left;
                 width: 80vw;
-               margin-top: -650px;
+                margin-top: -650px;
                 padding-left: 10vw;
+            }
+
+            @include xl {
+                padding-right: 10vw;
+                padding-left: 20vw;
+                width: 60%;
             }
         }
 
@@ -66,7 +71,7 @@ background-color: $off-white;
             padding: 20px 30px;
             padding-bottom: 100px;
             color: $dark-blue;
-            
+
 
             @include md {
                 font-size: rem-calc(30);
@@ -85,6 +90,10 @@ background-color: $off-white;
                 text-align: left;
             }
 
+            @include xl{
+                padding-left: 20vw;
+            }
+
 
         }
 
@@ -96,10 +105,12 @@ background-color: $off-white;
  --------------------------*/
 #index-experimentation {
     height: 100vh;
+
     // background-color: $blue;
     >div {
         padding-top: 100px;
         padding-bottom: 100px;
+
         @include md {
             display: grid;
             grid-template-columns: 50% auto;
@@ -108,7 +119,7 @@ background-color: $off-white;
                 "e-c e-im";
         }
 
-       
+
 
         img {
             grid-area: e-im;
@@ -129,6 +140,12 @@ background-color: $off-white;
                 width: 100%;
 
             }
+
+            @include xl{
+                margin-right: 10%;
+                width: 100%;
+                margin-left: -20%;
+            }
         }
 
         h3 {
@@ -148,10 +165,17 @@ background-color: $off-white;
             }
 
             @include lg {
-               margin-right: -40vw;
-               padding-top: 100px;
-               padding-left: 50vw;
+                margin-right: -40vw;
+                padding-top: 100px;
+                padding-left: 50vw;
+
+            }
+
+            @include xl{
+                margin-right: 0;
+                padding: 0;
                
+                padding-left: 30%;
             }
         }
 
@@ -174,6 +198,13 @@ background-color: $off-white;
                 padding: 20px 100px 0 9vw;
                 margin-top: -300px;
             }
+
+            @include xl{
+                margin-top: 0px;
+                padding-top: 70px;
+                margin-right: -30%;
+                padding-left: 40%;
+            }
         }
     }
 }
@@ -183,13 +214,13 @@ background-color: $off-white;
  --------------------------*/
 #index-impact {
     height: 100vh;
-    
+
     >div {
 
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
         background-image: url('../img/impact/impact-intro-mobile.jpg');
         background-size: cover;
         background-position: center;
@@ -221,6 +252,14 @@ background-color: $off-white;
             @include lg {
                 padding-left: 10vw;
             }
+
+            @include xl{
+                text-align: center;
+                padding: 0;
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 50px;
+            }
         }
 
         p {
@@ -237,6 +276,14 @@ background-color: $off-white;
                 padding-left: 10vw;
                 padding-right: 40vw;
                 text-align: left;
+            }
+
+            @include xl{
+                padding: 0;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50vw;
             }
 
             span {
@@ -271,12 +318,14 @@ background-color: $off-white;
 #index-publicity {
     padding-top: 50px;
 
-    @include lg{
+    @include lg {
         height: 100vh;
     }
+
     >div {
+
         // height: 100vh;
-        img{
+        img {
             background-image: url('../img/employment/suitcase-old.jpg');
             background-size: cover;
             background-position: center;
@@ -290,17 +339,23 @@ background-color: $off-white;
             // align-items: flex-start;
             // flex-direction: column;
             margin-top: 50px;
-            @include md{
+
+            @include md {
                 margin-right: 30vw;
                 width: 70vw;
                 height: 70vh;
             }
+
             @include lg {
                 margin-right: 0;
                 margin-right: 70vw;
                 height: 70vh;
                 width: 35vw;
                 margin-top: 0;
+            }
+
+            @include xl{
+                margin-left: 10%;
             }
         }
 
@@ -325,9 +380,15 @@ background-color: $off-white;
             @include lg {
                 padding-left: 25vw;
                 padding-top: 150px;
-                
+
                 text-align: left;
                 padding-right: 35vw;
+            }
+
+            @include xl{
+                padding-left: 30%;
+                padding-right: 40vw;
+                padding-bottom: 50px;
             }
         }
 
@@ -358,24 +419,26 @@ background-color: $off-white;
         }
     }
 }
+
 /* --------------------------
   history
  --------------------------*/
- #index-history {
+#index-history {
     height: 100vh;
+
     >div {
-        
-        img{
+
+        img {
             background-image: url('../img/impact/moral-img.jpg');
             background-size: 800%;
             background-position: center;
             background-position-x: -950px;
             background-repeat: no-repeat;
-            
+
             height: 100vh;
             width: 100vw;
-            
-            @include md{
+
+            @include md {
                 margin-top: 80px;
                 background-size: 300%;
                 background-position-x: -400px;
@@ -383,6 +446,7 @@ background-color: $off-white;
                 width: 80vw;
                 height: 70vh;
             }
+
             @include lg {
                 height: 100vh;
                 width: 100vw;
@@ -437,14 +501,14 @@ background-color: $off-white;
             }
 
             span {
-        
+
 
                 @include md {
                     color: $off-white;
                     // font-size: rem-calc(35);
                 }
 
-                @include lg{
+                @include lg {
                     color: $blue-black;
                 }
             }
@@ -452,60 +516,60 @@ background-color: $off-white;
     }
 }
 
-    /* --------------------------
+/* --------------------------
   Gallery
  --------------------------*/
-    // #index-gallery {
-    //     background-color: $green-blue;
+// #index-gallery {
+//     background-color: $green-blue;
 
-    //     h4 {
-    //         color: $blue-black;
-    //         font-size: rem-calc(39);
-    //         padding-left: 3vw;
+//     h4 {
+//         color: $blue-black;
+//         font-size: rem-calc(39);
+//         padding-left: 3vw;
 
-    //         @include md {
-    //             color: $dark-red;
-    //             text-align: center;
-    //             padding-left: 0;
-    //             font-size: rem-calc(50);
-    //         }
+//         @include md {
+//             color: $dark-red;
+//             text-align: center;
+//             padding-left: 0;
+//             font-size: rem-calc(50);
+//         }
 
-    //         @include lg {
-    //             padding-left: 10vw;
-    //         }
-    //     }
+//         @include lg {
+//             padding-left: 10vw;
+//         }
+//     }
 
-    //     #ind-gal {
-    //         padding-left: 5vw;
+//     #ind-gal {
+//         padding-left: 5vw;
 
-    //         #ind-gal-1 {
-    //             background-image: url('../img/gallery/h-logo.jpg');
-    //             background-size: cover;
-    //             margin-top: 50px;
-    //             background-position: center;
-    //             background-repeat: no-repeat;
-    //             height: 50vh;
-    //             width: 90vw;
-    //         }
+//         #ind-gal-1 {
+//             background-image: url('../img/gallery/h-logo.jpg');
+//             background-size: cover;
+//             margin-top: 50px;
+//             background-position: center;
+//             background-repeat: no-repeat;
+//             height: 50vh;
+//             width: 90vw;
+//         }
 
-    //         #ind-gal-2 {
-    //             background-image: url('../img/gallery/Jessica-Helfand.jpg');
-    //             background-size: cover;
-    //             margin-top: 50px;
-    //             background-position: center;
-    //             background-repeat: no-repeat;
-    //             height: 50vh;
-    //             width: 90vw;
-    //         }
+//         #ind-gal-2 {
+//             background-image: url('../img/gallery/Jessica-Helfand.jpg');
+//             background-size: cover;
+//             margin-top: 50px;
+//             background-position: center;
+//             background-repeat: no-repeat;
+//             height: 50vh;
+//             width: 90vw;
+//         }
 
-    //         #ind-gal-3 {
-    //             background-image: url('../img/gallery/Milton-Glaser.jpg');
-    //             background-size: cover;
-    //             margin-top: 50px;
-    //             background-position: center;
-    //             background-repeat: no-repeat;
-    //             height: 50vh;
-    //             width: 90vw;
-    //         }
-    //     }
-    // }
+//         #ind-gal-3 {
+//             background-image: url('../img/gallery/Milton-Glaser.jpg');
+//             background-size: cover;
+//             margin-top: 50px;
+//             background-position: center;
+//             background-repeat: no-repeat;
+//             height: 50vh;
+//             width: 90vw;
+//         }
+//     }
+// }

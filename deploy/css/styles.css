@@ -3104,6 +3104,13 @@ textarea {
     padding-left: 10vw;
   }
 }
+@media (min-width: 1440px) {
+  #index-opening > div h1 {
+    padding-right: 10vw;
+    padding-left: 20vw;
+    width: 60%;
+  }
+}
 #index-opening > div h2 {
   font-size: 1.4375rem;
   text-align: left;
@@ -3127,6 +3134,11 @@ textarea {
     margin-top: -50px;
     width: 40vw;
     text-align: left;
+  }
+}
+@media (min-width: 1440px) {
+  #index-opening > div h2 {
+    padding-left: 20vw;
   }
 }
 
@@ -3166,6 +3178,13 @@ textarea {
     width: 100%;
   }
 }
+@media (min-width: 1440px) {
+  #index-experimentation > div img {
+    margin-right: 10%;
+    width: 100%;
+    margin-left: -20%;
+  }
+}
 #index-experimentation > div h3 {
   margin-top: -100px;
   color: #2E2E41;
@@ -3190,6 +3209,13 @@ textarea {
     padding-left: 50vw;
   }
 }
+@media (min-width: 1440px) {
+  #index-experimentation > div h3 {
+    margin-right: 0;
+    padding: 0;
+    padding-left: 30%;
+  }
+}
 #index-experimentation > div p {
   grid-area: e-c;
   padding-top: 50px;
@@ -3209,6 +3235,14 @@ textarea {
     text-align: right;
     padding: 20px 100px 0 9vw;
     margin-top: -300px;
+  }
+}
+@media (min-width: 1440px) {
+  #index-experimentation > div p {
+    margin-top: 0px;
+    padding-top: 70px;
+    margin-right: -30%;
+    padding-left: 40%;
   }
 }
 
@@ -3255,6 +3289,15 @@ textarea {
     padding-left: 10vw;
   }
 }
+@media (min-width: 1440px) {
+  #index-impact > div h3 {
+    text-align: center;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+  }
+}
 #index-impact > div p {
   padding-top: 20px;
   color: #2E2E41;
@@ -3271,6 +3314,15 @@ textarea {
     padding-left: 10vw;
     padding-right: 40vw;
     text-align: left;
+  }
+}
+@media (min-width: 1440px) {
+  #index-impact > div p {
+    padding: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
   }
 }
 /* --------------------------
@@ -3310,6 +3362,11 @@ textarea {
     margin-top: 0;
   }
 }
+@media (min-width: 1440px) {
+  #index-publicity > div img {
+    margin-left: 10%;
+  }
+}
 #index-publicity > div h3 {
   color: #2E2E41;
   text-align: right;
@@ -3334,6 +3391,13 @@ textarea {
     padding-top: 150px;
     text-align: left;
     padding-right: 35vw;
+  }
+}
+@media (min-width: 1440px) {
+  #index-publicity > div h3 {
+    padding-left: 30%;
+    padding-right: 40vw;
+    padding-bottom: 50px;
   }
 }
 #index-publicity > div p {
@@ -3454,8 +3518,8 @@ textarea {
 }
 
 /* --------------------------
- Gallery
---------------------------*/
+  Gallery
+ --------------------------*/
 /* =============
     Safi Honors Pg
 ============= */
