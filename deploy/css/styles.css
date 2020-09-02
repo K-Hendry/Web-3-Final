@@ -623,12 +623,12 @@ textarea {
   display: grid;
   grid-template-rows: repeat(4, auto);
   grid-template-areas: "n1" "n2" "n3" "n4";
-  height: 90vh;
+  height: 75vh;
   width: 100%;
 }
 @media (min-width: 768px) {
   #main-nav ul {
-    height: 92vh;
+    height: 90vh;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
     grid-template-areas: "n1 n2" "n3 n4";
@@ -638,6 +638,9 @@ textarea {
   #main-nav ul {
     height: 88vh;
   }
+}
+#main-nav ul li {
+  font-family: "Exo", sans-serif;
 }
 #main-nav ul li a:link,
 #main-nav ul li a:visited {
@@ -736,13 +739,14 @@ header div #burger-container {
   justify-content: flex-end;
   align-items: center;
 }
-header div #burger-container i {
-  color: #FFDA37;
-  font-size: 1.375rem;
-  transition: 0.25s;
+header div #burger-container #burger {
   cursor: pointer;
 }
-header div #burger-container i:hover, header div #burger-container i:active {
+header div #burger-container #burger #lines {
+  stroke: #FFDA37;
+  transition: 0.25s;
+}
+header div #burger-container #burger:hover #lines {
   color: #F5F5EE;
 }
 
@@ -1714,6 +1718,7 @@ progress::-moz-progress-bar {
   margin-top: 150px;
 }
 #experimentation #section-2-experiment #pullquote-section-2 h3 {
+  color: #22C9C6;
   padding-right: 20px;
   padding-left: 20px;
   margin-bottom: -400px;
@@ -1765,6 +1770,9 @@ progress::-moz-progress-bar {
     margin-bottom: 150px;
   }
 }
+#experimentation #section-3-experiment {
+  position: relative;
+}
 #experimentation #section-3-experiment #para-section-3 {
   padding: 100px 20px;
   background-color: #EF777A;
@@ -1774,7 +1782,7 @@ progress::-moz-progress-bar {
 }
 @media (min-width: 768px) {
   #experimentation #section-3-experiment #para-section-3 {
-    height: 80vh;
+    height: 100vh;
     padding: 0px 150px;
   }
 }
@@ -1794,12 +1802,17 @@ progress::-moz-progress-bar {
     text-align: left;
   }
 }
+#experimentation #section-4-experiment {
+  background-color: #007785;
+  position: relative;
+}
 @media (min-width: 768px) {
   #experimentation #section-4-experiment {
     column-gap: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-top: 100px;
+    background-color: #F5F5EE;
   }
 }
 #experimentation #section-4-experiment #pullquote-section-4 {
@@ -1807,13 +1820,11 @@ progress::-moz-progress-bar {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #007785;
 }
 @media (min-width: 768px) {
   #experimentation #section-4-experiment #pullquote-section-4 {
     grid-column-start: 1;
     grid-row-start: 1;
-    background-color: #F5F5EE;
     padding-left: 20px;
   }
 }
@@ -2086,7 +2097,6 @@ img {
 #gallery-content-1 #gallery-container ul {
   display: flex;
   align-items: center;
-  grid-gap: 30px;
   height: 100vh;
   background-color: #F5F5EE;
 }
@@ -2094,6 +2104,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-right: 35px;
 }
 #gallery-content-1 #gallery-container ul li img {
   width: 50vw;
@@ -2149,13 +2160,13 @@ img {
 }
 #gallery-content-2 p {
   width: 230px;
-  margin-left: -20%;
+  margin-left: -16%;
   text-align: justify;
 }
 @media (min-width: 768px) {
   #gallery-content-2 p {
     text-align: left;
-    width: 380px;
+    width: 350px;
     margin-left: -5%;
   }
 }
@@ -2240,7 +2251,7 @@ img {
 #gallery-quote-2 p {
   font-size: 1.875rem;
   line-height: 2.5rem;
-  padding: 0 5%;
+  padding: 0 7%;
   margin: 0;
   width: auto;
   color: #B9DFE6;
@@ -2261,6 +2272,7 @@ img {
 
 #gallery-content-4 {
   background-color: #F5F5EE;
+  position: relative;
 }
 @media (min-width: 1440px) {
   #gallery-content-4 {
@@ -2280,13 +2292,14 @@ img {
 }
 @media (min-width: 768px) {
   #gallery-content-4 #gallery-logo-1 {
-    grid-template-rows: unset;
     grid-template-columns: 50% auto;
+    grid-template-rows: 200px;
     grid-template-areas: "i1 p1";
   }
 }
 @media (min-width: 1025px) {
   #gallery-content-4 #gallery-logo-1 {
+    grid-template-rows: unset;
     margin-bottom: 50px;
   }
 }
@@ -2298,11 +2311,11 @@ img {
 #gallery-content-4 #gallery-logo-1 p {
   line-height: 1.75rem;
   grid-area: p1;
-  margin: 5%;
+  margin: 0 5%;
 }
 @media (min-width: 768px) {
   #gallery-content-4 #gallery-logo-1 p {
-    margin: 0 10%;
+    margin: 0 15%;
   }
 }
 @media (min-width: 1025px) {
@@ -2350,7 +2363,7 @@ img {
 }
 @media (min-width: 768px) {
   #gallery-content-4 #gallery-logo-2 p {
-    margin: 50px 10% 30px;
+    margin: 50px 9% 30px;
   }
 }
 @media (min-width: 1025px) {
@@ -2440,7 +2453,7 @@ img {
   line-height: 3.5rem;
   font-family: "Libre Baskerville", sans-serif;
   text-align: left;
-  width: 560px;
+  width: 550px;
   margin: 0 5%;
 }
 @media (min-width: 768px) {
@@ -2459,14 +2472,16 @@ img {
 }
 #gallery-form > div form section input,
 #gallery-form > div form section textarea {
+  border-radius: 0;
   font-size: 1.5rem;
   font-family: "Libre Baskerville", sans-serif;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 10px;
   outline: none;
   background-color: #22C9C6;
 }
 #gallery-form > div form section textarea {
+  padding: 10px 0;
   width: 440px;
   margin: 20px 5%;
 }

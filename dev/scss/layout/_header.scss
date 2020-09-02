@@ -37,14 +37,18 @@ header{
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            i{
-                color: $yellow;
-                font-size: rem-calc(22);
-                transition: 0.25s;
+            #burger{
                 cursor: pointer;
-                &:hover,
-                &:active {
-                    color: $off-white;
+
+                #lines {
+                    stroke: $yellow;
+                    transition: 0.25s;
+                }
+
+                &:hover {
+                    #lines {
+                        color: $off-white;
+                    }
                 }
             }
            

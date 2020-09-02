@@ -107,13 +107,14 @@ img{
         ul{
             display: flex;
             align-items: center;
-            grid-gap: 30px;
             height: 100vh;
             background-color: $off-white;
             li{
                 display: flex;
                 flex-wrap: wrap;
                 align-items: center;
+                margin-right: 35px;
+                
                 img{
                     width: 50vw;
                     height: 60vh;
@@ -143,6 +144,7 @@ img{
     height: 70vh;
     display: flex;
     align-items: center;
+    
     @include lg{
         height: 100vh;
     }
@@ -158,11 +160,11 @@ img{
     }
     p{
         width: 230px;
-        margin-left: -20%;
+        margin-left: -16%;
         text-align: justify;
         @include md{
             text-align: left;
-            width: 380px;
+            width: 350px;
             margin-left: -5%;
         }
     }
@@ -236,7 +238,7 @@ img{
     p{
         font-size: rem-calc(30);
         line-height: rem-calc(40);
-        padding:0 5%;
+        padding:0 7%;
         margin: 0;
         width: auto;
         color: $blue;
@@ -253,6 +255,7 @@ img{
 }
 #gallery-content-4{
     background-color: $off-white;
+    position: relative;
     @include xl{
         display: grid;
         grid-template-areas: ". container .";
@@ -267,11 +270,12 @@ img{
         grid-template-rows: auto 300px;
         grid-gap: 20px;
         @include md{
-            grid-template-rows: unset;
             grid-template-columns: 50% auto;
+            grid-template-rows: 200px;
             grid-template-areas: "i1 p1";  
         }
         @include lg{
+            grid-template-rows: unset;
             margin-bottom: 50px;
          }
         img{
@@ -282,9 +286,9 @@ img{
         p{
             line-height: rem-calc(28);
             grid-area: p1;
-            margin: 5%;
+            margin: 0 5%;
             @include md{
-                margin: 0 10%;
+                margin: 0 15%;
             }
             @include lg{
                 margin: 20% 20% 20% 10%;
@@ -332,7 +336,7 @@ img{
             margin: 5%;
             grid-area: p2;
             @include md{
-                margin: 50px 10% 30px;
+                margin: 50px 9% 30px;
             }
             @include lg{
                 margin: 20% 10% 20% 20%;
@@ -383,7 +387,6 @@ img{
             }
         }
         form{
-            //margin-top: 100px;
             width: 100%;
             background-color: $dark-blue;
             @include md{
@@ -404,7 +407,7 @@ img{
                 line-height: rem-calc(56);
                 font-family: 'Libre Baskerville', sans-serif;
                 text-align: left;
-                width: 560px;
+                width: 550px;
                 margin: 0 5%;
                 @include md{
                     text-align: center;
@@ -418,14 +421,16 @@ img{
                 }
                 input,
                 textarea {
+                    border-radius: 0;
                     font-size: rem-calc(24);
                     font-family: 'Libre Baskerville', sans-serif;
                     text-align: center;
-                    padding: 10px 0;
+                    padding: 10px 10px;
                     outline: none;
                     background-color: $green-blue;
                 }
                 textarea{
+                    padding: 10px 0;
                     width: 440px;
                     margin: 20px 5%;
                     @include md{
