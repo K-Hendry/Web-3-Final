@@ -3147,6 +3147,12 @@ textarea {
  --------------------------*/
 #index-experimentation {
   height: 100vh;
+  margin-bottom: 100px;
+}
+@media (min-width: 768px) {
+  #index-experimentation {
+    margin-bottom: 0;
+  }
 }
 #index-experimentation > div {
   padding-top: 100px;
@@ -3170,6 +3176,7 @@ textarea {
   #index-experimentation > div img {
     height: 75vh;
     width: 80vw;
+    width: 100%;
   }
 }
 @media (min-width: 1025px) {
@@ -3330,6 +3337,9 @@ textarea {
  --------------------------*/
 #index-publicity {
   padding-top: 50px;
+  z-index: 200;
+  position: relative;
+  background-color: #F5F5EE;
 }
 @media (min-width: 1025px) {
   #index-publicity {
