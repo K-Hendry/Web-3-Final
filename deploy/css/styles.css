@@ -3097,9 +3097,11 @@ textarea {
 }
 @media (min-width: 1025px) {
   #index-opening > div h1 {
-    font-size: 9.375rem;
+    font-size: 6.25rem;
     text-align: left;
-    width: 70vw;
+    width: 80vw;
+    margin-top: -650px;
+    padding-left: 10vw;
   }
 }
 #index-opening > div h2 {
@@ -3121,8 +3123,10 @@ textarea {
 }
 @media (min-width: 1025px) {
   #index-opening > div h2 {
+    padding-left: 10vw;
+    margin-top: -50px;
     width: 40vw;
-    text-align: right;
+    text-align: left;
   }
 }
 
@@ -3153,12 +3157,12 @@ textarea {
 @media (min-width: 768px) {
   #index-experimentation > div img {
     height: 75vh;
-    width: 50vw;
+    width: 80vw;
   }
 }
 @media (min-width: 1025px) {
   #index-experimentation > div img {
-    height: 60vh;
+    height: 75vh;
     width: 100%;
   }
 }
@@ -3181,7 +3185,9 @@ textarea {
 }
 @media (min-width: 1025px) {
   #index-experimentation > div h3 {
-    margin: 0 -7vw 0 30vw;
+    margin-right: -40vw;
+    padding-top: 100px;
+    padding-left: 50vw;
   }
 }
 #index-experimentation > div p {
@@ -3201,7 +3207,8 @@ textarea {
 @media (min-width: 1025px) {
   #index-experimentation > div p {
     text-align: right;
-    padding: 20px 30px 0 20vw;
+    padding: 20px 100px 0 9vw;
+    margin-top: -300px;
   }
 }
 
@@ -3228,8 +3235,8 @@ textarea {
 }
 @media (min-width: 1025px) {
   #index-impact > div {
-    height: 70vh;
-    width: 80vw;
+    height: 100vh;
+    width: 100vw;
   }
 }
 #index-impact > div h3 {
@@ -3262,6 +3269,7 @@ textarea {
 @media (min-width: 1025px) {
   #index-impact > div p {
     padding-left: 10vw;
+    padding-right: 40vw;
     text-align: left;
   }
 }
@@ -3270,6 +3278,11 @@ textarea {
  --------------------------*/
 #index-publicity {
   padding-top: 50px;
+}
+@media (min-width: 1025px) {
+  #index-publicity {
+    height: 100vh;
+  }
 }
 #index-publicity > div img {
   background-image: url("../img/employment/suitcase-old.jpg");
@@ -3292,8 +3305,8 @@ textarea {
   #index-publicity > div img {
     margin-right: 0;
     margin-right: 70vw;
-    height: 100vh;
-    width: 30vw;
+    height: 70vh;
+    width: 35vw;
     margin-top: 0;
   }
 }
@@ -3317,9 +3330,10 @@ textarea {
 }
 @media (min-width: 1025px) {
   #index-publicity > div h3 {
-    padding-left: 50vw;
-    text-align: right;
-    padding-right: 5vw;
+    padding-left: 25vw;
+    padding-top: 150px;
+    text-align: left;
+    padding-right: 35vw;
   }
 }
 #index-publicity > div p {
@@ -3335,8 +3349,10 @@ textarea {
 }
 @media (min-width: 1025px) {
   #index-publicity > div p {
-    padding-left: 40vw;
+    padding-left: 50vw;
     text-align: left;
+    padding-top: 0;
+    padding-right: 10vw;
   }
 }
 #index-publicity > div p span {
@@ -3377,6 +3393,8 @@ textarea {
   #index-history > div img {
     height: 100vh;
     width: 100vw;
+    background-size: 120%;
+    background-position-x: 0px;
     margin-top: 0px;
     margin-left: 0vw;
   }
@@ -3400,6 +3418,7 @@ textarea {
   #index-history > div h3 {
     padding-left: 10vw;
     text-align: left;
+    margin-top: -700px;
   }
 }
 #index-history > div p {
