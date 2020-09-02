@@ -3,68 +3,29 @@ var indexChecker = document.querySelector("#index-background");
 if(indexChecker){
     const indexHeaderTimeline = gsap.timeline();
 
-    indexHeaderTimeline.from("#index-campaign", {alpha:0});
+    indexHeaderTimeline.from(".headerSlideUp", {duration: 1, yPercent:2});
     
     ScrollTrigger.create({
-        trigger: "#index-campaign",
-        start: "top 50%",
-        end: "bottom 50%",
         animation: indexHeaderTimeline,
-        toggleActions: "play play none none"
-        // markers: true
-        
-        
+        toggleActions: "play none none none",
+        trigger:"#index-opening",
+            start: "top top",
+            //end: "bottom top",
+            scrub: 1
     });
 }
-
 if(indexChecker){
-    const indexHeaderTimeline2 = gsap.timeline();
-
-    indexHeaderTimeline2.from("#index-impact-h", {alpha:0});
+    const campaignWork = gsap.timeline();
+    campaignWork.from(".subHeaderSlideRight", {duration: 1, xPercent:-10});
     
     ScrollTrigger.create({
-        trigger: "#index-impact-h",
-        start: "top 60%",
-        end: "bottom 50%",
-        animation: indexHeaderTimeline2,
-        toggleActions: "play play none none"
-        // markers: true
-        
-        
-    });
-}
-
-if(indexChecker){
-    const indexHeaderTimeline3 = gsap.timeline();
-
-    indexHeaderTimeline3.from("#get-pub", {alpha:0});
-    
-    ScrollTrigger.create({
-        trigger: "#get-pub",
-        start: "top 60%",
-        end: "bottom 50%",
-        animation: indexHeaderTimeline3,
-        toggleActions: "play play none none"
-        // markers: true
-        
-        
-    });
-}
-
-
-if(indexChecker){
-    const indexHeaderTimeline4 = gsap.timeline();
-
-    indexHeaderTimeline4.from("#history-h", {alpha:0});
-    
-    ScrollTrigger.create({
-        trigger: "#history-h",
-        start: "top 60%",
-        end: "bottom 50%",
-        animation: indexHeaderTimeline4,
-        toggleActions: "play play none none"
-        // markers: true
-        
-        
+        animation: campaignWork,
+        toggleActions: "play none none none",
+        trigger:"#hero-image-experiment",
+        // pin: true,
+        //     pinSpacing: true,
+            start: "top 10%",
+            //end: "bottom 60%",
+            scrub: 1
     });
 }

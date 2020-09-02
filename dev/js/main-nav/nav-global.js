@@ -19,18 +19,15 @@ mainNavTimeline.to("#main-nav", {
 function hideShowMainNav() {
     //console.log("hide or show nav");
     //toggles the css display property
+
     if (canYouSeeTheMenu === false) {
-
-        burgerAnimationTimeline.play("burgerToX");
-
+        
         //play the main nav animation into view; pull it down
         mainNavTimeline.play();
         //reset it back to true so menu will go away
         canYouSeeTheMenu = true;
     } else {
-
-        burgerAnimationTimeline.reverse("burgerToXReverse");
-
+        
         //reverse the animation of main nav out of view; push it up
         mainNavTimeline.reverse();
         //reset it back to false so menu will be back

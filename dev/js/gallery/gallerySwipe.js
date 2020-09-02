@@ -16,7 +16,7 @@ if(galleryChecker){
     var windowWidth = $(window).innerWidth();
 
     var fromValue = 0;
-    var toValue = -(scrollWidth - windowWidth + 325);
+    var toValue = -(scrollWidth - windowWidth + 300);
 
     galleryTimeline.to("#gallery-container", {
         ease: "none",

@@ -1,9 +1,10 @@
-//pins pink Obama quote box momentarily on scroll 
+//pins pink quote box momentarily on scroll 
 
 if(experimentChecker){
     
     const afterObama = gsap.timeline();
     afterObama.from(".para-3-experiment", {});
+    afterObama.from(".para-3-experiment", {alpha: 1});
     
     ScrollTrigger.create({
         animation: afterObama,
