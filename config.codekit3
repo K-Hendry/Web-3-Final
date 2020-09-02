@@ -127,12 +127,78 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/experimentation/aroha.jpg": {
+		"ft": 16384,
+		"iS": 79797,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/aroha.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/denmark.jpg": {
+		"ft": 16384,
+		"iS": 15863,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/denmark.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/experimentation/experimentation-hero.jpg": {
 		"ft": 16384,
 		"iS": 130642,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/experimentation/experimentation-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/france.jpg": {
+		"ft": 16384,
+		"iS": 124728,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/france.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/logos.jpg": {
+		"ft": 16384,
+		"iS": 155960,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/logos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/obama.jpg": {
+		"ft": 16384,
+		"iS": 122962,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/obama.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/experimentation/scotland.jpg": {
+		"ft": 16384,
+		"iS": 80108,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/experimentation/scotland.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -647,6 +713,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/burgerAnimation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/burgerAnimation-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/employment/counter.js": {
 		"bF": 0,
 		"ft": 64,
@@ -768,6 +845,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/gallery/galleryPara.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gallery/galleryPara-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/gallery/galleryPin.js": {
 		"bF": 0,
 		"ft": 64,
@@ -812,6 +900,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/impact/impact-header.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-header-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/impact/impact-para.js": {
 		"bF": 0,
 		"ft": 64,
@@ -834,6 +933,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/impact/impact-quotes.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-quotes-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/impact/impact-title.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-title-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/index/index-header.js": {
 		"bF": 0,
 		"ft": 64,
@@ -845,50 +966,24 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/index/index-paragraphs.js": {
+	"/dev/js/index/index-paragraph.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/index/index-paragraphs-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-<<<<<<< Updated upstream
-	"/dev/js/index/index-titles.js": {
-=======
-	"/dev/js/index/index-paragraphs.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/index/index-paragraphs-min.js",
+		"oAP": "/dev/js/index/index-paragraph-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
 	"/dev/js/index/index-pin.js": {
->>>>>>> Stashed changes
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/index/index-titles-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/index/index-titles.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/index/index-titles-min.js",
+		"oAP": "/dev/js/index/index-pin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1197,7 +1292,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_publicity-content.scss": {
+	"/dev/scss/sections/_safi-content.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1205,7 +1300,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_publicity-content.css",
+		"oAP": "/dev/scss/sections/_safi-content.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
