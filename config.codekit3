@@ -911,24 +911,24 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/index/index-paragraphs.js": {
+	"/dev/js/index/index-paragraph.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/index/index-paragraphs-min.js",
+		"oAP": "/dev/js/index/index-paragraph-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/index/index-titles.js": {
+	"/dev/js/index/index-pin.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/index/index-titles-min.js",
+		"oAP": "/dev/js/index/index-pin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
