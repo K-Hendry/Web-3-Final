@@ -545,6 +545,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/safi/obama-logo.png": {
+		"ft": 32768,
+		"iS": 21351,
+		"oA": 0,
+		"oAP": "/deploy/img/safi/obama-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/safi/pen-sketchbook.jpg": {
 		"ft": 16384,
 		"iS": 25522,
@@ -554,6 +565,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/safi/rand-logo.png": {
+		"ft": 32768,
+		"iS": 5124,
+		"oA": 0,
+		"oAP": "/deploy/img/safi/rand-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/impact.html": {
