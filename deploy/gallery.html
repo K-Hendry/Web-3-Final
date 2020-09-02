@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <!-- Fancy Box -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <!-- Tiny Slider -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+      <!-- Tiny Slider -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
     <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script><![endif]-->
     
 
@@ -34,7 +34,15 @@
             </section>
     
             <section id="burger-container">
-                <i id="burger" class="fa fa-bars" aria-hidden="true"></i>
+                <svg id="burger" width="30" height="30" viewBox="0 0 38 32" xmlns="http://www.w3.org/2000/svg">
+                    
+                      <g id="lines" transform="translate(4 4)" stroke="#979797" stroke-width="5">
+                        <path class="lines" id="top" d="M3.5 3.5L34 4"/>
+                        <path class="lines" id="middle" d="M15 16l19 .25"/>
+                        <path class="lines" id="bottom" d="M3.5 27.75l30.5.5"/>
+                      </g>
+                    
+                  </svg>
             </section>
     
         </div>
@@ -84,7 +92,7 @@
                  </section>
                  <section id="gallery-content-1">
                      <div id="gallery-quote-1">
-                         <p class="open-text">Every four years, the <span class="bold-text">Get Out the Vote</span> campaign invites graphic designers to make posters that rally US voters to go to the polls. Here, 10 posters that rock the vote.</p>
+                         <p id="gallery-animate-quote" class="open-text">Every four years, the <span class="bold-text">Get Out the Vote</span> campaign invites graphic designers to make posters that rally US voters to go to the polls. Here, 10 posters that rock the vote.</p>
                      </div>
                      <div id="gallery-container">
                          <ul id="gallery-main">
@@ -141,6 +149,7 @@
                          </ul>
                      </div>
                  </section>
+                 
                  <section>
                      <div id="gallery-content-2">
                          <img src="img/gallery/political-logo.jpeg" alt="Man reading political newspaper">
@@ -176,7 +185,7 @@
                  
                  <section id="gallery-form">
                      <div>
-                         <h3>Vote for<br class="show-for-lg"> your<br>favorite</h3>
+                         <h3 id="gallery-animate-text">Vote for<br class="show-for-lg"> your<br>favorite</h3>
                          <form class="content-spacing" action="https://formspree.io/mlepowjj" method="POST">
                              <section>
                                  <p>Hi, my name is <input type="name" placeholder="name" name="name"> and I love <input placeholder="your favorite work" name="comment"> . Could you send more similar designs to me at <input type="email" placeholder="your email" name="email"> ?

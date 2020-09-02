@@ -713,6 +713,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/burgerAnimation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/burgerAnimation-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/employment/counter.js": {
 		"bF": 0,
 		"ft": 64,
@@ -834,6 +845,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/gallery/galleryPara.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gallery/galleryPara-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/gallery/galleryPin.js": {
 		"bF": 0,
 		"ft": 64,
@@ -878,6 +900,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/impact/impact-header.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-header-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/impact/impact-para.js": {
 		"bF": 0,
 		"ft": 64,
@@ -896,6 +929,28 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/impact/impact-pin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/impact/impact-quotes.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-quotes-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/impact/impact-title.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-title-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
