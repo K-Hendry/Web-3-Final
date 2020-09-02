@@ -647,6 +647,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/burgerAnimation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/burgerAnimation-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/employment/counter.js": {
 		"bF": 0,
 		"ft": 64,
@@ -768,6 +779,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/gallery/galleryPara.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gallery/galleryPara-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/gallery/galleryPin.js": {
 		"bF": 0,
 		"ft": 64,
@@ -812,6 +834,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/impact/impact-header.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-header-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/impact/impact-para.js": {
 		"bF": 0,
 		"ft": 64,
@@ -834,6 +867,28 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/impact/impact-quotes.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-quotes-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/impact/impact-title.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/impact/impact-title-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/index/index-header.js": {
 		"bF": 0,
 		"ft": 64,
@@ -845,13 +900,35 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/js/index/index-paragraphs.js": {
+	"/dev/js/index/index-paragraph.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
+		"oAP": "/dev/js/index/index-paragraph-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/index/index-paragraphs.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
 		"oAP": "/dev/js/index/index-paragraphs-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/index/index-pin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/index/index-pin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -861,7 +938,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/js/index/index-titles-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -1180,6 +1257,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_publicity-content.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_safi-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_safi-content.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

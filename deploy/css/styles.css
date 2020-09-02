@@ -3433,6 +3433,7 @@ textarea {
 /* --------------------------
  Gallery
 --------------------------*/
+<<<<<<< HEAD
 #index-gallery {
   background-color: #22C9C6;
 }
@@ -3483,6 +3484,55 @@ textarea {
   background-repeat: no-repeat;
   height: 50vh;
   width: 90vw;
+=======
+#index-gallery-slider {
+  background-color: #B9DFE6;
+  position: relative;
+  z-index: 900;
+}
+#index-gallery-slider > div h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: #2E2E41;
+}
+@media (min-width: 768px) {
+  #index-gallery-slider > div h3 {
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 768px) {
+  #index-gallery-slider > div h3 {
+    padding-bottom: 40px;
+  }
+}
+#index-gallery-slider > div .index-slider div {
+  height: 300px;
+}
+@media (min-width: 768px) {
+  #index-gallery-slider > div .index-slider div {
+    height: 200px;
+  }
+}
+@media (min-width: 1025px) {
+  #index-gallery-slider > div .index-slider div {
+    height: 400px;
+  }
+}
+#index-gallery-slider > div .index-slider div img {
+  height: 100%;
+  width: 100%;
+  object-fit: auto;
+  object-position: center;
+}
+#index-gallery-slider > div .tns-controls [aria-controls] {
+  color: #2E2E41;
+  background: #FFDA37;
+  border-radius: 0;
+  align-items: center;
+  justify-content: center;
+>>>>>>> parent of b5a5501... Merge branch 'master' of https://github.com/K-Hendry/Web-3-Final
 }
 
 /* =============
