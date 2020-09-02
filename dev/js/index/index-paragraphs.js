@@ -1,56 +1,67 @@
-// if(indexChecker){
-//     const indexParaTimeline = gsap.timeline();
+if(indexChecker){
+    const indexParaTimeline = gsap.timeline();
 
-// indexParaTimeline.from(".indexPara1", {duration: 1, yPercent:10});
+    indexParaTimeline.from(".indexPara1", {alpha:0, yPercent:10});
 
-// ScrollTrigger.create({
-//     animation: indexParaTimeline,
-//     toggleActions: "play none none none",
-//     trigger:"#index-experimentation",
-//     // pin: true,
-//     //     pinSpacing: true,
-//         start: "top 60%"
-// });
-// }
-// if(indexChecker){
-//     const indexParaTimeline2 = gsap.timeline();
+    ScrollTrigger.create({
+        trigger: ".indexPara1",
+        start: "top 70%",
+        end: "bottom 50%",
+        animation: indexParaTimeline,
+        toggleActions: "play play none none"
+        // markers: true,
+        // id:"index-p-1"
+        // scrub: 2
+});
+}
 
-// indexParaTimeline2.from(".indexPara2", {duration: 1, yPercent:10});
+if(indexChecker){
+    const indexParaTimeline2 = gsap.timeline();
 
-// ScrollTrigger.create({
-//     animation: indexParaTimeline2,
-//     toggleActions: "play none none none",
-//     trigger:"#index-impact",
-//     // pin: true,
-//     //     pinSpacing: true,
-//         start: "top 60%"
-// });
-// }
-// if(indexChecker){
-//     const indexParaTimeline3 = gsap.timeline();
+    indexParaTimeline2.from(".indexPara2", {alpha:0, yPercent:10});
 
-// indexParaTimeline3.from(".indexPara3", {duration: 1, yPercent:10});
+    ScrollTrigger.create({
+        trigger: ".indexPara2",
+        start: "top 80%",
+        end: "bottom 50%",
+        animation: indexParaTimeline2,
+        toggleActions: "play play none none",
+        // markers: true,
+        id:"index-p-1"
+        // scrub: 2
+});
+}
 
-// ScrollTrigger.create({
-//     animation: indexParaTimeline3,
-//     toggleActions: "play none none none",
-//     trigger:"#index-publicity",
-//     // pin: true,
-//     //     pinSpacing: true,
-//         start: "top 60%"
-// });
-// }
-// if(indexChecker){
-//     const indexParaTimeline4 = gsap.timeline();
+if(indexChecker){
+    const indexParaTimeline3 = gsap.timeline();
 
-// indexParaTimeline4.from(".indexPara4", {duration: 1, yPercent:10});
+    indexParaTimeline3.from(".indexPara3", {alpha:0, yPercent:10});
 
-// ScrollTrigger.create({
-//     animation: indexParaTimeline4,
-//     toggleActions: "play none none none",
-//     trigger:"#index-history",
-//     // pin: true,
-//     //     pinSpacing: true,
-//         start: "top 60%"
-// });
-// }
+    ScrollTrigger.create({
+        trigger: ".indexPara3",
+        start: "top 70%",
+        end: "bottom 50%",
+        animation: indexParaTimeline3,
+        toggleActions: "play play none none",
+        // markers: true,
+        id:"index-p-1"
+        // scrub: 2
+});
+}
+
+if(indexChecker){
+    const indexParaTimeline4 = gsap.timeline();
+
+    indexParaTimeline4.from(".indexPara4", {alpha:0, yPercent:10});
+
+    ScrollTrigger.create({
+        trigger: ".indexPara4",
+        start: "top 50%",
+        end: "bottom 50%",
+        animation: indexParaTimeline4,
+        toggleActions: "play play none none",
+        markers: true,
+        id:"index-p-1"
+        // scrub: 2
+});
+}

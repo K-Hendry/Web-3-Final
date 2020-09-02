@@ -1,4 +1,4 @@
-// var indexChecker = document.querySelector("#index-background");
+var indexChecker = document.querySelector("#index-background");
 
 // if(indexChecker){
 //     const indexHeaderTimeline = gsap.timeline();
