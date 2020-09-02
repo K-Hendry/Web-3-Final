@@ -127,78 +127,12 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/experimentation/aroha.jpg": {
-		"ft": 16384,
-		"iS": 79797,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/aroha.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/denmark.jpg": {
-		"ft": 16384,
-		"iS": 15863,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/denmark.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/deploy/img/experimentation/experimentation-hero.jpg": {
 		"ft": 16384,
 		"iS": 130642,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/experimentation/experimentation-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/france.jpg": {
-		"ft": 16384,
-		"iS": 124728,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/france.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/logos.jpg": {
-		"ft": 16384,
-		"iS": 155960,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/logos.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/obama.jpg": {
-		"ft": 16384,
-		"iS": 122962,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/obama.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/experimentation/scotland.jpg": {
-		"ft": 16384,
-		"iS": 80108,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/experimentation/scotland.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -977,6 +911,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/index/index-paragraphs.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/index/index-paragraphs-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/index/index-pin.js": {
 		"bF": 0,
 		"ft": 64,
@@ -984,6 +929,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/index/index-pin-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/index/index-titles.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/index/index-titles-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1288,6 +1244,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_index-content.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_publicity-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_publicity-content.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
